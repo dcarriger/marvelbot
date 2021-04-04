@@ -1,6 +1,6 @@
 ---
 name: "Villainous"
-rules_text: |
+rule_text: |
   When a minion with the villainous keyword activates, give it a
   facedown boost card from the top of the encounter deck. When you
   resolve that minion’s activation, turn the boost card faceup and
