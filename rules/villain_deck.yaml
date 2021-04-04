@@ -1,0 +1,17 @@
+---
+name: "Villain Deck"
+rule_text: |
+  Villain is an encounter card type that represents the primary
+  enemy the players are attempting to defeat in a scenario.
+  The villain is represented by a sequential deck of one or
+  more cards. The players defeat the villain by reducing the
+  hit points of each stage of the villain deck to zero.
+  • The villain activates once per player during step
+  two of the villain phase. If the player resolving the
+  activation is in hero form, the villain attacks. If the
+  player resolving the activation is in alter-ego form,
+  the villain schemes.
+related:
+  - Enemy Attacks
+  - Enemy Schemes
+  - Villain Defeat

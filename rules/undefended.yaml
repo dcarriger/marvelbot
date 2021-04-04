@@ -1,5 +1,5 @@
 ---
-name: "Enemy Attacks"
+name: "Undefended"
 rule_text: |
   To resolve an enemy attack, follow these steps:
   1. If a villain is attacking, give it one facedown boost card
@@ -20,7 +20,7 @@ rule_text: |
   4. Deal damage from the attack equal to the attacking
   villain or minion’s modified ATK value, based on the
   following:
-  • If a **hero defends** the attack, the amount of damage
+  • If a hero defends the attack, the amount of damage
   dealt is reduced by that hero’s DEF value, and the
   remaining damage from the attack is dealt to that
   hero.

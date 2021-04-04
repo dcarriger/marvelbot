@@ -5,8 +5,8 @@ rule_text: |
   options, in any order. Each option (except “change form”)
   may be performed as many times as the player is able, so
   long as they are able to pay the required costs.
-  • Change form from hero to alter-ego, or from alterego to hero. This option may only be performed
-  once each turn.
+  • Change form from hero to alter-ego, or from alterego to hero. 
+  **This option may only be performed once each turn.**
   • Play an ally, upgrade, or support card from hand.
   • Use their alter-ego’s basic recovery (if in alter-ego
   form) or their hero’s basic attack or thwart power (if in

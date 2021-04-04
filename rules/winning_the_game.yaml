@@ -1,0 +1,6 @@
+---
+name: "Winning the Game"
+rule_text: |
+  If the players defeat the final villain stage, they win the
+  game. If the final stage of the main scheme deck is
+  completed, the villain wins the game.

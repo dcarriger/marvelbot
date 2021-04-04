@@ -9,7 +9,8 @@ rule_text: |
   be assigned more indirect damage than would cause it
   to be defeated. This is assessed without accounting for
   interactions with other abilities.
-  For example, if you take 5 indirect damage, but you control
+
+  _For example, if you take 5 indirect damage, but you control
   an ally in play with 4 hit points remaining, you may assign
   4 of that indirect damage to the ally, then assign the
-  remaining 1 indirect damage to your identity.
+  remaining 1 indirect damage to your identity._

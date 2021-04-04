@@ -1,0 +1,29 @@
+---
+name: "Acceleration Icon"
+rule_text: |
+  Side scheme is an encounter card type that represents
+  additional obstacles and distractions the heroes are
+  confronted with.
+  If a side scheme is revealed, it enters play and is placed next
+  to the main scheme deck.
+  • Each side scheme enters play with an amount of
+  threat on it equal to the card’s starting threat value
+  (indicated at the bottom of the card).
+  • A side scheme remains in play until there is no threat
+  on it (which causes it to be defeated and discarded),
+  or until a card ability removes it from play. (Threat can
+  be removed from side schemes by using the thwart
+  power of heroes and allies, or by using card abilities.)
+  The following icons indicate different effects that a side
+  scheme might have on the game:
+  If a side scheme has the crisis icon <:crisis:667076210357960714>, that side
+  scheme must be discarded before threat can be
+  removed from the main scheme.
+  For each acceleration icon <:acceleration:667076458522607622> in play, one additional
+  threat is placed on the main scheme during step
+  one of the villain phase.
+  For each side scheme with the hazard icon <:hazard:667076504139595776>, an
+  additional encounter card is dealt during step
+  three of the villain phase. Additional cards are
+  dealt in player order (first additional card to the
+  first player, the second to the second player, etc.).

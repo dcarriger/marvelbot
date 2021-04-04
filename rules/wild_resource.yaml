@@ -1,0 +1,11 @@
+---
+name: "Wild Resource"
+rule_text: |
+  When a player generates a wild resource, they must specify
+  which resource type (energy, mental, or physical) it is being
+  used as.
+  • When resources are not being generated for a cost, a
+  wild resource does not have any characteristic other
+  than “wild resource.” In such contexts, wild resources
+  cannot be interpreted as any of the other resource
+  types.

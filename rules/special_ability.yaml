@@ -1,0 +1,9 @@
+---
+name: "Special Ability"
+rule_text: |
+  A special ability is a type of triggered ability, indicated by
+  the bold “Special” timing trigger. Special abilities may only
+  be executed through the explicit instruction of another card
+  ability.
+related:
+  - Triggered Ability

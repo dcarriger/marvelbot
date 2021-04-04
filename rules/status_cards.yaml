@@ -1,0 +1,28 @@
+---
+name: "Status Cards"
+rule_text: |
+  Status card represent different states a character may find
+  themselves in during the game.
+  The following status cards are used in the game. When a
+  character is given a status card, take a status card of the
+  specified type from the pool and place it on that character.
+  • A character cannot have more than one status card of
+  each type at a time.
+  • Status card abilities have timing priority over all
+  conflicting card abilities.
+  The three status card types are:
+  Confused — If a confused hero or ally attempts to thwart
+  or use a thwart ability, discard the confused card instead.
+  Costs associated with the thwart attempt, including
+  exhausting the character, must still be paid.
+  If a confused villain or minion would scheme, discard the
+  confused status card instead.
+  Stunned — If a stunned hero or ally attempts to attack
+  or use an attack ability, discard the stunned card instead.
+  Costs associated with the attack attempt, including
+  exhausting the character, must still be paid.
+  If a stunned villain or minion would attack, discard the
+  stunned status card instead.
+  Tough — If a character with a tough status card would take
+  any amount of damage, prevent all of that damage and
+  discard the tough status card instead.

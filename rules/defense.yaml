@@ -15,8 +15,8 @@ rule_text: |
   with a hero or ally they control, that player becomes
   the new target of the attack.
   
-  For example, Shield Block reads: “Interrupt (defense): When
+  _For example, Shield Block reads: “Interrupt (defense): When
   you would take any amount of damage, exhaust Captain
   America’s Shield to prevent all of that damage.” Because
   Shield Block is a defense card, it can only be played while
-  the Captain America player is the target of an attack.
+  the Captain America player is the target of an attack._

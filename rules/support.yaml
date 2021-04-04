@@ -1,0 +1,11 @@
+---
+name: "Support"
+rule_text: |
+  Support is a player card type that represent locations,
+  backline supporters or friends, and other behind-the-scenes
+  elements a hero or alter-ego might have at their disposal.
+  • Support cards enter play in the back row of a player’s
+  play area.
+  • A support card is active while it is in play, and it
+  remains in play until a card ability causes it to leave
+  play.

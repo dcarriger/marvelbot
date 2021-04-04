@@ -7,8 +7,8 @@ rule_text: |
   greater than its target threat value, the scheme deck
   advances. Remove the scheme from the game, and advance
   to the next stage of the main scheme deck.
-  If the villain completes the final stage of the main
-  scheme deck, the villain wins the game.
+  **If the villain completes the final stage of the main
+  scheme deck, the villain wins the game.**
   • During step one of the villain phase, place the amount
   of threat indicated in the main scheme’s acceleration
   field (bottom-right corner) on that scheme. This value
