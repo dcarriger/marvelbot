@@ -1,0 +1,20 @@
+---
+name: "Minion"
+rule_text: |
+  Minion is an encounter card type. Minions represent
+  supporters of the villain and/or enemies of the heroes.
+  If a minion enters play, it engages the player who is
+  revealing the card from the encounter deck or resolving
+  the ability that put the minion into play, unless an ability
+  specifies otherwise.
+  • If a minion enters play, it remains in play until a card
+  ability or game effect causes it to leave play.
+  • If a minion has zero or fewer remaining hit points, it is
+  defeated and discarded.
+  • Minions engaged with a player activate (one minion
+  at a time) during step two of the villain phase, after
+  the villain activates. If the engaged player is in hero
+  form, these minions attack. If the engaged player is in
+  alter-ego form, these minions scheme.
+related:
+  - Engaged

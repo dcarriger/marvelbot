@@ -1,0 +1,12 @@
+---
+name: "Overkill"
+rule_text: |
+  If an ally is used to defend against an attack
+  with overkill, any excess damage from the attack (damage
+  beyond the ally’s remaining hit points) is dealt to the
+  identity of the player controlling the ally, if able.
+  If an attack with overkill defeats a minion, excess damage
+  from the attack (damage beyond the minion’s remaining hit
+  points) is dealt to the villain.
+related:
+  - Keywords

@@ -223,25 +223,25 @@ func TestCards_SortSlice(t *testing.T) {
 		{name: "Sort resources over non-resources",
 			input: Cards{
 				&Card{
-					Name: "Make the Call",
-					Cost: 0,
+					Name:     "Make the Call",
+					Cost:     0,
 					TypeCode: "event",
 				},
 				&Card{
-					Name: "The Power of Leadership",
-					Cost: 0,
+					Name:     "The Power of Leadership",
+					Cost:     0,
 					TypeCode: "resource",
 				},
 			},
 			output: Cards{
 				&Card{
-					Name: "The Power of Leadership",
-					Cost: 0,
+					Name:     "The Power of Leadership",
+					Cost:     0,
 					TypeCode: "resource",
 				},
 				&Card{
-					Name: "Make the Call",
-					Cost: 0,
+					Name:     "Make the Call",
+					Cost:     0,
 					TypeCode: "event",
 				},
 			},
@@ -249,55 +249,55 @@ func TestCards_SortSlice(t *testing.T) {
 		{name: "Complex sorting example",
 			input: Cards{
 				&Card{
-					Name: "Make the Call",
-					Cost: 0,
+					Name:     "Make the Call",
+					Cost:     0,
 					TypeCode: "event",
 				},
 				&Card{
-					Name: "The Power of Leadership",
-					Cost: 0,
+					Name:     "The Power of Leadership",
+					Cost:     0,
 					TypeCode: "resource",
 				},
 				&Card{
-					Name: "Genius",
-					Cost: 0,
+					Name:     "Genius",
+					Cost:     0,
 					TypeCode: "resource",
 				},
 				&Card{
-					Name: "Uppercut",
-					Cost: 3,
+					Name:     "Uppercut",
+					Cost:     3,
 					TypeCode: "support",
 				},
 				&Card{
-					Name: "Helicarrier",
-					Cost: 3,
+					Name:     "Helicarrier",
+					Cost:     3,
 					TypeCode: "support",
 				},
 			},
 			output: Cards{
 				&Card{
-					Name: "Genius",
-					Cost: 0,
+					Name:     "Genius",
+					Cost:     0,
 					TypeCode: "resource",
 				},
 				&Card{
-					Name: "The Power of Leadership",
-					Cost: 0,
+					Name:     "The Power of Leadership",
+					Cost:     0,
 					TypeCode: "resource",
 				},
 				&Card{
-					Name: "Make the Call",
-					Cost: 0,
+					Name:     "Make the Call",
+					Cost:     0,
 					TypeCode: "event",
 				},
 				&Card{
-					Name: "Helicarrier",
-					Cost: 3,
+					Name:     "Helicarrier",
+					Cost:     3,
 					TypeCode: "support",
 				},
 				&Card{
-					Name: "Uppercut",
-					Cost: 3,
+					Name:     "Uppercut",
+					Cost:     3,
 					TypeCode: "support",
 				},
 			},
@@ -327,25 +327,25 @@ func TestCards_SortSlice(t *testing.T) {
 		{name: "Already sorted by resource",
 			input: Cards{
 				&Card{
-					Name: "The Power of Leadership",
-					Cost: 0,
+					Name:     "The Power of Leadership",
+					Cost:     0,
 					TypeCode: "resource",
 				},
 				&Card{
-					Name: "Make the Call",
-					Cost: 0,
+					Name:     "Make the Call",
+					Cost:     0,
 					TypeCode: "event",
 				},
 			},
 			output: Cards{
 				&Card{
-					Name: "The Power of Leadership",
-					Cost: 0,
+					Name:     "The Power of Leadership",
+					Cost:     0,
 					TypeCode: "resource",
 				},
 				&Card{
-					Name: "Make the Call",
-					Cost: 0,
+					Name:     "Make the Call",
+					Cost:     0,
 					TypeCode: "event",
 				},
 			},
@@ -385,13 +385,13 @@ func TestCards_SortSlice(t *testing.T) {
 // TODO - good way to test this function? seems like it needs refactoring
 func TestCard_DownloadImages(t *testing.T) {
 	var testCases = []struct {
-		name   string
-		input  Card
-		err    bool
+		name  string
+		input Card
+		err   bool
 	}{
 		{name: "Card with no image source",
-			input:  Card{},
-			err:    true,
+			input: Card{},
+			err:   true,
 		},
 	}
 

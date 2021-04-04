@@ -1,0 +1,6 @@
+---
+name: "Setup"
+rule_text: |
+  A card with the setup keyword begins the game in play.
+related:
+  - Keywords

@@ -1,0 +1,6 @@
+---
+name: "Permanent"
+rule_text: |
+  A card with the permanent keyword cannot leave play.
+related:
+  - Keywords

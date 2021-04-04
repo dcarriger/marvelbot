@@ -1,0 +1,12 @@
+---
+name: "Attachment"
+rule_text: |
+  Attachment is an encounter card type.
+  When an attachment enters play, it attaches to another card
+  or game element.
+  • If an attachment attaches to the villain, it may modify
+  the villain’s ATK and/or SCH values, as indicated by
+  the values in the associated fields on the attachment
+  card.
+related:
+  - Attach To

@@ -14,6 +14,7 @@ import (
 	"marvelbot/card"
 	"marvelbot/rule"
 	"math"
+	"math/rand"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -52,6 +53,35 @@ func (srv *Server) MessageCreate(s *discordgo.Session, m *discordgo.MessageCreat
 	// Look for occurrences of '[[card]]'
 	cardRegexp := regexp.MustCompile(`\[\[([^\]]+)\]\]`)
 	// We found a match
+	// TODO - this particular if statement is for trolling at the request of the user(s)
+	// 186413011609583616 - dr00
+	// 400703983766994944 - Bob "18K" Benton
+	if m.Author.ID == "186413011609583616" || m.Author.ID == "400703983766994944" {
+		switch randomNum := rand.Intn(100); randomNum {
+		case 1:
+			m.Content = "[[Lockjaw]]"
+		case 2:
+			m.Content = "[[Madame Hydra]]"
+		case 3:
+			m.Content = "[[MODOK]]"
+		case 4:
+			m.Content = "[[Thomas Edison]]"
+		case 5:
+			m.Content = "[[Scorpion]]"
+		case 6:
+			m.Content = "[[Asgard]]"
+		case 7:
+			m.Content = "[[Enraged]]"
+		case 8:
+			m.Content = "[[Bulldozer's Helmet]]"
+		case 9:
+			m.Content = "[[Magic Crowbar]]"
+		case 10:
+			m.Content = "[[Crossbones]]"
+		default:
+			break
+		}
+	}
 	if cardRegexp.MatchString(m.Content) {
 		srv.HandleCards(s, m)
 	}
@@ -157,17 +187,30 @@ func (srv *Server) HandleCards(s *discordgo.Session, m *discordgo.MessageCreate)
 	if len(rules) > 0 {
 		for _, r := range rules {
 			// Create our embed fields
-			fields := []*discordgo.MessageEmbedField{
-				&discordgo.MessageEmbedField{
-					Name:   "Rule Text",
-					Value:  r.Text,
-					Inline: true,
-				},
+			fields := []*discordgo.MessageEmbedField{}
+			// If rules exceed 2048 characters, they won't fit in the Description field
+			// So we'll parse those into extra fields
+			if len(r.Text2) > 0 {
+				rules_cont := &discordgo.MessageEmbedField{
+					Name: "Rules (continued)",
+					Value: r.Text2,
+				}
+				fields = append(fields, rules_cont)
 			}
+			// If there is a "See also" section, append that as well
+			if len(r.Related) > 0 {
+				related_field := &discordgo.MessageEmbedField{
+					Name: "See also",
+					Value: strings.Join(r.Related, "\n"),
+				}
+				fields = append(fields, related_field)
+			}
+
 			ms := &discordgo.MessageSend{
 				Embed: &discordgo.MessageEmbed{
-					Title: r.Name,
-					Fields: fields,
+					Title:  r.Name,
+					Description: r.Text, // Description allows 2048 characters
+					Fields: fields, // Embed fields allow 1024 characters
 				},
 			}
 			_, err := s.ChannelMessageSendComplex(m.ChannelID, ms)

@@ -1,0 +1,15 @@
+---
+name: "Indirect Damage"
+rule_text: |
+  Some card abilities may deal “indirect damage.”
+  Indirect damage dealt to a player or group of players must
+  be split among all characters that the specified player(s)
+  control(s).
+  While assigning indirect damage, a character cannot
+  be assigned more indirect damage than would cause it
+  to be defeated. This is assessed without accounting for
+  interactions with other abilities.
+  For example, if you take 5 indirect damage, but you control
+  an ally in play with 4 hit points remaining, you may assign
+  4 of that indirect damage to the ally, then assign the
+  remaining 1 indirect damage to your identity.

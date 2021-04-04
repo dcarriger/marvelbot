@@ -1,0 +1,11 @@
+---
+name: "Engaged"
+rule_text: |
+  If a minion enters play, it engages a player, and is placed in
+  front of that player’s play area.
+  Unless otherwise specified by the minion or by the effect
+  that put the minion into play, the minion engages the player
+  who is resolving the current encounter card.
+  • An engaged minion remains engaged with the same
+  player until it is defeated, removed from play, or a
+  card ability causes it to engage another player.

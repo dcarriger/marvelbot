@@ -35,4 +35,14 @@ rule_text: |
   “Resource”. The player who controls the card that has
   an optional ability determines whether or not to use
   that ability at the appropriate time
-related: []
+related:
+  - Cancel
+  - Constant Ability
+  - Delayed Effects
+  - In Play and Out of Play
+  - Initiating Abilities
+  - Lasting Effects
+  - Qualifiers
+  - Replacement Effects
+  - Then
+  - Triggered Ability

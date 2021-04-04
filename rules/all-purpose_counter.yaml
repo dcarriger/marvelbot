@@ -1,0 +1,13 @@
+---
+name: "All-Purpose Counter"
+rule_text: |
+  All-purpose counters can be used to track
+  a variety of different game states and
+  statuses. They have no inherent rules.
+  Card abilities can create and define a number of different
+  counter types, such as “arrow counters” or “web counters.”
+  If a counter is called for, an all-purpose counter is used to
+  track its presence in the game.
+related:
+  - Component Limitations
+  - Keywords (Uses)

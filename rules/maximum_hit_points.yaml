@@ -1,0 +1,10 @@
+---
+name: "Maximum Hit Points"
+rule_text: |
+  A character’s maximum hit points is their base hit points
+  plus or minus all “gets” hit point modifiers that are active on
+  that character.
+related:
+  - Base Value
+  - Gets
+  - Hit Points

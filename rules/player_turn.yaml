@@ -1,0 +1,27 @@
+---
+name: "Player Turn"
+rule_text: |
+  During their turn, a player may perform the following
+  options, in any order. Each option (except “change form”)
+  may be performed as many times as the player is able, so
+  long as they are able to pay the required costs.
+  • Change form from hero to alter-ego, or from alterego to hero. This option may only be performed
+  once each turn.
+  • Play an ally, upgrade, or support card from hand.
+  • Use their alter-ego’s basic recovery (if in alter-ego
+  form) or their hero’s basic attack or thwart power (if in
+  hero form).
+  • Use an ally card they control in play to attack an
+  enemy or thwart a scheme.
+  • Trigger an “Action” card ability on a card in play they
+  control, on an encounter card in play, or by playing
+  an event card with such a timing trigger from their
+  hand. If the action ability is preceded by “Hero” or
+  “Alter-Ego”, the player must be in the specified form
+  in order to trigger the ability.
+  • Ask another player to trigger an “Action” ability on
+  a card in play they control or on an event card they
+  might have in hand. The other player then decides
+  whether or not to trigger the ability. (Another player
+  may offer to use an action during the active player’s
+  turn, as well.)

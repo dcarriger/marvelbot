@@ -1,0 +1,7 @@
+---
+name: "Dash"
+rule_text: |
+  If a character’s power (ATK, THW, REC, etc.) has a dash (–) as
+  the value, the character cannot exhaust to use that power. If
+  a game step or ability references a power with the value of
+  dash (–), that value is treated as 0.

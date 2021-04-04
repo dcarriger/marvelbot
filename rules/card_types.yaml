@@ -1,0 +1,12 @@
+---
+name: "Card Types"
+rule_text: |
+  The game’s card types are: ally, attachment, environment,
+  event, identity (hero and alter-ego), main scheme, minion,
+  obligation, resource, side scheme, support, treachery,
+  upgrade, and villain.
+  • If an ability causes a card to change its card type,
+  it loses all other card types it might possess and
+  functions as would any card of the new card type.
+related:
+  - Appendix III: Card Anatomy

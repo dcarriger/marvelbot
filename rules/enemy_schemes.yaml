@@ -1,0 +1,21 @@
+---
+name: "Enemy Schemes"
+rule_text: |
+  If an enemy is instructed to scheme, follow these steps:
+  1. If a villain is scheming, give it one facedown boost card
+  from the encounter deck. (If a minion is scheming, skip
+  this step.)
+  2. If a villain is scheming, flip each of the villain’s boost
+  cards faceup one at a time. (If a minion is scheming,
+  skip this step.) Then, in order:
+  • Resolve any “Boost” abilities, indicated by the star
+  icon in the boost field.
+  • Increase the villain’s SCH value by one for each boost
+  icon on the card.
+  • Discard each boost card after it is resolved.
+  3. Place threat on the main scheme equal to the scheming
+  villain or minion’s modified SCH value.
+related:
+  - Activation
+  - Boost
+  - Villain Phase

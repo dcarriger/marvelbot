@@ -1,0 +1,16 @@
+---
+name: "Empty Encounter Deck"
+rule_text: |
+  If the encounter deck runs out of cards, the encounter
+  discard pile is immediately shuffled to create a new
+  encounter deck. An acceleration token is placed next to
+  the scheme deck. This token places an additional threat on
+  the main scheme each round, during step one of the villain
+  phase.
+  • If all cards from the encounter deck are discarded
+  while an ability is looking for a specified card, the
+  ability fails to find the card, the deck reshuffles, an
+  acceleration token is placed, and the game continues.
+  No cards are discarded from the newly shuffled deck.
+related:
+  - Acceleration Token

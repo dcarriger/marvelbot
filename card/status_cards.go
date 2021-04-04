@@ -1,17 +1,17 @@
 package card
 
 var Confused = &Card{
-	Name: "Confused",
+	Name:     "Confused",
 	ImageSrc: "images/confused.png",
 }
 
 var Stunned = &Card{
-	Name: "Stunned",
+	Name:     "Stunned",
 	ImageSrc: "images/stunned.png",
 }
 
 var Tough = &Card{
-	Name: "Tough",
+	Name:     "Tough",
 	ImageSrc: "images/tough.png",
 }
 

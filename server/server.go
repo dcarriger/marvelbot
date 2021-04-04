@@ -18,7 +18,7 @@ const baseURL = "https://marvelcdb.com/api/public"
 // Server is used to handle dependency injection into our bot.
 type Server struct {
 	Session *discordgo.Session
-	Client *http.Client
+	Client  *http.Client
 	Cards   []*card.Card
 	Rules   []*rule.Rule
 	Logger  *logrus.Logger

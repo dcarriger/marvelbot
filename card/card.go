@@ -205,7 +205,7 @@ func (c Card) GetImages() (images []string) {
 }
 
 // IsScheme returns whether the card is a scheme or not.
-func (c Card) IsScheme() (bool) {
+func (c Card) IsScheme() bool {
 	if c.TypeCode == "main_scheme" || c.TypeCode == "side_scheme" {
 		return true
 	}
@@ -233,81 +233,81 @@ func (c Card) DownloadImages() (err error) {
 	return nil
 
 	/*
-	// Split the image URL into parts
-	imageSlice := strings.Split(c.ImageSrc, "/")
-	imageName := strings.ToLower(imageSlice[len(imageSlice)-1])
+		// Split the image URL into parts
+		imageSlice := strings.Split(c.ImageSrc, "/")
+		imageName := strings.ToLower(imageSlice[len(imageSlice)-1])
 
-	// We'll also strip the extension from the file name
-	imageName = strings.TrimSuffix(imageName, filepath.Ext(imageName))
+		// We'll also strip the extension from the file name
+		imageName = strings.TrimSuffix(imageName, filepath.Ext(imageName))
 
-	// We want to save images as PNG so we'll define our image path here
-	imagePath := "images/" + imageName + ".png"
+		// We want to save images as PNG so we'll define our image path here
+		imagePath := "images/" + imageName + ".png"
 
-	// We'll want a rotated version of some images as well
-	imageRotatedPath := "images/" + imageName + "_rotated.png"
-	_ = imageRotatedPath
+		// We'll want a rotated version of some images as well
+		imageRotatedPath := "images/" + imageName + "_rotated.png"
+		_ = imageRotatedPath
 
-	// Now comes the logic to download the images if we don't have them already
-	// 0666 used because default umask will modify to 0644
-	f, err := os.OpenFile(imagePath, os.O_RDWR|os.O_CREATE, 0666)
-	if err != nil {
-		return fmt.Errorf("Unable to open path: %v\n", imagePath)
-	}
-
-	// We have to use the Stat() method to have access to the file size
-	fi, err := f.Stat()
-	if err != nil {
-		return fmt.Errorf("Error accessing metadata: %v\n", imagePath)
-	}
-
-	// If the size is 0, we need to get the image from MarvelCDB
-	if fi.Size() == 0 {
-		// Make a GET request for the image and close the connection
-		// MarvelCDB has bad images for some cards
-		var getURL string
-		switch c.Name {
-		case "Spider-Man":
-			getURL = "https://lcgcdn.s3.amazonaws.com/mc/MC01en_1A.jpg"
-		case "Peter Parker":
-			getURL = "https://lcgcdn.s3.amazonaws.com/mc/MC01en_1B.jpg"
-		case "She-Hulk":
-			getURL = "https://lcgcdn.s3.amazonaws.com/mc/MC01en_19A.jpg"
-		case "Jennifer Walters":
-			getURL = "https://lcgcdn.s3.amazonaws.com/mc/MC01en_19B.jpg"
-		case "Generation Why?":
-			getURL = "https://lcgcdn.s3.amazonaws.com/mc/MC05en_26.jpg"
-		default:
-			getURL = "https://marvelcdb.com" + c.ImageSrc
-		}
-
-		resp, err := http.Get(getURL)
+		// Now comes the logic to download the images if we don't have them already
+		// 0666 used because default umask will modify to 0644
+		f, err := os.OpenFile(imagePath, os.O_RDWR|os.O_CREATE, 0666)
 		if err != nil {
-			return fmt.Errorf("Error accessing image from MarvelCDB: %w\n", err)
+			return fmt.Errorf("Unable to open path: %v\n", imagePath)
 		}
-		defer resp.Body.Close()
 
-		// Decode the image
-		img, _, err := image.Decode(resp.Body)
+		// We have to use the Stat() method to have access to the file size
+		fi, err := f.Stat()
 		if err != nil {
-			return fmt.Errorf("Error decoding image: %w\n", err)
+			return fmt.Errorf("Error accessing metadata: %v\n", imagePath)
 		}
 
-		// Resize the image to 300x419 (vertical) or 419x300 (horizontal)
-		if c.TypeCode != "main_scheme" && c.TypeCode != "side_scheme" {
-			img = imaging.Resize(img, 300, 419, imaging.Lanczos)
-		} else {
-			img = imaging.Resize(img, 419, 300, imaging.Lanczos)
+		// If the size is 0, we need to get the image from MarvelCDB
+		if fi.Size() == 0 {
+			// Make a GET request for the image and close the connection
+			// MarvelCDB has bad images for some cards
+			var getURL string
+			switch c.Name {
+			case "Spider-Man":
+				getURL = "https://lcgcdn.s3.amazonaws.com/mc/MC01en_1A.jpg"
+			case "Peter Parker":
+				getURL = "https://lcgcdn.s3.amazonaws.com/mc/MC01en_1B.jpg"
+			case "She-Hulk":
+				getURL = "https://lcgcdn.s3.amazonaws.com/mc/MC01en_19A.jpg"
+			case "Jennifer Walters":
+				getURL = "https://lcgcdn.s3.amazonaws.com/mc/MC01en_19B.jpg"
+			case "Generation Why?":
+				getURL = "https://lcgcdn.s3.amazonaws.com/mc/MC05en_26.jpg"
+			default:
+				getURL = "https://marvelcdb.com" + c.ImageSrc
+			}
+
+			resp, err := http.Get(getURL)
+			if err != nil {
+				return fmt.Errorf("Error accessing image from MarvelCDB: %w\n", err)
+			}
+			defer resp.Body.Close()
+
+			// Decode the image
+			img, _, err := image.Decode(resp.Body)
+			if err != nil {
+				return fmt.Errorf("Error decoding image: %w\n", err)
+			}
+
+			// Resize the image to 300x419 (vertical) or 419x300 (horizontal)
+			if c.TypeCode != "main_scheme" && c.TypeCode != "side_scheme" {
+				img = imaging.Resize(img, 300, 419, imaging.Lanczos)
+			} else {
+				img = imaging.Resize(img, 419, 300, imaging.Lanczos)
+			}
+
+			// Convert the image to PNG and write it to a file
+			err = png.Encode(f, img)
+			if err != nil {
+				return fmt.Errorf("Error writing encoded image: %w\n", err)
+			}
 		}
 
-		// Convert the image to PNG and write it to a file
-		err = png.Encode(f, img)
-		if err != nil {
-			return fmt.Errorf("Error writing encoded image: %w\n", err)
-		}
-	}
-
-	return nil
-	 */
+		return nil
+	*/
 }
 
 // SortSlice is a Cards method to sort by Cost,Name.

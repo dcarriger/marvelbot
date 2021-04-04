@@ -1,0 +1,7 @@
+---
+name: "Consequential Damage"
+rule_text: |
+  After an ally attacks, it takes consequential damage equal to
+  the number of pips beneath its ATK field.
+  After an ally thwarts, it takes consequential damage equal
+  to the number of pips beneath its THW field.

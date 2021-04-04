@@ -1,0 +1,8 @@
+---
+name: "Peril"
+rule_text: |
+  While a player is resolving a card with this keyword,
+  that player cannot consult other players, and other players
+  cannot play cards or trigger abilities.
+related:
+  - Keywords

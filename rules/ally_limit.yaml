@@ -1,0 +1,10 @@
+---
+name: "Ally Limit"
+rule_text: |
+  Each player is permitted to control a maximum of three
+  allies in play at any given time. This is referred to as the
+  “ally limit.”
+  If a player ever controls a number of allies greater than their
+  ally limit in play, they must immediately choose and discard
+  from play ally cards they control until they have a number of
+  allies in play equal to their ally limit.

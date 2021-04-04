@@ -1,0 +1,13 @@
+---
+name: "Empty Player Deck"
+rule_text: |
+  If a player deck runs out of cards, the player shuffles their
+  discard pile to make a new deck. That player immediately
+  deals themself one card from the encounter deck.
+  If the player’s draw deck empties and reshuffles while the
+  player was drawing cards, the player continues to draw
+  cards up to the specified number. If this happened while the
+  player was discarding cards from their deck, no cards are
+  discarded from the newly shuffled deck.
+related:
+  - Deal

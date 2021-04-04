@@ -1,0 +1,17 @@
+---
+name: "Event"
+rule_text: |
+  Event is a player card type that is generally played for an
+  instantaneous effect.
+  Each time a player plays an event card, its costs are paid,
+  its effects resolve (or are canceled), and the card is placed
+  in its owner’s discard pile after those effects resolve (or are
+  canceled).
+  • If the effects of an event are canceled, the card is still
+  considered to have been played, and its costs remain
+  paid. Only the effects are canceled.
+  • Playing an event card from hand is always optional for
+  a player, unless the event uses the word “must” in its
+  play instructions.
+  • An event card cannot be played unless the resolution
+  of its effect (ignoring costs) could change the game.

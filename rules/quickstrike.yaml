@@ -1,0 +1,7 @@
+---
+name: "Quickstrike"
+rule_text: |
+  After this enemy engages a player, it
+  immediately attacks that player if they are in hero form.
+related:
+  - Keywords

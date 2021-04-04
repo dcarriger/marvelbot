@@ -1,0 +1,19 @@
+---
+name: "Damage"
+rule_text: |
+  Damage reduces a character’s hit points.
+  If a character has zero or fewer remaining
+  hit points, it is defeated.
+  • Damage on a hero/alter-ego or villain is tracked on a
+  hit point dial. If such a character is damaged, reduce
+  its dial by the amount of damage that it took.
+  • Damage on an ally or minion is tracked by damage
+  tokens. If such a character is damaged, place the
+  specified value of damage tokens on the character.
+related:
+  - Component Limitations
+  - Defeat
+  - Hit Points
+  - Indirect Damage
+  - Move
+  - Prevent

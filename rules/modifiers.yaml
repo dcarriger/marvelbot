@@ -1,0 +1,26 @@
+---
+name: "Modifiers"
+rule_text: |
+  The game constantly checks and (if necessary) updates the
+  count of any variable quantity that is being modified.
+  Anytime a new modifier is applied or removed, the entire
+  quantity is recalculated from the start, considering the
+  unmodified base value and all active modifiers.
+  • The calculation of a value treats all modifiers as being
+  applied simultaneously. However, while performing
+  the calculation, all additive and subtractive modifiers
+  are calculated before doubling and/or halving
+  modifiers are calculated.
+  • If a value is “set” to a specific number, the set
+  modifier overrides all non-set modifiers. If multiple
+  set modifiers are in conflict, the most recently
+  resolved set modifier takes precedence.
+  • After all active modifiers have been taken into
+  account, if a value is below zero, it is treated as zero:
+  a card cannot have “negative” icons, attributes, traits,
+  cost, or keywords.
+  • Fractional values are rounded up after all modifiers
+  have been applied.
+related:
+  - Base Value
+  - Printed

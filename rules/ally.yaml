@@ -1,0 +1,25 @@
+---
+name: "Ally"
+rule_text: |
+  Ally is a player card type that represents a player’s friends,
+  supporters, or companions.
+  • If an ally enters play, it remains in play until a card
+  ability or game effect causes it to leave play. If an
+  ally’s remaining hit points are reduced to zero, it is
+  defeated and discarded from play.
+  • During a player’s turn, they may use any number of
+  allies they control to attack or thwart. An ally must
+  exhaust to pay the cost of being used in this way.
+  • After an attack or thwart attempt using an ally
+  resolves, there is often consequential damage that
+  must be dealt to the ally, as indicated beneath the
+  ally’s ATK or THW field. This damage must be dealt
+  directly to the ally.
+  • If a player is attacked, any player may exhaust an ally
+  they control to defend against the attack. If an ally
+  defends against an attack, all damage from the attack
+  is dealt to the ally.
+related:
+  - Ally Limit
+  - Consequential Damage
+  - Hit Points

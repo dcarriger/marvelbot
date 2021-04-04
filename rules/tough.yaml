@@ -1,0 +1,7 @@
+---
+name: "Tough"
+rule_text: |
+  When this character enters play, place a
+  tough status card on it.
+related:
+  - Keywords

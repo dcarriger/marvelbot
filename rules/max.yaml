@@ -1,0 +1,20 @@
+---
+name: "Max"
+rule_text: |
+  “Max X per [period]” imposes a maximum across all copies
+  of a card (by title) for all players. Generally, this phrase
+  imposes a maximum number of times that copies of that
+  card can be played during the designated time period.
+  If a maximum appears as part of an ability, it imposes a
+  maximum number of times that the ability can be initiated
+  from all copies (by title) of cards bearing that ability
+  (including itself) during the designated period.
+  • If an effect with a maximum is canceled, the card is
+  still counted toward the maximum.
+  “Max X per deck” is restricts the number of copies of that
+  card that may be included in each player deck.
+  “Max 1 per player” is player specific, and restricts the
+  number of copies of that card that each player may control
+  in play at a given time.
+related:
+  - Appendix I: Deck Customization

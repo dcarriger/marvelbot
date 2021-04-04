@@ -1,0 +1,10 @@
+---
+name: "Defeat"
+rule_text: |
+  If a character has zero or fewer remaining hit points, or if a
+  side scheme has no threat on it, it is defeated.
+  • If a card is defeated, it is discarded.
+related:
+  - Hit Points
+  - Player Elimination
+  - Villain Defeat

@@ -1,0 +1,9 @@
+---
+name: "Surge"
+rule_text: |
+  After an encounter card with this keyword is
+  revealed, the player resolving the card reveals an additional
+  encounter card. Complete the process of resolving the
+  original card before revealing the additional card.
+related:
+  - Keywords
