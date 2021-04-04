@@ -1,5 +1,5 @@
 ---
-name: "Crisis Icon"
+name: "Crisis"
 rule_text: |
   If a side scheme has the crisis icon <:crisis:667076210357960714>, that side scheme must be
   discarded before threat can be removed from the main scheme.

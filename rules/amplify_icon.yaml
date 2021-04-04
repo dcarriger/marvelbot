@@ -1,0 +1,7 @@
+---
+name: "Amplify Icon"
+rule_text: |
+  The amplify icon increases the number of boost icons on boost
+  cards. When a boost card is turned faceup **during enemy activation,**
+  add one additional boost icon to that card for each amplify icon in
+  play.

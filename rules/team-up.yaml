@@ -1,0 +1,12 @@
+---
+name: "Team-Up"
+rules_text: |
+  The team-up keyword names two characters. To include a card with
+  the team-up keyword in your deck, your chosen identity must match
+  one of the two named characters. Additionally, a card with the
+  team-up keyword cannot be played unless both of the 
+  named characters (hero and ally) are in play.
+related:
+  - Identity
+  - Keywords
+  - In Play and Out of Play 
