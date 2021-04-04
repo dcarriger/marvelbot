@@ -6,10 +6,12 @@ import (
 	"gopkg.in/yaml.v2"
 	"io/ioutil"
 	"marvelbot/card"
+	"marvelbot/manualcards"
 	"marvelbot/rule"
 	"marvelbot/server"
 	"os"
 	"os/signal"
+	"strings"
 	"syscall"
 )
 
@@ -35,6 +37,21 @@ func main() {
 	}
 	// Append the status cards to the slice
 	srv.Cards = append(srv.Cards, card.StatusCards...)
+	// TODO - this should probably happen elsewhere
+	// Override broken MarvelCDB images for some cards
+	for _, card := range srv.Cards {
+		// If a card isn't double-sided
+		if strings.HasPrefix(card.Code, "16") && card.DoubleSided == false {
+			card.ImageSrc = fmt.Sprintf("images/%s.png", card.Code)
+		}
+		// If a card is double-sided
+		if strings.HasPrefix(card.Code, "16") && card.DoubleSided == true {
+			card.ImageSrc = fmt.Sprintf("images/%sa.png", card.Code)
+			card.BackImageSrc = fmt.Sprintf("images/%sb.png", card.Code)
+		}
+	}
+	// Append any manual cards to the slice
+	srv.Cards = append(srv.Cards, manualcards.ManualCards...)
 
 	// Read all of the rule files
 	files, err := ioutil.ReadDir("rules/")

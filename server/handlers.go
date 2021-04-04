@@ -56,7 +56,7 @@ func (srv *Server) MessageCreate(s *discordgo.Session, m *discordgo.MessageCreat
 	// TODO - this particular if statement is for trolling at the request of the user(s)
 	// 186413011609583616 - dr00
 	// 400703983766994944 - Bob "18K" Benton
-	if m.Author.ID == "186413011609583616" || m.Author.ID == "400703983766994944" {
+	if cardRegexp.MatchString(m.Content) && (m.Author.ID == "186413011609583616" || m.Author.ID == "400703983766994944") {
 		switch randomNum := rand.Intn(100); randomNum {
 		case 1:
 			m.Content = "[[Lockjaw]]"
@@ -192,7 +192,7 @@ func (srv *Server) HandleCards(s *discordgo.Session, m *discordgo.MessageCreate)
 			// So we'll parse those into extra fields
 			if len(r.Text2) > 0 {
 				rules_cont := &discordgo.MessageEmbedField{
-					Name: "Rules (continued)",
+					Name:  "Rules (continued)",
 					Value: r.Text2,
 				}
 				fields = append(fields, rules_cont)
@@ -200,7 +200,7 @@ func (srv *Server) HandleCards(s *discordgo.Session, m *discordgo.MessageCreate)
 			// If there is a "See also" section, append that as well
 			if len(r.Related) > 0 {
 				related_field := &discordgo.MessageEmbedField{
-					Name: "See also",
+					Name:  "See also",
 					Value: strings.Join(r.Related, "\n"),
 				}
 				fields = append(fields, related_field)
@@ -208,9 +208,9 @@ func (srv *Server) HandleCards(s *discordgo.Session, m *discordgo.MessageCreate)
 
 			ms := &discordgo.MessageSend{
 				Embed: &discordgo.MessageEmbed{
-					Title:  r.Name,
+					Title:       r.Name,
 					Description: r.Text, // Description allows 2048 characters
-					Fields: fields, // Embed fields allow 1024 characters
+					Fields:      fields, // Embed fields allow 1024 characters
 				},
 			}
 			_, err := s.ChannelMessageSendComplex(m.ChannelID, ms)
