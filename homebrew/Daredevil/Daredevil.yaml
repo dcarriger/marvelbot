@@ -1,0 +1,190 @@
+- names:
+  - Matt Murdock
+  - Daredevil
+  packs:
+  - name: Daredevil
+    sku: HB01en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Matt Murdock
+    type: Alter-Ego
+    unique: true
+    recover: 3
+    traits:
+    - Attorney
+    hit_points: 10
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/hb01en/1B.png
+  - name: Daredevil
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 2
+    defense: 2
+    traits:
+    - Defender
+    - Hell’s Kitchen
+    hit_points: 10
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/hb01en/1A.png
+- names:
+  - Elektra
+  packs:
+  - name: Daredevil
+    sku: HB01en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Elektra
+    cost: 3
+    type: Ally
+    unique: true
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Assassin
+    hit_points: 3
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/hb01en/2.png
+- names:
+  - Blind Justice
+  packs:
+  - name: Daredevil
+    sku: HB01en
+    position: 3
+    quantity: 2
+  faces:
+  - name: Blind Justice
+    cost: 1
+    type: Skill
+    unique: false
+    traits:
+    - Skill
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/hb01en/3.png
+- names:
+  - Blindsight
+  packs:
+  - name: Daredevil
+    sku: HB01en
+    position: 4
+    quantity: 3
+  faces:
+  - name: Blindsight
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Superpower
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/hb01en/4.png
+- names:
+  - Indomitable Will
+  packs:
+  - name: Daredevil
+    sku: HB01en
+    position: 5
+    quantity: 2
+  faces:
+  - name: Indomitable Will
+    cost: 1
+    type: Event
+    unique: false
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/hb01en/5.png
+- names:
+  - Man Without Fear
+  packs:
+  - name: Daredevil
+    sku: HB01en
+    position: 6
+    quantity: 2
+  faces:
+  - name: Man Without Fear
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Skill
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/hb01en/6.png
+- names:
+  - Foggy Nelson
+  packs:
+  - name: Daredevil
+    sku: HB01en
+    position: 7
+    quantity: 1
+  faces:
+  - name: Foggy Nelson
+    cost: 1
+    type: Support
+    unique: true
+    traits:
+    - Persona
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/hb01en/7.png
+- names:
+  - Billy Club
+  packs:
+  - name: Daredevil
+    sku: HB01en
+    position: 8
+    quantity: 1
+  faces:
+  - name: Billy Club
+    cost: 1
+    type: Support
+    unique: false
+    traits:
+    - Item
+    - Weapon
+    keywords:
+    - Restricted
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/hb01en/8.png
+- names:
+  - Devil of Hell’s Kitchen
+  packs:
+  - name: Daredevil
+    sku: HB01en
+    position: 9
+    quantity: 1
+  faces:
+  - name: Devil of Hell’s Kitchen
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Hell’s Kitchen
+    - Title
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/hb01en/9.png
+- names:
+  - Sonar Sense
+  packs:
+  - name: Daredevil
+    sku: HB01en
+    position: 10
+    quantity: 2
+  faces:
+  - name: Sonar Sense
+    cost: 0
+    type: Upgrade
+    unique: false
+    traits:
+    - Superpower
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/hb01en/10.png
