@@ -23,6 +23,7 @@ type Server struct {
 	Session *discordgo.Session
 	Client  *http.Client
 	Cards   []*card.Card
+	Homebrew []*card.Card
 	Rules   []*rule.Rule
 	Logger  *logrus.Logger
 }
@@ -60,6 +61,12 @@ func NewServer(token string) (s *Server) {
 		log.Fatal("error reading card data: ", err)
 	}
 
+	// Read data in from our folder containing homebrew card YAML data
+	homebrew, err := ReadCards("homebrew/")
+	if err != nil {
+		log.Fatal("error reading homebrew card data: ", err)
+	}
+
 	// Read data in from our folder containing rule YAML data
 	rules, err := ReadRules("rules/")
 	if err != nil {
@@ -71,6 +78,7 @@ func NewServer(token string) (s *Server) {
 		Session: dg,
 		Client:  client,
 		Cards:   cards,
+		Homebrew: homebrew,
 		Rules:   rules,
 		Logger:  log,
 	}

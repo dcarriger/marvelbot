@@ -183,6 +183,15 @@ func (srv *Server) HandleCommands(s *discordgo.Session, m *discordgo.MessageCrea
 
 		// Based on the filter, we'll handle the command differently
 		switch filter {
+		case "hb", "homebrew":
+			cards := findCards(filter, query, srv.Homebrew)
+			// We didn't find a card, so we'll add the command to the list of failed commands
+			if len(cards) == 0 {
+				unmatchedCommands = append(unmatchedCommands, query)
+				break
+			}
+			// We found a card (or cards), so we'll add them to the list of Cards to return to the user
+			matchedCards = append(matchedCards, cards...)
 		case "info":
 			cards := findCards(filter, query, srv.Cards)
 			// We didn't find a card, so we'll add the command to the list of failed commands
@@ -192,16 +201,7 @@ func (srv *Server) HandleCommands(s *discordgo.Session, m *discordgo.MessageCrea
 			}
 			// We found a card (or cards), so we'll add them to the list of Cards to return to the user
 			matchedInfo = append(matchedInfo, cards...)
-		case "rule":
-			r := findRule(query, srv.Rules)
-			// We didn't find a rule, so we'll add the command to the list of failed commands
-			if r == nil {
-				unmatchedCommands = append(unmatchedCommands, query)
-				break
-			}
-			// We found a rule, so we'll add it to the list of Rules to return to the user
-			matchedRules = append(matchedRules, r)
-		case "rules":
+		case "rule", "rules":
 			r := findRule(query, srv.Rules)
 			// We didn't find a rule, so we'll add the command to the list of failed commands
 			if r == nil {
