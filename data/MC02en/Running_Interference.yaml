@@ -1,0 +1,76 @@
+- names:
+  - Running Interference
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 46
+    quantity: 1
+  faces:
+  - name: Running Interference
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Each player must choose to either spend [mental] [physical]
+      resources or place 2 threat here.'
+    boost_icons: 1
+    starting_threat_per_player: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/46.png
+    marvelcdb_url: https://marvelcdb.com/card/02046
+  horizontal: true
+- names:
+  - Tombstone
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 47
+    quantity: 1
+  faces:
+  - name: Tombstone
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 3
+    attack_text: '<b>Forced Response</b>: After Tombstone attacks and damages you,
+      discard a [mental] or [physical] resource from your hand, if able.'
+    traits:
+    - Criminal
+    text: null
+    hit_points: 9
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/47.png
+    marvelcdb_url: https://marvelcdb.com/card/02047
+- names:
+  - All Tied Up
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 48
+    quantity: 1
+  faces:
+  - name: All Tied Up
+    type: Attachment
+    unique: false
+    text: |-
+      Attach to your identity card.
+      Attached character cannot ready or change form.
+      **Action**: Spend [mental] [physical] resources → discard this card.
+    boost_icons: 0
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/48.png
+    marvelcdb_url: https://marvelcdb.com/card/02048
+- names:
+  - Media Coverage
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 49
+    quantity: 2
+  faces:
+  - name: Media Coverage
+    type: Attachment
+    unique: false
+    text: |-
+      Attach to your identity card.
+      Resolve each "**When Revealed**" ability that you reveal 1 additional time.
+      **Alter-Ego Action**: Spend a [mental] resource → discard this card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/49.png
+    marvelcdb_url: https://marvelcdb.com/card/02049

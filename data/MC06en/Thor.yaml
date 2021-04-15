@@ -1,0 +1,658 @@
+- names:
+  - Thor
+  - Odinson
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Odinson
+    type: Alter-Ego
+    unique: true
+    recover: 4
+    traits:
+    - Asgard
+    text: 'Worthy — **Action**: Search your deck and discard pile for the Mjolnir
+      upgrade and add it to your hand. Shuffle your deck. (Limit once per round).'
+    hit_points: 14
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/06001b
+  - name: Thor
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 2
+    defense: 2
+    traits:
+    - Asgard
+    - Avenger
+    text: '"Have at thee!" — **Response**: After you engage a minion, draw 2 cards.
+      (Limit once per phase.)'
+    hit_points: 14
+    flavor_text: '"Now you face the mightiest Avenger of all"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/06001a
+- names:
+  - Lady Sif
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Lady Sif
+    cost: 4
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Asgard
+    text: '**Response**: After Lady Sif enters play, ready Thor or Odinson.'
+    hit_points: 3
+    flavor_text: '"Where my Beloved sallies forth—let his Lady Sif be at his side!"'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/06002
+- names:
+  - Defender of the Nine Realms
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 3
+    quantity: 3
+  faces:
+  - name: Defender of the Nine Realms
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Thwart
+    text: '**Hero Action** _(thwart)_: Discard cards from the top of the encounter
+      deck until you discard a minion. Put that minion into play engaged with you
+      → remove 3 threat from a scheme.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/06003
+- names:
+  - For Asgard!
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 4
+    quantity: 1
+  faces:
+  - name: For Asgard!
+    cost: 1
+    type: Event
+    unique: false
+    text: '**Alter-Ego Action**: Search your deck and discard pile for a card with
+      the [[Asgard]] trait and add it to your hand. Shuffle your deck.'
+    flavor_text: '"For honor! For glory! For Asgard!" -- Thor'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/06004
+- names:
+  - Hammer Throw
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 5
+    quantity: 3
+  faces:
+  - name: Hammer Throw
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Superpower
+    text: '**Hero Action** _(attack)_: Exhaust Mjolnir → deal 8 damage to an enemy
+      and return Mjolnir to your hand. This attack gains overkill.'
+    flavor_text: '"Now, Mjolnir! Strike true" -- Thor'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/06005
+- names:
+  - Lightning Strike
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 6
+    quantity: 2
+  faces:
+  - name: Lightning Strike
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Action**: Spend X [energy] resources → deal X damages to the villain
+      and each minion engaged with you. This attack ignores tough statuses card if
+      you have the [[Aerial]] trait.'
+    flavor_text: '"I say thee, nay!" -- Thor'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/06006
+- names:
+  - Asgard
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 7
+    quantity: 1
+  faces:
+  - name: Asgard
+    cost: 3
+    type: Support
+    unique: true
+    traits:
+    - Asgard
+    - Location
+    text: You get +1 hand size.
+    flavor_text: It is from the shining city of Asgard that Odin watches over the
+      Nine Realms, and it was here that Thor was raised a prince.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/06007
+- names:
+  - God of Thunder
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 8
+    quantity: 2
+  faces:
+  - name: God of Thunder
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Asgard
+    - Title
+    text: '**Hero Resource**: Exhaust God of Thunder → generate a [energy] resource.'
+    flavor_text: '"I am the God of Thunder, lord of the savage Lightning. The vary
+      skies must tremble when speaks the Mighty Thor!" -- Thor'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/06008
+- names:
+  - Mjolnir
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 9
+    quantity: 1
+  faces:
+  - name: Mjolnir
+    cost: 1
+    type: Upgrade
+    unique: true
+    traits:
+    - Asgard
+    - Weapon
+    keywords:
+    - Restricted
+    text: |-
+      Restricted. _(Max 2 restricted cards per player.)_
+      Thor gets +1 ATK and gains the [[Aerial]] trait.
+    flavor_text: Whosoever holds this hammer, if he be worthy, shall possess the power
+      of Thor.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/06009
+- names:
+  - Thor's Helmet
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 10
+    quantity: 1
+  faces:
+  - name: Thor's Helmet
+    cost: 2
+    type: Upgrade
+    unique: true
+    traits:
+    - Asgard
+    - Armor
+    text: You get +5 hit points.
+    flavor_text: '"Brothers and sisters -- prepare yourselves. Today we go to WAR!"
+      -- Thor'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/06010
+- names:
+  - Hercules
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Hercules
+    cost: 6
+    type: Ally
+    unique: true
+    aspect:
+    - Aggression
+    thwart: 1
+    thwart_consequential: 1
+    attack: 3
+    attack_consequential: 1
+    traits:
+    - Avenger
+    - Olympus
+    text: Reduce the cost to play Hercules by 1 for each minion engaged with you.
+    hit_points: 4
+    flavor_text: Whatever Thor can do, Hercules can accomplish more mightily!
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/06011
+- names:
+  - Valkyrie
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 12
+    quantity: 1
+  faces:
+  - name: Valkyrie
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Aggression
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Asgard
+    - Avenger
+    text: '**Response:** After Valkyrie enters play, deal 2 damage to a minion (3
+      damage instead if you paid for this card using a [energy] resource).'
+    hit_points: 3
+    flavor_text: I am Valkyrie, shieldmaiden of Asgard.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/06012
+- names:
+  - Get Over Here!
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 14
+    quantity: 3
+  faces:
+  - name: Get Over Here!
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Deal 1 damage to a minion. If you have the
+      [[Aerial]] trait, engage that enemy.'
+    flavor_text: '"I would have words with thee!" -- Thor'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/06014
+- names:
+  - Mean Swing
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 15
+    quantity: 3
+  faces:
+  - name: Mean Swing
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Skill
+    text: '**Hero Interrupt**: When your hero makes a basic attack, exhaust a [[Weapon]]
+      upgrade on your hero → your hero gets +3 ATK for this attack.'
+    flavor_text: POW!
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/06015
+- names:
+  - Hall of Heroes
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 17
+    quantity: 1
+  faces:
+  - name: Hall of Heroes
+    cost: 2
+    type: Support
+    unique: true
+    aspect:
+    - Aggression
+    traits:
+    - Asgard
+    - Location
+    text: |-
+      **Response:** After you defeat a minion, place 1 glory counter here.
+       **Alter-Ego Action:** Exhaust Hall of Heroes and remove 3 glory counters from it -> draw 3 cards.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/06017
+- names:
+  - Battle Fury
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 18
+    quantity: 3
+  faces:
+  - name: Battle Fury
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Condition
+    text: |-
+      Play under any player's control.
+       Max 1 per player.
+       **Response:** After your hero attacks and defeats a minion, deal 1 damage to your hero and discard Battle Fury -> ready your hero.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/18.png
+    marvelcdb_url: https://marvelcdb.com/card/06018
+- names:
+  - Jarnbjorn
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 19
+    quantity: 1
+  faces:
+  - name: Jarnbjorn
+    cost: 1
+    type: Upgrade
+    unique: true
+    aspect:
+    - Aggression
+    traits:
+    - Asgard
+    - Weapon
+    keywords:
+    - Restricted
+    text: |-
+      Restricted.
+       **Response:** After your hero attacks an enemy, spend a [physical] resource → deal 2 damage to an enemy.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/19.png
+    marvelcdb_url: https://marvelcdb.com/card/06019
+- names:
+  - Heimdall
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 20
+    quantity: 1
+  faces:
+  - name: Heimdall
+    cost: 5
+    type: Ally
+    unique: true
+    aspect:
+    - Basic
+    thwart: 2
+    thwart_consequential: 1
+    attack: 3
+    attack_consequential: 2
+    traits:
+    - Asgard
+    text: '**Response:** After Heimdall enters play, look at the top 3 cards of the
+      encounter deck. Discard 1 of them and put the others back in any order.'
+    hit_points: 4
+    flavor_text: '"You wish to know what I see?"'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/20.png
+    marvelcdb_url: https://marvelcdb.com/card/06020
+- names:
+  - Invulnerability
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 21
+    quantity: 3
+  faces:
+  - name: Invulnerability
+    cost: 3
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Superpower
+    text: '**Hero Action**: Give your hero a tough status card.'
+    flavor_text: '"It''s unbreakable skin, man. Don''t you know who I am?" -- Luke
+      Cage'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/21.png
+    marvelcdb_url: https://marvelcdb.com/card/06021
+- names:
+  - Odin's Anger
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Odin's Anger
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Odinson player_**
+      You may flip to your alter-ego form. Choose:
+      - Exhaust Odinson → remove Odin's Anger from the game.
+      - Discard Mjolnir from your hand or from play. You are stunned. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/06026
+- names:
+  - Family Feud
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Family Feud
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Place 1 additional threat here for each [[Asgard]] card
+      in play.'
+    boost_icons: 3
+    starting_threat_per_player: 2
+    flavor_text: Ever the trickster, Loki can't resist the opportunity to frustrate
+      his brother, Thor.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/06027
+  horizontal: true
+- names:
+  - Loki
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 28
+    quantity: 1
+  faces:
+  - name: Loki
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 2
+    traits:
+    - Asgard
+    text: |-
+      **Interrupt**: When Loki would be defeated, discard the top card of the encounter deck. If that card is a treachery, heal all damage from Loki instead.
+      _(Thor's nemesis minion.)_
+    hit_points: 4
+    boost_icons: 3
+    flavor_text: '"You seem disappointed, brother. That''s good."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/06028
+- names:
+  - Frost Giant
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 29
+    quantity: 2
+  faces:
+  - name: Frost Giant
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 3
+    traits:
+    - Giant
+    keywords:
+    - Toughness
+    text: Toughness. _(This character enters play with a tough status card.)_
+    hit_points: 4
+    boost_icons: 1
+    star_text: If the villain is attacking and this attack deals damage to a character,
+      stun that character.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/06029
+- names:
+  - Trickster
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 30
+    quantity: 1
+  faces:
+  - name: Trickster
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Discard the top 3 cards of your deck. Place 1 threat
+      on the main scheme for each different card type discarded this way.'
+    boost_icons: 1
+    flavor_text: '"How many times are you going to fall for that!" -- Loki'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/06030
+- names:
+  - Under Surveillance
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 31
+    quantity: 3
+  faces:
+  - name: Under Surveillance
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Condition
+    text: |-
+      Attach to the main scheme. Max 1 per scheme.
+      Increase the target threat value of attached scheme by 4.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/06031
+- names:
+  - Teamwork
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 32
+    quantity: 3
+  faces:
+  - name: Teamwork
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Tactic
+    text: '**Hero Interrupt** When you use your basic thwart power _(THW)_ or basic
+      attack power _(ATK)_, exhaust an ally you control → add that ally''s matching
+      power to your hero''s power for this use.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/06032
+- names:
+  - Second Wind
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 33
+    quantity: 3
+  faces:
+  - name: Second Wind
+    cost: 3
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    text: '**Action**: Heal 4 damage from an identity (5 damage instead if you paid
+      for this card using a [mental] resource).'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/33.png
+    marvelcdb_url: https://marvelcdb.com/card/06033
+- names:
+  - Enhanced Physique
+  packs:
+  - name: Thor
+    sku: MC06en
+    position: 34
+    quantity: 3
+  faces:
+  - name: Enhanced Physique
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Condition 
+    keywords:
+    - Uses
+    text: |-
+      Uses (3 physical counters).
+      **Hero Resource**: Exhaust Enhanced Physique and remove 1 physical counter from it → generate a [physical] resource.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc06en/34.png
+    marvelcdb_url: https://marvelcdb.com/card/06034

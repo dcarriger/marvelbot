@@ -148,50 +148,6 @@ func TestCard_Normalize(t *testing.T) {
 	}
 }
 
-// TODO - sentinel errors
-func TestCard_GetImagePath(t *testing.T) {
-	var testCases = []struct {
-		name   string
-		input  *Card
-		output string
-		err    bool
-	}{
-		{name: "Card with no path",
-			input:  &Card{},
-			output: "",
-			err:    true,
-		},
-		{name: "Card with non-PNG path",
-			input: &Card{
-				ImageSrc: `\/bundles\/cards\/test.jpg`,
-			},
-			output: "images/test.png",
-			err:    false,
-		},
-		{name: "Card with PNG path",
-			input: &Card{
-				ImageSrc: `\/bundles\/cards\/test.png`,
-			},
-			output: "images/test.png",
-			err:    false,
-		},
-	}
-
-	for _, tt := range testCases {
-		result, err := tt.input.GetImagePath()
-		if result != tt.output {
-			t.Errorf("%s: want %v, got %v", tt.name, tt.output, result)
-		}
-		// TODO - refactor these after sentinel error types exist
-		if err != nil && tt.err == false {
-			t.Errorf("%s: unexpected error: %w", tt.name, tt.err)
-		}
-		if err == nil && tt.err == true {
-			t.Errorf("%s: missing error: %w", tt.name, tt.err)
-		}
-	}
-}
-
 func TestCards_SortSlice(t *testing.T) {
 	testCases := []struct {
 		name   string

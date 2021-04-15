@@ -1,0 +1,350 @@
+- names:
+  - Absorbing Man
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 76
+    quantity: 1
+  faces:
+  - name: Absorbing Man
+    type: Villain
+    unique: true
+    scheme: 1
+    attack: 2
+    traits:
+    - Brute
+    text: Absorbing Man gains the trait of each environment in play.
+    hit_points_per_player: 14
+    flavor_text: '"You know I beat Thor once? Picture that: Crusher Creel standing
+      over the God of Thunder, and you think you scare me?"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/76.png
+    marvelcdb_url: https://marvelcdb.com/card/04076
+- names:
+  - Absorbing Man
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 77
+    quantity: 1
+  faces:
+  - name: Absorbing Man
+    type: Villain
+    unique: true
+    scheme: 2
+    attack: 2
+    traits:
+    - Brute
+    text: |-
+      Absorbing Man gains the trait of each environment in play.
+      **When Revealed:** If Super Absorbing Power is in play, deal 1 encounter card to each player. Otherwise, search the encounter deck and discard pile for Super Absorbing Power and reveal it. Shuffle the encounter deck if it was searched this way.
+    hit_points_per_player: 15
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/77.png
+    marvelcdb_url: https://marvelcdb.com/card/04077
+- names:
+  - Absorbing Man
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 78
+    quantity: 1
+  faces:
+  - name: Absorbing Man
+    type: Villain
+    unique: true
+    scheme: 2
+    scheme_text: |-
+      <b>Forced Response:</b> After Absorbing Man activates against you, if he has the:
+      - [[Ice]] or [[Stone]] trait, place 1 threat on the main scheme.
+      - [[Metal]] or [[Wood]] trait, take 1 indirect damage.
+    attack: 3
+    attack_text: |-
+      <b>Forced Response:</b> After Absorbing Man activates against you, if he has the:
+      - [[Ice]] or [[Stone]] trait, place 1 threat on the main scheme.
+      - [[Metal]] or [[Wood]] trait, take 1 indirect damage.
+    traits:
+    - Brute
+    text: |
+      Absorbing Man gains the trait of each environment in play.
+    hit_points_per_player: 16
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/78.png
+    marvelcdb_url: https://marvelcdb.com/card/04078
+- names:
+  - None Shall Pass
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 79
+    quantity: 1
+  faces:
+  - name: None Shall Pass
+    type: Main Scheme
+    unique: false
+    text: |-
+      **Contents:** Absorbing Man (I) and Absorbing Man (II). Absorbing Man and Standard encounter sets. One modular encounter set <em>(Hydra Patrol).</em>
+      **Setup:** Discard cards from the encounter deck until an environment is discarded. Put that card into play and shuffle the encounter discard pile into the encounter deck.
+    starting_threat_per_player: 2
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 12
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/79A.png
+    marvelcdb_url: https://marvelcdb.com/card/04079
+  - name: None Shall Pass
+    type: Main Scheme
+    unique: false
+    text: |
+      **[star] Forced Response:** After resolving step one of the villain phase, place 1 delay counter here.
+      **Forced Interrupt:** When an environment enters play, discard each other environment card in play.
+      **If this stage is completed, the players lose the game.**
+    starting_threat_per_player: 2
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 12
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/79B.png
+    marvelcdb_url: https://marvelcdb.com/card/04079
+  horizontal: true
+- names:
+  - Dense Forest
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 80
+    quantity: 1
+  faces:
+  - name: Dense Forest
+    type: Environment
+    unique: false
+    traits:
+    - Wood
+    keywords:
+    - Surge
+    text: |-
+      Surge.
+      **Forced Response:** After Absorbing Man makes an undefended attack against you, take 1 indirect damage (2 indirect damage instead if there are 5 or more delay counters on the main scheme).
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/80.png
+    marvelcdb_url: https://marvelcdb.com/card/04080
+- names:
+  - Snowy Hillside
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 81
+    quantity: 1
+  faces:
+  - name: Snowy Hillside
+    type: Environment
+    unique: false
+    traits:
+    - Ice
+    keywords:
+    - Surge
+    text: |-
+      Surge.
+      **Forced Response:** After Absorbing Man makes an undefended attack against you, place 1 threat on the main scheme (2 threat instead if there are 5 or more delay counters on the main scheme).
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/81.png
+    marvelcdb_url: https://marvelcdb.com/card/04081
+- names:
+  - Rocky Outcrop
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 82
+    quantity: 1
+  faces:
+  - name: Rocky Outcrop
+    type: Environment
+    unique: false
+    traits:
+    - Stone
+    keywords:
+    - Surge
+    text: |-
+      Surge.
+      **Forced Response:** After Absorbing Man makes an undefended attack against you, heal 1 damage from him (2 damage instead if there are 5 or more delay counters on the main scheme).
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/82.png
+    marvelcdb_url: https://marvelcdb.com/card/04082
+- names:
+  - Abandoned Facility
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 83
+    quantity: 1
+  faces:
+  - name: Abandoned Facility
+    type: Environment
+    unique: false
+    traits:
+    - Metal
+    keywords:
+    - Surge
+    text: |-
+      Surge.
+      **Forced Response:** After Absorbing Man makes an undefended attack against you, discard 1 resource icon from your hand (2 resources instead if there are 5 or more delay counters on the main scheme).
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/83.png
+    marvelcdb_url: https://marvelcdb.com/card/04083
+- names:
+  - Ball and Chain
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 84
+    quantity: 1
+  faces:
+  - name: Ball and Chain
+    type: Attachment
+    unique: true
+    scheme: 1
+    attack: 1
+    traits:
+    - Weapon
+    text: |-
+      Attach to Absorbing Man.
+      **Hero Action:** Spend a [physical] resource → shuffle this card into the encounter deck.
+    boost_icons: 0
+    star_text: Reveal this card.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/84.png
+    marvelcdb_url: https://marvelcdb.com/card/04084
+- names:
+  - Stall Tactics
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 85
+    quantity: 2
+  faces:
+  - name: Stall Tactics
+    type: Treachery
+    unique: false
+    text: '**When Revealed:** Place 1 threat on the main scheme for every 2 delay
+      counters on the main scheme. If no threat was placed this way, this card gains
+      surge.'
+    boost_icons: 0
+    star_text: If there are 5 or more delay counters on the main scheme, take 1 indirect
+      damage.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/85.png
+    marvelcdb_url: https://marvelcdb.com/card/04085
+- names:
+  - Swinging Stone
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 86
+    quantity: 2
+  faces:
+  - name: Swinging Stone
+    type: Environment
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego):** Absorbing Man schemes. If Absorbing Man has the [[Stone]] trait, he gets +1 SCH for this activation.
+      **When Revealed (Hero):** Absorbing Man attacks you. If Absorbing Man has the [[Stone]] trait, he gets +1 ATK for this activation.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/86.png
+    marvelcdb_url: https://marvelcdb.com/card/04086
+- names:
+  - Steel Kick
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 87
+    quantity: 2
+  faces:
+  - name: Steel Kick
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego):** Place 2 threat on the main scheme (3 threat instead if Absorbing Man has the [[Metal]] trait.)
+      **When Revealed (Hero):** Take 3 indirect damage (4 indirect damage instead if Absorbing Man has the [[Metal]] trait.)
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/87.png
+    marvelcdb_url: https://marvelcdb.com/card/04087
+- names:
+  - Piercing Thorns
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 88
+    quantity: 2
+  faces:
+  - name: Piercing Thorns
+    type: Treachery
+    unique: false
+    text: '**When Revealed:** Discard 1 card at random from your hand. If Absorbing
+      Man has the [[Wood]] trait, discard 1 card you control.'
+    boost_icons: 1
+    star_text: If Absorbing Man has the [[Stone]] or [[Wood]] trait, you are stunned.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/88.png
+    marvelcdb_url: https://marvelcdb.com/card/04088
+- names:
+  - Omni-Morph Duplication
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 89
+    quantity: 3
+  faces:
+  - name: Omni-Morph Duplication
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed:** If Absorbing Man has the:
+      - [[Ice]] trait, exhaust your identity.
+      - [[Metal]] trait, give Absorbing Man a tough status card and heal 1 damage from him.
+      - [[Stone]] trait, give Absorbing Man 1 facedown boost card.
+      - [[Wood]] trait, discard 1 card at random from your hand.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/89.png
+    marvelcdb_url: https://marvelcdb.com/card/04089
+- names:
+  - Icy Grip
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 90
+    quantity: 2
+  faces:
+  - name: Icy Grip
+    type: Treachery
+    unique: false
+    text: '**When Revealed:** You are stunned. If Absorbing Man has the [[Ice]] trait,
+      take 2 indirect damage.'
+    boost_icons: 2
+    star_text: If Absorbing Man has the [[Ice]] or [[Metal]] trait, give him a tough
+      status card.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/90.png
+    marvelcdb_url: https://marvelcdb.com/card/04090
+- names:
+  - Avalanche!
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 91
+    quantity: 2
+  faces:
+  - name: Avalanche!
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed:** Each Player must choose to either spend a [energy] resource
+      or take 2 indirect damage (3 indirect damage instead if there are 5 or more
+      delay counters on the main scheme.)'
+    boost_icons: 3
+    starting_threat_per_player: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/91.png
+    marvelcdb_url: https://marvelcdb.com/card/04091
+  horizontal: true
+- names:
+  - Super Absorbing Power
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 92
+    quantity: 1
+  faces:
+  - name: Super Absorbing Power
+    type: Side Scheme
+    unique: false
+    text: Absorbing Man gains the [[Ice]], [[Metal]], [[Stone]], and [[Wood]] traits.
+    boost_icons: 0
+    star_text: Reveal this card.
+    starting_threat_per_player: 3
+    flavor_text: Creel has the ability to absorb the properties of multiple elements
+      at once, but it requires intense concentration.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/92.png
+    marvelcdb_url: https://marvelcdb.com/card/04092
+  horizontal: true

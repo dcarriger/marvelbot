@@ -1,0 +1,247 @@
+- names:
+  - Mockingbird
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 83
+    quantity: 1
+  faces:
+  - name: Mockingbird
+    subtitle: Bobbi Morse
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Basic
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Spy
+    text: '**Response**: After Mockingbird enters play, stun an enemy.'
+    hit_points: 3
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/83.png
+    marvelcdb_url: https://marvelcdb.com/card/01083
+- names:
+  - Nick Fury
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 84
+    quantity: 1
+  faces:
+  - name: Nick Fury
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Basic
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Spy
+    text: '**Forced Response**: After Nick Fury enters play, choose one: remove 2
+      threat from a scheme, draw 3 cards, or deal 4 damage to an enemy. At the end
+      of the round, if Nick Fury is still in play, discard him.'
+    hit_points: 3
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/84.png
+    marvelcdb_url: https://marvelcdb.com/card/01084
+- names:
+  - Emergency
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 85
+    quantity: 3
+  faces:
+  - name: Emergency
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Thwart
+    text: '**Interrupt** (_thwart_): When the villain schemes, reduce the amount of
+      threat placed on the scheme by 1.'
+    flavor_text: '"CALLING ALL UNITS! CALLING ALL UNITS!"'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/85.png
+    marvelcdb_url: https://marvelcdb.com/card/01085
+- names:
+  - First Aid
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 86
+    quantity: 3
+  faces:
+  - name: First Aid
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    text: '**Action**: Heal 2 damage from any character.'
+    flavor_text: '"Does it still qualify as first aid if it''s your second day in
+      the hospital?" -- Clint Barton'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/86.png
+    marvelcdb_url: https://marvelcdb.com/card/01086
+- names:
+  - Haymaker
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 87
+    quantity: 3
+  faces:
+  - name: Haymaker
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Attack
+    text: '**Hero Action** (_attack_): Deal 3 damage to an enemy.'
+    flavor_text: WHAM!
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/87.png
+    marvelcdb_url: https://marvelcdb.com/card/01087
+- names:
+  - Energy
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 88
+    quantity: 4
+  faces:
+  - name: Energy
+    type: Resource
+    unique: false
+    aspect:
+    - Basic
+    text: Max 1 per deck.
+    resources:
+      energy: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/88.png
+    marvelcdb_url: https://marvelcdb.com/card/01088
+- names:
+  - Genius
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 89
+    quantity: 4
+  faces:
+  - name: Genius
+    type: Resource
+    unique: false
+    aspect:
+    - Basic
+    text: Max 1 per deck.
+    resources:
+      mental: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/89.png
+    marvelcdb_url: https://marvelcdb.com/card/01089
+- names:
+  - Strength
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 90
+    quantity: 4
+  faces:
+  - name: Strength
+    type: Resource
+    unique: false
+    aspect:
+    - Basic
+    text: Max 1 per deck.
+    resources:
+      physical: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/90.png
+    marvelcdb_url: https://marvelcdb.com/card/01090
+- names:
+  - Avengers Mansion
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 91
+    quantity: 4
+  faces:
+  - name: Avengers Mansion
+    cost: 4
+    type: Support
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Avenger
+    - Location
+    text: |-
+      Max 1 per player.
+      **Action**: Exhaust Avengers Mansion → choose a player. That player draws 1 card.
+    flavor_text: '"Did you remember to turn off the stove?" -- Janet Van Dyne'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/91.png
+    marvelcdb_url: https://marvelcdb.com/card/01091
+- names:
+  - Helicarrier
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 92
+    quantity: 4
+  faces:
+  - name: Helicarrier
+    cost: 3
+    type: Support
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Location
+    text: |-
+      Max 1 per player.
+      **Action**: Exhaust Helicarrier → choose a player. Reduce the resource cost of the next card that player plays this phase by 1.
+    flavor_text: '"A flying aircraft carrier? You''re kidding, right?" -- Jennifer
+      Walters'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/92.png
+    marvelcdb_url: https://marvelcdb.com/card/01092
+- names:
+  - Tenacity
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 93
+    quantity: 3
+  faces:
+  - name: Tenacity
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Condition
+    text: '**Hero Action**: Spend a [physical] resource and discard this card → ready
+      your hero.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/93.png
+    marvelcdb_url: https://marvelcdb.com/card/01093

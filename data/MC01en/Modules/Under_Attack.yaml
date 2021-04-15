@@ -1,0 +1,75 @@
+- names:
+  - Under Attack
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 151
+    quantity: 1
+  faces:
+  - name: Under Attack
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Each player chooses to either place 2 threat here or
+      deal 3 damage to their hero.'
+    boost_icons: 3
+    starting_threat: 3
+    flavor_text: Civilians are under attack. They need your help fast!
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/151.png
+    marvelcdb_url: https://marvelcdb.com/card/01151
+  horizontal: true
+- names:
+  - Vibranium Armor
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 152
+    quantity: 1
+  faces:
+  - name: Vibranium Armor
+    type: Attachment
+    unique: false
+    traits:
+    - Armor
+    text: |-
+      Attach to the villain.
+      **Forced Response**: After the villain take damage, give it a tough status card.
+      **Hero Action**: Exhaust your hero and spend [physical] [physical] resources → discard this card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/152.png
+    marvelcdb_url: https://marvelcdb.com/card/01152
+- names:
+  - Concussion Blasters
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 153
+    quantity: 1
+  faces:
+  - name: Concussion Blasters
+    type: Attachment
+    unique: false
+    traits:
+    - Weapon
+    text: |-
+      Attach to the villain.
+      The villain gains retaliate 1.
+      **Hero Action**: Exhaust your hero and spend [energy] [energy] resources → discard this card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/153.png
+    marvelcdb_url: https://marvelcdb.com/card/01153
+- names:
+  - Concussive Blast
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 154
+    quantity: 2
+  faces:
+  - name: Concussive Blast
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Deal 1 damage to each friendly character.'
+    boost_icons: 0
+    star_text: Deal 1 damage to each character you control.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/154.png
+    marvelcdb_url: https://marvelcdb.com/card/01154

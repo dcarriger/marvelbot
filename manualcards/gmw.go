@@ -2,102 +2,64 @@ package manualcards
 
 import "marvelbot/card"
 
-var ManualCards = []*card.Card{
-	/*
-		&card.Card{
-			TypeCode:              "hero",
-			Position:              1,
-			Name:                  "Groot",
-			DoubleSided:           true,
-			ImageSrc:              "images/16001a.png",
-			BackImageSrc:          "images/16001b.png",
-		},
-	*/
-	&card.Card{
-		TypeCode:    "obligation",
-		Position:    25,
-		Name:        "Wilt",
-		DoubleSided: false,
-		ImageSrc:    "images/16025.png",
-	},
-	&card.Card{
-		TypeCode:    "side_scheme",
-		Position:    26,
-		Name:        "Blazing Inferno",
-		DoubleSided: false,
-		ImageSrc:    "images/16026.png",
-	},
-	&card.Card{
-		TypeCode:    "minion",
-		Position:    27,
-		Name:        "Furnax",
-		DoubleSided: false,
-		ImageSrc:    "images/16027.png",
-	},
-	&card.Card{
-		TypeCode:    "treachery",
-		Position:    28,
-		Name:        "Fan the Flames",
-		DoubleSided: false,
-		ImageSrc:    "images/16028.png",
-	},
-	&card.Card{
+var ManualCards = []*card.MarvelCDBCard{
+	&card.MarvelCDBCard{
 		TypeCode:    "obligation",
 		Position:    53,
 		Name:        "Crisis on Halfworld",
 		DoubleSided: false,
 		ImageSrc:    "images/16053.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		Position:    54,
 		Name:        "Vendetta",
 		DoubleSided: false,
 		ImageSrc:    "images/16054.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		Position:    55,
 		Name:        "Blackjack O'Hare",
 		DoubleSided: false,
 		ImageSrc:    "images/16055.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "attachment",
 		Position:    56,
 		Name:        "Blackjack's Bazooka",
 		DoubleSided: false,
 		ImageSrc:    "images/16056.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		Position:    57,
 		Name:        "Planetary Invasion",
 		DoubleSided: false,
 		ImageSrc:    "images/16057.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "villain",
 		Position:    58,
 		Name:        "Drang",
 		DoubleSided: false,
 		ImageSrc:    "images/16058.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "villain",
 		Position:    59,
 		Name:        "Drang",
 		DoubleSided: false,
 		ImageSrc:    "images/16059.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "villain",
 		Position:    60,
 		Name:        "Drang",
 		DoubleSided: false,
 		ImageSrc:    "images/16060.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "main_scheme",
 		Position:     61,
 		Name:         "Terrestrial Invasion",
@@ -105,7 +67,7 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16061b.png",
 		BackImageSrc: "images/16061a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "main_scheme",
 		Position:     62,
 		Name:         "Protect the Planet",
@@ -113,77 +75,77 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16062b.png",
 		BackImageSrc: "images/16062a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "environment",
 		Position:    63,
 		Name:        "Badoon Ship",
 		DoubleSided: false,
 		ImageSrc:    "images/16063.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "attachment",
 		Position:    64,
 		Name:        "Drang's Spear",
 		DoubleSided: false,
 		ImageSrc:    "images/16064.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		Position:    65,
 		Name:        "Badoon Engineer",
 		DoubleSided: false,
 		ImageSrc:    "images/16065.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		Position:    66,
 		Name:        "Blockade",
 		DoubleSided: false,
 		ImageSrc:    "images/16066.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		Position:    67,
 		Name:        "Bombardment",
 		DoubleSided: false,
 		ImageSrc:    "images/16067.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		Position:    68,
 		Name:        "Oppressive Armada",
 		DoubleSided: false,
 		ImageSrc:    "images/16068.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		Position:    69,
 		Name:        "Spatial Positioning",
 		DoubleSided: false,
 		ImageSrc:    "images/16069.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "villain",
 		Position:    70,
 		Name:        "Collector",
 		DoubleSided: false,
 		ImageSrc:    "images/16070.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "villain",
 		Position:    71,
 		Name:        "Collector",
 		DoubleSided: false,
 		ImageSrc:    "images/16071.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "villain",
 		Position:    72,
 		Name:        "Collector",
 		DoubleSided: false,
 		ImageSrc:    "images/16072.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "main_scheme",
 		Position:     73,
 		Name:         "The Grand Collection",
@@ -191,51 +153,42 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16073b.png",
 		BackImageSrc: "images/16073a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "attachment",
 		Position:    74,
 		Name:        "Biogram Image",
 		DoubleSided: false,
 		ImageSrc:    "images/16074.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		Position:    75,
 		Name:        "Monark Starstalker",
 		DoubleSided: false,
 		ImageSrc:    "images/16075.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		Position:    76,
 		Name:        "Inconspicuous Box",
 		DoubleSided: false,
 		ImageSrc:    "images/16076.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		Position:    77,
 		Name:        "View the Cosmos",
 		DoubleSided: false,
 		ImageSrc:    "images/16077.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		Position:    78,
 		Name:        "Stay Awhile",
 		DoubleSided: false,
 		ImageSrc:    "images/16078.png",
 	},
-	/*
-		&card.Card{
-			TypeCode:              "treachery",
-			Position:              78,
-			Name:                  "Caught Off Guard",
-			DoubleSided:           false,
-			ImageSrc:              "images/16079.png",
-		},
-	*/
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "villain",
 		Position:     80,
 		Name:         "Collector",
@@ -243,7 +196,7 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16080b.png",
 		BackImageSrc: "images/16080a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "villain",
 		Position:     81,
 		Name:         "Collector",
@@ -251,7 +204,7 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16081b.png",
 		BackImageSrc: "images/16081a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "main_scheme",
 		Position:     82,
 		Name:         "The Missing Milano",
@@ -259,7 +212,7 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16082b.png",
 		BackImageSrc: "images/16082a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "main_scheme",
 		Position:     83,
 		Name:         "Lost in the Museum",
@@ -267,7 +220,7 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16083b.png",
 		BackImageSrc: "images/16083a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "main_scheme",
 		Position:     84,
 		Name:         "The Great Escape",
@@ -275,7 +228,7 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16084b.png",
 		BackImageSrc: "images/16084a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "environment",
 		Position:     85,
 		Name:         "Library Labyrinth",
@@ -283,7 +236,7 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16085b.png",
 		BackImageSrc: "images/16085a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "environment",
 		Position:     85,
 		Name:         "Museum Ship",
@@ -291,42 +244,42 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16085a.png",
 		BackImageSrc: "images/16085b.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		Position:    86,
 		Name:        "\"I Have You Now!\"",
 		DoubleSided: false,
 		ImageSrc:    "images/16086.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		Position:    87,
 		Name:        "Impossible Geometry",
 		DoubleSided: false,
 		ImageSrc:    "images/16087.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "villain",
 		Position:    88,
 		Name:        "Nebula",
 		DoubleSided: false,
 		ImageSrc:    "images/16088.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "villain",
 		Position:    89,
 		Name:        "Nebula",
 		DoubleSided: false,
 		ImageSrc:    "images/16089.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "villain",
 		Position:    90,
 		Name:        "Nebula",
 		DoubleSided: false,
 		ImageSrc:    "images/16090.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "main_scheme",
 		Position:     91,
 		Name:         "The Art of Evasion",
@@ -334,7 +287,7 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16091b.png",
 		BackImageSrc: "images/16091a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "main_scheme",
 		Position:     92,
 		Name:         "Warp Drive Initiated",
@@ -342,98 +295,98 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16092b.png",
 		BackImageSrc: "images/16092a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "environment",
 		Position:    93,
 		Name:        "Nebula's Ship",
 		DoubleSided: false,
 		ImageSrc:    "images/16093.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "technique",
 		Position:    94,
 		Name:        "Cutthroat Ambition",
 		DoubleSided: false,
 		ImageSrc:    "images/16094.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "technique",
 		Position:    95,
 		Name:        "Evasive Maneuvering",
 		DoubleSided: false,
 		ImageSrc:    "images/16095.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "technique",
 		Position:    96,
 		Name:        "Unyielding Persistence",
 		DoubleSided: false,
 		ImageSrc:    "images/16096.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "technique",
 		Position:    97,
 		Name:        "Weapon Mastery",
 		DoubleSided: false,
 		ImageSrc:    "images/16097.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "technique",
 		Position:    98,
 		Name:        "Wide Stance",
 		DoubleSided: false,
 		ImageSrc:    "images/16098.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		Position:    99,
 		Name:        "Lethal Intent",
 		DoubleSided: false,
 		ImageSrc:    "images/16099.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		Position:    100,
 		Name:        "Barrel Roll",
 		DoubleSided: false,
 		ImageSrc:    "images/16100.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		Position:    101,
 		Name:        "Combat Ready",
 		DoubleSided: false,
 		ImageSrc:    "images/16101.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		Position:    102,
 		Name:        "Ruthless",
 		DoubleSided: false,
 		ImageSrc:    "images/16102.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "villain",
 		Position:    103,
 		Name:        "Ronan the Accuser",
 		DoubleSided: false,
 		ImageSrc:    "images/16103.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "villain",
 		Position:    104,
 		Name:        "Ronan the Accuser",
 		DoubleSided: false,
 		ImageSrc:    "images/16104.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "villain",
 		Position:    105,
 		Name:        "Ronan the Accuser",
 		DoubleSided: false,
 		ImageSrc:    "images/16105.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "main_scheme",
 		Position:     106,
 		Name:         "Interception Imminent",
@@ -441,7 +394,7 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16106b.png",
 		BackImageSrc: "images/16106a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:     "main_scheme",
 		Position:     107,
 		Name:         "\"Take What Is Mine\"",
@@ -449,105 +402,105 @@ var ManualCards = []*card.Card{
 		ImageSrc:     "images/16107b.png",
 		BackImageSrc: "images/16107a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "environment",
 		Position:    108,
 		Name:        "Kree Command Ship",
 		DoubleSided: false,
 		ImageSrc:    "images/16108.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "attachment",
 		Position:    109,
 		Name:        "Universal Weapon",
 		DoubleSided: false,
 		ImageSrc:    "images/16109.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "attachment",
 		Position:    110,
 		Name:        "Fanaticism",
 		DoubleSided: false,
 		ImageSrc:    "images/16110.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		Position:    111,
 		Name:        "Cut the Power",
 		DoubleSided: false,
 		ImageSrc:    "images/16111.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		Position:    112,
 		Name:        "Pincer Maneuver",
 		DoubleSided: false,
 		ImageSrc:    "images/16112.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		Position:    113,
 		Name:        "Superior Tactics",
 		DoubleSided: false,
 		ImageSrc:    "images/16113.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		Position:    114,
 		Name:        "Single-Minded Fury",
 		DoubleSided: false,
 		ImageSrc:    "images/16114.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		Position:    115,
 		Name:        "Kree Physiology",
 		DoubleSided: false,
 		ImageSrc:    "images/16115.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		Position:    116,
 		Name:        "\"You Stand Accused!\"",
 		DoubleSided: false,
 		ImageSrc:    "images/16116.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		Position:    117,
 		Name:        "Badoon Assassin",
 		DoubleSided: false,
 		ImageSrc:    "images/16117.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		Position:    118,
 		Name:        "Badoon Grunt",
 		DoubleSided: false,
 		ImageSrc:    "images/16118.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		Position:    119,
 		Name:        "Badoon Lieutenant",
 		DoubleSided: false,
 		ImageSrc:    "images/16119.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		Position:    120,
 		Name:        "Badoon Sentry",
 		DoubleSided: false,
 		ImageSrc:    "images/16120.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		Position:    121,
 		Name:        "Badoon Warlord",
 		DoubleSided: false,
 		ImageSrc:    "images/16121.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "attachment",
 		SetName:     "Galactic Artifacts",
 		Position:    122,
@@ -555,7 +508,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16122.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "attachment",
 		SetName:     "Galactic Artifacts",
 		Position:    123,
@@ -563,7 +516,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16123.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "attachment",
 		SetName:     "Galactic Artifacts",
 		Position:    124,
@@ -571,7 +524,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16124.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "attachment",
 		SetName:     "Galactic Artifacts",
 		Position:    125,
@@ -579,7 +532,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16125.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "attachment",
 		SetName:     "Galactic Artifacts",
 		Position:    126,
@@ -587,7 +540,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16126.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		SetName:     "Galactic Artifacts",
 		Position:    127,
@@ -595,7 +548,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16127.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		SetName:     "Galactic Artifacts",
 		Position:    128,
@@ -603,7 +556,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16128.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		SetName:     "Galactic Artifacts",
 		Position:    129,
@@ -611,7 +564,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16129.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		SetName:     "Galactic Artifacts",
 		Position:    130,
@@ -619,7 +572,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16130.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "attachment",
 		SetName:     "Kree Militants",
 		Position:    131,
@@ -627,7 +580,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16131.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		SetName:     "Kree Militants",
 		Position:    132,
@@ -635,7 +588,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16132.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		SetName:     "Kree Militants",
 		Position:    133,
@@ -643,7 +596,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16133.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		SetName:     "Kree Militants",
 		Position:    134,
@@ -651,7 +604,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16134.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		SetName:     "Menagerie Medley",
 		Position:    135,
@@ -659,7 +612,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16135.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		SetName:     "Menagerie Medley",
 		Position:    136,
@@ -667,7 +620,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16136.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		SetName:     "Menagerie Medley",
 		Position:    137,
@@ -675,7 +628,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16137.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		SetName:     "Space Pirates",
 		Position:    138,
@@ -683,7 +636,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16138.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		SetName:     "Space Pirates",
 		Position:    139,
@@ -691,7 +644,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16139.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		SetName:     "Space Pirates",
 		Position:    140,
@@ -699,7 +652,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16140.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		SetName:     "Space Pirates",
 		Position:    141,
@@ -707,7 +660,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16141.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "support",
 		SetName:     "Ship Command",
 		Position:    142,
@@ -715,7 +668,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16142.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "environment",
 		SetName:     "Ship Command",
 		Position:    143,
@@ -723,7 +676,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16143.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		SetName:     "Ship Command",
 		Position:    144,
@@ -731,7 +684,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16144.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		SetName:     "Ship Command",
 		Position:    145,
@@ -739,7 +692,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16145.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		SetName:     "Ship Command",
 		Position:    146,
@@ -747,7 +700,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16146.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "side_scheme",
 		SetName:     "Ship Command",
 		Position:    147,
@@ -755,7 +708,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16147.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		SetName:     "Ship Command",
 		Position:    148,
@@ -763,7 +716,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16148.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "attachment",
 		SetName:     "Power Stone",
 		Position:    149,
@@ -771,7 +724,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16149.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    150,
@@ -779,7 +732,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16150.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    151,
@@ -787,7 +740,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16151.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    152,
@@ -795,7 +748,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16152.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    153,
@@ -803,7 +756,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16153.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    154,
@@ -811,7 +764,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16154.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    155,
@@ -819,7 +772,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16155.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    156,
@@ -827,7 +780,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16156.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    157,
@@ -835,7 +788,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16157.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    158,
@@ -843,7 +796,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16158.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    159,
@@ -851,7 +804,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16159.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    160,
@@ -859,7 +812,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16160.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    161,
@@ -867,7 +820,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16161.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "upgrade",
 		SetName:     "The Market",
 		Position:    162,
@@ -875,7 +828,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16162.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "upgrade",
 		SetName:     "The Market",
 		Position:    163,
@@ -883,7 +836,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16163.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "upgrade",
 		SetName:     "The Market",
 		Position:    164,
@@ -891,7 +844,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16164.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "upgrade",
 		SetName:     "The Market",
 		Position:    165,
@@ -899,7 +852,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16165.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    166,
@@ -907,7 +860,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16166.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    167,
@@ -915,7 +868,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16167.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    168,
@@ -923,7 +876,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16168.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    169,
@@ -931,7 +884,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16169.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "upgrade",
 		SetName:     "The Market",
 		Position:    170,
@@ -939,7 +892,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16170.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "upgrade",
 		SetName:     "The Market",
 		Position:    171,
@@ -947,7 +900,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16171.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "upgrade",
 		SetName:     "The Market",
 		Position:    172,
@@ -955,7 +908,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16172.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "upgrade",
 		SetName:     "The Market",
 		Position:    173,
@@ -963,7 +916,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16173.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    174,
@@ -971,7 +924,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16174.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    175,
@@ -979,7 +932,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16175.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    176,
@@ -987,7 +940,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16176.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "event",
 		SetName:     "The Market",
 		Position:    177,
@@ -995,47 +948,47 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16177.png",
 	},
-	&card.Card{
-		TypeCode:    "side_scheme",
-		Position:    178,
-		Name:        "Badoon Blitz",
-		DoubleSided: false,
-		ImageSrc:    "images/16178b.png",
+	&card.MarvelCDBCard{
+		TypeCode:     "side_scheme",
+		Position:     178,
+		Name:         "Badoon Blitz",
+		DoubleSided:  false,
+		ImageSrc:     "images/16178b.png",
 		BackImageSrc: "images/16178a.png",
 	},
-	&card.Card{
-		TypeCode:    "side_scheme",
-		Position:    179,
-		Name:        "Gallery of Splendor",
-		DoubleSided: false,
-		ImageSrc:    "images/16179b.png",
+	&card.MarvelCDBCard{
+		TypeCode:     "side_scheme",
+		Position:     179,
+		Name:         "Gallery of Splendor",
+		DoubleSided:  false,
+		ImageSrc:     "images/16179b.png",
 		BackImageSrc: "images/16179a.png",
 	},
-	&card.Card{
-		TypeCode:    "side_scheme",
-		Position:    180,
-		Name:        "\"There Is No Escape\"",
-		DoubleSided: false,
-		ImageSrc:    "images/16180b.png",
+	&card.MarvelCDBCard{
+		TypeCode:     "side_scheme",
+		Position:     180,
+		Name:         "\"There Is No Escape\"",
+		DoubleSided:  false,
+		ImageSrc:     "images/16180b.png",
 		BackImageSrc: "images/16180a.png",
 	},
-	&card.Card{
-		TypeCode:    "side_scheme",
-		Position:    181,
-		Name:        "Guerilla Tactics",
-		DoubleSided: false,
-		ImageSrc:    "images/16181b.png",
+	&card.MarvelCDBCard{
+		TypeCode:     "side_scheme",
+		Position:     181,
+		Name:         "Guerilla Tactics",
+		DoubleSided:  false,
+		ImageSrc:     "images/16181b.png",
 		BackImageSrc: "images/16181a.png",
 	},
-	&card.Card{
-		TypeCode:    "side_scheme",
-		Position:    182,
-		Name:        "Kree Supremacy",
-		DoubleSided: false,
-		ImageSrc:    "images/16182b.png",
+	&card.MarvelCDBCard{
+		TypeCode:     "side_scheme",
+		Position:     182,
+		Name:         "Kree Supremacy",
+		DoubleSided:  false,
+		ImageSrc:     "images/16182b.png",
 		BackImageSrc: "images/16182a.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		SetName:     "Badoon Headhunter",
 		Position:    183,
@@ -1043,7 +996,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16183.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		SetName:     "Badoon Headhunter",
 		Position:    184,
@@ -1051,7 +1004,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16184.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		SetName:     "Badoon Headhunter",
 		Position:    185,
@@ -1059,7 +1012,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16185.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "minion",
 		SetName:     "Badoon Headhunter",
 		Position:    186,
@@ -1067,7 +1020,7 @@ var ManualCards = []*card.Card{
 		DoubleSided: false,
 		ImageSrc:    "images/16186.png",
 	},
-	&card.Card{
+	&card.MarvelCDBCard{
 		TypeCode:    "treachery",
 		SetName:     "Badoon Headhunter",
 		Position:    187,

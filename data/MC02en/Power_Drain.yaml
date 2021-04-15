@@ -1,0 +1,95 @@
+- names:
+  - Power Drain
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 41
+    quantity: 1
+  faces:
+  - name: Power Drain
+    type: Side Scheme
+    unique: false
+    text: '**When Defeated**: Discard 2 cards from the encounter deck. Each player
+      must choose and discard 1 resource of any type from their hand for each boost
+      icon discarded this way.'
+    boost_icons: 3
+    starting_threat_per_player: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/41.png
+    marvelcdb_url: https://marvelcdb.com/card/02041
+  horizontal: true
+- names:
+  - Electro
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 42
+    quantity: 1
+  faces:
+  - name: Electro
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 2
+    attack_text: '<b>Forced Response</b>: After Electro attacks you, discard 1 card
+      from the encounter deck. Take 1 indirect damage for each boost icon discarded
+      this way.'
+    traits:
+    - Criminal
+    text: null
+    hit_points: 6
+    boost_icons: 2
+    star_text: Discard 3 cards from the encounter deck.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/42.png
+    marvelcdb_url: https://marvelcdb.com/card/02042
+- names:
+  - Electromagnetic Pulse
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 43
+    quantity: 1
+  faces:
+  - name: Electromagnetic Pulse
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Discard 7 cards from the encounter deck. If Electro
+      was discarded this way, put him into play engaged with you. If Electro was not
+      discarded this way, this card gains surge.'
+    boost_icons: 2
+    star_text: Discard 3 cards from the encounter deck.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/43.png
+    marvelcdb_url: https://marvelcdb.com/card/02043
+- names:
+  - Lightning Bolt
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 44
+    quantity: 1
+  faces:
+  - name: Lightning Bolt
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Discard 2 cards from the encounter deck. Take 1 indirect
+      damage for each boost icon discarded this way.'
+    boost_icons: 1
+    star_text: Discard 3 cards from the encounter deck.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/44.png
+    marvelcdb_url: https://marvelcdb.com/card/02044
+- names:
+  - Shock Therapy
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 45
+    quantity: 1
+  faces:
+  - name: Shock Therapy
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Discard 1[per_hero] cards from the encounter deck. The
+      villain heals 1 damage for each boost icon discarded this way.'
+    boost_icons: 1
+    star_text: Discard 3 cards from the encounter deck.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/45.png
+    marvelcdb_url: https://marvelcdb.com/card/02045

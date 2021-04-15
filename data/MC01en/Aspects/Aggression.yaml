@@ -1,0 +1,196 @@
+- names:
+  - Hulk
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 50
+    quantity: 1
+  faces:
+  - name: Hulk
+    subtitle: Bruce Banner
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Aggression
+    attack: 3
+    attack_consequential: 1
+    traits:
+    - Avenger
+    - Gamma
+    text: |-
+      **Forced Response**: After Hulk attacks, discard the top card of your deck. If that card's printed resource has:
+      [physical] - Deal 2 damage to an enemy.
+      [energy] - Deal 1 damage to each character.
+      [mental] - Discard Hulk.
+      [wild] - All of the above.
+    hit_points: 5
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/50.png
+    marvelcdb_url: https://marvelcdb.com/card/01050
+- names:
+  - Tigra
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 51
+    quantity: 1
+  faces:
+  - name: Tigra
+    subtitle: Greer Grant Nelson
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Aggression
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Response**: After Tigra attacks and defeats a minion, heal 1 damage from
+      her.'
+    hit_points: 3
+    flavor_text: '"Sorry -- no autographs."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/51.png
+    marvelcdb_url: https://marvelcdb.com/card/01051
+- names:
+  - Chase Them Down
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 52
+    quantity: 3
+  faces:
+  - name: Chase Them Down
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Thwart
+    text: '**Response** (_thwart_): After your hero attacks and defeats an enemy,
+      remove 2 threat from a scheme.'
+    flavor_text: '"Kamala, we don''t have a theme song. Please stop humming one..."
+      -- Captain Marvel'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/52.png
+    marvelcdb_url: https://marvelcdb.com/card/01052
+- names:
+  - Relentless Assault
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 53
+    quantity: 3
+  faces:
+  - name: Relentless Assault
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Attack
+    text: '**Hero Action** (_attack_): Deal 5 damage to a minion. If you paid for
+      this card using a [physical] resource, this attack gains overkill. _(Excess
+      damage from this attack is dealt to the villain.)_'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/53.png
+    marvelcdb_url: https://marvelcdb.com/card/01053
+- names:
+  - Uppercut
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 54
+    quantity: 3
+  faces:
+  - name: Uppercut
+    cost: 3
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Attack
+    text: '**Hero Action** (_attack_): Deal 5 damage to an enemy.'
+    flavor_text: SMACK!
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/54.png
+    marvelcdb_url: https://marvelcdb.com/card/01054
+- names:
+  - The Power of Aggression
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 55
+    quantity: 2
+  faces:
+  - name: The Power of Aggression
+    type: Resource
+    unique: false
+    aspect:
+    - Aggression
+    text: |-
+      Max 2 per deck.
+      Double the number of resources this card generates while paying for a Aggression _(red)_ card.
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/55.png
+    marvelcdb_url: https://marvelcdb.com/card/01055
+- names:
+  - Tac Team
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 56
+    quantity: 3
+  faces:
+  - name: Tac Team
+    cost: 3
+    type: Support
+    unique: false
+    aspect:
+    - Aggression
+    keywords:
+    - Uses
+    text: |-
+      Uses (3 attack counters). _(Enters play with 3 counters. When those are gone, discard this card)_
+      **Action**: Exhaust Tac Team and remove 1 attack counter from it → deal 2 damage to an enemy.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/56.png
+    marvelcdb_url: https://marvelcdb.com/card/01056
+- names:
+  - Combat Training
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 57
+    quantity: 3
+  faces:
+  - name: Combat Training
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Skill
+    text: |-
+      Play under any player's control. Max 1 per player.
+      Your hero gets +1 ATK.
+    flavor_text: '"Tony! She did it again!" -- Janet Van Dyne'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/57.png
+    marvelcdb_url: https://marvelcdb.com/card/01057

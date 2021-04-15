@@ -1,0 +1,215 @@
+- names:
+  - Spider-Man
+  - Peter Parker
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Peter Parker
+    type: Alter-Ego
+    unique: true
+    recover: 3
+    traits:
+    - Genius
+    text: 'Scientist — **Resource**: Generate a [mental] resource. (Limit once per
+      round.)'
+    hit_points: 10
+    flavor_text: '"Right now, I''d trade the whole Spider-Man bit for a rocking chair
+      and a good book."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/01001b
+  - name: Spider-Man
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 2
+    defense: 3
+    traits:
+    - Avenger
+    text: 'Spider-Sense — **Interrupt**: When the villain initiates an attack against
+      you, draw 1 card.'
+    hit_points: 10
+    flavor_text: '"Just your friendly neighborhood Spider-Man!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/01001a
+- names:
+  - Black Cat
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Black Cat
+    subtitle: Felicia Hardy
+    cost: 2
+    type: Ally
+    unique: true
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    traits:
+    - Hero For Hire
+    text: '**Forced Response**: After you play Black Cat, discard the top 2 cards
+      of your deck. Add each card with a printed [mental] resource discarded this
+      way to your hand.'
+    hit_points: 2
+    flavor_text: '"I''m not a hero, I''m a thief."'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/01002
+- names:
+  - Backflip
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 3
+    quantity: 2
+  faces:
+  - name: Backflip
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Defense
+    - Skill
+    text: '**Interrupt** _(defense)_: When you would take any amount of damage from
+      an attack, prevent all of that damage.'
+    flavor_text: '"Have you been training? ''Cause that almost hit me." -- Spider-Man'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/01003
+- names:
+  - Enhanced Spider-Sense
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 4
+    quantity: 2
+  faces:
+  - name: Enhanced Spider-Sense
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Interrupt**: When a treachery card is revealed from the encounter
+      deck, cancel its "**When Revealed**" effects.'
+    flavor_text: '"My spider-sense is tingling" -- Spider-Man'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/01004
+- names:
+  - Swinging Web Kick
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 5
+    quantity: 3
+  faces:
+  - name: Swinging Web Kick
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Aerial
+    - Attack
+    - Superpower
+    text: '**Hero Action** _(attack)_: Deal 8 damage to an enemy.'
+    flavor_text: '"tally-ho!" -- Spider-Man'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/01005
+- names:
+  - Aunt May
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 6
+    quantity: 1
+  faces:
+  - name: Aunt May
+    cost: 1
+    type: Support
+    unique: true
+    traits:
+    - Persona
+    text: '**Alter-Ego Action**: Exhaust Aunt May → heal 4 damage from Peter Parker.'
+    flavor_text: '"Goodness, Peter! You''ve been so clumsy lately."'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/01006
+- names:
+  - Spider-Tracer
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 7
+    quantity: 2
+  faces:
+  - name: Spider-Tracer
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Item
+    - Tech
+    text: |-
+      Attach to a minion.
+      **Forced Interrupt**: When attached minion is defeated, remove 3 threat from a scheme.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/01007
+- names:
+  - Web-Shooter
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 8
+    quantity: 2
+  faces:
+  - name: Web-Shooter
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Item
+    - Tech
+    keywords:
+    - Uses
+    text: |-
+      Uses (3 web counters). _(Enters play with 3 counters. When those are gone, discard this card)_
+      **Hero Resource**: Exhaust Web-Shooter and remove 1 web counter from it → generate a [wild] resource.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/01008
+- names:
+  - Webbed Up
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 9
+    quantity: 2
+  faces:
+  - name: Webbed Up
+    cost: 4
+    type: Upgrade
+    unique: false
+    traits:
+    - Condition
+    text: |-
+      Hero form only. Attach to an enemy. Max 1 per enemy.
+      **Forced Interrupt**: When attached enemy would attack, discard Webbed Up instead. Then, stun that enemy.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/01009

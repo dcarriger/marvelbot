@@ -1,0 +1,689 @@
+- names:
+  - Ant-Man
+  - Scott Lang
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Scott Lang
+    type: Alter-Ego
+    unique: true
+    recover: 3
+    traits:
+    - Civilian
+    text: Time to Unwind - **Response:** After you change to this form, heal 1 damage
+      from Scott Lang.
+    hit_points: 12
+    flavor_text: '"Being Cassie''s hero is all I''ve ever wanted."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/12001b
+  - name: Ant-Man
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 2
+    defense: 2
+    traits:
+    - Avenger
+    - Tiny
+    text: Puny Pest - **Response:** After you change to this form, remove 1 threat
+      from a scheme.
+    hit_points: 12
+    flavor_text: '"Why don''t you pick on somebody your own size?"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/12001a
+  - name: Ant-Man
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 3
+    defense: 3
+    traits:
+    - Avenger
+    - Giant
+    text: Giant Nuisance - **Response:** After you change to this form, deal 1 damage
+      to an enemy.
+    hit_points: 12
+    flavor_text: '"Oh Yeah, tiny dude is big now!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/1C.png
+    marvelcdb_url: https://marvelcdb.com/card/12001c
+- names:
+  - Wasp
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Wasp
+    subtitle: Nadia Van Dyne
+    cost: 3
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Aerial
+    - Avenger
+    text: '**Hero Response:** After Wasp enters play, deal 2 damage to an enemy if
+      you are in [[Giant]] hero form or remove 2 threat from a scheme if you are in
+      [[Tiny]] hero form.'
+    hit_points: 3
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/12002
+- names:
+  - Giant Stomp
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 3
+    quantity: 2
+  faces:
+  - name: Giant Stomp
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Giant
+    text: |-
+      Play only if you are in [[Giant]] hero form.
+      **Hero Action** _(attack)_: Deal 1 damage to each minion. Deal 8 damage to an enemy.
+    flavor_text: '"I''d run if I were you." - Scott Lang'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/12003
+- names:
+  - Hive Mind
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 4
+    quantity: 1
+  faces:
+  - name: Hive Mind
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Tiny
+    text: |-
+      Play only if you are in [[Tiny]] hero form.
+      **Hero Action** _(thwart)_: Remove 2 threat from a scheme. Remove 1 additional threat from that scheme for each Army of Ants support you control.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/12004
+- names:
+  - Resize
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 5
+    quantity: 2
+  faces:
+  - name: Resize
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Action:** Change to your other hero form. Draw 1 card.'
+    flavor_text: '"This is awesome!" - Scott Lang'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/12005
+- names:
+  - Pym Particles
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 6
+    quantity: 2
+  faces:
+  - name: Pym Particles
+    type: Resource
+    unique: false
+    text: '**Hero Response:** After you spend this card, heal 2 damage from your hero
+      if you are in [[Giant]] hero form or draw 1 card if you are in [[Tiny]] hero
+      form.'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/12006
+- names:
+  - Army of Ants
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 7
+    quantity: 3
+  faces:
+  - name: Army of Ants
+    cost: 1
+    type: Support
+    unique: false
+    traits:
+    - Ants
+    - Tiny
+    text: '**Hero Action:** If you are in [[Tiny]] hero form, exhaust Army of Ants
+      → deal 1 damage to an enemy.'
+    flavor_text: '"Antvengers Assemble!" - Scott Lang'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/12007
+- names:
+  - Ant-Man's Helmet
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 8
+    quantity: 1
+  faces:
+  - name: Ant-Man's Helmet
+    cost: 3
+    type: Upgrade
+    unique: true
+    traits:
+    - Armor
+    - Tech
+    text: |-
+      **Hero Response:** After you change to [[Giant]] hero form, heal 2 damage from your hero.
+      **Hero Response:** After you change to [[Tiny]] hero form, draw 1 card.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/12008
+- names:
+  - Giant Strength
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 9
+    quantity: 2
+  faces:
+  - name: Giant Strength
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Condition
+    - Giant
+    text: '**Hero Response:** After you change to [[Giant]] hero form, you get +1
+      ATK until the end of this turn.'
+    flavor_text: '"My daughter lost her phone. I thought I''d look under these buildings."
+      - Scott Lang'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/12009
+- names:
+  - Wrist Gauntlets
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 10
+    quantity: 1
+  faces:
+  - name: Wrist Gauntlets
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Item
+    - Tech
+    text: |-
+      **Hero Action:** If you are in [[Giant]] hero form, exhaust Wrist Gauntlets and spend [physical][physical] resources → stun an enemy.
+      **Hero Action:** If you are in [[Tiny]] hero form, exhaust Wrist Gauntlets and spend [energy][energy] resources → confuse an enemy.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/12010
+- names:
+  - Ant-Man
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Ant-Man
+    subtitle: Hank Pym
+    cost: 0
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: |-
+      Ant-Man gets +1 hit point for each pym counter on him.
+      **Interrupt:** When Ant-Man enters play, place 1 pym counter on him (to a maximum of 4) for each resource you overpaid for Ant-Man's cost.
+    hit_points: 0
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/12011
+- names:
+  - Giant-Man
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 12
+    quantity: 1
+  faces:
+  - name: Giant-Man
+    cost: 5
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    - Giant
+    text: Giant-Man gets +2 ATK while he has 3 or more remaining hit points.
+    hit_points: 4
+    flavor_text: '"Size isn''t everything. Unless you''re stepping over a bridge."'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/12012
+- names:
+  - Ronin
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 13
+    quantity: 1
+  faces:
+  - name: Ronin
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: Ronin gets +1 THW and +1 ATK while an upgrade is attached to them.
+    hit_points: 3
+    flavor_text: '"Dunno who''s wearing the suit this time, but they can definitely
+      handle themself in a fight." - Spectrum'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/12013
+- names:
+  - Stinger
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 14
+    quantity: 1
+  faces:
+  - name: Stinger
+    subtitle: Cassie Lang
+    cost: 1
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: |-
+      Play only if your identity has the [[Avenger]] trait.
+      Stinger does not count against your ally limit.
+    hit_points: 2
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/12014
+- names:
+  - Call for Aid
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 15
+    quantity: 3
+  faces:
+  - name: Call for Aid
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    text: '**Hero Action:** Discard cards from the top of your deck until you discard
+      an [[Avenger]] ally, then add that ally to your hand.'
+    flavor_text: '"You rang?" - Tony Stark'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/12015
+- names:
+  - Moxie
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 16
+    quantity: 3
+  faces:
+  - name: Moxie
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    text: '**Hero Response:** After you change form, your hero gets +1 THW, +1 ATK,
+      +1 DEF until the end of the round.'
+    flavor_text: '"If you mess with one of us, you mess with all of us!" Even if I''m
+      the last one." - Nova'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/16.png
+    marvelcdb_url: https://marvelcdb.com/card/12016
+- names:
+  - Power Gloves
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 17
+    quantity: 3
+  faces:
+  - name: Power Gloves
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Armor
+    - Tech
+    text: |-
+      Attach to an [[Avenger]] ally. Max 1 per ally.
+      **Response:** After attached ally attacks or thwarts, deal 1 damage to an enemy.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/12017
+- names:
+  - Reinforced Suit
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 18
+    quantity: 3
+  faces:
+  - name: Reinforced Suit
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Armor
+    - Tech
+    text: |-
+      Attach to an ally. Max 1 per ally.
+      Attached ally gets +2 hit points.
+    flavor_text: '"Remember, it''s not just the suit that gives you power, it''s how
+      you use it." - Hank Pym'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/18.png
+    marvelcdb_url: https://marvelcdb.com/card/12018
+- names:
+  - Swarm Tactics
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 20
+    quantity: 1
+  faces:
+  - name: Swarm Tactics
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Tactic
+    text: |-
+      Team-up (Ant-Man and Wasp). Max 1 per deck.
+      **Hero Action:** Change to your other hero form. Ready your hero.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/20.png
+    marvelcdb_url: https://marvelcdb.com/card/12020
+- names:
+  - Team-Building Exercise
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 24
+    quantity: 3
+  faces:
+  - name: Team-Building Exercise
+    cost: 2
+    type: Support
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Condition
+    text: '**Hero Action**: Exhaust Team-Building Exercise → play a card from your
+      hand that shares a trait with your hero, reducing its resource cost by 1.'
+    flavor_text: ""
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/24.png
+    marvelcdb_url: https://marvelcdb.com/card/12024
+- names:
+  - Care for Cassie
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 25
+    quantity: 1
+  faces:
+  - name: Care for Cassie
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Scott Lang player._**
+      You may flip to alter-ego form. Choose:
+      - Exhaust Scott Lang → remove Care for Cassie from the game.
+      - Choose and discard 1 card from your hand. You cannot change form until your next turn ends. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/25.png
+    marvelcdb_url: https://marvelcdb.com/card/12025
+- names:
+  - Tech Theft
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Tech Theft
+    type: Side Scheme
+    unique: false
+    text: Treat the printed text box of each [[Tech]] player card as if it were blank.
+    boost_icons: 3
+    starting_threat_per_player: 2
+    flavor_text: Yellowjacket has stolen priceless Pym Particle technology.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/12026
+  horizontal: true
+- names:
+  - Yellowjacket
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Yellowjacket
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 2
+    text: |-
+      While you are in [[Giant]] hero form, Yellowjacket gains the [[Giant]] trait and retaliate 1.
+      While you are in [[Tiny]] hero form, Yellowjacket gains the [[Tiny]] trait and gets +1 ATK.
+      (Ant-Man's nemesis minion.)
+    hit_points: 4
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/12027
+- names:
+  - Size Increase
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 28
+    quantity: 2
+  faces:
+  - name: Size Increase
+    type: Attachment
+    unique: false
+    scheme: 2
+    attack: 2
+    attack_text: <b>Forced Response:</b> After attached enemy activates, remove 1
+      size counter from here.
+    keywords:
+    - Uses
+    text: |-
+      Attach to Yellowjacket, if able. If you cannot, attach to the villain.
+      Uses (3 counters).
+    boost_icons: 0
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/12028
+- names:
+  - Yellowjacket's Plan
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 29
+    quantity: 1
+  faces:
+  - name: Yellowjacket's Plan
+    type: Treachery
+    unique: false
+    text: '**When Revealed:** Discard cards from the encounter deck until a card from
+      the Ant-Man Nemesis set is discarded this way. Reveal that card.'
+    boost_icons: 1
+    flavor_text: '"You think you can stop the future?!" - Yellowjacket'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/12029
+- names:
+  - Moment of Triumph
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 30
+    quantity: 3
+  faces:
+  - name: Moment of Triumph
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    text: '**Hero Response:** After you attack and defeat an enemy, heal 1 damage
+      from your hero for each point of excess damage dealt to that enemy by that attack.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/12030
+- names:
+  - Lay Down the Law
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 31
+    quantity: 3
+  faces:
+  - name: Lay Down the Law
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Thwart
+    text: '**Hero Response** _(thwart)_: After you change form, remove 3 threat from
+      a scheme (4 threat instead if you paid for this card using a [mental] resource).'
+    flavor_text: '"Maybe this will teach you!" - Captain America'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/12031
+- names:
+  - Muster Courage
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 32
+    quantity: 3
+  faces:
+  - name: Muster Courage
+    cost: 3
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    text: |-
+      Play only if your identity has the [[Avenger]] trait.
+      **Hero Action:** Give up to X friendly characters a tough status card (to a maximum of 3 characters), where X is equal to the villain's stage number.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/12032
+- names:
+  - Assess the Situation
+  packs:
+  - name: Ant-Man
+    sku: MC12en
+    position: 33
+    quantity: 3
+  faces:
+  - name: Assess the Situation
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Tactic
+    text: '**Action:** You get +1 hand size until the end of the phase.'
+    flavor_text: '"Well, if I run, that''s not cool. And if I stay and get tasered,
+      that''s not cool either. I''m in a bit of a pickle." - Tony Stark'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc12en/33.png
+    marvelcdb_url: https://marvelcdb.com/card/12033

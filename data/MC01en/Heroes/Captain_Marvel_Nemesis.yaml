@@ -1,0 +1,97 @@
+- names:
+  - Family Emergency
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 175
+    quantity: 1
+  faces:
+  - name: Family Emergency
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Carol Danvers player._**
+      You may flip to your alter-ego form. Choose:
+      - Exhaust Carol Danvers → remove Family Emergency from the game.
+      - You are stunned. This card gains surge. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/175.png
+    marvelcdb_url: https://marvelcdb.com/card/01175
+- names:
+  - The Psych-Magnitron
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 176
+    quantity: 1
+  faces:
+  - name: The Psych-Magnitron
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Place an additional 1 [per_hero] threat here.'
+    boost_icons: 3
+    starting_threat: 3
+    flavor_text: The Psych-Magnitron is a Kree device with the power to turn thoughts
+      into reality. In the hands of Yon-Rogg, it would be a devastating weapon.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/176.png
+    marvelcdb_url: https://marvelcdb.com/card/01176
+  horizontal: true
+- names:
+  - Yon-Rogg
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 177
+    quantity: 1
+  faces:
+  - name: Yon-Rogg
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 3
+    attack_text: '<b>Forced Response/b>: After Yon-Rogg attacks, place 1 threat on
+      The Psych-Magnitron.'
+    text: null
+    hit_points: 5
+    boost_icons: 2
+    flavor_text: '"It isn''t real power unless they fear you"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/177.png
+    marvelcdb_url: https://marvelcdb.com/card/01177
+- names:
+  - Kree Manipulator
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 178
+    quantity: 2
+  faces:
+  - name: Kree Manipulator
+    type: Treachery
+    unique: false
+    keywords:
+    - Surge
+    text: |-
+      Surge. _(After this card resolves, reveal 1 additional encounter card.)_
+      **When Revealed**: Place 1 threat on the main scheme.
+    boost_icons: 0
+    star_text: If the villain is making an undefended attack, place 1 threat on the
+      main scheme.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/178.png
+    marvelcdb_url: https://marvelcdb.com/card/01178
+- names:
+  - Yon-Rogg's Treason
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 179
+    quantity: 1
+  faces:
+  - name: Yon-Rogg's Treason
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Discard each [energy] resource from your hand. If you
+      discarded no cards this way, this card gains surge.'
+    boost_icons: 1
+    flavor_text: '"This world now belongs to the Kree empire!" -- Yon-Rogg'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/179.png
+    marvelcdb_url: https://marvelcdb.com/card/01179

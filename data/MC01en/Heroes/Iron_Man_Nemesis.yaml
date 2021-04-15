@@ -1,0 +1,96 @@
+- names:
+  - Business Problems
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 170
+    quantity: 1
+  faces:
+  - name: Business Problems
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Tony Stark player._**
+      You may flip to your alter-ego form. Choose:
+      - Exhaust Tony Stark → remove Business Problems from the game.
+      - Exhaust each upgrade you control. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/170.png
+    marvelcdb_url: https://marvelcdb.com/card/01170
+- names:
+  - Imminent Overload
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 171
+    quantity: 1
+  faces:
+  - name: Imminent Overload
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Place an additional 1 [per_hero] threat here.'
+    boost_icons: 3
+    starting_threat: 3
+    flavor_text: Whiplash has seized control of a power plant, threatening to overload
+      the transformers if his demands are not met.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/171.png
+    marvelcdb_url: https://marvelcdb.com/card/01171
+  horizontal: true
+- names:
+  - Whiplash
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 172
+    quantity: 1
+  faces:
+  - name: Whiplash
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 3
+    keywords:
+    - Retaliate
+    text: Retaliate 1 _(After this character is attacked, deal 1 damage to the attacking
+      character.)_
+    hit_points: 4
+    boost_icons: 2
+    flavor_text: '"You started this, Tony. I will finish it."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/172.png
+    marvelcdb_url: https://marvelcdb.com/card/01172
+- names:
+  - Electric Whip Attack
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 173
+    quantity: 2
+  faces:
+  - name: Electric Whip Attack
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Choose to either deal 1 damage to your hero for each
+      upgrade you control or choose and discard an upgrade you control.'
+    boost_icons: 0
+    star_text: If the villain is making an undefended attack, choose and discard an
+      upgrade you control.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/173.png
+    marvelcdb_url: https://marvelcdb.com/card/01173
+- names:
+  - Electromagnetic Backlash
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 174
+    quantity: 1
+  faces:
+  - name: Electromagnetic Backlash
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Each player discards the top 5 cards of their deck.
+      For each printed [energy] resource a player discards this way, that player takes
+      1 damage.'
+    boost_icons: 2
+    flavor_text: Five, four, three, two...
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/174.png
+    marvelcdb_url: https://marvelcdb.com/card/01174

@@ -1,0 +1,241 @@
+- names:
+  - Hawkeye
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Hawkeye
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 2
+    defense: 1
+    traits:
+    - Avenger
+    text: '"Quick Draw" — **Action**: Exhaust Hawkeye → ready Hawkeye''s bow.'
+    hit_points: 9
+    flavor_text: '"I may not be the mightiest Avenger, but I''m definitely the coolest."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/04001a
+- names:
+  - Clint Barton
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Clint Barton
+    type: Alter-Ego
+    unique: true
+    recover: 3
+    text: 'Weapon of Choice — **Action**: Spend 1 resource of any type → search your
+      deck and discard pile for Hawkeye''s Bow and add it to your hand. Shuffle your
+      deck. (Limit once per phase).'
+    hit_points: 9
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/04001b
+- names:
+  - Hawkeye's Bow
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Hawkeye's Bow
+    cost: 0
+    type: Upgrade
+    unique: true
+    traits:
+    - Weapon
+    keywords:
+    - Restricted
+    text: |-
+      Restricted.
+      Your hero gets +1 ATK and each of your [[Arrow]] attacks gain ranged.
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/04002
+- names:
+  - Hawkeye's Quiver
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 3
+    quantity: 1
+  faces:
+  - name: Hawkeye's Quiver
+    cost: 1
+    type: Upgrade
+    unique: true
+    traits:
+    - Item
+    text: |-
+      You may play [[Arrow]] events attached to this card as if they were in your hand.
+       **Hero Action**: Exhaust Hawkeye's Quiver → search the top 5 cards of your deck for an [[Arrow]] event and attach it faceup to this card.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/04003
+- names:
+  - Mockingbird
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 4
+    quantity: 1
+  faces:
+  - name: Mockingbird
+    subtitle: Bobbi Morse
+    cost: 3
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Interrupt**: When the villain initiates an attack against you, spend
+      1 resource of any type and return Mockingbird to your hand → prevent all damage
+      from this attack.'
+    hit_points: 3
+    flavor_text: '"Is that all you got?"'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/04004
+- names:
+  - Sonic Arrow
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 5
+    quantity: 2
+  faces:
+  - name: Sonic Arrow
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Arrow
+    text: '**Hero Action** _(attack)_: Exhaust Hawkeye''s Bow → confuse an enemy and
+      deal 3 damage to it (5 damage instead if it is already confused)'
+    flavor_text: EEEEEEEEEEEEEEEEEE!!!
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/04005
+- names:
+  - Explosive Arrow
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 6
+    quantity: 2
+  faces:
+  - name: Explosive Arrow
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Arrow
+    text: '**Hero Action**: Exhaust Hawkeye''s Bow and choose a player → deal 3 damage
+      to the villain and each minion engaged with that player.'
+    flavor_text: '"Anyone ever tell you how your eyes sparkle when you''re angry?"
+      -- Clint Barton'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/04006
+- names:
+  - Electric Arrow
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 7
+    quantity: 2
+  faces:
+  - name: Electric Arrow
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Arrow
+    - Attack
+    text: '**Hero Action** _(attack)_: Exhaust Hawkeye''s Bow → stun an enemy and
+      deal 3 damage to it (5 damage instead if it is already stunned).'
+    flavor_text: '"Hail Hawkeye!" -- Clint Barton'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/04007
+- names:
+  - Cable Arrow
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 8
+    quantity: 2
+  faces:
+  - name: Cable Arrow
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Arrow
+    - Thwart
+    text: '**Hero Action** _(thwart)_: Exhaust Hawkeye''s Bow → remove 3 threat from
+      a scheme, ignoring any crisis icons in play.'
+    flavor_text: '"It''s a great way to get around." -- Clint Barton'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/04008
+- names:
+  - Vibranium Arrow
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 9
+    quantity: 2
+  faces:
+  - name: Vibranium Arrow
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Arrow
+    - Attack
+    text: '**Hero Action** _(attack)_: Exhaust Hawkeye''s Bow → deal 6 damage to an
+      enemy. This attack gains piercing.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/04009
+- names:
+  - Expert Marksman
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 10
+    quantity: 2
+  faces:
+  - name: Expert Marksman
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Skill
+    text: '**Resource**: Exhaust Expert Marksman → generate a [wild] resource for
+      an [[Arrow]] event.'
+    flavor_text: '"When you fight alongside gods and monsters, it''s not enough to
+      be great; you have to the best." -- Clint Barton'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/04010

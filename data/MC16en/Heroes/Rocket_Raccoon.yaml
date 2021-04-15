@@ -1,0 +1,245 @@
+- names:
+  - Rocket Raccoon
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 29
+    quantity: 1
+  faces:
+  - name: Rocket Raccoon
+    type: Alter Ego
+    unique: true
+    recover: 3
+    traits:
+    - Genius
+    - Outlaw
+    text: '_Tinkering_ — **Action**: Choose and discard a [[tech]] upgrade you control
+      -> draw 2 cards. (Limit once per round.)'
+    hit_points: 9
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/29B.png
+    marvelcdb_url: https://marvelcdb.com/card/16029b
+  - name: Rocket Raccoon
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 1
+    defense: 1
+    traits:
+    - Guardian
+    text: '_"Murdered You!"_ — **Response**: After you deal excess damage to an enemy,
+      draw 1 card.'
+    hit_points: 9
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/29A.png
+    marvelcdb_url: https://marvelcdb.com/card/16029a
+- names:
+  - I've Got a Plan
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 30
+    quantity: 2
+  faces:
+  - name: I've Got a Plan
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Tactic
+    text: '**Hero Response**: After you make a basic thwart (using your THW), ready
+      Rocket Raccoon. Rocket Raccoon gets +1 THW while in hero form until the end
+      of the phase.'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/16030
+- names:
+  - Reload
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 31
+    quantity: 2
+  faces:
+  - name: Reload
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Skill
+    text: '**Hero Action**: Ready each [[tech]] upgrade you control.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/16031
+- names:
+  - Schadenfreude
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 32
+    quantity: 1
+  faces:
+  - name: Schadenfreude
+    cost: 2
+    type: Event
+    unique: false
+    text: '**Hero Action**: Until the end of the turn, heal 2 damage from Rocket Racoon
+      each time you deal any amount of damage to an ememy.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/16032
+- names:
+  - Salvage
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 33
+    quantity: 1
+  faces:
+  - name: Salvage
+    type: Resource
+    unique: false
+    text: '**Response**: After you spend this card, put a [[tech]] upgrade from your
+      discard pile on top of your deck.'
+    resources:
+      mental: 1
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/33.png
+    marvelcdb_url: https://marvelcdb.com/card/16033
+- names:
+  - Battery Pack
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 34
+    quantity: 2
+  faces:
+  - name: Battery Pack
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Item
+    - Tech
+    text: |-
+      Enters play with 2 charge counters on it.
+       **Action**: Exhaust Battery Pack -> move a charge counter from this card to another [[tech]] upgrade you control.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/34.png
+    marvelcdb_url: https://marvelcdb.com/card/16034
+- names:
+  - Cybernetic Skeleton
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 35
+    quantity: 1
+  faces:
+  - name: Cybernetic Skeleton
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Tech
+    text: |-
+      You get +3 hit points.
+       While in hero form, Rocket Raccoon gets +1 ATK.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/35.png
+    marvelcdb_url: https://marvelcdb.com/card/16035
+- names:
+  - Particle Cannon
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 36
+    quantity: 1
+  faces:
+  - name: Particle Cannon
+    cost: 3
+    type: Upgrade
+    unique: false
+    traits:
+    - Tech
+    - Weapon
+    keywords:
+    - Restricted
+    text: |-
+      Restricted. Enters play with 2 charge counters on it.
+       **Hero Action** (attack): Exhaust Particle Cannon and remove 1 charge counter from it -> deal 4 damage to an enemy. This attack gains overkill and ranged.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/36.png
+    marvelcdb_url: https://marvelcdb.com/card/16036
+- names:
+  - Rocket Launcher
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 37
+    quantity: 1
+  faces:
+  - name: Rocket Launcher
+    cost: 3
+    type: Upgrade
+    unique: false
+    traits:
+    - Tech
+    - Weapon
+    keywords:
+    - Restricted
+    text: |-
+      Restricted. Enters play with 2 charge counters on it.
+       **Hero Action**: Exhaust Rocket Launcher and remove 1 charge counter from it -> choose a player. Deal 2 damage to the villain and each minion engaged with that player.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/37.png
+    marvelcdb_url: https://marvelcdb.com/card/16037
+- names:
+  - Rocket's Pistol
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 38
+    quantity: 2
+  faces:
+  - name: Rocket's Pistol
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Tech
+    - Weapon
+    keywords:
+    - Restricted
+    text: |-
+      Restricted. Enters play with 3 charge counters on it.
+       **Hero Action** (attack): Exhaust Rocket's Pistol and remove 1 charge counter from it -> deal 2 damage to an enemy.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/38.png
+    marvelcdb_url: https://marvelcdb.com/card/16038
+- names:
+  - Thruster Boots
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 39
+    quantity: 1
+  faces:
+  - name: Thruster Boots
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Armor
+    - Weapon
+    text: While in hero form, Rocket Raccoon gets +1 THW and gains the [[aerial]]
+      trait.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/39.png
+    marvelcdb_url: https://marvelcdb.com/card/16039

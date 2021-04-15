@@ -1,0 +1,103 @@
+- names:
+  - Criminal Past
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Criminal Past
+    type: Obligation
+    unique: false
+    text: |
+      **_Give to the Clint Barton Player._**
+      You may flip to alter-ego form. Choose:
+      - Exhaust Clint Barton → remove this card from the game.
+      - Discard Hawkeye's Bow from play. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/04026
+- names:
+  - Crossfire
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Crossfire
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: 2
+    attack_text: Crossfire's attacks gain piercing.
+    traits:
+    - Mercenary
+    keywords:
+    - Quickstrike
+    text: |
+      Quickstrike.
+    hit_points: 4
+    boost_icons: 0
+    star_text: <b>Boost:</b> If this boost resolves during an attack, the attack gains
+      piercing.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/04027
+- names:
+  - Marked for Death
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 28
+    quantity: 1
+  faces:
+  - name: Marked for Death
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed:** The Clint Barton player searches their hand, deck, discard
+      pile, and play area for Mockingbird and places her faceup beneath this card.
+      When this scheme is defeated, return Mockingbird to her owner''s hand.'
+    boost_icons: 3
+    starting_threat: 5
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/04028
+  horizontal: true
+- names:
+  - Crossfire's Rifle
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 29
+    quantity: 1
+  faces:
+  - name: Crossfire's Rifle
+    type: Attachment
+    unique: true
+    attack: 2
+    attack_text: When attached enemy attacks, the attack gains ranged.
+    traits:
+    - Weapon
+    text: |-
+      Attach to Crossfire. Otherwise, attach to the villain.
+      **Hero Action:** Exhaust your hero and spend a [wild] resource → discard Crossfire's Rifle.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/04029
+- names:
+  - Sniper Shot
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 30
+    quantity: 2
+  faces:
+  - name: Sniper Shot
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego):** Place 3 threat on the main scheme.
+      **When Revealed (Hero):** Deal 3 damage to your hero.
+    boost_icons: 1
+    flavor_text: '"I like to let them run a little before taking the shot." -- Crossfire'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/04030

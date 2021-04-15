@@ -1,0 +1,78 @@
+- names:
+  - Bomb Scare
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 109
+    quantity: 1
+  faces:
+  - name: Bomb Scare
+    type: Side Scheme
+    unique: false
+    text: |-
+      **When Revealed**: Place an additional 1 [per_hero] threat here.
+      _(Acceleration Icon: Place +1 threat on the main scheme at the start of the villain phase.)_
+    boost_icons: 2
+    starting_threat: 2
+    flavor_text: Reports are out that Hydra agents have planted a bomb in a nearby
+      hotel.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/109.png
+    marvelcdb_url: https://marvelcdb.com/card/01109
+  horizontal: true
+- names:
+  - Hydra Bomber
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 110
+    quantity: 2
+  faces:
+  - name: Hydra Bomber
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 1
+    traits:
+    - Hydra
+    text: '**When Revealed**: Choose to either take 2 damage or place 1 threat on
+      the main scheme.'
+    hit_points: 2
+    boost_icons: 1
+    flavor_text: '"I know that if you cut off one head, two more will take its place.
+      But what if it blows up instead!" -- She-Hulk'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/110.png
+    marvelcdb_url: https://marvelcdb.com/card/01110
+- names:
+  - Explosion
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 111
+    quantity: 1
+  faces:
+  - name: Explosion
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: If Bomb Scare is in play, assign X damage among heroes
+      and allies, where X is the amount of threat on Bomb Scare. If Bomb Scare is
+      not in play, this card gains surge.'
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/111.png
+    marvelcdb_url: https://marvelcdb.com/card/01111
+- names:
+  - False Alarm
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 112
+    quantity: 2
+  faces:
+  - name: False Alarm
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: You are confused. If you are already confused, this
+      card gains surge.'
+    boost_icons: 1
+    flavor_text: '"Nothing to see here people!" -- Iron Man'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/112.png
+    marvelcdb_url: https://marvelcdb.com/card/01112

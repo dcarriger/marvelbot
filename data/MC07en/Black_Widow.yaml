@@ -1,0 +1,613 @@
+- names:
+  - Black Widow
+  - Natasha Romanoff
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Natasha Romanoff
+    type: Alter-Ego
+    unique: true
+    recover: 3
+    traits:
+    - Spy
+    text: 'Mission Prep — **Response**: After you play a [[Preparation]] card, draw
+      1 card. (Limit once per phase.)'
+    hit_points: 9
+    flavor_text: '"This is my mission and I will succeed."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/08001b
+  - name: Black Widow
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 2
+    defense: 2
+    traits:
+    - Avenger
+    - Spy
+    text: '"Widowmaker" — **Response**: After you trigger the ability of a [[Preparation]]
+      card you control, deal 1 damage to an enemy.'
+    hit_points: 9
+    flavor_text: '"My name is Madame Natasha. But you can call me Black Widow!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/08001a
+- names:
+  - Winter Soldier
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Winter Soldier
+    subtitle: Bucky Barnes
+    cost: 4
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    - Spy
+    text: Reduce the cost to play Winter Soldier by 1 for each [[Preparation]] card
+      you control.
+    hit_points: 4
+    flavor_text: '"You shot at Natasha. That was your last act on Earth, pal."'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/08002
+- names:
+  - Covert Ops
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 3
+    quantity: 2
+  faces:
+  - name: Covert Ops
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Thwart
+    text: '**Action** _(thwart)_: Remove 4 threat from a scheme. Confuse the villain.'
+    flavor_text: '"It''s all about calculating how willfully blind a person is going
+      to be. And then exploiting that." -- Natasha Romanoff'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/08003
+- names:
+  - Dance of Death
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 4
+    quantity: 2
+  faces:
+  - name: Dance of Death
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    text: |-
+      **Hero Action**: Make the following 3 attacks in order:
+      - Deal 1 damage to an enemy.
+      - Deal 2 damage to an enemy.
+      - Deal 3 damage to an enemy.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/08004
+- names:
+  - 'Safe House #29'
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 5
+    quantity: 1
+  faces:
+  - name: 'Safe House #29'
+    cost: 1
+    type: Support
+    unique: true
+    traits:
+    - Location
+    text: '**Alter-Ego Action**: Exhaust Safe House #29 and choose a [[Preparation]]
+      card in your discard pile → add that card to your hand.'
+    flavor_text: '"We should be safe here." -- Black Widow'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/08005
+- names:
+  - Attacrobatics
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 6
+    quantity: 2
+  faces:
+  - name: Attacrobatics
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Attack
+    - Preparation
+    - Skill
+    text: '**Hero Interrupt** _(attack)_: When a boost card is turned faceup, discard
+      Attacrobatics → cancel the boost icons on that card. Deal 1 damage to the villain
+      for each boost icon canceled this way.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/08006
+- names:
+  - Black Widow's Gauntlet
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 7
+    quantity: 2
+  faces:
+  - name: Black Widow's Gauntlet
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Tech
+    text: '**Resource**: Exhaust Black Widow''s Gauntlet → generate a [wild] resource
+      for a [[Preparation]] card.'
+    flavor_text: '"Not only are they lethal, but they look good, too." -- Black Widow'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/08007
+- names:
+  - Grappling Hook
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 8
+    quantity: 2
+  faces:
+  - name: Grappling Hook
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Preparation
+    - Tech
+    text: '**Hero Interrupt**: When you reveal a treachery, discard Grappling Hook
+      → cancel the effects of that treachery and discard it.'
+    flavor_text: '"Bozhe moi!" -- Black Widow'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/08008
+- names:
+  - Synth-Suit
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 9
+    quantity: 1
+  faces:
+  - name: Synth-Suit
+    cost: 3
+    type: Upgrade
+    unique: true
+    traits:
+    - Armor
+    - Tech
+    text: |-
+      Black Widow gets +1 DEF.
+      **Hero Response**: After you trigger the ability of a [[Preparation]] card you control, exhaust Synth-Suit → ready Black Widow.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/08009
+- names:
+  - Widow's Bite
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 10
+    quantity: 2
+  faces:
+  - name: Widow's Bite
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Preparation
+    - Tech
+    text: '**Hero Response** _(attack)_: After a minion enters play, discard Widow''s
+      Bite → deal 2 damage to that minion and stun it.'
+    flavor_text: '"Nighty night." -- Black Widow'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/08010
+- names:
+  - Agent Coulson
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Agent Coulson
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Justice
+    thwart: 2
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Spy
+    text: '**Response**: After Agent Coulson enters play, search your deck and discard
+      pile for a [[Preparation]] card and add it to your hand. Shuffle your deck.'
+    hit_points: 3
+    flavor_text: '"I''m a guy with a plan."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/08011
+- names:
+  - Quake
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 12
+    quantity: 1
+  faces:
+  - name: Quake
+    subtitle: Daisy Johnson
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Justice
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Response**: After a minion schemes, exhaust Quake → deal 2 damage to
+      that minion.'
+    hit_points: 2
+    flavor_text: '"I will bring this building down around you!"'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/08012
+- names:
+  - Stealth Strike
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 13
+    quantity: 3
+  faces:
+  - name: Stealth Strike
+    cost: 3
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Deal 4 damage to an enemy. If that enemy is
+      defeated by this attack, remove 2 threat from a scheme.'
+    flavor_text: '"They''ll never know what hit them." -- Black Widow'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/08013
+- names:
+  - Counterintelligence
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 17
+    quantity: 3
+  faces:
+  - name: Counterintelligence
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Preparation
+    - Skill
+    text: |-
+      Max 1 per player.
+      **Interrupt**: When any amount of threat would be placed on the main scheme, discard Counterintelligence → prevent 3 of that threat.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/08017
+- names:
+  - Spycraft
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 18
+    quantity: 3
+  faces:
+  - name: Spycraft
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Preparation
+    - Skill
+    text: |-
+      Play only if you control a [[Spy]] character.
+      **Interrupt**: When you reveal an encounter card, discard Spycraft → cancel the effects of that card and discard it. Then, reveal another card from the encounter deck.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/18.png
+    marvelcdb_url: https://marvelcdb.com/card/08018
+- names:
+  - Quincarrier
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 23
+    quantity: 1
+  faces:
+  - name: Quincarrier
+    cost: 3
+    type: Support
+    unique: true
+    aspect:
+    - Basic
+    traits:
+    - Avenger
+    - Vehicle
+    text: |-
+      Play only if your identity has the [[Avenger]] trait.
+      **Resource**: Exhaust Quincarrier → generate a [wild] resource.
+    flavor_text: '"Too bad we could only get one of these." -- Hawkeye'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/23.png
+    marvelcdb_url: https://marvelcdb.com/card/08023
+- names:
+  - Target Acquired
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 24
+    quantity: 3
+  faces:
+  - name: Target Acquired
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Preparation
+    - Skill
+    text: |-
+      Max 1 per player.
+      **Hero Response**: After a boost card is turned faceup, discard Target Acquired → cancel that card's boost ability.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/24.png
+    marvelcdb_url: https://marvelcdb.com/card/08024
+- names:
+  - Burn Notice
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 25
+    quantity: 1
+  faces:
+  - name: Burn Notice
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Natasha Romanoff player_**
+      You may flip to your alter-ego form. Choose:
+      - Exhaust Natasha Romanoff → remove this card from the game.
+      - Discard the [[Preparation]] card you control with the highest cost. If you cannot, this card gains surge. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/25.png
+    marvelcdb_url: https://marvelcdb.com/card/08025
+- names:
+  - Taskmaster
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Taskmaster
+    type: Minion
+    unique: true
+    scheme: 0
+    scheme_text: Taskmaster gets +1 SCH and +1 ATK for each upgrade you control.
+    attack: 0
+    attack_text: Taskmaster gets +1 SCH and +1 ATK for each upgrade you control.
+    traits:
+    - Hydra
+    - Elite
+    text: _(Black Widow's nemesis minion.)_
+    hit_points: 4
+    boost_icons: 0
+    star_text: For this activation, the villain gets +1 SCH and +1 ATK for each upgrade
+      you control.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/08026
+- names:
+  - Killer for Hire
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Killer for Hire
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Place an additional 1[per_hero] threat here.'
+    boost_icons: 3
+    starting_threat_per_player: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/08027
+  horizontal: true
+- names:
+  - Hydra Mercenary
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 28
+    quantity: 2
+  faces:
+  - name: Hydra Mercenary
+    type: Minion
+    unique: false
+    scheme: 0
+    attack: 1
+    traits:
+    - Hydra
+    keywords:
+    - Guard
+    text: Guard. _(While this minion is engaged with you, you cannot attack the villain.)_
+    hit_points: 3
+    boost_icons: 1
+    flavor_text: '"What is Hydra doing here?" -- Carol Danvers'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/08028
+- names:
+  - Deadly Shot
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 29
+    quantity: 1
+  faces:
+  - name: Deadly Shot
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: Discard an upgrade you control and place 1 threat on the main scheme.
+      **When Revealed (Hero)**: Discard an upgrade you control and take 1 damage.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/08029
+- names:
+  - Counterattack
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 30
+    quantity: 3
+  faces:
+  - name: Counterattack
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Preparation
+    - Tactic
+    text: |-
+      Max 1 per player.
+      **Hero Response** _(attack)_: After you take damage from an enemy attack, discard Counterattack → deal an equal amount of damage to that enemy.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/08030
+- names:
+  - Rapid Response
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 31
+    quantity: 3
+  faces:
+  - name: Rapid Response
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Preparation
+    - Tactic
+    text: |-
+      Max 1 per player.
+      **Hero Response**: After an ally you control is defeated, discard Rapid Response → put that ally into play from your discard pile and deal 1 damage to it.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/08031
+- names:
+  - Defensive Stance
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 32
+    quantity: 3
+  faces:
+  - name: Defensive Stance
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Preparation
+    - Tactic
+    text: |-
+      Max 1 per player.
+      **Hero Interrupt**: When you would take any amount of damage, discard Defensive Stance → prevent 3 of that damage.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/08032
+- names:
+  - Espionage
+  packs:
+  - name: Black Widow
+    sku: MC07en
+    position: 33
+    quantity: 3
+  faces:
+  - name: Espionage
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Preparation
+    - Skill
+    text: |-
+      Play only if you control a [[Spy]] character.
+      **Interrupt**: When the surge keyword on an encounter card would be resolved, discard Espionage → draw 2 cards.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc07en/33.png
+    marvelcdb_url: https://marvelcdb.com/card/08033

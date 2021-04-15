@@ -1,0 +1,451 @@
+- names:
+  - Red Skull
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 125
+    quantity: 1
+  faces:
+  - name: Red Skull
+    type: Villain
+    unique: true
+    scheme: 2
+    attack: 0
+    attack_text: Red Skull gets +1 ATK for each side scheme in play.
+    traits:
+    - Hydra
+    text: null
+    hit_points_per_player: 12
+    flavor_text: '"Freedom is only for the one who rules! All others must be slaves!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/125.png
+    marvelcdb_url: https://marvelcdb.com/card/04125
+- names:
+  - Red Skull
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 126
+    quantity: 1
+  faces:
+  - name: Red Skull
+    type: Villain
+    unique: true
+    scheme: 3
+    attack: 1
+    attack_text: Red Skull gets +1 ATK for each side scheme in play.
+    traits:
+    - Hydra
+    text: '**When Revealed:** Deal each player an encounter card.'
+    hit_points_per_player: 16
+    flavor_text: '"No one will stand in the way of my plans!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/126.png
+    marvelcdb_url: https://marvelcdb.com/card/04126
+- names:
+  - Red Skull
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 127
+    quantity: 1
+  faces:
+  - name: Red Skull
+    type: Villain
+    unique: true
+    scheme: 3
+    attack: 2
+    attack_text: Red Skull gets +1 ATK for each side scheme in play.
+    traits:
+    - Hydra
+    text: '**When Revealed:** Deal each player an encounter card.'
+    hit_points_per_player: 20
+    flavor_text: '"The world will bow to Red Skull!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/127.png
+    marvelcdb_url: https://marvelcdb.com/card/04127
+- names:
+  - The Rise of the Red Skull
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 128
+    quantity: 1
+  faces:
+  - name: The Rise of the Red Skull
+    type: Main Scheme
+    unique: false
+    text: |-
+      **Contents:** Red Skull (I) and Red Skull (II). Red Skull and Standard encounter sets. Two modular encounter sets <em>(Hydra Assault and Hydra Patrol).</em>
+      **Setup:** Put the Red House into play. Shuffle every other side scheme into the side-scheme deck and set it next to the encounter deck (see insert).
+      Set The Sleeper aside, out of play.
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 8
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/128A.png
+    marvelcdb_url: https://marvelcdb.com/card/04128
+  - name: The Rise of the Red Skull
+    type: Main Scheme
+    unique: false
+    text: '**[star] Forced Response:** After resolving step one of the villain phase,
+      reveal the top of the side-scheme deck and put it into play.'
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 8
+    flavor_text: Red Skull plans to conquer the world with the power of the Reality
+      Stone. He uses his strategic genius to keep you busy while he works towards
+      his goal.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/128B.png
+    marvelcdb_url: https://marvelcdb.com/card/04128
+  horizontal: true
+- names:
+  - New World Hydra
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 129
+    quantity: 1
+  faces:
+  - name: New World Hydra
+    type: Main Scheme
+    unique: false
+    text: '**When Revealed:** Reveal the top card of the side-scheme deck and put
+      it into play.'
+    starting_threat_per_player: 1
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 11
+    flavor_text: The Red Skull is one step closer to unlocking the full power of the
+      Infinity Stone. You need to stop him before he does, and all reality is bent
+      to his evil will.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/129A.png
+    marvelcdb_url: https://marvelcdb.com/card/04129
+  - name: New World Hydra
+    type: Main Scheme
+    unique: false
+    text: |-
+      **[star] Forced Response:** After resolving step one of the villain phase, reveal the top card of the side-scheme deck and put it into play.
+      **If this scheme is completed, the players lose the game.**
+    starting_threat_per_player: 1
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 11
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/129B.png
+    marvelcdb_url: https://marvelcdb.com/card/04129
+  horizontal: true
+- names:
+  - The Sleeper
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 130
+    quantity: 1
+  faces:
+  - name: The Sleeper
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: 3
+    traits:
+    - Elite
+    - Hydra
+    - Robot
+    keywords:
+    - Guard
+    - Retaliate
+    - Toughness
+    text: |-
+      Guard. Retaliate 1. Toughness.
+      **When Revealed:** The Sleeper engages the first player.
+      **When Defeated:** Remove The Sleeper from the game.
+    hit_points_per_player: 5
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/130.png
+    marvelcdb_url: https://marvelcdb.com/card/04130
+- names:
+  - Hydra Exo-Soldier
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 131
+    quantity: 3
+  faces:
+  - name: Hydra Exo-Soldier
+    type: Minion
+    unique: false
+    scheme: 2
+    attack: 2
+    traits:
+    - Hydra
+    keywords:
+    - Toughness
+    text: Toughness.
+    hit_points: 5
+    boost_icons: 0
+    star_text: Give the villain a tough status card and another boost card.
+    flavor_text: '"Careful, team. These guys pack a punch!" -- Captain America'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/131.png
+    marvelcdb_url: https://marvelcdb.com/card/04131
+- names:
+  - Red Skull's Luger
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 132
+    quantity: 1
+  faces:
+  - name: Red Skull's Luger
+    type: Attachment
+    unique: true
+    scheme: 1
+    attack: 1
+    attack_text: Red Skull's attacks gain piercing and ranged.
+    traits:
+    - Weapon
+    text: |-
+      Attach to Red Skull.
+      **Hero Action:** Spend [energy][mental][physical] resource → discard this card.
+    boost_icons: 0
+    star_text: Attach to Red Skull.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/132.png
+    marvelcdb_url: https://marvelcdb.com/card/04132
+- names:
+  - Red Skull's Right Hook
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 133
+    quantity: 2
+  faces:
+  - name: Red Skull's Right Hook
+    type: Attachment
+    unique: false
+    traits:
+    - Skill
+    text: |-
+      Attach to Red Skull.
+      Red Skull gains retaliate 1.
+      **Hero Action:** Spend [energy][mental][physical] resources → discard this card.
+    boost_icons: 3
+    flavor_text: '"I am your superior in every way!" -- Red Skull'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/133.png
+    marvelcdb_url: https://marvelcdb.com/card/04133
+- names:
+  - Master Strategist
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 134
+    quantity: 2
+  faces:
+  - name: Master Strategist
+    type: Attachment
+    unique: false
+    scheme_text: <b>Forced Interrupt:</b> When Red Skull activates, give him an additional
+      boost card for each side scheme in play. Then, discard this card. (Max once
+      per activation.)
+    attack_text: <b>Forced Interrupt:</b> When Red Skull activates, give him an additional
+      boost card for each side scheme in play. Then, discard this card. (Max once
+      per activation.)
+    traits:
+    - Skill
+    text: Attach to Red Skull.
+    boost_icons: 2
+    flavor_text: '"In chess, the only piece that truly matters is the King, and that''s
+      me." -- Red Skull'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/134.png
+    marvelcdb_url: https://marvelcdb.com/card/04134
+- names:
+  - Twisted Reality
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 135
+    quantity: 2
+  faces:
+  - name: Twisted Reality
+    type: Attachment
+    unique: false
+    traits:
+    - Condition
+    keywords:
+    - Incite
+    text: |-
+      Incite 1.
+      Attach to a side scheme.
+      **Forced Response:** When attached side scheme is defeated, deal the first player an encounter card.
+    boost_icons: 2
+    flavor_text: The Infinity Stone gives Red Skull the power to bend reality to his
+      will.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/135.png
+    marvelcdb_url: https://marvelcdb.com/card/04135
+- names:
+  - Bitter Rival
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 136
+    quantity: 2
+  faces:
+  - name: Bitter Rival
+    type: Treachery
+    unique: false
+    text: '**When Revealed:** Exhaust a character you control for each side scheme
+      in play.'
+    boost_icons: 0
+    star_text: Exhaust a character you control.
+    flavor_text: '"This is the end for you, Herr Captain!" -- Red Skull'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/136.png
+    marvelcdb_url: https://marvelcdb.com/card/04136
+- names:
+  - Spreading Lies
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 137
+    quantity: 2
+  faces:
+  - name: Spreading Lies
+    type: Treachery
+    unique: false
+    text: '**When Revealed:** Place 2 threat on each scheme in play.'
+    boost_icons: 1
+    star_text: Give Red Skull a tough status card.
+    flavor_text: '"With my great and unmatched cunning, Hydra will reign supreme!"
+      -- Red Skull'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/137.png
+    marvelcdb_url: https://marvelcdb.com/card/04137
+- names:
+  - Infinite Power
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 138
+    quantity: 2
+  faces:
+  - name: Infinite Power
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego):** Give Red Skull a tough status card. Red Skull schemes.
+      **When Revealed (Hero):** Give Red Skull a tough status card. Red Skull attacks you.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/138.png
+    marvelcdb_url: https://marvelcdb.com/card/04138
+- names:
+  - The Red House
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 139
+    quantity: 1
+  faces:
+  - name: The Red House
+    type: Side Scheme
+    unique: false
+    text: |-
+      Red Skull cannot take damage.
+      **Interrupt:** When a character thwarts this side scheme, they may use their ATK instead of their THW.
+    boost_icons: 0
+    starting_threat_per_player: 3
+    flavor_text: Red Skull built his fortress over the White House as a symbol of
+      Hydra's conquest over America.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/139.png
+    marvelcdb_url: https://marvelcdb.com/card/04139
+  horizontal: true
+- names:
+  - The Sleeper Awakened
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 140
+    quantity: 1
+  faces:
+  - name: The Sleeper Awakened
+    type: Side Scheme
+    unique: false
+    text: |-
+      This scheme cannot leave play while The Sleeper is in play.
+      **When Revealed:** Put The Sleeper into play engaged with the first player. When The Sleeper is defeated, remove this card from the game.
+    boost_icons: 0
+    starting_threat: 0
+    flavor_text: Rising from the Potomac River, The Sleeper has awakened to answer
+      Red Skull's summons.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/140.png
+    marvelcdb_url: https://marvelcdb.com/card/04140
+  horizontal: true
+- names:
+  - Prison Camps
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 141
+    quantity: 1
+  faces:
+  - name: Prison Camps
+    type: Side Scheme
+    unique: false
+    text: '**When Defeated:** The player who defeated this scheme searches their deck
+      and discard pile for an ally, puts it into play, and shuffles their deck.'
+    boost_icons: 0
+    starting_threat_per_player: 3
+    flavor_text: Under Hydra's rule, families are separated and incarcerated without
+      due process.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/141.png
+    marvelcdb_url: https://marvelcdb.com/card/04141
+  horizontal: true
+- names:
+  - Censor the Past
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 142
+    quantity: 1
+  faces:
+  - name: Censor the Past
+    type: Side Scheme
+    unique: false
+    text: '**When Defeated:** Each player chooses up to 3 cards in their discard pile
+      and shuffles them into their deck.'
+    boost_icons: 0
+    starting_threat_per_player: 3
+    flavor_text: Hydra controls all media outlets and uses propaganda to turn the
+      masses against the heroes of the past.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/142.png
+    marvelcdb_url: https://marvelcdb.com/card/04142
+  horizontal: true
+- names:
+  - Hydra Reinforcements
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 143
+    quantity: 1
+  faces:
+  - name: Hydra Reinforcements
+    type: Side Scheme
+    unique: false
+    text: '**When Defeated:** The player who defeated this scheme discards a non-**Elite**
+      minion.'
+    boost_icons: 0
+    starting_threat_per_player: 2
+    flavor_text: What Hydra lacks in skill, they make up for with sheer numbers.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/143.png
+    marvelcdb_url: https://marvelcdb.com/card/04143
+  horizontal: true
+- names:
+  - Mass Chaos
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 144
+    quantity: 1
+  faces:
+  - name: Mass Chaos
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed:** Each player discards the top 5 cards of their deck and
+      places 1 threat here for each different type of resource icon ([energy],[mental],[physical],
+      or [wild]) they discarded this way.'
+    boost_icons: 0
+    starting_threat: 0
+    flavor_text: Red Skull creates catastrophes across the country to keep his enemies
+      busy.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/144.png
+    marvelcdb_url: https://marvelcdb.com/card/04144
+  horizontal: true

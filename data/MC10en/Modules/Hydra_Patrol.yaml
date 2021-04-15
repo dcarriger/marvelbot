@@ -1,0 +1,21 @@
+- names:
+  - Hydra Patrol
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 154
+    quantity: 1
+  faces:
+  - name: Hydra Patrol
+    type: Side Scheme
+    unique: false
+    text: '**When Defeated:** Each player searches the encounter deck and discard
+      pile for a [[Hydra]] minion and puts it into play engaged with them. Shuffle
+      the encounter deck.'
+    boost_icons: 2
+    starting_threat_per_player: 2
+    flavor_text: Hydra Soldiers perform routine patrols to maintain control of their
+      territory.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/154.png
+    marvelcdb_url: https://marvelcdb.com/card/04154
+  horizontal: true

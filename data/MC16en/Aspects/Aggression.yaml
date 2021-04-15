@@ -1,0 +1,99 @@
+- names:
+  - Bug
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 40
+    quantity: 1
+  faces:
+  - name: Bug
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Aggression
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Guardian
+    text: '**Hero Response**: After your hero makes a basic attack, heal 1 damage
+      from Bug.'
+    hit_points: 2
+    flavor_text: '"Whoopee! We''re a *tik* team again! There ain''t no way they can
+      *tik* stop us now!"'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/40.png
+    marvelcdb_url: https://marvelcdb.com/card/16040
+- names:
+  - Looking for Trouble
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 43
+    quantity: 3
+  faces:
+  - name: Looking for Trouble
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    text: '**Hero Action** (thwart): Discard cards from the top of the encounter deck
+      until you discard a minion. Put that minion into play engaged with you → remove
+      3 threat from the main scheme.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/43.png
+    marvelcdb_url: https://marvelcdb.com/card/16043
+- names:
+  - Follow Through
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 45
+    quantity: 3
+  faces:
+  - name: Follow Through
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Skill
+    text: '**Hero Interrupt**: When your hero''s attack deals any amount of excess
+      damage, increase that amount by 1.'
+    flavor_text: '"That''s a little excessive..."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/45.png
+    marvelcdb_url: https://marvelcdb.com/card/16045
+- names:
+  - Hand Cannon
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 46
+    quantity: 3
+  faces:
+  - name: Hand Cannon
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Tech
+    keywords:
+    - Restricted
+    - Uses
+    text: |-
+      Restricted. Uses (3 charge counters).
+       **Hero Interrupt**: When your hero makes a basic attack, exhaust Hand Cannon and remoe 1 charge counter from it → your hero gets +2 ATK for that attack. That attack gains overkill.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/46.png
+    marvelcdb_url: https://marvelcdb.com/card/16046

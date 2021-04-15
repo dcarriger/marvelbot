@@ -1,0 +1,77 @@
+- names:
+  - Wilt
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 25
+    quantity: 1
+  faces:
+  - name: Wilt
+    type: Obligation
+    unique: false
+    text: |
+      **_Give to the Groot player._**
+      You may flip to alter-ego form. Choose:
+      • Exhaust your alter-ego → remove Wilt from the game.
+      • Remove 3 growth counters from Groot. If no growth counters were removed this way, this card gains surge. Discard this obligation.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/25.png
+    marvelcdb_url: https://marvelcdb.com/card/16025
+- names:
+  - Blazing Inferno
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Blazing Inferno
+    type: Side Scheme
+    unique: false
+    text: |
+      **Forced Response**: After the villain phase begins, deal 2 indirect damage to each player.
+    boost_icons: 2    
+    starting_threat_per_player: 3
+    flavor_text: |
+      Furnax rampages across Groot’s homeworld, Planet X, bringing death and destruction to everything it touches.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/16026
+- names:
+  - Furnax
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Furnax
+    type: Minion
+    unique: true
+    scheme: 2
+    scheme_text: |
+      **Forced Response**: After Furnax activates, deal 2 indirect damage to each player.
+    attack: 2
+    attack_text: |
+      **Forced Response**: After Furnax activates, deal 2 indirect damage to each player.
+    text: |
+      _(Groot’s nemesis minion.)_
+    boost_icons: 3
+    hit_points: 6
+    flavor_text: |
+      Furnax rampages across Groot’s homeworld, Planet X, bringing death and destruction to everything it touches.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/16027
+- names:
+  - Fan the Flames
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 28
+    quantity: 1
+  faces:
+  - name: Fan the Flames
+    type: Treachery
+    unique: false
+    text: |
+      **When Revealed**: Take 2 indirect damage. If Blazing Inferno is in play, take 1 additional indirect damage. If Furnax is in play, take 1 additional indirect damage.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/16028

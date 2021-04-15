@@ -1,0 +1,224 @@
+- names:
+  - Spider-Woman
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 31
+    quantity: 1
+  faces:
+  - name: Spider-Woman
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 1
+    defense: 1
+    traits:
+    - Avenger
+    - Spy
+    text: '"Superhuman Agility" — **Interrupt**: When you play an aspect card, Spider-Woman
+      gets +1 THW, +1 ATK, and +1 DEF until the end of the round. (limit once per
+      round for each aspect.)'
+    hit_points: 11
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/31A.png
+    marvelcdb_url: https://marvelcdb.com/card/04031a
+- names:
+  - Jessica Drew
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 31
+    quantity: 1
+  faces:
+  - name: Jessica Drew
+    type: Alter-Ego
+    unique: true
+    recover: 3
+    traits:
+    - Spy
+    text: |-
+      Double Agent — Choose two aspects instead of one during deck-building. You must include an equal number of cards from those aspects in your deck.
+       **Action:**: Look at the top card of any deck. (Limit once per round.)
+    hit_points: 11
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/31B.png
+    marvelcdb_url: https://marvelcdb.com/card/04031b
+- names:
+  - Captain Marvel
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 32
+    quantity: 1
+  faces:
+  - name: Captain Marvel
+    subtitle: Carol Danvers
+    cost: 4
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Response**: After Captain Marvel uses a basic power, draw 1 card. '
+    hit_points: 3
+    flavor_text: '"I gotta hand it to you, kid. This is one of the more impressive
+      messes I''ve ever seen."'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/04032
+- names:
+  - Finesse
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 33
+    quantity: 2
+  faces:
+  - name: Finesse
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Condition
+    text: '**Hero Resource**: Exhaust Finesse → generate a [wild] resource for an
+      aspect card.'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/33.png
+    marvelcdb_url: https://marvelcdb.com/card/04033
+- names:
+  - Jessica Drew's Apartment
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 34
+    quantity: 1
+  faces:
+  - name: Jessica Drew's Apartment
+    cost: 1
+    type: Support
+    unique: true
+    traits:
+    - Location
+    text: '**Alter-Ego Action**: Exhaust Jessica Drew''s Apartment → search the top
+      5 cards of your deck for an aspect card and add it to your hand. Shuffle your
+      deck.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/34.png
+    marvelcdb_url: https://marvelcdb.com/card/04034
+- names:
+  - Venom Blast
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 35
+    quantity: 2
+  faces:
+  - name: Venom Blast
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Attack
+    - Superpower
+    text: '**Hero Action** _(attack)_: Deal 5 damage to an enemy.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/35.png
+    marvelcdb_url: https://marvelcdb.com/card/04035
+- names:
+  - Pheromones
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 36
+    quantity: 2
+  faces:
+  - name: Pheromones
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Superpower
+    text: '**Hero Action**: Stun and confuse an enemy.'
+    flavor_text: '"Warn me before you use that power again, okay?" -- Peter Parker'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/36.png
+    marvelcdb_url: https://marvelcdb.com/card/04036
+- names:
+  - Contaminant Immunity
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 37
+    quantity: 2
+  faces:
+  - name: Contaminant Immunity
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Superpower
+    text: '**Hero Action**: Heal 3 damage from Spider-Woman and give her a tough status
+      card.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/37.png
+    marvelcdb_url: https://marvelcdb.com/card/04037
+- names:
+  - Inconspicuous
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 38
+    quantity: 2
+  faces:
+  - name: Inconspicuous
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Skill
+    - Thwart
+    text: '**Hero Action** _(thwart)_: Remove a total of 3 threat from among schemes
+      in play.'
+    flavor_text: '"Now all I gotta do is Spy-der Woman my way inside." -- Jessica
+      Drew'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/38.png
+    marvelcdb_url: https://marvelcdb.com/card/04038
+- names:
+  - Self-Propelled Glide
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 39
+    quantity: 3
+  faces:
+  - name: Self-Propelled Glide
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Action**: Ready Spider-Woman. She gains [[aerial]] until the end
+      of the round.'
+    flavor_text: '"People always think I can fly. I can''t But I do glide really well."
+      -- Jessica Drew'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/39.png
+    marvelcdb_url: https://marvelcdb.com/card/04039

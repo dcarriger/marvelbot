@@ -1,0 +1,417 @@
+- names:
+  - Green Goblin
+  - Mutagen Formula
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 14
+    quantity: 1
+  faces:
+  - name: Green Goblin
+    type: Villain
+    unique: true
+    scheme: 1
+    attack: 2
+    attack_text: '<b>Forced Response</b>: After Green Goblin attacks and damages you,
+      place 1 threat on the main scheme.'
+    traits:
+    - Goblin
+    text: null
+    hit_points_per_player: 16
+    flavor_text: '"Did you expect the Green Goblin to let you live?!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/02014
+- names:
+  - Green Goblin
+  - Mutagen Formula
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 15
+    quantity: 1
+  faces:
+  - name: Green Goblin
+    type: Villain
+    unique: true
+    scheme: 2
+    attack: 2
+    attack_text: '<b>Forced Response</b>: After Green Goblin attacks and damages you,
+      place 1 threat on the main scheme.'
+    traits:
+    - Goblin
+    text: '**When Revealed**: Deal 2 encounter cards to each player.'
+    hit_points_per_player: 18
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/02015
+- names:
+  - Green Goblin
+  - Mutagen Formula
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 16
+    quantity: 1
+  faces:
+  - name: Green Goblin
+    type: Villain
+    unique: true
+    scheme: 2
+    attack: 3
+    attack_text: '<b>Forced Response</b>: After Green Goblin attacks and damages you,
+      place 2 threat on the main scheme.'
+    traits:
+    - Goblin
+    text: '**When Revealed**: Deal 3 encounter cards to each player.'
+    hit_points_per_player: 20
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/16.png
+    marvelcdb_url: https://marvelcdb.com/card/02016
+- names:
+  - Unleashing the Mutagen
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 17
+    quantity: 1
+  faces:
+  - name: Unleashing the Mutagen
+    type: Main Scheme
+    unique: false
+    text: |-
+      **Contents**: Green Goblin (I) and Green Goblin (II). _(Green Goblin (II) and Green Goblin (III) instead for expert mode.)_ Mutagen Formula and Standard encounter sets. One modular encounter set _(recommended: Goblin Gimmicks)_.
+      **Setup**: Put a Goblin Thrall minion into play engaged with each player. Shuffle the encounter deck. Advance to stage 1B.
+    starting_threat_per_player: 2
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 7
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/17A.png
+    marvelcdb_url: https://marvelcdb.com/card/02017
+  - name: Unleashing the Mutagen
+    type: Main Scheme
+    unique: false
+    text: '**When Completed**: In player order, each player not engaged with a [[Goblin]]
+      minion must discard 3 cards from the encounter deck and put the first [[Goblin]]
+      minion they discarded this way into play engaged with them.'
+    starting_threat_per_player: 2
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 7
+    flavor_text: Green Goblin has released a toxic mutagen gas on New York City.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/17B.png
+    marvelcdb_url: https://marvelcdb.com/card/02017
+  horizontal: true
+- names:
+  - Mutagen Cloud
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 18
+    quantity: 1
+  faces:
+  - name: Mutagen Cloud
+    type: Main Scheme
+    unique: false
+    text: '**When Revealed**: Advance to stage 2B.'
+    starting_threat_per_player: 4
+    acceleration_threat: -2
+    completion_threat_per_player: 11
+    flavor_text: As the cloud engulfs the city, those unfortunate enough to be caught
+      in the vapors begin to shiver and shift, mutating into hideous goblin creatures.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/18A.png
+    marvelcdb_url: https://marvelcdb.com/card/02018
+  - name: Mutagen Cloud
+    type: Main Scheme
+    unique: false
+    text: |-
+      X is equal to the number of [[Goblin]] enemies (including Green Goblin) in play.
+      **If this stage is completed, the players lose the game.**
+    starting_threat_per_player: 4
+    acceleration_threat: -2
+    completion_threat_per_player: 11
+    flavor_text: The goblin creatures serve Green Goblin's every command. Stop Green
+      Goblin before his monstrous militia overruns the city!
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/18B.png
+    marvelcdb_url: https://marvelcdb.com/card/02018
+  horizontal: true
+- names:
+  - Goblin Glider
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 19
+    quantity: 1
+  faces:
+  - name: Goblin Glider
+    type: Attachment
+    unique: false
+    attack: 1
+    traits:
+    - Vehicle
+    text: |-
+      Attach to the enemy with the highest printed hit points and without another Goblin Glider attached. If you cannot, this card gains surge.
+      **Hero Action**: Spend [energy] [energy] resources → discard this card.
+    boost_icons: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/19.png
+    marvelcdb_url: https://marvelcdb.com/card/02019
+- names:
+  - Hysteria
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 20
+    quantity: 1
+  faces:
+  - name: Hysteria
+    type: Attachment
+    unique: false
+    scheme_text: '<b>Forced Interrupt</b>: When Green Goblin schemes or attacks, give
+      him 1 additional boost card for that activation.'
+    attack_text: '<b>Forced Interrupt</b>: When Green Goblin schemes or attacks, give
+      him 1 additional boost card for that activation.'
+    traits:
+    - Condition
+    text: |-
+      Attach to Green Goblin.
+      **Hero Action**: Spend [mental] [mental] resources → discard this card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/20.png
+    marvelcdb_url: https://marvelcdb.com/card/02020
+- names:
+  - Pumpkin Bombs
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 21
+    quantity: 1
+  faces:
+  - name: Pumpkin Bombs
+    type: Attachment
+    unique: false
+    attack_text: '<b>Forced Response</b>: After the villain attacks you, discard Pumpkin
+      Bombs and take 2 indirect damage.'
+    traits:
+    - Weapon
+    text: |-
+      Attach to the villain.
+      **Hero Action**: Spend [physical] [physical] resources → discard this card.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/21.png
+    marvelcdb_url: https://marvelcdb.com/card/02021
+- names:
+  - Goblin Knight
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 22
+    quantity: 1
+  faces:
+  - name: Goblin Knight
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 2
+    attack_text: '<b>Forced Response</b>: After Goblin Knight attacks you, discard
+      1 card from the encounter deck. If that card is a [[Goblin]] minion, put it
+      into play engaged with you.'
+    traits:
+    - Elite
+    - Goblin
+    text: null
+    hit_points: 7
+    boost_icons: 1
+    star_text: After this activation ends, shuffle this card into the encounter deck.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/22.png
+    marvelcdb_url: https://marvelcdb.com/card/02022
+- names:
+  - Goblin Soldier
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 23
+    quantity: 4
+  faces:
+  - name: Goblin Soldier
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 1
+    traits:
+    - Goblin
+    text: '**When Defeated**: Deal 1 damage to the engaged player.'
+    hit_points: 5
+    boost_icons: 0
+    star_text: Put Goblin Soldier into play engaged with you.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/23.png
+    marvelcdb_url: https://marvelcdb.com/card/02023
+- names:
+  - Goblin Thrall
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 24
+    quantity: 6
+  faces:
+  - name: Goblin Thrall
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 1
+    traits:
+    - Goblin
+    keywords:
+    - Guard
+    text: Guard. _(While this minion is engaged with you, you cannot attack the villain.)_
+    hit_points: 3
+    boost_icons: 0
+    star_text: Put Goblin Thrall into play engaged with you.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/24.png
+    marvelcdb_url: https://marvelcdb.com/card/02024
+- names:
+  - Monster
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 25
+    quantity: 1
+  faces:
+  - name: Monster
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: 3
+    traits:
+    - Elite
+    - Goblin
+    text: '**When Revealed**: You are stunned. If you are already stunned, take 2
+      damage.'
+    hit_points: 6
+    boost_icons: 2
+    star_text: After this activation ends, shuffle this card into the encounter deck.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/25.png
+    marvelcdb_url: https://marvelcdb.com/card/02025
+- names:
+  - Goblin Reinforcements
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 26
+    quantity: 2
+  faces:
+  - name: Goblin Reinforcements
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Place 1 additional threat here for each [[Goblin]] minion
+      in play.'
+    boost_icons: 2
+    starting_threat: 2
+    flavor_text: Using the mutagen formula and advanced combat training, Green Goblin
+      has created an elite force of goblin commandos.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/02026
+  horizontal: true
+- names:
+  - Goblin Nation
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Goblin Nation
+    type: Side Scheme
+    unique: false
+    text: Each [[Goblin]] enemy _(including Green Goblin)_ gets +1 ATK.
+    boost_icons: 0
+    star_text: Put Goblin Nation into play.
+    starting_threat_per_player: 2
+    flavor_text: '"We are not a gang. We are so much more. We''re family. An empire!
+      A pantheon! And I? I am the Goblin King!" -- Green Goblin'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/02027
+  horizontal: true
+- names:
+  - Overrun
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 28
+    quantity: 2
+  faces:
+  - name: Overrun
+    type: Side Scheme
+    unique: false
+    text: '**When Defeated**: In player order, each player must discard 2 cards from
+      the encounter deck and put each [[Goblin]] minion they discarded this way into
+      play engaged with them.'
+    boost_icons: 1
+    starting_threat_per_player: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/02028
+  horizontal: true
+- names:
+  - Death from Above
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 29
+    quantity: 2
+  faces:
+  - name: Death from Above
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: Green Goblin schemes with +X SCH, where X is equal to the villain's stage number.
+      **When Revealed (Hero)**: Green Goblin attacks with +X ATK, where X is equal to the villain's stage number.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/02029
+- names:
+  - I See You
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 30
+    quantity: 1
+  faces:
+  - name: I See You
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Green Goblin attack you. If you are in alter-ego form,
+      do not give the villain a boost card for this activation.'
+    boost_icons: 1
+    star_text: This card gets +1 boost icon ([boost]) if at least one [[Goblin]] minion
+      is engaged with you.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/02030
+- names:
+  - Overconfidence
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 31
+    quantity: 1
+  faces:
+  - name: Overconfidence
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: Green Goblin schemes. If at least 3 threat was placed by this activation, this card gains surge.
+      **When Revealed (Hero)**: Green Goblin attacks you. If at least 3 damage was placed by this activation, this card gains surge.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/02031
+- names:
+  - Wicked Ambitions
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 32
+    quantity: 2
+  faces:
+  - name: Wicked Ambitions
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Discard X cards from the encounter deck, where X is
+      equal to double the villain''s stage number. Each time a [[Goblin]] minion is
+      discarded this way, choose to either take 3 damage or put that minion into play
+      engaged with you.'
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/02032

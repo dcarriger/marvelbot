@@ -1,0 +1,97 @@
+- names:
+  - Legal Work
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 160
+    quantity: 1
+  faces:
+  - name: Legal Work
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Jennifer Walters player._**
+      You may flip to your alter-ego form. Choose:
+      - Exhaust Jennifer Walters → remove Legal Work from the game.
+      - Give the main scheme 1 acceleration token. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/160.png
+    marvelcdb_url: https://marvelcdb.com/card/01160
+- names:
+  - Personal Challenge
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 161
+    quantity: 1
+  faces:
+  - name: Personal Challenge
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Place an additional 1 [per_hero] threat here.'
+    boost_icons: 3
+    starting_threat: 3
+    flavor_text: Titania had held a grudge against She-Hulk for years. She won't rest
+      until she settles the score.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/161.png
+    marvelcdb_url: https://marvelcdb.com/card/01161
+  horizontal: true
+- names:
+  - Titania
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 162
+    quantity: 1
+  faces:
+  - name: Titania
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: -2
+    traits:
+    - Brute
+    - Elite
+    text: X is equal to Titania's remaining hit points.
+    hit_points: 6
+    boost_icons: 2
+    flavor_text: '"Face it, Greenie. There''s only room for one strongest woman...
+      and it ain''t you!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/162.png
+    marvelcdb_url: https://marvelcdb.com/card/01162
+- names:
+  - Genetically Enhanced
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 163
+    quantity: 1
+  faces:
+  - name: Genetically Enhanced
+    type: Attachment
+    unique: false
+    traits:
+    - Condition
+    text: |-
+      Attach to the minion with the highest printed hit points. If there are no minions in play, this card gains surge.
+      Attached minion gets +3 hit points.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/163.png
+    marvelcdb_url: https://marvelcdb.com/card/01163
+- names:
+  - Titania's Fury
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 164
+    quantity: 2
+  faces:
+  - name: Titania's Fury
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Titania attacks your hero. If Titania did not attack,
+      heal all damage from Titania and this card gains surge.'
+    boost_icons: 1
+    star_text: Give the villain 1 additional boost card for this activation.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/164.png
+    marvelcdb_url: https://marvelcdb.com/card/01164

@@ -1,0 +1,322 @@
+- names:
+  - Crossbones
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 58
+    quantity: 1
+  faces:
+  - name: Crossbones
+    type: Villain
+    unique: true
+    scheme: 1
+    attack: 1
+    attack_text: While Crossbones has a [[Weapon]] attachment, his attacks gain piercing.
+      <em>(Discard any tough status cards from the target before dealing damage.)</em>
+    traits:
+    - Hydra
+    - Mercenary
+    text: null
+    hit_points_per_player: 12
+    flavor_text: '"I consider myself a craftsman. I specialize in destruction and
+      terror."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/58.png
+    marvelcdb_url: https://marvelcdb.com/card/04058
+- names:
+  - Crossbones
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 59
+    quantity: 1
+  faces:
+  - name: Crossbones
+    type: Villain
+    unique: true
+    scheme: 2
+    attack: 2
+    attack_text: While Crossbones has a [[Weapon]] attachment, his attacks gain piercing.
+    traits:
+    - Hydra
+    - Mercenary
+    text: '**When Revealed:** Search the encounter deck and discard pile for Crossbone''s
+      Machine Gun and attach it to Crossbones. Shuffle the encounter deck.'
+    hit_points_per_player: 14
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/59.png
+    marvelcdb_url: https://marvelcdb.com/card/04059
+- names:
+  - Crossbones
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 60
+    quantity: 1
+  faces:
+  - name: Crossbones
+    type: Villain
+    unique: true
+    scheme: 2
+    attack: 3
+    attack_text: While Crossbones has a [[Weapon]] attachment, his attacks gain piercing.
+    traits:
+    - Hydra
+    - Mercenary
+    text: '**When Revealed:** Reveal the top card of the Experimental Weapons deck.'
+    hit_points_per_player: 16
+    flavor_text: '"Those super-powered types might have more strength, but none of
+      them have my style."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/60.png
+    marvelcdb_url: https://marvelcdb.com/card/04060
+- names:
+  - Attack on Mount Athena
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 61
+    quantity: 1
+  faces:
+  - name: Attack on Mount Athena
+    type: Main Scheme
+    unique: false
+    text: |-
+      **Contents:** Crossbones (I) and Crossbones (II). Crossbones, Experimental Weapons, and Standard Encounter sets. Three modular sets <em>(Hydra Assault, Weapon Master, and Legions of Hydra).</em>
+      **Setup:** Create the Experimental Weapons deck and set it next to the main scheme deck. <em>(see rulebook page 5.)</em>
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/61A.png
+    marvelcdb_url: https://marvelcdb.com/card/04061
+  - name: Attack on Mount Athena
+    type: Main Scheme
+    unique: false
+    text: null
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 3
+    flavor_text: Crossbones is leading an army of Hydra soldiers in a direct assault
+      on the Project P.E.G.A.S.U.S. facility in the Adirondack Mountains.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/61B.png
+    marvelcdb_url: https://marvelcdb.com/card/04061
+  horizontal: true
+- names:
+  - The Infinity Stone
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 62
+    quantity: 1
+  faces:
+  - name: The Infinity Stone
+    type: Main Scheme
+    unique: false
+    text: null
+    starting_threat_per_player: 1
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 6
+    flavor_text: Inside the Project P.E.G.A.S.U.S. facility, S.H.I.E.L.D. agents fight
+      desperately to prevent Hydra from obtaining the Reality Stone stored within.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/62A.png
+    marvelcdb_url: https://marvelcdb.com/card/04062
+  - name: The Infinity Stone
+    type: Main Scheme
+    unique: false
+    text: '**When Revealed:** Reveal the top card of the Experimental Weapons deck.'
+    starting_threat_per_player: 1
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 6
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/62B.png
+    marvelcdb_url: https://marvelcdb.com/card/04062
+  horizontal: true
+- names:
+  - The Getaway
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 63
+    quantity: 1
+  faces:
+  - name: The Getaway
+    type: Main Scheme
+    unique: false
+    text: null
+    starting_threat_per_player: 1
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 5
+    flavor_text: Hydra has seized the Infinity Stone, and Crossbones orders their
+      withdrawal. You must stop them before they escape!
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/63A.png
+    marvelcdb_url: https://marvelcdb.com/card/04063
+  - name: The Getaway
+    type: Main Scheme
+    unique: false
+    text: |-
+      **When Revealed:** Reveal the top card of the Experimental Weapons deck.
+      **If this stage is completed, the players lose the game.**
+    starting_threat_per_player: 1
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 5
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/63B.png
+    marvelcdb_url: https://marvelcdb.com/card/04063
+  horizontal: true
+- names:
+  - Crossbones' Machine Gun
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 64
+    quantity: 1
+  faces:
+  - name: Crossbones' Machine Gun
+    type: Attachment
+    unique: true
+    attack: 0
+    attack_text: <b>Forced Interrupt:</b> When Crossbones attacks you, remove 1 ammo
+      counter from this card and discard the top card of the encounter deck → take
+      indirect damage equal to the number of boost icons on the discarded card.
+    traits:
+    - Weapon
+    keywords:
+    - Uses
+    text: Attach to Crossbones. Uses (2[per_hero] ammo counters).
+    boost_icons: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/64.png
+    marvelcdb_url: https://marvelcdb.com/card/04064
+- names:
+  - Crossbones' Armor
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 65
+    quantity: 1
+  faces:
+  - name: Crossbones' Armor
+    type: Attachment
+    unique: true
+    scheme: 1
+    attack: 1
+    traits:
+    - Armor
+    text: |-
+      Attach to Crossbones.
+      **Forced Interrupt:** When Crossbones would take any amount of damage, place it here instead. If there is 5 or more damage here, discard Crossbones' Armor.
+    boost_icons: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/65.png
+    marvelcdb_url: https://marvelcdb.com/card/04065
+- names:
+  - Hydra Bomber
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 66
+    quantity: 2
+  faces:
+  - name: Hydra Bomber
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 1
+    traits:
+    - Hydra
+    text: '**When Revealed:** Choose to either take 2 damage or place 1 threat on
+      the main scheme.'
+    hit_points: 2
+    boost_icons: 1
+    flavor_text: '"I know that if you cut off one head, two more will take its place.
+      But what if it blows up instead?" -- She-Hulk'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/66.png
+    marvelcdb_url: https://marvelcdb.com/card/04066
+- names:
+  - Full Auto
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 67
+    quantity: 2
+  faces:
+  - name: Full Auto
+    type: Treachery
+    unique: false
+    keywords:
+    - Surge
+    text: |-
+      **When Revealed (Alter-Ego):** Surge.
+      **When Revealed (Hero):** Discard X cards from the top of the encounter deck, where X is Crossbones' ATK. Take 1 indirect damage for each boost icon discarded this way.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/67.png
+    marvelcdb_url: https://marvelcdb.com/card/04067
+- names:
+  - Hard as Nails
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 68
+    quantity: 2
+  faces:
+  - name: Hard as Nails
+    type: Treachery
+    unique: false
+    text: '**When Revealed:** Give the villain a tough status card. If you cannot,
+      heal 3 damage from it instead.'
+    boost_icons: 0
+    star_text: Give the villain a tough status card. If you cannot, heal 3 damage
+      from it instead.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/68.png
+    marvelcdb_url: https://marvelcdb.com/card/04068
+- names:
+  - Raid the Armory
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 69
+    quantity: 2
+  faces:
+  - name: Raid the Armory
+    type: Treachery
+    unique: false
+    keywords:
+    - Incite
+    text: |-
+      Incite 1. <em>(When this card is revealed place 1 threat on the main scheme.)</em>
+      **When Revealed:** Discard cards from the top of the encounter deck until a [[Weapon]] attachment is discarded. Reveal that card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/69.png
+    marvelcdb_url: https://marvelcdb.com/card/04069
+- names:
+  - Crossbones' Assault
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 70
+    quantity: 2
+  faces:
+  - name: Crossbones' Assault
+    type: Side Scheme
+    unique: false
+    text: '**When Defeated:** Crossbones activates against the player who defeated
+      this scheme.'
+    boost_icons: 2
+    starting_threat_per_player: 2
+    flavor_text: Crossbones is a heartless killer, but he's not a psychopath. His
+      assault on P.E.G.A.S.U.S. is ruthless and efficient.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/70.png
+    marvelcdb_url: https://marvelcdb.com/card/04070
+  horizontal: true
+- names:
+  - Cornered Staff
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 71
+    quantity: 1
+  faces:
+  - name: Cornered Staff
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed:** Discard 1[per_hero] cards from the top of the encounter
+      deck. Place 1 additional threat here for each boost icon discarded this way.'
+    boost_icons: 2
+    starting_threat: 3
+    flavor_text: Hydra is rounding up P.E.G.A.S.U.S. staff to hold as hostages.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/71.png
+    marvelcdb_url: https://marvelcdb.com/card/04071
+  horizontal: true

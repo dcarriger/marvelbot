@@ -1,0 +1,95 @@
+- names:
+  - Affairs of State
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 155
+    quantity: 1
+  faces:
+  - name: Affairs of State
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the T'Challa player._**
+      You may flip to your alter-ego form. Choose:
+      - Exhaust T'Challa → remove Affairs of State from the game.
+      - Choose and discard a [[Black Panther]] upgrade you control. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/155.png
+    marvelcdb_url: https://marvelcdb.com/card/01155
+- names:
+  - Usurp The Throne
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 156
+    quantity: 1
+  faces:
+  - name: Usurp The Throne
+    type: Side Scheme
+    unique: false
+    text: null
+    boost_icons: 3
+    starting_threat_per_player: 3
+    flavor_text: The renegade, Killmonger, is leading a coup to seize control of Wakanda.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/156.png
+    marvelcdb_url: https://marvelcdb.com/card/01156
+  horizontal: true
+- names:
+  - Killmonger
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 157
+    quantity: 1
+  faces:
+  - name: Killmonger
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 2
+    traits:
+    - Assassin
+    - Elite
+    - Mercenary
+    text: Killmonger cannot take damage from [[Black Panther]] upgrades.
+    hit_points: 5
+    boost_icons: 2
+    flavor_text: '"That should be me on the throne!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/157.png
+    marvelcdb_url: https://marvelcdb.com/card/01157
+- names:
+  - Heart-Shaped Herb
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 158
+    quantity: 1
+  faces:
+  - name: Heart-Shaped Herb
+    type: Treachery
+    unique: false
+    text: |-
+      Surge _(After this card resolves, reveal 1 additional encounter card)_
+      **When Revealed**: Give the villain and each minion engaged with you a tough status card.
+    boost_icons: 1
+    star_text: Give the villain a tough status card.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/158.png
+    marvelcdb_url: https://marvelcdb.com/card/01158
+- names:
+  - Ritual Combat
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 159
+    quantity: 2
+  faces:
+  - name: Ritual Combat
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Discard the top card of the encounter deck. Then, choose
+      to either deal X damage to your hero or place X threat on the main scheme. X
+      is 1 more than the number of boost icons on the discarded encounter card.'
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/159.png
+    marvelcdb_url: https://marvelcdb.com/card/01159

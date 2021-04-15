@@ -1,0 +1,293 @@
+- names:
+  - Black Panther
+  - T’Challa
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 40
+    quantity: 1
+  faces:
+  - name: T'Challa
+    type: Alter-Ego
+    unique: true
+    recover: 4
+    traits:
+    - King
+    - Wakanda
+    text: 'Foresight - **Setup**: Search your deck for a [[Black Panther]] upgrade
+      and add it to your hand. Shuffle your deck.'
+    hit_points: 11
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/40B.png
+    marvelcdb_url: https://marvelcdb.com/card/01040b
+  - name: Black Panther
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 2
+    defense: 2
+    traits:
+    - Avenger
+    - Wakanda
+    keywords:
+    - Retaliate
+    text: Retaliate 1. _(After this character is attacked, deal 1 damage to the attacking
+      character.)_
+    hit_points: 11
+    flavor_text: '"To attack me is to attack Wakanda."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/40A.png
+    marvelcdb_url: https://marvelcdb.com/card/01040a
+- names:
+  - Shuri
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 41
+    quantity: 1
+  faces:
+  - name: Shuri
+    cost: 2
+    type: Ally
+    unique: true
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Genius
+    - Wakanda
+    text: '**Response**: After Shuri enters play, search your deck for an upgrade
+      and add it to your hand. Shuffle your deck.'
+    hit_points: 3
+    flavor_text: '"You would be lost without me, brother!"'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/41.png
+    marvelcdb_url: https://marvelcdb.com/card/01041
+- names:
+  - Ancestral Knowledge
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 42
+    quantity: 1
+  faces:
+  - name: Ancestral Knowledge
+    cost: 1
+    type: Event
+    unique: false
+    text: '**Alter-Ego Action**: Choose up to 3 different cards in your discard pile
+      and shuffle them into your deck.'
+    flavor_text: '"In Wakanda, we draw strength from the knowledge of our ancestors."
+      -- T''Challa'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/42.png
+    marvelcdb_url: https://marvelcdb.com/card/01042
+- names:
+  - Wakanda Forever!
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 43
+    quantity: 1
+  faces:
+  - name: Wakanda Forever!
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Tactic
+    text: '**Hero Action**: Resolve the "**Special**" ability on each [[Black Panther]]
+      upgrade you control in any order. _(Resolving each ability is a step in a sequence.)_'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/43A.png
+    marvelcdb_url: https://marvelcdb.com/card/01043a
+- names:
+  - Wakanda Forever!
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 43
+    quantity: 1
+  faces:
+  - name: Wakanda Forever!
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Tactic
+    text: '**Hero Action**: Resolve the "**Special**" ability on each [[Black Panther]]
+      upgrade you control in any order. _(Resolving each ability is a step in a sequence.)_'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/43B.png
+    marvelcdb_url: https://marvelcdb.com/card/01043b
+- names:
+  - Wakanda Forever!
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 43
+    quantity: 1
+  faces:
+  - name: Wakanda Forever!
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Tactic
+    text: '**Hero Action**: Resolve the "**Special**" ability on each [[Black Panther]]
+      upgrade you control in any order. _(Resolving each ability is a step in a sequence.)_'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/43C.png
+    marvelcdb_url: https://marvelcdb.com/card/01043c
+- names:
+  - Wakanda Forever!
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 43
+    quantity: 2
+  faces:
+  - name: Wakanda Forever!
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Tactic
+    text: '**Hero Action**: Resolve the "**Special**" ability on each [[Black Panther]]
+      upgrade you control in any order. _(Resolving each ability is a step in a sequence.)_'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/43D.png
+    marvelcdb_url: https://marvelcdb.com/card/01043d
+- names:
+  - Vibranium
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 44
+    quantity: 3
+  faces:
+  - name: Vibranium
+    type: Resource
+    unique: false
+    text: null
+    flavor_text: '"Since the time of Bashenga, we''ve controlled our destiny as few
+      other nations have."'
+    resources:
+      wild: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/44.png
+    marvelcdb_url: https://marvelcdb.com/card/01044
+- names:
+  - The Golden City
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 45
+    quantity: 1
+  faces:
+  - name: The Golden City
+    cost: 2
+    type: Support
+    unique: true
+    traits:
+    - Location
+    - Wakanda
+    text: '**Alter-Ego Action**: Exhaust The Golden City → draw 2 cards.'
+    flavor_text: Wakanda's capital city is an unrivaled architectural and technological
+      marvel.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/45.png
+    marvelcdb_url: https://marvelcdb.com/card/01045
+- names:
+  - Energy Daggers
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 46
+    quantity: 1
+  faces:
+  - name: Energy Daggers
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Black Panther
+    - Weapon
+    text: |-
+      **Special**: Choose a player. Deal 1 damage to the villain and to each enemy engaged with that player (2 damage instead if this is the final step of this sequence).
+      _(Play the "Wakanda Forever!" event to use this ability.)_
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/46.png
+    marvelcdb_url: https://marvelcdb.com/card/01046
+- names:
+  - Panther Claws
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 47
+    quantity: 1
+  faces:
+  - name: Panther Claws
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Black Panther
+    - Weapon
+    text: |-
+      **Special** (_attack_): Deal 2 damage to an enemy (4 damage instead if this is the final step of this sequence).
+      _(Play the "Wakanda Forever!" event to use this ability.)_
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/47.png
+    marvelcdb_url: https://marvelcdb.com/card/01047
+- names:
+  - Tactical Genius
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 48
+    quantity: 1
+  faces:
+  - name: Tactical Genius
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Black Panther
+    - Skill
+    text: |-
+      **Special** (_thwart_): Remove 1 threat from a scheme (2 threat instead if this is the final step of this sequence).
+      _(Play the "Wakanda Forever!" event to use this ability.)_
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/48.png
+    marvelcdb_url: https://marvelcdb.com/card/01048
+- names:
+  - Vibranium Suit
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 49
+    quantity: 1
+  faces:
+  - name: Vibranium Suit
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Armor
+    - Black Panther
+    text: |-
+      **Special** (_attack_): Move 1 damage from your hero to an enemy (2 damage instead if this is the final step of this sequence).
+      _(Play the "Wakanda Forever!" event to use this ability.)_
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/49.png
+    marvelcdb_url: https://marvelcdb.com/card/01049

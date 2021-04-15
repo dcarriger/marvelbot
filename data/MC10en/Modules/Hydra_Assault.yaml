@@ -1,0 +1,48 @@
+- names:
+  - Hydra Flame-Soldier
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 145
+    quantity: 3
+  faces:
+  - name: Hydra Flame-Soldier
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 1
+    attack_text: <B>Forced Response:</b> After Hydra Flame-Soldier makes an undefended
+      attack against you, discard a support you control.
+    traits:
+    - Hydra
+    text: null
+    hit_points: 4
+    boost_icons: 0
+    star_text: If this card resolves during an undefended attack, discard a support
+      you control.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/145.png
+    marvelcdb_url: https://marvelcdb.com/card/04145
+- names:
+  - Hydra Jet-Trooper
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 146
+    quantity: 2
+  faces:
+  - name: Hydra Jet-Trooper
+    type: Minion
+    unique: false
+    scheme: 0
+    attack: 2
+    traits:
+    - Hydra
+    keywords:
+    - Quickstrike
+    text: Quickstrike.
+    hit_points: 3
+    boost_icons: 0
+    star_text: If you are in hero form, the villain attacks you after this activation.
+      Do not deal any boost cards for that attack.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/146.png
+    marvelcdb_url: https://marvelcdb.com/card/04146

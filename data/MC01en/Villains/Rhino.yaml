@@ -1,0 +1,331 @@
+- names:
+  - Rhino
+  - Rhino 1
+  - Rhino I
+  - Standard Rhino
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 94
+    quantity: 1
+  faces:
+  - name: Rhino
+    type: Villain
+    stage: 1
+    unique: true
+    scheme: 1
+    attack: 2
+    traits:
+    - Brute
+    - Criminal
+    text: null
+    hit_points_per_player: 14
+    flavor_text: '"I''m Rhino, I knock things down. That''s what I do. That''s who
+      I am."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/94.png
+    marvelcdb_url: https://marvelcdb.com/card/01094
+- names:
+  - Rhino
+  - Rhino 2
+  - Rhino II
+  - Standard Rhino
+  - Expert Rhino
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 95
+    quantity: 1
+  faces:
+  - name: Rhino
+    type: Villain
+    stage: 2
+    unique: true
+    scheme: 1
+    attack: 3
+    traits:
+    - Brute
+    - Criminal
+    text: '**When Revealed**: Search the encounter deck and discard pile for the Breakin''
+      & Takin'' side scheme and reveal it. Shuffle the encounter deck.'
+    hit_points_per_player: 15
+    flavor_text: '"Out of my way!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/95.png
+    marvelcdb_url: https://marvelcdb.com/card/01095
+- names:
+  - Rhino
+  - Rhino 3
+  - Rhino III
+  - Expert Rhino
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 96
+    quantity: 1
+  faces:
+  - name: Rhino
+    type: Villain
+    stage: 3
+    unique: true
+    scheme: 1
+    attack: 4
+    traits:
+    - Brute
+    - Criminal
+    keywords:
+    - Toughness
+    text: |-
+      Toughness. _(This character enter play with a tough status card.)_
+      **When Revealed**: Stun each hero.
+    hit_points_per_player: 16
+    flavor_text: '"You brought this on yourself!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/96.png
+    marvelcdb_url: https://marvelcdb.com/card/01096
+- names:
+  - The Break-In!
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 97
+    quantity: 1
+  faces:
+  - name: The Break-In!
+    type: Main Scheme
+    unique: false
+    keywords:
+      - Setup
+    text: |
+      "**Contents**: Rhino (I) and Rhino (II). (Rhino (II) and Rhino (III) instead for expert mode.) Rhino and Standard encounter sets. One modular encounter set _(recommended: Bomb Scare)_.
+      **Setup**: Advance to stage 1B."
+    flavor_text: |
+      "Rhino is attacking a S.H.I.E.L.D. facility!"
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/97A.png
+    marvelcdb_url: https://marvelcdb.com/card/01097a
+  - name: The Break-In!
+    type: Main Scheme
+    unique: false
+    text: '**If this stage is completed, the players lose the game.**'
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 7
+    flavor_text: Rhino is trying to smash through the facility wall and steal a shipment
+      of vibranium. You must stop him!
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/97B.png
+    marvelcdb_url: https://marvelcdb.com/card/01097a
+  horizontal: true
+- names:
+  - Armored Rhino Suit
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 98
+    quantity: 1
+  faces:
+  - name: Armored Rhino Suit
+    type: Attachment
+    unique: false
+    traits:
+    - Armor
+    text: |-
+      Attach to Rhino.
+      **Forced Interrupt**: When any amount of damage would be dealt to Rhino, place it here instead. Then, if there is at least 5 damage here, discard Armored Rhino Suit.
+    boost_icons: 0
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/98.png
+    marvelcdb_url: https://marvelcdb.com/card/01098
+- names:
+  - Charge
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 99
+    quantity: 2
+  faces:
+  - name: Charge
+    type: Attachment
+    unique: false
+    attack: 3
+    attack_text: '<b>Forced Interrupt</b>: When Rhino attacks, the attack gains overkill.
+      <i>(Excess damage to any ally from this attack is dealt to that ally''s controller.)</i>
+      At the end of this attack, discard Charge.'
+    text: Attach to Rhino.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/99.png
+    marvelcdb_url: https://marvelcdb.com/card/01099
+- names:
+  - Enhanced Ivory Horn
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 100
+    quantity: 1
+  faces:
+  - name: Enhanced Ivory Horn
+    type: Attachment
+    unique: false
+    attack: 1
+    traits:
+    - Weapon
+    text: |-
+      Attach to Rhino.
+      **Hero Action**: Spend [physical] [physical] [physical] resources → discard this card
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/100.png
+    marvelcdb_url: https://marvelcdb.com/card/01100
+- names:
+  - Hydra Mercenary
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 101
+    quantity: 2
+  faces:
+  - name: Hydra Mercenary
+    type: Minion
+    unique: false
+    scheme: 0
+    attack: 1
+    traits:
+    - Hydra
+    keywords:
+    - Guard
+    text: Guard. _(While this minion is engaged with you, you cannot attack the villain.)_
+    hit_points: 3
+    boost_icons: 1
+    flavor_text: '"What is Hydra doing here?" -- Carol Danvers'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/101.png
+    marvelcdb_url: https://marvelcdb.com/card/01101
+- names:
+  - Sandman
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 102
+    quantity: 1
+  faces:
+  - name: Sandman
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 3
+    traits:
+    - Criminal
+    - Elite
+    keywords:
+    - Toughness
+    text: Toughness. _(This character enters play with a tough status card.)_
+    hit_points: 4
+    boost_icons: 2
+    flavor_text: '"I just wanna get paid!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/102.png
+    marvelcdb_url: https://marvelcdb.com/card/01102
+- names:
+  - Shocker
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 103
+    quantity: 1
+  faces:
+  - name: Shocker
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: 2
+    traits:
+    - Criminal
+    text: '**When Revealed**: Deal 1 damage to each hero.'
+    hit_points: 3
+    boost_icons: 2
+    flavor_text: '"I bet you''re shocked to see me!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/103.png
+    marvelcdb_url: https://marvelcdb.com/card/01103
+- names:
+  - Hard to Keep Down
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 104
+    quantity: 2
+  faces:
+  - name: Hard to Keep Down
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Rhino heals 4 damage. If no damage was healed this way,
+      this card gains surge.'
+    boost_icons: 0
+    flavor_text: '"You think you can stop me? What a joke!" -- Rhino'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/104.png
+    marvelcdb_url: https://marvelcdb.com/card/01104
+- names:
+  - '"I''m Tough"'
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 105
+    quantity: 2
+  faces:
+  - name: '"I''m Tough"'
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Give Rhino a tough status card. If Rhino already has
+      a tough status card, this card gains surge.'
+    boost_icons: 0
+    flavor_text: '"Bring it!" -- Rhino'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/105.png
+    marvelcdb_url: https://marvelcdb.com/card/01105
+- names:
+  - Stampede
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 106
+    quantity: 3
+  faces:
+  - name: Stampede
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: This card gains surge.
+      **When Revealed (Hero)**: Rhino attacks you. If a character is damaged by this attack, that character is stunned.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/106.png
+    marvelcdb_url: https://marvelcdb.com/card/01106
+- names:
+  - Breakin' & Takin'
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 107
+    quantity: 1
+  faces:
+  - name: Breakin' & Takin'
+    type: Side Scheme
+    unique: false
+    text: |-
+      **When Revealed**: Place an additional 1 [per_hero] threat here.
+      _(Hazard Icon: Deal +1 encounter card during the villain phase.)_
+    boost_icons: 2
+    starting_threat: 2
+    flavor_text: Rhino is breaking things and taking them!
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/107.png
+    marvelcdb_url: https://marvelcdb.com/card/01107
+  horizontal: true
+- names:
+  - Crowd Control
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 108
+    quantity: 1
+  faces:
+  - name: Crowd Control
+    type: Side Scheme
+    unique: false
+    text: '_(Crisis Icon: While this scheme is in play, you cannot remove threat from
+      the main scheme.)_'
+    boost_icons: 2
+    starting_threat_per_player: 2
+    flavor_text: Panicked civilians crowd the area. It is difficult to confront Rhino
+      without putting them at risk. Get the people to safety!
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/108.png
+    marvelcdb_url: https://marvelcdb.com/card/01108
+  horizontal: true

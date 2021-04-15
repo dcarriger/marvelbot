@@ -1,0 +1,621 @@
+- names:
+  - Captain America
+  - Steve Rogers
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Steve Rogers
+    type: Alter-Ego
+    unique: true
+    recover: 3
+    traits:
+    - Soldier
+    text: |-
+      Living Legend — Reduce the cost of the first ally played each round by 1.
+      **Setup**: Search your deck and discard pile for the Captain America's Shield upgrade and add it to your hand. Shuffle your deck.
+    hit_points: 11
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/03001b
+  - name: Captain America
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 2
+    defense: 2
+    traits:
+    - Avenger
+    - Soldier
+    text: '"I Can Do This All Day!" — **Action**: Discard 1 card from your hand →
+      ready Captain America. (Limit once per round.)'
+    hit_points: 11
+    flavor_text: '"My duty to my country comes first, no matter the cost!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/03001a
+- names:
+  - Agent 13
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Agent 13
+    subtitle: Sharon Carter
+    cost: 3
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    text: '**Response**: After Agent 13 enters play, remove 2 threat from a scheme.'
+    hit_points: 3
+    flavor_text: '"Cap, you said we''d fight as a team! I want to come with you!"'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/03002
+- names:
+  - Fearless Determination
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 3
+    quantity: 2
+  faces:
+  - name: Fearless Determination
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Action**: Captain America gets +1 THW until the end of the phase.
+      Draw 1 card.'
+    flavor_text: '"No one dies on my watch." -- Captain America'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/03003
+- names:
+  - Heroic Strike
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 4
+    quantity: 3
+  faces:
+  - name: Heroic Strike
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Deal 6 damage to an enemy. If you paid for
+      this card using a [physical] resource, stun that enemy.'
+    flavor_text: '"No, you move." -- Captain America'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/03004
+- names:
+  - Shield Block
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 5
+    quantity: 2
+  faces:
+  - name: Shield Block
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Defense
+    text: '**Interrupt** _(defense)_: When you would take any amount of damage, exhaust
+      Captain America''s Shield → prevent all of that damage.'
+    flavor_text: '"Is that all you''ve got?" -- Captain America'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/03005
+- names:
+  - Shield Toss
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 6
+    quantity: 2
+  faces:
+  - name: Shield Toss
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Superpower
+    text: '**Hero Action** _(attack)_: Discard X cards from your hand, then return
+      Captain America''s Shield from play to your hand → deal 4 damage to X enemies.'
+    flavor_text: '"Sharon! Duck!" -- Captain America'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/03006
+- names:
+  - Steve's Apartment
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 7
+    quantity: 1
+  faces:
+  - name: Steve's Apartment
+    cost: 1
+    type: Support
+    unique: true
+    traits:
+    - Location
+    text: '**Alter-Ego Action**: Exhaust Steve''s Apartment → draw 1 card and heal
+      1 damage from Steve Rogers.'
+    flavor_text: Even Captain America needs a place to get away and rest.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/03007
+- names:
+  - Captain America's Helmet
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 8
+    quantity: 1
+  faces:
+  - name: Captain America's Helmet
+    cost: 1
+    type: Upgrade
+    unique: true
+    traits:
+    - Item
+    text: '**Interrupt**: When Captain America would be defeated, set his hit point
+      dial to 1 instead. Then, discard this card.'
+    flavor_text: '"A soldier, even a super-soldier, is only as strong as his ideals."
+      -- Steve Rogers'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/03008
+- names:
+  - Captain America's Shield
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 9
+    quantity: 1
+  faces:
+  - name: Captain America's Shield
+    cost: 1
+    type: Upgrade
+    unique: true
+    traits:
+    - Item
+    keywords:
+    - Restricted
+    text: |-
+      Restricted. _(Max 2 restricted cards per player.)_
+      Captain America gets +1 DEF and gains retaliate 1.
+    flavor_text: '"This shield is a symbol of freedom." -- Captain America'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/03009
+- names:
+  - Super-Soldier Serum
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 10
+    quantity: 2
+  faces:
+  - name: Super-Soldier Serum
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Item
+    text: '**Resource**: Exhaust Super-Soldier Serum → generate a [physical] resource.'
+    flavor_text: '"The serum gave Cap his super-strength. But his heart, his unrelenting
+      determination -- those were Steve''s long before he picked up the shield." --
+      Sharon Carter'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/03010
+- names:
+  - Falcon
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Falcon
+    subtitle: Sam Wilson
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Aerial
+    - Avenger
+    text: '**Response**: After Falcon enters play, look at the top 3 cards of the
+      encounter deck. For each treachery looked at this way, remove 1 threat from
+      a scheme.'
+    hit_points: 3
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/03011
+- names:
+  - Squirrel Girl
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 13
+    quantity: 1
+  faces:
+  - name: Squirrel Girl
+    subtitle: Doreen Green
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Response**: After Squirrel Girl enters play, deal 1 damage to each enemy.'
+    hit_points: 2
+    flavor_text: Come on squirrels, let's get 'im!.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/03013
+- names:
+  - Wonder Man
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 14
+    quantity: 1
+  faces:
+  - name: Wonder Man
+    subtitle: Simon Williams
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 1
+    thwart_consequential: 1
+    attack: 3
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: null
+    hit_points: 3
+    flavor_text: It's time for a reckoning!.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/03014
+- names:
+  - Avengers Assemble!
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 15
+    quantity: 3
+  faces:
+  - name: Avengers Assemble!
+    cost: 4
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    text: |-
+      Max 1 per round.
+      **Hero Action**_: Ready each [[Avenger]] character you control. Until the end of the phase, each [[Avenger]] character in play gets +1 THW and +1 ATK.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/03015
+- names:
+  - Strength In Numbers
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 17
+    quantity: 3
+  faces:
+  - name: Strength In Numbers
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    text: '**Action**: Exhaust any number of allies you control → draw 1 card for
+      each ally exhausted this way.'
+    flavor_text: '"Good thing I brought friends." -- Captain America'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/03017
+- names:
+  - Quinjet
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 19
+    quantity: 3
+  faces:
+  - name: Quinjet
+    cost: 1
+    type: Support
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Avenger
+    - Vehicle
+    text: |-
+      **Response:** After your turn begins, place 1 time counter on Quinjet.
+       **Action:** Put an [[Avenger]] ally from your hand into play with printed cost equal to or less than the number of time counters on Quinjet. Then, discard Quinjet.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/19.png
+    marvelcdb_url: https://marvelcdb.com/card/03019
+- names:
+  - Avengers Tower
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 24
+    quantity: 1
+  faces:
+  - name: Avengers Tower
+    cost: 2
+    type: Support
+    unique: true
+    aspect:
+    - Basic
+    traits:
+    - Avenger
+    - Location
+    text: |-
+      If each of your allies has the [[Avenger]] trait, increase your ally limit by 1.
+      **Action:** Exhaust Avengers Tower → reduce the cost of the next [[Avenger]] ally played this phase by 1.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/24.png
+    marvelcdb_url: https://marvelcdb.com/card/03024
+- names:
+  - Honorary Avenger
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 25
+    quantity: 3
+  faces:
+  - name: Honorary Avenger
+    cost: 0
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Title
+    text: |-
+      Play only if your identity has the [[Avenger]] trait.
+      Attach to a friendly character.
+      Attached character gets +1 hit point and gains the [[Avenger]] trait.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/25.png
+    marvelcdb_url: https://marvelcdb.com/card/03025
+- names:
+  - Man Out of Time
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Man Out of Time
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Steve Rogers player._**
+      You may flip to your alter-ego form. Choose:
+      - Exhaust Steve Rogers → remove Man Out of Time from the game.
+      - Discard half of the cards in your hand, rounded down. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/03026
+- names:
+  - Hit Squad
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Hit Squad
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: In player order, each player discards the top card of
+      the encounter deck and takes 1 damage for each boost icon discarded this way.'
+    boost_icons: 3
+    starting_threat_per_player: 3
+    flavor_text: Baron Zemo leads a Hydra taskforce into the city to hunt down Avengers.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/03027
+  horizontal: true
+- names:
+  - Baron Zemo
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 28
+    quantity: 1
+  faces:
+  - name: Baron Zemo
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: 3
+    traits:
+    - Hydra
+    - Elite
+    keywords:
+    - Quickstrike
+    text: |-
+      Quickstrike.
+      While Baron Zemo is engaged with you, you cannot thwart.
+      _(Captain America's nemesis minion.)_
+    hit_points: 5
+    boost_icons: 2
+    flavor_text: '"To avenge my father, Captain America must die."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/03028
+- names:
+  - Hail Hydra!
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 30
+    quantity: 1
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 57
+    quantity: 1
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 147
+    quantity: 1
+  faces:
+  - name: Hail Hydra!
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Each [[Hydra]] minion engaged with a hero attacks that
+      hero. Each player who was not attacked this way searches the encounter deck
+      and discard pile for a [[Hydra]] minion and puts it into play engaged with them.
+      Shuffle the encounter deck if it was searched.'
+    boost_icons: 0
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/30.png
+    alternate_images:
+      - https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/57.png
+      - https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/147.png 
+    marvelcdb_url: https://marvelcdb.com/card/03030
+- names:
+  - Enraged
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 31
+    quantity: 3
+  faces:
+  - name: Enraged
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Condition
+    text: |-
+      Attach to an ally. Max 1 per ally.
+      Attached ally gets +2 ATK and takes +1 consequential damage after it attacks.
+    flavor_text: '"Should I be worried about him?" -- Spider-Man'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/03031
+- names:
+  - Followed
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 32
+    quantity: 3
+  faces:
+  - name: Followed
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Justice
+    text: |-
+      Attach to a side scheme. Max 1 per scheme.
+      **Response**: When attached scheme is defeated, deal 4 damage to an enemy.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/03032
+- names:
+  - Expert Defense
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 33
+    quantity: 3
+  faces:
+  - name: Expert Defense
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Defense
+    text: '**Hero Interrupt** _(defense)_: When your hero defends against an attack,
+      it gets +3 DEF for that attack.'
+    flavor_text: '"Do these guys ever run out of ammo!" -- Captain America'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/33.png
+    marvelcdb_url: https://marvelcdb.com/card/03033
+- names:
+  - Enhanced Awareness
+  packs:
+  - name: Captain America
+    sku: MC04en
+    position: 34
+    quantity: 3
+  faces:
+  - name: Enhanced Awareness
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Condition
+    keywords:
+    - Uses
+    text: |-
+      Uses (3 mental counters).
+      **Hero Resource**: Exhaust Enhanced Awareness and remove 1 mental counter from it → generate a [mental] resource.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/34.png
+    marvelcdb_url: https://marvelcdb.com/card/03034

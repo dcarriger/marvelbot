@@ -1,0 +1,132 @@
+- names:
+  - The Masters of Evil
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 128
+    quantity: 1
+  faces:
+  - name: The Masters of Evil
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Discard cards from the encounter deck until a [[Masters
+      of Evil]] minion is discarded. Put that minion into play engaged with the first
+      player.'
+    boost_icons: 2
+    starting_threat_per_player: 3
+    flavor_text: The Masters of Evil have arrived to attack the heroes!
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/128.png
+    marvelcdb_url: https://marvelcdb.com/card/01128
+  horizontal: true
+- names:
+  - Radioactive Man
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 129
+    quantity: 1
+  faces:
+  - name: Radioactive Man
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: 1
+    attack_text: '<b>Forced Response</b>: After Radioactive Man attacks you, discard
+      1 card at random from your hand.'
+    traits:
+    - Elite
+    - Masters of Evil
+    text: null
+    hit_points: 7
+    boost_icons: 0
+    star_text: Discard 1 card at random from your hand.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/129.png
+    marvelcdb_url: https://marvelcdb.com/card/01129
+- names:
+  - Whirlwind
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 130
+    quantity: 1
+  faces:
+  - name: Whirlwind
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: 2
+    attack_text: '<b>Forced Interrupt</b>: When Whirlwind attacks you, also resolve
+      his attack against each other hero.'
+    traits:
+    - Masters of Evil
+    text: null
+    hit_points: 6
+    boost_icons: 0
+    star_text: Deal 1 damage to each hero.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/130.png
+    marvelcdb_url: https://marvelcdb.com/card/01130
+- names:
+  - Tiger Shark
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 131
+    quantity: 1
+  faces:
+  - name: Tiger Shark
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: 3
+    attack_text: '<b>Forced Response</b>: After Tiger Shark attacks, give him a tough
+      status card.'
+    traits:
+    - Masters of Evil
+    text: null
+    hit_points: 6
+    boost_icons: 0
+    star_text: Give the villain a tough status card.
+    starting_threat: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/131.png
+    marvelcdb_url: https://marvelcdb.com/card/01131
+- names:
+  - Melter
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 132
+    quantity: 1
+  faces:
+  - name: Melter
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: 3
+    attack_text: The engaged player must defend against Melter's attacks with an ally
+      they control, if able.
+    traits:
+    - Masters of Evil
+    text: null
+    hit_points: 5
+    boost_icons: 0
+    star_text: Exhaust each ally you control.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/132.png
+    marvelcdb_url: https://marvelcdb.com/card/01132
+- names:
+  - Masters of Mayhem
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 133
+    quantity: 2
+  faces:
+  - name: Masters of Mayhem
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Each [[Masters of Evil]] minion attacks the hero it
+      is engaged with. If no attacks were made this way, search the encounter deck
+      and discard pile for a [[Masters of Evil]] minion and put it into play engaged
+      with you, the shuffle the encounter deck.'
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/133.png
+    marvelcdb_url: https://marvelcdb.com/card/01133
