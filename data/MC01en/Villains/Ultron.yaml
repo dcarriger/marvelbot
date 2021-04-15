@@ -1,0 +1,444 @@
+- names:
+  - Ultron
+  - Ultron 1
+  - Ultron I
+  - Standard Ultron
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 134
+    quantity: 1
+  faces:
+  - name: Ultron
+    type: Villain
+    unique: true
+    scheme: 1
+    attack: 2
+    attack_text: '<b>Forced Response</b>: After Ultron attacks you, choose to either
+      place 1 threat on the main scheme or put the top card of your deck into play
+      facedown, engaged with you as a [[Drone]] minion.'
+    traits:
+    - Android
+    text: null
+    hit_points_per_player: 17
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/134.png
+    marvelcdb_url: https://marvelcdb.com/card/01134
+- names:
+  - Ultron
+  - Ultron 2
+  - Ultron II
+  - Standard Ultron
+  - Expert Ultron
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 135
+    quantity: 1
+  faces:
+  - name: Ultron
+    type: Villain
+    unique: true
+    scheme: 2
+    attack: 2
+    attack_text: '<b>Forced Interrupt</b>: When Ultron attacks you, put the top card
+      of your deck into play facedown, engaged with you as a [[Drone]] minion. Until
+      the end of his attack, Ultron gets +1 ATK for each [[Drone]] minion engaged
+      with you.'
+    traits:
+    - Android
+    text: null
+    hit_points_per_player: 22
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/135.png
+    marvelcdb_url: https://marvelcdb.com/card/01135
+- names:
+  - Ultron
+  - Ultron 3
+  - Ultron III
+  - Expert Ultron
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 136
+    quantity: 1
+  faces:
+  - name: Ultron
+    type: Villain
+    unique: true
+    scheme: 2
+    attack: 4
+    traits:
+    - Android
+    text: |-
+      Each [[Drone]] minion gets +1 ATK and +1 hit point. Ultron cannot take damage while a [[Drone]] minion is in play.
+      **When Revealed**: Search the encounter deck and discard pile for the Ultron's Imperative side scheme and reveal it. Then shuffle the encounter deck.
+    hit_points_per_player: 27
+    starting_threat: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/136.png
+    marvelcdb_url: https://marvelcdb.com/card/01136
+- names:
+  - The Crimson Cowl
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 137
+    quantity: 1
+  faces:
+  - name: The Crimson Cowl
+    type: Main Scheme
+    unique: false
+    scheme: 2
+    attack: 3
+    text: |-
+      **Contents**: Ultron (I) and Ultron (II). _(Ultron (II) and Ultron (III) instead for expert mode.)_ Ultron and Standard encounter sets. One modular encounter set _(recommended: Under Attack)._
+      **Setup**: Put the Ultron Drones environment into play. Shuffle the encounter deck. Advanced to stage 1B.
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 3
+    flavor_text: Klaw's mysterious, red-hooded employer is really the genocidal android
+      Ultron.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/137A.png
+    marvelcdb_url: https://marvelcdb.com/card/01137
+  - name: The Crimson Cowl
+    type: Main Scheme
+    unique: false
+    text: '**When Revealed**: Each player puts the top card of their deck into play
+      facedown, engaged with them as a [[Drone]] minion.'
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 3
+    flavor_text: Ultron is using the components Klaw delivered in order to build an
+      army of Ultron drones.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/137B.png
+    marvelcdb_url: https://marvelcdb.com/card/01137b
+  horizontal: true
+- names:
+  - Assault on NORAD
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 138
+    quantity: 1
+  faces:
+  - name: Assault on NORAD
+    type: Main Scheme
+    unique: false
+    text: '**When Revealed**: Each player puts the top card of their deck into play
+      facedown, engaged with them as a [[Drone]] minion. Advance to stage 2B.'
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 10
+    flavor_text: As you pursue Ultron, you receive a distress call from the North
+      American Aerospace Defense Command in Colorado. They are besieged by an army
+      of Ultron drones!
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/138A.png
+    marvelcdb_url: https://marvelcdb.com/card/01138
+  - name: Assault on NORAD
+    type: Main Scheme
+    unique: false
+    text: '**Forced Response**: After placing threat here during step one of the villain
+      phase, each player must choose to either place 2 threat here or put the top
+      card of their deck into play facedown, engaged with them as a [[Drone]] minion.'
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 10
+    flavor_text: If Ultron gains control of NORAD, he will have access to the United
+      States' ballistic missile command!
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/138B.png
+    marvelcdb_url: https://marvelcdb.com/card/01138b
+  horizontal: true
+- names:
+  - Countdown to Oblivion
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 139
+    quantity: 1
+  faces:
+  - name: Countdown to Oblivion
+    type: Main Scheme
+    unique: false
+    text: '**When Revealed**: Each player puts the top card of their deck into play
+      facedown, engaged with them as a [[Drone]] minion. Advance to stage 3B.'
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 5
+    flavor_text: Ultron has seized control of NORAD. It's only a matter of time before
+      he overcomes the command safeguards and launches the nuclear arsenal.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/139A.png
+    marvelcdb_url: https://marvelcdb.com/card/01139
+  - name: Countdown to Oblivion
+    type: Main Scheme
+    unique: false
+    text: |-
+      Threat cannot be removed from this scheme.
+      **If this stage is completed, the players lose the game**
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 5
+    flavor_text: It's up to you to save the world from nuclear armageddon!
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/139B.png
+    marvelcdb_url: https://marvelcdb.com/card/01139b
+  horizontal: true
+- names:
+  - Ultron Drones
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 140
+    quantity: 1
+  faces:
+  - name: Ultron Drones
+    type: Environment
+    unique: false
+    text: |-
+      Each facedown [[Drone]] minion engaged with a player has a base SCH of 1, a base ATK of 1, and a base hit points of 1.
+      **Forced Response**: After a facedown [[Drone]] minion is defeated, place that card in it's owners discard pile.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/140.png
+    marvelcdb_url: https://marvelcdb.com/card/01140
+- names:
+  - Program Transmitter
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 141
+    quantity: 1
+  faces:
+  - name: Program Transmitter
+    type: Attachment
+    unique: false
+    scheme: 1
+    scheme_text: '<b>Forced Response</b>: After Ultron schemes, place 1 threat on
+      each side scheme.'
+    traits:
+    - Item
+    - Tech
+    text: |-
+      Attach to Ultron.
+      **Hero Action**: Exhaust your hero and spend [mental] [mental] resources → discard this card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/141.png
+    marvelcdb_url: https://marvelcdb.com/card/01141
+- names:
+  - Upgraded Drones
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 142
+    quantity: 2
+  faces:
+  - name: Upgraded Drones
+    type: Attachment
+    unique: false
+    traits:
+    - Condition
+    text: |-
+      Attach to the Ultron Drones environment.
+      Each facedown [[Drone]] minion gets +1 ATK and +1 hit point.
+      **Hero Action**: Spend [energy] [mental] [physical] resources → discard this card.
+    boost_icons: 0
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/142.png
+    marvelcdb_url: https://marvelcdb.com/card/01142
+- names:
+  - Advanced Ultron Drone
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 143
+    quantity: 3
+  faces:
+  - name: Advanced Ultron Drone
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 1
+    traits:
+    - Drone
+    keywords:
+    - Guard
+    text: |-
+      Guard.
+      **Forced Interrupt**: When Advanced Ultron Drone is defeated, the engaged player puts the top card of their deck into play facedown, engaged with them as a [[Drone]] minion.
+    hit_points: 4
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/143.png
+    marvelcdb_url: https://marvelcdb.com/card/01143
+- names:
+  - Android Efficiency
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 144
+    quantity: 3
+  faces:
+  - name: Android Efficiency
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Each player puts the top card of their deck into play
+      facedown, engaged with them as a [[Drone]] minion.'
+    boost_icons: 0
+    star_text: Choose to either spend a [energy] resource or put the top card of the
+      deck into play facedown, engaged with you as a [[Drone]] minion.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/144A.png
+    marvelcdb_url: https://marvelcdb.com/card/01144
+- names:
+  - Android Efficiency
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 144
+    quantity: 1
+  faces:
+  - name: Android Efficiency
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Each player puts the top card of their deck into play
+      facedown, engaged with them as a [[Drone]] minion.'
+    boost_icons: 0
+    star_text: Choose to either spend a [energy] resource or put the top card of the
+      deck into play facedown, engaged with you as a [[Drone]] minion.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/144A.png
+    marvelcdb_url: https://marvelcdb.com/card/01144a
+- names:
+  - Android Efficiency
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 144
+    quantity: 1
+  faces:
+  - name: Android Efficiency
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Each player puts the top card of their deck into play
+      facedown, engaged with them as a [[Drone]] minion.'
+    boost_icons: 0
+    star_text: Choose to either spend a [mental] resource or put the top card of the
+      deck into play facedown, engaged with you as a [[Drone]] minion.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/144B.png
+    marvelcdb_url: https://marvelcdb.com/card/01144b
+- names:
+  - Android Efficiency
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 144
+    quantity: 1
+  faces:
+  - name: Android Efficiency
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Each player puts the top card of their deck into play
+      facedown, engaged with them as a [[Drone]] minion.'
+    boost_icons: 0
+    star_text: Choose to either spend a [physical] resource or put the top card of
+      the deck into play facedown, engaged with you as a [[Drone]] minion.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/144C.png
+    marvelcdb_url: https://marvelcdb.com/card/01144c
+- names:
+  - Rage of Ultron
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 145
+    quantity: 2
+  faces:
+  - name: Rage of Ultron
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: Ultron schemes. Discard the top card of your deck for each threat placed this way.
+      **When Revealed (Hero)**: Ultron attacks you. Discard the top card of your deck for each damage dealt by this attack.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/145.png
+    marvelcdb_url: https://marvelcdb.com/card/01145
+- names:
+  - Repair Sequence
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 146
+    quantity: 2
+  faces:
+  - name: Repair Sequence
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Ultron heals 2 damage for each [[Drone]] minion engaged
+      with you. If no damage was healed this way, this card gains surge.'
+    boost_icons: 1
+    star_text: Ultron heals 1 damage for each [[Drone]] minion engaged with you.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/146.png
+    marvelcdb_url: https://marvelcdb.com/card/01146
+- names:
+  - Swarm Attack
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 147
+    quantity: 2
+  faces:
+  - name: Swarm Attack
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Each [[Drone]] minion engaged with your hero attacks.
+      If no attack was made this way, put the top card of your deck into play facedown,
+      engaged with you as a [[Drone]] minion.'
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/147.png
+    marvelcdb_url: https://marvelcdb.com/card/01147
+- names:
+  - Drone Factory
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 148
+    quantity: 1
+  faces:
+  - name: Drone Factory
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Each player puts the top card of their deck into play
+      facedown, engaged with them as a [[Drone]] minion. Place 1 threat here for each
+      [[Drone]] minion in play.'
+    boost_icons: 2
+    starting_threat: 4
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/148.png
+    marvelcdb_url: https://marvelcdb.com/card/01148
+  horizontal: true
+- names:
+  - Invasive AI
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 149
+    quantity: 1
+  faces:
+  - name: Invasive AI
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Each player discards the top 3 cards of their deck.'
+    boost_icons: 3
+    starting_threat_per_player: 3
+    flavor_text: Ultron is hacking wireless networks around the world to create a
+      global crisis.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/149.png
+    marvelcdb_url: https://marvelcdb.com/card/01149
+  horizontal: true
+- names:
+  - Ultron's Imperative
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 150
+    quantity: 1
+  faces:
+  - name: Ultron's Imperative
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: The first player puts the top 2 cards of their deck
+      into play facedown, engaged with them as [[Drone]] minions.'
+    boost_icons: 3
+    starting_threat_per_player: 2
+    flavor_text: Ultron directs his drone army through hive circuitry.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/150.png
+    marvelcdb_url: https://marvelcdb.com/card/01150
+  horizontal: true

@@ -1,0 +1,86 @@
+- names:
+  - Advance
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 186
+    quantity: 2
+  faces:
+  - name: Advance
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: The villain schemes.'
+    boost_icons: 0
+    flavor_text: '"The world will be mine!" -- Red Skull'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/186.png
+    marvelcdb_url: https://marvelcdb.com/card/01186
+- names:
+  - Assault
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 187
+    quantity: 2
+  faces:
+  - name: Assault
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: This card gains surge.
+      **When Revealed (Hero)**: The villain attacks you.
+    boost_icons: 0
+    flavor_text: '"Die!" -- Venom'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/187.png
+    marvelcdb_url: https://marvelcdb.com/card/01187
+- names:
+  - Caught Off Guard
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 188
+    quantity: 1
+  faces:
+  - name: Caught Off Guard
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Discard an upgrade or support you control. If no cards
+      were discarded this way, this card gains surge.'
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/188.png
+    marvelcdb_url: https://marvelcdb.com/card/01188
+- names:
+  - Gang-Up
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 189
+    quantity: 1
+  faces:
+  - name: Gang-Up
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: This card gains surge.
+      **When Revealed (Hero)**: The villain and each minion engaged with you attacks you.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/189.png
+    marvelcdb_url: https://marvelcdb.com/card/01189
+- names:
+  - Shadow of the Past
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 190
+    quantity: 1
+  faces:
+  - name: Shadow of the Past
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Reveal your set-aside nemesis minion and put it into
+      play engaged with you. Reveal your set-aside nemesis side scheme and put it
+      into play. Shuffle the rest of your set-aside nemesis encounter set into the
+      encounter deck. If your nemesis minion does not enter the game this way, this
+      card gains surge.'
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/190.png
+    marvelcdb_url: https://marvelcdb.com/card/01190

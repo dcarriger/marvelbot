@@ -1,0 +1,220 @@
+---
+# Drax
+- names:
+    - Drax
+  packs:
+    - name: Drax
+      sku: MC19en
+      position: 1
+      quantity: 1
+  faces:
+    - name: Drax
+      type: Alter-Ego
+      unique: true
+      recover: 4
+      traits:
+        - Outlaw
+      text: |
+        "**Forced Response**: After you change
+        to this form, remove all vengeance
+        counters from Drax. Heal 2 damage
+        from him for each vengeance counter
+        removed this way."
+      hand_size: 6
+      hit_points: 14
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/1B.png"
+    - name: Drax
+      type: Hero
+      unique: true
+      thwart: 1
+      attack: 1
+      defense: 2
+      traits:
+        - Guardian
+      text: |
+        "Drax gets +1 ATK for each vengeance
+        counter on him.
+        **Response**: After the villain attacks
+        Drax, place 1 vengeance counter here
+        (to a maximum of 3). If you cannot,
+        draw 1 card."
+      hand_size: 4
+      hit_points: 14
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/1A.png"
+- names:
+  - “Fight Me, Coward!”
+  packs:
+    - name: Drax
+      sku: MC19en
+      position: 3
+      quantity: 1
+  faces:
+    - name: “Fight Me, Coward!”
+      cost: 0
+      type: Event
+      unique: false
+      text: |
+        "**Hero Action**: Ready your hero and
+        draw 1 card. The villain attacks you."
+      flavor_text: |
+        “Hear me, Thanos! Titan or god, I shall yet obliterate
+        you!” —Drax
+      resources:
+        physical: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/3.png"
+- names:
+  - Intimidation
+  packs:
+    - name: Drax
+      sku: MC19en
+      position: 4
+      quantity: 1
+  faces:
+    - name: Intimidation
+      cost: 1
+      type: Event
+      unique: false
+      traits:
+        - Thwart
+      text: |
+        "**Hero Action** _(thwart)_: Remove X threat
+        from a scheme, where X is equal to
+        your ATK."
+      flavor_text: |
+        “Pay close attention because I’m only going to say this
+        once: walk away and you live.” —Drax
+      resources:
+        mental: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/4.png"
+- names:
+  - Knife Leap
+  packs:
+    - name: Drax
+      sku: MC19en
+      position: 5
+      quantity: 1
+  faces:
+    - name: Knife Leap
+      cost: 3
+      type: Event
+      unique: false
+      traits:
+        - Skill
+      text: |
+        "Reduce the cost to play this card by
+        1 for each vengeance counter on Drax.
+        **Hero Interrupt**: When you make a
+        basic attack, you get +5 ATK for that
+        attack. That attack gains overkill and
+        piercing."
+      resources:
+        physical: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/5.png"
+- names:
+  - Moondragon
+  packs:
+    - name: Drax
+      sku: MC19en
+      position: 13
+      quantity: 1
+  faces:
+    - name: Moondragon
+      subtitle: Heather Douglas
+      cost: 3
+      type: Ally
+      unique: true
+      aspect:
+        - Protection
+      thwart: 1
+      thwart_consequential: 1
+      attack: 1
+      attack_consequential: 1
+      traits:
+        - Guardian
+      text: |
+        "**Action**: Exhaust and discard
+        Moondragon → choose a minion.
+        That minion attacks another enemy
+        of your choice."
+      flavor_text: |
+        “How dare you disturb my meditation?!”
+      resources:
+        mental: 1
+      hit_points: 2
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/13.png"
+- names:
+  - Hard Knocks
+  packs:
+    - name: Drax
+      sku: MC19en
+      position: 16
+      quantity: 3
+  faces:
+    - name: Hard Knocks
+      cost: 3
+      type: Event
+      unique: false
+      aspect:
+        - Protection
+      traits:
+        - Attack
+      text: |
+        "**Hero Action** _(attack)_: Deal 4 damage
+        to an enemy. If that enemy is defeated
+        by this attack, give your hero a tough
+        status card."
+      flavor_text: |
+        “That’ll teach you to underestimate me.” —Star-Lord
+      resources:
+        physical: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/16.png"
+- names:
+  - Leading Blow
+  packs:
+    - name: Drax
+      sku: MC19en
+      position: 17
+      quantity: 3
+  faces:
+    - name: Leading Blow
+      cost: 0
+      type: Event
+      unique: false
+      aspect:
+        - Protection
+      traits:
+        - Tactic
+      text: |
+        "**Hero Interrupt**: When your hero
+        makes a basic attack, discard the top
+        card of the encounter deck → reduce
+        your hero’s ATK for that attack by the
+        number of printed boost icons on that
+        card. If that attack still deals damage,
+        ready your hero."
+      resources:
+        energy: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/17.png"
+- names:
+  - Subdue
+  packs:
+    - name: Drax
+      sku: MC19en
+      position: 18
+      quantity: 3
+  faces:
+    - name: Subdue
+      cost: 1
+      type: Event
+      unique: false
+      aspect:
+        - Protection
+      text: |
+        "**Hero Interrupt**: When an enemy
+        initiates an attack, that enemy gets
+        -3 ATK for that attack."
+      flavor_text: |
+        “Back, beast!” –Captain America
+      resources:
+        energy: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/18.png"

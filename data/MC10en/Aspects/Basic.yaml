@@ -1,0 +1,51 @@
+- names:
+  - War Machine
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 20
+    quantity: 1
+  faces:
+  - name: War Machine
+    subtitle: James Rhodes
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Basic
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    keywords:
+    - Toughness
+    text: "Toughness.\n War Machine's basic attack gains ranged. "
+    hit_points: 3
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/20.png
+    marvelcdb_url: https://marvelcdb.com/card/04020
+- names:
+  - Earth's Mightiest Heroes
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 22
+    quantity: 3
+  faces:
+  - name: Earth's Mightiest Heroes
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    text: '**Hero Action**: Exhaust an [[avenger]] character you control → ready another
+      [[avenger]] character you control.'
+    flavor_text: '"We come together to fight what can''t be fought alone." -- Luke
+      Cage'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/22.png
+    marvelcdb_url: https://marvelcdb.com/card/04022

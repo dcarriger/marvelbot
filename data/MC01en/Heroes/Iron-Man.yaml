@@ -1,0 +1,259 @@
+- names:
+  - Iron Man
+  - Tony Stark
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 29
+    quantity: 1
+  faces:
+  - name: Tony Stark
+    type: Alter-Ego
+    unique: true
+    recover: 3
+    traits:
+    - Genius
+    text: 'Futurist — **Action**: Look at the top 3 cards of your deck. Add 1 to your
+      hand and discard the others. (Limit once per round.)'
+    hit_points: 9
+    flavor_text: '"I''m obviously not doing this for the money..."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/29B.png
+    marvelcdb_url: https://marvelcdb.com/card/01029b
+  - name: Iron Man
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 1
+    defense: 1
+    traits:
+    - Avenger
+    text: You get +1 hand size for each [[Tech]] upgrade you control (to a maximum
+      hand size of 7).
+    hit_points: 9
+    flavor_text: '"I am Iron Man."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/29A.png
+    marvelcdb_url: https://marvelcdb.com/card/01029a
+- names:
+  - War Machine
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 30
+    quantity: 1
+  faces:
+  - name: War Machine
+    subtitle: James Rhodes
+    cost: 4
+    type: Ally
+    unique: true
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Soldier
+    text: '**Action**: Exhaust War Machine and deal 2 damage to him → deal 1 damage
+      to each enemy.'
+    hit_points: 4
+    flavor_text: '"Is this a private war -- or can anyone join?"'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/01030
+- names:
+  - Repulsor Blast
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 31
+    quantity: 3
+  faces:
+  - name: Repulsor Blast
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Superpower
+    text: '**Hero Action** (_attack_): Deal 1 damage to an enemy and discard the top
+      5 cards of your deck. For each printed [energy] resource discarded this way,
+      deal 2 additional damage to that enemy.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/01031
+- names:
+  - Supersonic Punch
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 32
+    quantity: 2
+  faces:
+  - name: Supersonic Punch
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    text: '**Hero Action** (_attack_): Deal 4 damage to an enemy (8 damage instead
+      if you have the [[Aerial]] trait).'
+    flavor_text: '"Nice technique. But if you do it like this... it hurts more." --
+      Tony Stark'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/01032
+- names:
+  - Pepper Potts
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 33
+    quantity: 1
+  faces:
+  - name: Pepper Potts
+    cost: 3
+    type: Support
+    unique: true
+    traits:
+    - Persona
+    text: '**Resource**: Exhaust Pepper Potts → generate the resources of the top
+      card in your discard pile.'
+    flavor_text: '"Do your thing. I''ve got this."'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/33.png
+    marvelcdb_url: https://marvelcdb.com/card/01033
+- names:
+  - Stark Tower
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 34
+    quantity: 1
+  faces:
+  - name: Stark Tower
+    cost: 2
+    type: Support
+    unique: true
+    traits:
+    - Location
+    text: '**Alter-Ego Action**: Exhaust Stark Tower → choose a player. That player
+      returns the topmost [[Tech]] upgrade in their discard pile to their hand.'
+    flavor_text: '"I was hoping for something a little bigger. But this will do."
+      -- Tony Stark'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/34.png
+    marvelcdb_url: https://marvelcdb.com/card/01034
+- names:
+  - Arc Reactor
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 35
+    quantity: 1
+  faces:
+  - name: Arc Reactor
+    cost: 2
+    type: Upgrade
+    unique: true
+    traits:
+    - Item
+    - Tech
+    text: '**Hero Action**: Exhaust Arc Reactor → ready Iron Man.'
+    flavor_text: '"When I put on this armor, I took on more power than any human was
+      ever intended to have... and maybe more responsibility than my heart can truly
+      bear." -- Tony Stark'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/35.png
+    marvelcdb_url: https://marvelcdb.com/card/01035
+- names:
+  - Mark V Armor
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 36
+    quantity: 1
+  faces:
+  - name: Mark V Armor
+    cost: 3
+    type: Upgrade
+    unique: true
+    traits:
+    - Armor
+    - Tech
+    text: You get +6 hit points.
+    flavor_text: '"Is that all you''ve got!" -- Tony Stark'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/36.png
+    marvelcdb_url: https://marvelcdb.com/card/01036
+- names:
+  - Mark V Helmet
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 37
+    quantity: 1
+  faces:
+  - name: Mark V Helmet
+    cost: 1
+    type: Upgrade
+    unique: true
+    traits:
+    - Armor
+    - Tech
+    text: '**Hero Action** (_thwart_): Exhaust Mark V Helmet → remove 1 threat from
+      a scheme (from each scheme instead if you have the [[Aerial]] trait).'
+    flavor_text: '"Tony, are you sure you want to do that!" -- P.E.P.P.E.R.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/37.png
+    marvelcdb_url: https://marvelcdb.com/card/01037
+- names:
+  - Powered Gauntlets
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 38
+    quantity: 2
+  faces:
+  - name: Powered Gauntlets
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Armor
+    - Tech
+    text: '**Hero Action** (_attack_): Exhaust Powered Gauntlets → deal 1 damage to
+      an enemy (2 damage instead if you have the [[Aerial]] trait).'
+    flavor_text: '"Please, let me give you... a hand." -- Tony Stark'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/38.png
+    marvelcdb_url: https://marvelcdb.com/card/01038
+- names:
+  - Rocket Boots
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 39
+    quantity: 2
+  faces:
+  - name: Rocket Boots
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Armor
+    - Tech
+    text: |-
+      You get +1 hit point.
+      **Hero Action**: Exhaust Rocket Boots and spend a [mental] resource → gain the [[Aerial]] trait until the end of the phase.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/39.png
+    marvelcdb_url: https://marvelcdb.com/card/01039

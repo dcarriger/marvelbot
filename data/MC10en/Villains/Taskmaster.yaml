@@ -1,0 +1,368 @@
+- names:
+  - Taskmaster
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 93
+    quantity: 1
+  faces:
+  - name: Taskmaster
+    type: Villain
+    unique: true
+    scheme: 1
+    attack: 2
+    traits:
+    - Hydra
+    - Mercenary
+    text: '**Forced Response:** After a player changes to hero form, they discard
+      the top card of the encounter deck and take damage equal to the number of boost
+      icons on that card.'
+    hit_points_per_player: 13
+    flavor_text: '"There''s nothing you can do that I can''t do better."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/93.png
+    marvelcdb_url: https://marvelcdb.com/card/04093
+- names:
+  - Taskmaster
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 94
+    quantity: 1
+  faces:
+  - name: Taskmaster
+    type: Villain
+    unique: true
+    scheme: 2
+    attack: 2
+    traits:
+    - Hydra
+    - Mercenary
+    text: |-
+      **When Revealed:** Deal each player an encounter card.
+      **Forced Response:** After a player changes to hero form, they discard the top card of the encounter deck and take damage equal to the number of boost icons on that card.
+    hit_points_per_player: 16
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/94.png
+    marvelcdb_url: https://marvelcdb.com/card/04094
+- names:
+  - Taskmaster
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 95
+    quantity: 1
+  faces:
+  - name: Taskmaster
+    type: Villain
+    unique: true
+    scheme: 3
+    attack: 3
+    traits:
+    - Hydra
+    - Mercenary
+    text: |-
+      **When Revealed:** Deal each player an encounter card.
+      **Forced Response:** After a player changes to hero form, they discard the top card of the encounter deck and take damage equal to the number of boost icons on that card.
+    hit_points_per_player: 17
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/95.png
+    marvelcdb_url: https://marvelcdb.com/card/04095
+- names:
+  - Hunting Down Heroes
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 96
+    quantity: 1
+  faces:
+  - name: Hunting Down Heroes
+    type: Main Scheme
+    unique: false
+    text: |-
+      **Contents:** Taskmaster (I) and Taskmaster (II). Taskmaster, Hydra Patrol, and Standard encounter sets. One modular encounter set <em>(Weapon Master).</em>
+      **Setup:** Set each [[Captive]] ally aside out of play. Search the encounter deck for Hydra Patrol and put it into play. Shuffle the encounter deck.
+    starting_threat_per_player: 1
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 12
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/96A.png
+    marvelcdb_url: https://marvelcdb.com/card/04096
+  - name: Hunting Down Heroes
+    type: Main Scheme
+    unique: false
+    text: |-
+      **[star] Forced Response:** After resolving step one of the villain phase, each player in hero form must choose to either place 1 threat here or take 1 damage.
+      **If this stage is completed, the players lose the game.**
+    starting_threat_per_player: 1
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 12
+    flavor_text: The notorious Taskmaster has been appointed by Hydra's chief of police.
+      His top priority is hunting down the outlaw heroes.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/96B.png
+    marvelcdb_url: https://marvelcdb.com/card/04096
+  horizontal: true
+- names:
+  - Moon Knight
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 97
+    quantity: 1
+  faces:
+  - name: Moon Knight
+    subtitle: Marc Spector
+    cost: 0
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Captive
+    - Hero for Hire
+    text: '**Response:** After you play Moon Knight from your hand, spend a [wild]
+      resource → draw 2 cards.'
+    hit_points: 3
+    flavor_text: '"Hydra took over so fast, I wasn''t sure they were real."'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/97.png
+    marvelcdb_url: https://marvelcdb.com/card/04097
+- names:
+  - Shang-Chi
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 98
+    quantity: 1
+  faces:
+  - name: Shang-Chi
+    cost: 0
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Captive
+    - Hero for Hire
+    text: '**Response:** After you play Shang-Chi from your hand, spend a [energy]
+      resource → stun an enemy.'
+    hit_points: 3
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/98.png
+    marvelcdb_url: https://marvelcdb.com/card/04098
+- names:
+  - White Tiger
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 99
+    quantity: 1
+  faces:
+  - name: White Tiger
+    subtitle: Angela Del Toro
+    cost: 0
+    type: Ally
+    unique: true
+    thwart: 3
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Captive
+    - Hero for Hire
+    text: '**Response:** After you play White Tiger from your hand, spend [mental]
+      resource → remove 3 threat from a scheme.'
+    hit_points: 3
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/99.png
+    marvelcdb_url: https://marvelcdb.com/card/04099
+- names:
+  - Elektra
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 100
+    quantity: 1
+  faces:
+  - name: Elektra
+    cost: 0
+    type: Ally
+    unique: true
+    thwart: 1
+    thwart_consequential: 1
+    attack: 3
+    attack_consequential: 1
+    traits:
+    - Captive
+    - Hero for Hire
+    text: '**Response:** After you play Elektra from your hand, spend a [physical]
+      resource → deal 3 damage to an enemy.'
+    hit_points: 3
+    flavor_text: '"I got caught when I tried to help some civilians escape a Hydra
+      Patrol. Turns out the civilians were Hydra agents running a sting operation."'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/100.png
+    marvelcdb_url: https://marvelcdb.com/card/04100
+- names:
+  - Hydra Hunter
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 101
+    quantity: 2
+  faces:
+  - name: Hydra Hunter
+    type: Minion
+    unique: false
+    scheme: 2
+    attack: 2
+    attack_text: Hydra's Hunter's attacks gain piercing and ranged.
+    traits:
+    - Hydra
+    text: null
+    hit_points: 3
+    boost_icons: 0
+    star_text: If you are in hero form, take 1 damage. Otherwise place 1 threat on
+      the main scheme.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/101.png
+    marvelcdb_url: https://marvelcdb.com/card/04101
+- names:
+  - Taskmaster's Sword
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 102
+    quantity: 1
+  faces:
+  - name: Taskmaster's Sword
+    type: Attachment
+    unique: true
+    attack: 1
+    attack_text: Taskmaster's attacks gain piercing.
+    traits:
+    - Weapon
+    text: |-
+      Attach to Taskmaster.
+      **Hero Action:** Exhaust your hero and spend [mental][physical] resources → discard this card.
+    boost_icons: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/102.png
+    marvelcdb_url: https://marvelcdb.com/card/04102
+- names:
+  - Taskmaster's Shield
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 103
+    quantity: 1
+  faces:
+  - name: Taskmaster's Shield
+    type: Attachment
+    unique: true
+    traits:
+    - Armor
+    - Weapon
+    text: |-
+      Attach to Taskmaster.
+      Taskmaster gains retaliate 1.
+      **Hero Action:** Exhaust your hero and spend [mental][physical] resources → discard this card.
+    boost_icons: 3
+    flavor_text: '"I learned this move from Captain America." -- Taskmaster'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/103.png
+    marvelcdb_url: https://marvelcdb.com/card/04103
+- names:
+  - Photographic Reflexes
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 104
+    quantity: 2
+  faces:
+  - name: Photographic Reflexes
+    type: Attachment
+    unique: false
+    text: |-
+      Attach to Taskmaster.
+      **Forced Interrupt:** when a player attacks Taskmaster, prevent all damage that would be dealt to Taskmaster and deal an equal amount of damage to that player's identity instead. Then, discard Photographic Reflexes. (Max once per attack.)
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/104.png
+    marvelcdb_url: https://marvelcdb.com/card/04104
+- names:
+  - Mimicry
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 105
+    quantity: 2
+  faces:
+  - name: Mimicry
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego):** Discard the top 5 cards of your deck. If a [[Thwart]] card was discarded this way, Taskmaster schemes.
+      **When Revealed (Hero):** Discard the top 5 cards of your deck. If an [[Attack]] card was discarded this way, Taskmaster attacks you.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/105.png
+    marvelcdb_url: https://marvelcdb.com/card/04105
+- names:
+  - Hunted by Hydra
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 106
+    quantity: 2
+  faces:
+  - name: Hunted by Hydra
+    type: Treachery
+    unique: false
+    keywords:
+    - Incite
+    text: |-
+      Incite 1. <em>(When this card is revealed place 1 threat on the main scheme.)</em>
+      **When Revealed:** Each player in hero form takes 1 damage and discards 1 card at random from their hand.
+    boost_icons: 1
+    flavor_text: '"It''s a bad time to be a hero." -- Bucky Barnes'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/106.png
+    marvelcdb_url: https://marvelcdb.com/card/04106
+- names:
+  - Captured by Hydra
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 107
+    quantity: 4
+  faces:
+  - name: Captured by Hydra
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed:** Place 1 random set-aside [[Captive]] ally facedown beneath
+      this scheme. When this scheme is defeated, the player who defeated it takes
+      that ally into their hand and removes this scheme from the game.'
+    boost_icons: 2
+    starting_threat: 5
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/107.png
+    marvelcdb_url: https://marvelcdb.com/card/04107
+  horizontal: true
+- names:
+  - Taskmaster's Training Camp
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 108
+    quantity: 1
+  faces:
+  - name: Taskmaster's Training Camp
+    type: Side Scheme
+    unique: false
+    text: '**Forced Response:** After a minion enters play, give it a tough status
+      card.'
+    boost_icons: 3
+    starting_threat_per_player: 2
+    flavor_text: Taskmaster only accepts the best troops into his police force. before
+      a Hydra soldier can enlist, they must survive his training camp.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/108.png
+    marvelcdb_url: https://marvelcdb.com/card/04108
+  horizontal: true

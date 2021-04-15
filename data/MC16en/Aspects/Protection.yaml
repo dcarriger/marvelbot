@@ -1,0 +1,100 @@
+- names:
+  - Starhawk
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 12
+    quantity: 1
+  faces:
+  - name: Starhawk
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Protection
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 2
+    traits:
+    - Aerial
+    - Guardian
+    text: '**Interrupt**: When Starhawk takes damage exactly equal to his remaining
+      hit points, return him to your hand.'
+    hit_points: 3
+    flavor_text: '"I am one who knows"'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/16012
+- names:
+  - Fighting Fit
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 14
+    quantity: 3
+  faces:
+  - name: Fighting Fit
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Attack
+    text: '**Hero Action** (attack): Deal 2 damage to the villain (5 damage instead
+      if your hero''s remaining hit points are equal to or greater than your hero''s
+      starting hit points).'
+    flavor_text: '"Prepare yourself, simpleton" - Drax'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/16014
+- names:
+  - Dauntless
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 16
+    quantity: 3
+  faces:
+  - name: Dauntless
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Attack
+    text: |-
+      Play under any player's control.
+       Max 1 per player.
+       While your hero's remaining hit points are equal to or greter than your hero's starting hit points, your hero gains retaliate 1.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/16.png
+    marvelcdb_url: https://marvelcdb.com/card/16016
+- names:
+  - Hard to Ignore
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 17
+    quantity: 3
+  faces:
+  - name: Hard to Ignore
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Attack
+    text: '**Hero Response**: After youer hero defends against an attack and takes
+      no damage, exhaust Hard to Ignore → remote 1 threat from the main scheme.'
+    flavor_text: '"I will die before I yield!" - Drax'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/16017

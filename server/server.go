@@ -1,14 +1,17 @@
 package server
 
 import (
-	"encoding/json"
 	"fmt"
 	"github.com/bwmarrin/discordgo"
 	"github.com/sirupsen/logrus"
+	"gopkg.in/yaml.v2"
+	"io/ioutil"
 	"marvelbot/card"
 	"marvelbot/rule"
 	"net/http"
 	"os"
+	"path/filepath"
+	"strings"
 	"time"
 )
 
@@ -46,50 +49,94 @@ func NewServer(token string) (s *Server) {
 		log.Fatal("error creating Discord session: ", err)
 		return
 	}
-
 	// Create an HTTP client for use with external HTTP calls
 	client := &http.Client{
 		Timeout: time.Second * 30,
 	}
 
-	// This is initially empty - it's up to the caller to populate it.
-	cards := []*card.Card{}
+	// Read data in from our folder containing card YAML data
+	cards, err := ReadCards("data/")
+	if err != nil {
+		log.Fatal("error reading card data: ", err)
+	}
+
+	// Read data in from our folder containing rule YAML data
+	rules, err := ReadRules("rules/")
+	if err != nil {
+		log.Fatal("error reading rules data: ", err)
+	}
 
 	// Build and return our server
 	s = &Server{
 		Session: dg,
 		Client:  client,
 		Cards:   cards,
+		Rules:   rules,
 		Logger:  log,
 	}
 	return s
 }
 
-// GetCards fetches all cards from MarvelCDB and updates the Server object.
-func (s *Server) GetCards() (err error) {
-	// Build our GET request
-	req, err := http.NewRequest("GET", fmt.Sprintf("%s/cards/?_format=json&encounter=1", baseURL), nil)
+// ReadRules parses rules in YAML format and returns them to the caller.
+func ReadRules(path string) (rules []*rule.Rule, err error) {
+	// Read the list of YAML files in the path
+	// TODO - make this only list YAML files and not all files
+	files, err := ioutil.ReadDir(path)
 	if err != nil {
-		return fmt.Errorf("failed to build request: %w", err)
+		return nil, fmt.Errorf("unable to read %s: %w", path, err)
 	}
+	// Iterate over the files and unmarshal the underlying YAML data
+	for _, f := range files {
+		if !strings.HasSuffix(f.Name(), ".yaml") {
+			continue
+		}
+		unmarshaledRule := &rule.Rule{}
+		yamlFile, err := ioutil.ReadFile(fmt.Sprintf("rules/%s", f.Name()))
+		if err != nil {
+			return nil, fmt.Errorf("unable to read file %s: %w", f.Name(), err)
+		}
+		err = yaml.Unmarshal(yamlFile, &unmarshaledRule)
+		if err != nil {
+			return nil, fmt.Errorf("error unmarshaling %s: %w", f.Name(), err)
+		}
+		rules = append(rules, unmarshaledRule)
+	}
+	return
+}
 
-	// Make our GET request
-	resp, err := s.Client.Do(req)
+// ReadCards parses cards in YAML format and returns them to the caller.
+func ReadCards(path string) (cards []*card.Card, err error) {
+	// Read the list of YAML files in the path
+	var files []string
+	err = filepath.Walk(path, func(path string, info os.FileInfo, err error) error {
+		if info.IsDir() == false && strings.HasSuffix(info.Name(), ".yaml") {
+			files = append(files, path)
+		}
+		return nil
+	})
 	if err != nil {
-		return fmt.Errorf("request failed: %w", err)
-	}
-	// TODO - handle error closing the response?
-	defer resp.Body.Close()
-
-	// Create a new slice to hold the unmarshaled response
-	cards := []*card.Card{}
-
-	// Unmarshal the JSON response into individual cards
-	if err := json.NewDecoder(resp.Body).Decode(&cards); err != nil {
-		return fmt.Errorf("error unmarshaling: %w", err)
+		return nil, fmt.Errorf("error walking %s: %w", path, err)
 	}
 
-	// Update the server struct with the response and return
-	s.Cards = cards
-	return nil
+	/*
+		files, err := ioutil.ReadDir(path)
+		if err != nil {
+			return nil, fmt.Errorf("unable to read %s: %w", path, err)
+		}
+	*/
+
+	// Iterate over the files and unmarshal the underlying YAML data
+	for _, f := range files {
+		unmarshaledCards := []*card.Card{}
+		yamlFile, err := ioutil.ReadFile(fmt.Sprintf("%s", f))
+		if err != nil {
+			return nil, fmt.Errorf("unable to read file %s: %w", f, err)
+		}
+		err = yaml.Unmarshal(yamlFile, &unmarshaledCards)
+		if err != nil {
+			return nil, fmt.Errorf("error unmarshaling %s: %w", f, err)
+		}
+		cards = append(cards, unmarshaledCards...)
+	}
+	return
 }

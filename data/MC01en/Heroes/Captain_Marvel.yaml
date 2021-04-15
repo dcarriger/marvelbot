@@ -1,0 +1,210 @@
+- names:
+  - Captain Marvel
+  - Carol Danvers
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 10
+    quantity: 1
+  faces:
+  - name: Carol Danvers
+    type: Alter-Ego
+    unique: true
+    recover: 4
+    traits:
+    - Soldier
+    text: 'Commander — **Action**: Choose a player to draw 1 card. (Limit once per
+      round.)'
+    hit_points: 12
+    flavor_text: '"It''s my job to protect the Earth and everyone on it."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/10B.png
+    marvelcdb_url: https://marvelcdb.com/card/01010b
+  - name: Captain Marvel
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 2
+    defense: 1
+    traits:
+    - Avenger
+    - Soldier
+    text: 'Rechannel — **Action**: Spend a [energy] resource and heal 1 damage from
+      Captain Marvel → draw 1 card. (Limit once per round.)'
+    hit_points: 12
+    flavor_text: '"I never quit."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/10A.png
+    marvelcdb_url: https://marvelcdb.com/card/01010a
+- names:
+  - Spider-Woman
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Spider-Woman
+    subtitle: Jessica Drew
+    cost: 3
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    - Spy
+    text: '**Response**: After Spider-Woman enters play, confuse the villain.'
+    hit_points: 2
+    flavor_text: '"This is what I wanted: helping the innocents by hospitalizing the
+      guilty."'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/01011
+- names:
+  - Crisis Interdiction
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 12
+    quantity: 3
+  faces:
+  - name: Crisis Interdiction
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Thwart
+    text: '**Hero Action** (_thwart_): Remove 2 threat from a scheme. Then, if you
+      have the [[Aerial]] trait, remove 2 threat from a different scheme.'
+    flavor_text: '"This is one of the more impressive messes I''ve ever seen." --
+      Carol Danvers'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/01012
+- names:
+  - Photonic Blast
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 13
+    quantity: 3
+  faces:
+  - name: Photonic Blast
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Superpower
+    text: '**Hero Action** (_attack_): Deal 5 damage to an enemy. If you paid for
+      this card using a [energy] resource, draw 1 card.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/01013
+- names:
+  - Energy Absorption
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 14
+    quantity: 2
+  faces:
+  - name: Energy Absorption
+    type: Resource
+    unique: false
+    text: null
+    flavor_text: '"That''s enough!" -- Carol Danvers'
+    resources:
+      energy: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/01014
+- names:
+  - Alpha Flight Station
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 15
+    quantity: 1
+  faces:
+  - name: Alpha Flight Station
+    cost: 1
+    type: Support
+    unique: true
+    traits:
+    - Location
+    text: '**Action**: Exhaust Alpha Flight Station, choose and discard 1 card from
+      your hand → draw 1 card (draw 2 cards instead if you are Carol Danvers).'
+    flavor_text: This low-orbit space station can beam cargo and crew to and from
+      the Triskelion
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/01015
+- names:
+  - Captain Marvel's Helmet
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 16
+    quantity: 1
+  faces:
+  - name: Captain Marvel's Helmet
+    cost: 2
+    type: Upgrade
+    unique: true
+    traits:
+    - Armor
+    - Tech
+    text: Captain Marvel gets +1 DEF (+2 DEF instead if you have the [[Aerial]] trait).
+    flavor_text: '"This is so cool!" -- Jessica Drew'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/16.png
+    marvelcdb_url: https://marvelcdb.com/card/01016
+- names:
+  - Cosmic Flight
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 17
+    quantity: 2
+  faces:
+  - name: Cosmic Flight
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Superpower
+    text: |-
+      Captain Marvel gains the [[Aerial]] trait.
+      **Hero Interrupt** (_defense_): When Captain Marvel would take damage, discard Cosmic Flight → prevent 3 of that damage.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/01017
+- names:
+  - Energy Channel
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 18
+    quantity: 2
+  faces:
+  - name: Energy Channel
+    cost: 0
+    type: Upgrade
+    unique: false
+    traits:
+    - Superpower
+    text: |-
+      Max 1 per player.
+      **Action**: Spend X [energy] resources → put X energy counters here.
+      **Hero Action** (_attack_): Discard Energy Channel → deal 2 damage to an enemy (to a maximum of 10) for each energy counter here.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/18.png
+    marvelcdb_url: https://marvelcdb.com/card/01018

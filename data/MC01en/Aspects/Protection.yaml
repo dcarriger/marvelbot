@@ -1,0 +1,193 @@
+- names:
+  - Black Widow
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 75
+    quantity: 1
+  faces:
+  - name: Black Widow
+    subtitle: Natasha Romanoff
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Protection
+    thwart: 2
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Spy
+    text: '**Interrupt**: When a card is revealed from the encounter deck, exhaust
+      Black Widow and spend a [mental] resource → cancel the effects of that card
+      and discard it. Then, reveal another card from the encounter deck.'
+    hit_points: 2
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/75.png
+    marvelcdb_url: https://marvelcdb.com/card/01075
+- names:
+  - Luke Cage
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 76
+    quantity: 1
+  faces:
+  - name: Luke Cage
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Protection
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Defender
+    keywords:
+    - Toughness
+    text: Toughness. _(This character enters play with a tough status card.)_
+    hit_points: 5
+    flavor_text: '"Power Man for hire -- Cage speakin''.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/76.png
+    marvelcdb_url: https://marvelcdb.com/card/01076
+- names:
+  - Counter-Punch
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 77
+    quantity: 3
+  faces:
+  - name: Counter-Punch
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Attack
+    text: '**Response** (_attack_): After your hero defends against an enemy attack,
+      deal damage to that enemy equal to your hero''s ATK.'
+    flavor_text: '"That''s what you get!" -- Iron Fist'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/77.png
+    marvelcdb_url: https://marvelcdb.com/card/01077
+- names:
+  - Get Behind Me!
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 78
+    quantity: 3
+  faces:
+  - name: Get Behind Me!
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    text: '**Hero Interrupt**: When a treachery card is revealed from the encounter
+      deck, cancel its "**When Revealed**" effects. The villain attacks you instead.'
+    flavor_text: '"Ahem! Stand aside, citizens!" -- Ms. Marvel'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/78.png
+    marvelcdb_url: https://marvelcdb.com/card/01078
+- names:
+  - The Power of Protection
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 79
+    quantity: 2
+  faces:
+  - name: The Power of Protection
+    type: Resource
+    unique: false
+    aspect:
+    - Protection
+    text: |-
+      Max 2 per deck.
+      Double the number of resources this card generates while paying for a Protection _(green)_ card.
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/79.png
+    marvelcdb_url: https://marvelcdb.com/card/01079
+- names:
+  - Med Team
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 80
+    quantity: 3
+  faces:
+  - name: Med Team
+    cost: 3
+    type: Support
+    unique: false
+    aspect:
+    - Protection
+    keywords:
+    - Uses
+    text: |-
+      Uses (3 medical counters). _(Enters play with 3 counters. When those are gone, discard this card.)_
+      **Action**: Exhaust Med Team and remove 1 medical counter from it → heal 2 damage from a friendly character.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/80.png
+    marvelcdb_url: https://marvelcdb.com/card/01080
+- names:
+  - Armored Vest
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 81
+    quantity: 3
+  faces:
+  - name: Armored Vest
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Armor
+    text: |-
+      Play under any player's control. Max 1 per player.
+      Your hero gets +1 DEF.
+    flavor_text: Life-saving and stylish.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/81.png
+    marvelcdb_url: https://marvelcdb.com/card/01081
+- names:
+  - Indomitable
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 82
+    quantity: 3
+  faces:
+  - name: Indomitable
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Condition
+    text: '**Response**: After your hero defends, discard indomitable → ready your
+      hero.'
+    flavor_text: '"We have no choice. So we fight -- and we win. There are no other
+      options." -- Captain America'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/82.png
+    marvelcdb_url: https://marvelcdb.com/card/01082

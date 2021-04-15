@@ -1,0 +1,643 @@
+- names:
+  - Quicksilver
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Pietro Maximoff
+    type: Alter-Ego
+    unique: true
+    recover: 3
+    traits:
+    - Civilian
+    text: Superpowered Siblings - **Action:** Discard 2 cards from your hand → draw
+      2 cards (draw 3 cards instead if Wanda Maximoff is in play). (Limit once per
+      round.)
+    hit_points: 9
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/14001b
+  - name: Quicksilver
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 1
+    defense: 1
+    traits:
+    - Avenger
+    text: Super Speed - **Response:** After you use one of Quicksilver's basic powers
+      <em>(THW, ATK, or DEF),</em> ready him. (Limit once per phase.)
+    hit_points: 9
+    flavor_text: '"Super speed. Look it up."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/14001a
+- names:
+  - Scarlet Witch
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Scarlet Witch
+    subtitle: Wanda Maximoff
+    cost: 3
+    type: Ally
+    unique: true
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Interrupt:** When you use one of Scarlet Witch''s basic powers, discard
+      the top card of the encounter deck. For each boost icon discarded this way,
+      Scarlet Witch gets +1 to that power for this use.'
+    hit_points: 3
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/14002
+- names:
+  - Always Be Running
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 3
+    quantity: 4
+  faces:
+  - name: Always Be Running
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Action:** Ready Quicksilver.'
+    flavor_text: '"I''m the fastest man on Earth." - Quicksilver'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/14003
+- names:
+  - Double Time
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 4
+    quantity: 2
+  faces:
+  - name: Double Time
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: |-
+      **Hero Action**: Choose two of the following (you may choose the same option twice):
+      - Deal 2 damage to an enemy.
+      - Remove 2 threat from a scheme.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/14004
+- names:
+  - Maximum Velocity
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 5
+    quantity: 2
+  faces:
+  - name: Maximum Velocity
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: |-
+      Max 1 per phase.
+      **Hero Action:** You get +2 THW, +2 ATK, and +2 DEF until the end of the round.
+    flavor_text: '"Ever been punched at supersonic speed?" - Quicksilver'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/14005
+- names:
+  - Speed Cyclone
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 6
+    quantity: 1
+  faces:
+  - name: Speed Cyclone
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Action:** Stun X Enemies.'
+    flavor_text: '"Eat my dust." - Quicksilver'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/14006
+- names:
+  - Serval Industries
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 7
+    quantity: 1
+  faces:
+  - name: Serval Industries
+    cost: 1
+    type: Support
+    unique: true
+    traits:
+    - Location
+    - X-Factor
+    text: '**Alter-Ego Action:** Exhaust Serval Industries → shuffle 2 Quicksilver
+      cards from your discard pile into your deck.'
+    flavor_text: Corporate sponsors of the superhero team known as X-Factor.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/14007
+- names:
+  - Accelerated Reflex
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 8
+    quantity: 1
+  faces:
+  - name: Accelerated Reflex
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Condition
+    - Superpower
+    text: Quicksilver gets +1 DEF.
+    flavor_text: '"Is that all you got?" - Quicksilver'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/14008
+- names:
+  - Friction Resistance
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 9
+    quantity: 1
+  faces:
+  - name: Friction Resistance
+    cost: 3
+    type: Upgrade
+    unique: false
+    traits:
+    - Condition
+    - Superpower
+    text: |-
+      **Hero Response:** After you ready Quicksilver, ready this card.
+      **Resource:** Exhaust Friction Resistance → generate a [physical] resource.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/14009
+- names:
+  - Hyper Perception
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 10
+    quantity: 1
+  faces:
+  - name: Hyper Perception
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Condition
+    - Superpower
+    text: Quicksilver gets +1 THW.
+    flavor_text: '"Surely you can do better than that." - Quicksilver'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/14010
+- names:
+  - Reinforced Sinew
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Reinforced Sinew
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Condition
+    - Superpower
+    text: Quicksilver gets +1 ATK.
+    flavor_text: '"The future is written by the winners." - Quicksilver'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/14011
+- names:
+  - Multiple Man
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 12
+    quantity: 3
+  faces:
+  - name: Multiple Man
+    cost: 4
+    type: Ally
+    unique: false
+    aspect:
+    - Protection
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - X-Factor
+    text: '**Response**: After Multiple Man enters play, search your deck and hand
+      for a copy of Multiple Man and put it into play. Shuffle your deck if it was
+      searched this way.'
+    hit_points: 2
+    flavor_text: '"Who wants a sandwich?!"'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/14012
+- names:
+  - Warlock
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 13
+    quantity: 1
+  faces:
+  - name: Warlock
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Protection
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - X-Factor
+    text: '**Action:** Spend a [mental] resource → heal up to 2 damage from Warlock.'
+    hit_points: 3
+    flavor_text: '"Self thinks this is a mistake. But then, self is very young and
+      knows very little."'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/14013
+- names:
+  - Never Back Down
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 14
+    quantity: 3
+  faces:
+  - name: Never Back Down
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Defense
+    text: '**Hero Interrupt** _(defense)_: When you defend against an attack, you
+      get +2 DEF for this attack. If you take no damage from this attack, stun the
+      attacking enemy.'
+    flavor_text: '"Champions, charge!" - Ms. Marvel'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/14014
+- names:
+  - Side Step
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 15
+    quantity: 3
+  faces:
+  - name: Side Step
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Defense
+    text: '**Hero Interrupt** _(defense)_: When you would take any amount of damage,
+      prevent 3 of that damage. If you paid for this card using [energy] resource,
+      deal 1 damage to that enemy.'
+    flavor_text: '"Missed me!" - Wasp'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/14015
+- names:
+  - Nerves of Steel
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 17
+    quantity: 3
+  faces:
+  - name: Nerves of Steel
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Skill
+    text: |-
+      Play under any player's control.
+      Max 1 per player.
+      **Resource**: Exhaust Nerves of Steel → generate a [energy] resource for a [[Defense]] event.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/14017
+- names:
+  - Order and Chaos
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 18
+    quantity: 1
+  faces:
+  - name: Order and Chaos
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    text: |-
+      Team-Up (Quicksilver and Scarlet Witch). Max 1 per deck.
+      **Hero Interrupt**: When a treachery card is revealed from the encounter deck, cancel its "**When Revealed**" effects, then deal 2 damage to the villain.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/18.png
+    marvelcdb_url: https://marvelcdb.com/card/14018
+- names:
+  - Adrenaline Rush
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 22
+    quantity: 3
+  faces:
+  - name: Adrenaline Rush
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Condition
+    text: '**Hero Action**: Discard Adrenaline Rush → your hero gets +1 ATK until
+      the end of the phase.'
+    flavor_text: '"Wow, lady! And I thought Gamora was intense." - Rocket Raccoon'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/22.png
+    marvelcdb_url: https://marvelcdb.com/card/14022
+- names:
+  - Civic Duty
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 23
+    quantity: 3
+  faces:
+  - name: Civic Duty
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Tactic
+    text: '**Hero Action:** Discard Civic Duty → your hero gets +1 THW until the end
+      of the phase.'
+    flavor_text: '"Please stay calm! Everything will be okay!" - Ms. Marvel'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/23.png
+    marvelcdb_url: https://marvelcdb.com/card/14023
+- names:
+  - Need for Speed
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 24
+    quantity: 1
+  faces:
+  - name: Need for Speed
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Pietro Maximoff player._**
+      You may flip to alter-ego form. Choose:
+      - Exhaust Pietro Maximoff → remove Need for Speed from the game.
+      - Exhaust your identity. You cannot ready your identity until your next turn ends. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/24.png
+    marvelcdb_url: https://marvelcdb.com/card/14024
+- names:
+  - Extortion of Seismic Proportion
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 25
+    quantity: 1
+  faces:
+  - name: Extortion of Seismic Proportion
+    type: Side Scheme
+    unique: false
+    keywords:
+    - Incite
+    text: Incite 1. _(When revealed, place 1 threat on the main scheme.)_
+    boost_icons: 3
+    starting_threat_per_player: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/25.png
+    marvelcdb_url: https://marvelcdb.com/card/14025
+  horizontal: true
+- names:
+  - Avalanche
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Avalanche
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: 2
+    traits:
+    - Brotherhood of Mutants
+    keywords:
+    - Incite
+    text: |-
+      Incite 2. <em>(When revealed, place 2 threat on the main scheme.)</em>
+      **When Revealed:** Each player must choose to either take 2 indirect damage or exhaust their identity.
+      <em>(Quicksilver's nemesis minion.)</em>
+    hit_points: 4
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/14026
+- names:
+  - Vibration Resistance
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Vibration Resistance
+    type: Attachment
+    unique: false
+    traits:
+    - Condition
+    text: |-
+      Attach to Avalanche, if able. If you cannot, attach to the villain.
+      Reduce the damage attached enemy takes from each attack by 1.
+      **Hero Action**: Exhaust your hero → discard this card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/14027
+- names:
+  - Earthquake
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 28
+    quantity: 2
+  faces:
+  - name: Earthquake
+    type: Treachery
+    unique: false
+    keywords:
+    - Incite
+    text: |-
+      Incite 1. _(When revealed, place 1 threat on the main scheme.)_
+      **When Revealed**: Discard 2 cards from your hand and exhaust your identity.
+    boost_icons: 0
+    star_text: Choose to either spend [physical][physical] resources or exhaust your
+      identity.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/14028
+- names:
+  - Brute Force
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 29
+    quantity: 3
+  faces:
+  - name: Brute Force
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Skill
+    text: |-
+      Your hero gets +1 ATK. Your basic attacks gain piercing. _(Discard any tough status cards from the target before dealing damage.)_
+      **Forced Response**: After you make a basic attack, discard Brute Force.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/14029
+- names:
+  - Sense of Justice
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 30
+    quantity: 3
+  faces:
+  - name: Sense of Justice
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Skill
+    text: |-
+      Play under any player's control.
+      Max 1 per player.
+      **Resource:** Exhaust Sense of Justice → generate a [mental] resource for a [[Thwart]] event.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/14030
+- names:
+  - United We Stand
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 31
+    quantity: 3
+  faces:
+  - name: United We Stand
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    text: |-
+      Play only if your identity has the [[Avenger]] trait.
+      **Hero Action:** Heal 1 damage from up to X friendly characters (to a maximum of 3 characters), where X is equal to the villain's stage number.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/14031
+- names:
+  - Beat 'Em Up
+  packs:
+  - name: Quicksilver
+    sku: MC14en
+    position: 32
+    quantity: 3
+  faces:
+  - name: Beat 'Em Up
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Tactic
+    text: '**Hero Action**: Deal 1 damage to the villain and each minion engaged with
+      you.'
+    flavor_text: '"too easy." - She-Hulk'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc14en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/14032

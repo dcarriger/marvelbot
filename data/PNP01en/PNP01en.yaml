@@ -1,0 +1,106 @@
+---
+- names:
+    - Ronan the Accuser
+  packs:
+    - name: Ronan Modular Set
+      sku: PNP01en
+      position: 1
+      quantity: 1
+  faces:
+    - name: Ronan the Accuser
+      type: Minion
+      unique: true
+      scheme: 3
+      attack: 3
+      traits:
+        - Accuser Corps
+        - Elite
+        - Kree
+      keywords:
+        - Toughness
+      text: |
+        "Toughness.
+        Ronan the Accuser cannot be stunned.
+        **Forced Interrupt**: When the villain phase begins, Ronan the Accuser engages the hero with the fewest remaining hit points."
+      hit_points_per_player: 9
+      boost_icons: 0
+      star_text: |
+        Put Ronan the Accuser into play engaged with you.
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/pnp01en/1.png"
+- names:
+    - Judge, Jury, Executioner
+  packs:
+    - name: Ronan Modular Set
+      sku: PNP01en
+      position: 2
+      quantity: 1
+  faces:
+    - name: Judge, Jury, Executioner
+      type: Side Scheme
+      unique: false
+      text: | 
+        "**Forced Response**: After a friendly character is defeated by an enemy attack,
+        place 2 threat on the main scheme."
+      boost_icons: 0
+      star_text: Put Judge, Jury, Executioner into play.
+      starting_threat_per_player: 3
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/pnp01en/2.png"
+- names:
+    - The Accused
+  packs:
+    - name: Ronan Modular Set
+      sku: PNP01en
+      position: 3
+      quantity: 1
+  faces:
+    - name: The Accused
+      type: Attachment
+      unique: false
+      traits:
+        - Condition
+      text: |
+        "Attach to your identity.
+        **Forced Interrupt**: When an enemy initiates an attack against the attached identity, that enemy gets +1 ATK for the attack.
+        **Forced Response**: After Ronan the Accuser is defeated, discard this card."
+      boost_icons: 0
+      star_text: |
+        Attach to your identity.
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/pnp01en/3.png"
+- names:
+    - Bring the Hammer Down
+  packs:
+    - name: Ronan Modular Set
+      sku: PNP01en
+      position: 4
+      quantity: 2
+  faces:
+    - name: Bring the Hammer Down
+      type: Treachery
+      unique: false
+      text: 
+        "**When Revealed**: Ronan the Accuser activates against the player he is engaged
+        with. If Ronan the Accuser is not in play, this card gains surge."
+      boost_icons: 3
+      star_text: |
+        If this activation defeats a character, deal the first player 1 facedown
+        encounter card.
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/pnp01en/4.png"
+- names:
+    - You Dare Oppose Me?
+  packs:
+    - name: Ronan Modular Set
+      sku: PNP01en
+      position: 5
+      quantity: 2
+  faces:
+    - name: You Dare Oppose Me?
+      type: Treachery
+      unique: false
+      text: |
+        "**When Revealed**: Discard the top 5 cards of the encounter deck. Each time
+        a card belonging to the Kree Fanatic set is discarded this way, deal that card
+        to yourself as a facedown encounter card."
+      boost_icons: 2
+      star_text: |
+        If this activation is an attack, that attack gains overkill.
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/pnp01en/5.png"

@@ -1,0 +1,77 @@
+- names:
+  - Combat Knife
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 148
+    quantity: 1
+  faces:
+  - name: Combat Knife
+    type: Attachment
+    unique: false
+    attack: 1
+    attack_text: Attached villain's attacks gain piercing.
+    traits:
+    - Weapon
+    text: |-
+      Attach to the villain.
+      **Hero Action:** Spend [mental][physical] resources → discard this card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/148.png
+    marvelcdb_url: https://marvelcdb.com/card/04148
+- names:
+  - Hydra Sidearm
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 149
+    quantity: 1
+  faces:
+  - name: Hydra Sidearm
+    type: Attachment
+    unique: false
+    attack: 1
+    attack_text: <b>Forced Interrupt:</b> When attached villain attacks, the attack
+      gains ranged.
+    traits:
+    - Weapon
+    text: |-
+      Attach to the Villain.
+      **Hero Action:** Spend [mental][physical] resources → discard this card.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/149.png
+    marvelcdb_url: https://marvelcdb.com/card/04149
+- names:
+  - Weapon Master
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 150
+    quantity: 2
+  faces:
+  - name: Weapon Master
+    type: Treachery
+    unique: false
+    text: |-
+      **When Reveled (Alter-Ego):** The villain schemes. If they have a [[Weapon]] attachment, this card gains surge.
+      **When Reveled (Hero):** the villain attacks you. If they have a [[Weapon]] attachment, this card gains surge.
+    boost_icons: 0
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/150.png
+    marvelcdb_url: https://marvelcdb.com/card/04150
+- names:
+  - Concussion Grenade
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 151
+    quantity: 1
+  faces:
+  - name: Concussion Grenade
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego):** You are confused. Place 1 threat on the main scheme (2 threat instead if you were already confused).
+      **When Revealed (Hero):** You are stunned. Deal 1 damage to your hero (2 instead if you were already stunned).
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/151.png
+    marvelcdb_url: https://marvelcdb.com/card/04151

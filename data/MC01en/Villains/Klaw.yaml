@@ -1,0 +1,340 @@
+- names:
+  - Klaw
+  - Klaw 1
+  - Klaw I
+  - Standard Klaw
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 113
+    quantity: 1
+  faces:
+  - name: Klaw
+    type: Villain
+    stage: 1
+    unique: true
+    scheme: 2
+    attack: 0
+    attack_text: '**Forced Interrupt**: When Klaw attacks, give him 1 additional
+      boost card for this activation.'
+    traits:
+    - Masters of Evil
+    text: null
+    hit_points_per_player: 12
+    flavor_text: '"Come meet your doom!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/113.png
+    marvelcdb_url: https://marvelcdb.com/card/01113
+- names:
+  - Klaw
+  - Klaw 2
+  - Klaw II
+  - Standard Klaw
+  - Expert Klaw
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 114
+    quantity: 1
+  faces:
+  - name: Klaw
+    type: Villain
+    stage: 2
+    unique: true
+    scheme: 2
+    attack: 1
+    attack_text: '**Forced Interrupt**: When Klaw attacks, give him 1 additional
+      boost card for this activation.'
+    flavor_text: 
+    traits:
+    - Masters of Evil
+    text: '**When Revealed**: Search the encounter deck and discard pile for The "Immortal"
+      Klaw and reveal it. Shuffle the encounter deck.'
+    hit_points_per_player: 18
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/114.png
+    marvelcdb_url: https://marvelcdb.com/card/01114
+- names:
+  - Klaw
+  - Klaw 3
+  - Klaw III
+  - Expert Klaw
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 115
+    quantity: 1
+  faces:
+  - name: Klaw
+    type: Villain
+    stage: 3
+    unique: true
+    scheme: 3
+    attack: 2
+    attack_text: '**Forced Interrupt**: When Klaw attacks, give him 1 additional
+      boost card for this activation.'
+    traits:
+    - Masters of Evil
+    keywords:
+    - Toughness
+    text: Toughness. _(This character enters play with a tough status card.)_
+    hit_points_per_player: 22
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/115.png
+    marvelcdb_url: https://marvelcdb.com/card/01115
+- names:
+  - Underground Distribution
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 116
+    quantity: 1
+  faces:
+  - name: Underground Distribution
+    type: Main Scheme
+    unique: false
+    keywords:
+      - Setup
+    text: |
+      "**Contents**: Klaw (I) and Klaw (II). _(Klaw (II) and Klaw (III) instead for expert mode.)_ Klaw and Standard encounter sets. One modular encounter set _(recommended: Masters of Evil)_.
+      **Setup**: Search the encounter deck for the Defense Network side scheme and reveal it. Shuffle the encounter deck. Advance to stage 1B."
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/116A.png
+    marvelcdb_url: https://marvelcdb.com/card/01116a
+  - name: Underground Distribution
+    type: Main Scheme
+    unique: false
+    text: '**When Revealed**: Discard cards from the encounter deck until a minion
+      is discarded. Put that minion into play engaged with the first player.'
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 6
+    flavor_text: Your investigation reveals that the criminal enterprise is operated
+      by Klaw, an old rival of the Avengers!
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/116B.png
+    marvelcdb_url: https://marvelcdb.com/card/01116b
+  horizontal: true
+- names:
+  - Secret Rendezvous
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 117
+    quantity: 1
+  faces:
+  - name: Secret Rendezvous
+    type: Main Scheme
+    unique: false
+    text: |
+      "**When Revealed**: Discard cards from the encounter deck until a minion is discarded. Put that minion into play engaged with the first player. Advance to stage 2B."
+    flavor_text: |
+      "Klaw has found a buyer for his illegal weapons. It’s up to you to stop the sale but the meeting is surrounded by Klaw’s cronies."
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/117A.png
+    marvelcdb_url: https://marvelcdb.com/card/01117a
+  - name: Secret Rendezvous
+    type: Main Scheme
+    unique: false
+    text: '**If this stage is completed, the players lose the game.**'
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 8
+    flavor_text: Klaw is meeting with the Crimson Cowl. Klaw and the mysterious figure
+      dart into the shadows when you confront them, and Klaw's minions move to cover
+      their escape.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/117B.png
+    marvelcdb_url: https://marvelcdb.com/card/01117b
+  horizontal: true
+- names:
+  - Sonic Converter
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 118
+    quantity: 1
+  faces:
+  - name: Sonic Converter
+    type: Attachment
+    unique: true
+    attack: 1
+    attack_text: '**Forced Response**: After Klaw attacks and damages a character,
+      stun that character.'
+    traits:
+    - Weapon
+    text: |-
+      Attach to Klaw.
+      **Hero Action**: Spend [energy] [mental] [physical] resources → discard this card.
+    boost_icons: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/118.png
+    marvelcdb_url: https://marvelcdb.com/card/01118
+- names:
+  - Solid-Sound Body
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 119
+    quantity: 1
+  faces:
+  - name: Solid-Sound Body
+    type: Attachment
+    unique: false
+    traits:
+    - Condition
+    text: |-
+      Attach to Klaw.
+      Klaw gains retaliate 1. _(After this character is attacked, deal 1 damage to the attacking character.)_
+      **Hero Action**: Spend [energy] [mental] [physical] resources → discard this card.
+    boost_icons: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/119.png
+    marvelcdb_url: https://marvelcdb.com/card/01119
+- names:
+  - Armored Guard
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 120
+    quantity: 3
+  faces:
+  - name: Armored Guard
+    type: Minion
+    unique: false
+    scheme: 0
+    attack: 1
+    traits:
+    - Mercenary
+    keywords:
+    - Guard
+    - Toughness
+    text: |-
+      Guard. _(While this minion is engaged with you, you cannot attack the villain.)_
+      Toughness. _(This character enters play with a tough status card.)_
+    hit_points: 3
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/120.png
+    marvelcdb_url: https://marvelcdb.com/card/01120
+- names:
+  - Weapons Runner
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 121
+    quantity: 2
+  faces:
+  - name: Weapons Runner
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 1
+    traits:
+    - Mercenary
+    keywords:
+    - Surge
+    text: Surge. _(After this card is revealed, reveal 1 additional encounter card.)_
+    hit_points: 2
+    boost_icons: 0
+    star_text: Put Weapons Runner into play engaged with you.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/121.png
+    marvelcdb_url: https://marvelcdb.com/card/01121
+- names:
+  - Klaw's Vengeance
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 122
+    quantity: 2
+  faces:
+  - name: Klaw's Vengeance
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: Discard 1 card at random from your hand.
+      **When Revealed (Hero)**: Klaw attacks you. If this attack does damage, place 1 threat on the main scheme.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/122.png
+    marvelcdb_url: https://marvelcdb.com/card/01122
+- names:
+  - Sonic Boom
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 123
+    quantity: 2
+  faces:
+  - name: Sonic Boom
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Either spend [energy] [mental] [physical] or exhaust
+      each character you control.'
+    boost_icons: 0
+    star_text: If this activation deals damage to you, exhaust your hero.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/123.png
+    marvelcdb_url: https://marvelcdb.com/card/01123
+- names:
+  - Sound Manipulation
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 124
+    quantity: 2
+  faces:
+  - name: Sound Manipulation
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: Klaw heals 4 damage. If no damage was healed this way, this card gains surge.
+      **When Revealed (Hero)**: Take 2 damage. Klaw heals 2 damage.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/124.png
+    marvelcdb_url: https://marvelcdb.com/card/01124
+- names:
+  - Defense Network
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 125
+    quantity: 1
+  faces:
+  - name: Defense Network
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Place an additional 1 [per_hero] threat here.'
+    boost_icons: 2
+    starting_threat: 2
+    flavor_text: Klaw's criminal enterprise is protected by a gang of hired thugs.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/125.png
+    marvelcdb_url: https://marvelcdb.com/card/01125
+  horizontal: true
+- names:
+  - Illegal Arms Factory
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 126
+    quantity: 1
+  faces:
+  - name: Illegal Arms Factory
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Place an additional 1 [per_hero] threat here.'
+    boost_icons: 2
+    starting_threat: 3
+    flavor_text: Klaw is supplying villains with advanced weaponry from a clandestine
+      arms facility.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/126.png
+    marvelcdb_url: https://marvelcdb.com/card/01126
+  horizontal: true
+- names:
+  - The "Immortal" Klaw
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 127
+    quantity: 1
+  faces:
+  - name: The "Immortal" Klaw
+    type: Side Scheme
+    unique: false
+    text: Klaw gets +10 hit points. _(When this scheme is defeated, Klaw loses those
+      hit points.)_
+    boost_icons: 0
+    starting_threat_per_player: 3
+    flavor_text: Klaw's mastery of sound allows him to restore his solid form through
+      sheer power of will.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/127.png
+    marvelcdb_url: https://marvelcdb.com/card/01127
+  horizontal: true

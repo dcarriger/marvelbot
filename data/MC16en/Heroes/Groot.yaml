@@ -1,0 +1,245 @@
+- names:
+  - Groot
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Groot
+    type: Alter Ego
+    unique: true
+    recover: 4
+    traits:
+    - Outlaw
+    text: '_Growth Spurt_ — **Action**: Place 2 growth counters on Groot (to a maximum
+      of 10). (Limit once per round.)'
+    hit_points: 10
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/16001b
+  - name: Groot
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 2
+    defense: 3
+    traits:
+    - Guardian
+    text: '_Flora Colossus_ — **Forced Interrupt**: When Groot would take any amount
+      of damage, remove that many growth counters from him. For each growth counter
+      removed this way, prevent 1 of that damage.'
+    hit_points: 10
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/16001a
+- names:
+  - Fruition
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 2
+    quantity: 2
+  faces:
+  - name: Fruition
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: '**Action**: Place 2 growth counters on Groot (to a maximum of 10).'
+    flavor_text: '"I am Groot..." - Groot'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/16002
+- names:
+  - '"I am Groot"'
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 3
+    quantity: 2
+  faces:
+  - name: '"I am Groot"'
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    - Thwart
+    text: '**Hero Action** (thwart): Remove threat from a scheme equal to the number
+      of growth counters on Groot.'
+    flavor_text: '"I am Groot!!!" - Groot'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/16003
+- names:
+  - '"I. AM. GROOT!"'
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 4
+    quantity: 2
+  faces:
+  - name: '"I. AM. GROOT!"'
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Superpower
+    text: '**Hero Action** (attack): Deal damage to an enemy equal to the number of
+      growth counters on Groot.'
+    flavor_text: '"I. AM. GROOT!" - Groot'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/16004
+- names:
+  - Root Stomp
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 5
+    quantity: 3
+  faces:
+  - name: Root Stomp
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Superpower
+    text: '**Hero Action** (attack): Deal 5 damage to an enemy. If this attack defeats
+      that enemy, place 1 growth counter on Groot (to a maximum of 10)'
+    flavor_text: '"I. Am. Groot." - Groot'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/16005
+- names:
+  - '"We Are Groot"'
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 6
+    quantity: 1
+  faces:
+  - name: '"We Are Groot"'
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Action**: Remove up to 4 growth counters from Groot -> choose that
+      many friendly characters. Give each of those characters a tough status card.'
+    flavor_text: '"We Are Groot." - Groot'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/16006
+- names:
+  - Fertile Ground
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 7
+    quantity: 1
+  faces:
+  - name: Fertile Ground
+    cost: 1
+    type: Support
+    unique: false
+    traits:
+    - Location
+    text: '**Alter-Ego Action**: Exhaust Ferticle Ground -> place 1 growth counter
+      on Groot (to a maximum of 10) and draw 1 card.'
+    flavor_text: '"I...am... Groot." - Groot'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/16007
+- names:
+  - Entangling Vines
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 8
+    quantity: 1
+  faces:
+  - name: Entangling Vines
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Interrupt**: When Groot makes a basic thwart, remove 1 growth counter
+      from him and exhaust Entangling Vines -> Groot gets +2 THW for that thwart.'
+    flavor_text: '"I am. GROOT!" - Groot'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/16008
+- names:
+  - Lashing Vines
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 9
+    quantity: 1
+  faces:
+  - name: Lashing Vines
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Response**: After Groot uses a basic power, remove 2 growth counters
+      from him and exhaust Lashing Vines -> ready Groot.'
+    flavor_text: '"I AM. Groot." - Groot'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/16009
+- names:
+  - Vine Shield
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 10
+    quantity: 1
+  faces:
+  - name: Vine Shield
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Interrupt**: When Groot defends against an attack, remove 1 growth
+      counter from him and exhaust Vine Shield -> Groot gets +3 DEF for that attack.'
+    flavor_text: '"I am Groot?" - Groot'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/16010
+- names:
+  - Vine Spikes
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Vine Spikes
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Interrupt**: When Groot makes a basic attack, remove 1 growth counter
+      from him and exhaust Vine Spikes -> Groot gets +2 ATK for that attack.'
+    flavor_text: '"We get it, you''re Groot." - Rocket Raccoon'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/16011

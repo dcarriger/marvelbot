@@ -1,0 +1,602 @@
+- names:
+  - Scarlet Witch
+  - Wanda Maximoff
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Wanda Maximoff
+    type: Alter-Ego
+    unique: true
+    recover: 3
+    traits:
+    - Mystic
+    text: _Superpowered Siblings_ - **Action:** Discard 2 cards from your hand → draw
+      2 cards (draw 3 cards instead if Pietro Maximoff is in play). (Limit once per
+      round.)
+    hit_points: 10
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/15001b
+  - name: Scarlet Witch
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 1
+    defense: 2
+    traits:
+    - Avenger
+    - Mystic
+    text: _Chaos Control_ - **Interrupt:** When boost icons on an encounter card would
+      be counted, discard the top card of the encounter deck and count the number
+      of boost icons on that card instead. (Limit once per phase.)
+    hit_points: 10
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/15001a
+- names:
+  - Quicksilver
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Quicksilver
+    subtitle: Pietro Maximoff
+    cost: 4
+    type: Ally
+    unique: true
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Action:** Ready Quicksilver. (Limit once per phase.)'
+    hit_points: 4
+    flavor_text: '"I''ve warned you never to threaten my sister!"'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/15002
+- names:
+  - Chaos Magic
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 3
+    quantity: 1
+  faces:
+  - name: Chaos Magic
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Spell
+    - Superpower
+    text: '**Hero Action:** Play a card from your hand, ignoring its resource cost.
+      Discard cards from the top of the encounter deck equal to that card''s printed
+      resource cost.'
+    flavor_text: '"I will shape the world as I see fit." - Scarlet Witch'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/15003
+- names:
+  - Hex Bolt
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 4
+    quantity: 4
+  faces:
+  - name: Hex Bolt
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Spell
+    - Superpower
+    text: |-
+      **Hero Action**: Discard the top 3 cards of the encounter deck. For each card discarded this way that has boost icons equal to:
+      - 0, deal 2 damage to an enemy.
+      - 1, remove 2 threat from a scheme.
+      - 2, draw 1 card.
+      - 3+, place a status card on a character.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/15004
+- names:
+  - Molecular Decay
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 5
+    quantity: 3
+  faces:
+  - name: Molecular Decay
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Spell
+    text: '**Hero Action** _(attack)_: Deal 5 damage to an enemy and discard the top
+      2 cards of the encounter deck. For each boost icon discarded this way, deal
+      1 additional damage to that enemy.'
+    flavor_text: '"There is no defense against the Scarlet Witch!"'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/15005
+- names:
+  - Warp Reality
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 6
+    quantity: 1
+  faces:
+  - name: Warp Reality
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Spell
+    - Superpower
+    text: '**Hero Interrupt:** When an encounter card is revealed from the encounter
+      deck, cancel all of its effects and discard it. Discard cards from the top of
+      the encounter deck equal to the number of boost icons on that card.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/15006
+- names:
+  - Agatha Harkness
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 7
+    quantity: 1
+  faces:
+  - name: Agatha Harkness
+    cost: 1
+    type: Support
+    unique: true
+    traits:
+    - Persona
+    text: '**Alter-Ego Action:** Exhaust Agatha Harkness → look at the top 3 cards
+      of your deck. Add 1 of those to your hand and place the rest on the bottom of
+      your deck in any order.'
+    flavor_text: '"Don''t let your anger get the best of you, Wanda."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/15007
+- names:
+  - Magic Shield
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 8
+    quantity: 3
+  faces:
+  - name: Magic Shield
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Spell
+    text: '**Hero Interrupt:** When a friendly character would take any amount of
+      damage, discard Magic Shield → prevent 3 of that damage.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/15008
+- names:
+  - Scarlet Witch's Crest
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 9
+    quantity: 1
+  faces:
+  - name: Scarlet Witch's Crest
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Item
+    text: '**Interrupt:** When boost icons on an encounter card are counted, exhaust
+      Scarlet Witch''s Crest → increase or decrease the number of boost icons on that
+      card by 1 for this count.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/15009
+- names:
+  - Speed
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 10
+    quantity: 1
+  faces:
+  - name: Speed
+    subtitle: Thomas Shepherd
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Justice
+    thwart: 2
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Response**: After Speed thwarts, ready him. (Limit once per round.)'
+    hit_points: 4
+    flavor_text: '"Hey! Geriatrics! Let''s get a move on. The Avengers need us!"'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/15010
+- names:
+  - Wiccan
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Wiccan
+    subtitle: William Kaplan
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Justice
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Response:** After Wiccan thwarts, discard the top card of the encounter
+      deck. For each boost icon discarded this way, deal 1 damage to an enemy.'
+    hit_points: 3
+    flavor_text: '"I''m the child of a witch and an android. I''m their wish come
+      true."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/15011
+- names:
+  - Crisis Averted
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 12
+    quantity: 3
+  faces:
+  - name: Crisis Averted
+    cost: 3
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Thwart
+    text: '**Hero Action** _(thwart)_: Remove 6 threat from the main scheme. If you
+      paid for this card using a [mental] resource, this thwart ignores the crisis
+      icon ([crisis]).'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/15012
+- names:
+  - Multitasking
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 13
+    quantity: 3
+  faces:
+  - name: Multitasking
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Thwart
+    text: '**Hero Action** _(thwart)_: Remove 2 threat from a scheme. If you paid
+      for this card using a [mental] resource, remove 2 threat from a different scheme.'
+    flavor_text: '"A hero isn''t the one who always wins. They''re the one who always
+      tries." - Spider-Man'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/15013
+- names:
+  - Swift Retribution
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 14
+    quantity: 3
+  faces:
+  - name: Swift Retribution
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: The villain schemes. Deal 4 damage to the villain.'
+    flavor_text: '"Return what you''ve taken and I''ll let you go. This time. But
+      next time, you won''t be so lucky. And I won''t be so kind." - Moon Knight'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/15014
+- names:
+  - Turn the Tide
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 15
+    quantity: 3
+  faces:
+  - name: Turn the Tide
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Attack
+    text: '**Response** _(attack)_: After your hero thwarts and removes all threat
+      from a scheme, deal 3 damage to an enemy.'
+    flavor_text: '"Back, you rabble!" - Scarlet Witch'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/15015
+- names:
+  - The Power of Justice
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 16
+    quantity: 2
+  faces:
+  - name: The Power of Justice
+    type: Resource
+    unique: false
+    aspect:
+    - Justice
+    text: |-
+      Max 2 per deck.
+      Double the number of resources this card generates while paying for a Justice _(yellow)_ card.
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/16.png
+    marvelcdb_url: https://marvelcdb.com/card/15016
+- names:
+  - Spiritual Meditation
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 19
+    quantity: 3
+  faces:
+  - name: Spiritual Meditation
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Spell
+    text: |-
+      Play only if your identity has the [[Mystic]] trait.
+      **Action**: Draw 2 cards. Choose and discard 1 card from your hand.
+    flavor_text: '"Every spell, every sigil, every manipulation... you must keep a
+      close eye on everything so it doesn''t backfire."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/19.png
+    marvelcdb_url: https://marvelcdb.com/card/15019
+- names:
+  - Slipping Sanity
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 23
+    quantity: 2
+  faces:
+  - name: Slipping Sanity
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Wanda Maximoff player._**
+      You may flip to alter-ego form. Choose:
+      - Exhaust Wanda Maximoff → remove Slipping Sanity from the game.
+      - Discard the top 5 cards of the encounter deck. For each star icon([star]) in the boost area discarded this way, place 1 threat on the main scheme. Discard this obligation.
+    boost_icons: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/23.png
+    marvelcdb_url: https://marvelcdb.com/card/15023
+- names:
+  - The Next Evolution
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 24
+    quantity: 1
+  faces:
+  - name: The Next Evolution
+    type: Side Scheme
+    unique: false
+    text: Increase the number of boost icons on each encounter card by 1.
+    boost_icons: 2
+    starting_threat_per_player: 2
+    flavor_text: '"The High Evolutionary intends to build a god fit for the twenty-first
+      century!" - High Evolutionary'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/24.png
+    marvelcdb_url: https://marvelcdb.com/card/15024
+  horizontal: true
+- names:
+  - Luminous
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 25
+    quantity: 1
+  faces:
+  - name: Luminous
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 2
+    traits:
+    - Elite
+    text: |-
+      **Forced Response:** After Luminous activates against you, discard the top card of the encounter deck. If 2 or more boost icons were discarded this way, deal yourself 1 encounter card.
+      _(Scarlet Witch's nemesis minion.)_
+    hit_points: 5
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/25.png
+    marvelcdb_url: https://marvelcdb.com/card/15025
+- names:
+  - Magical Suspension
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Magical Suspension
+    type: Attachment
+    unique: false
+    traits:
+    - Spell
+    text: |-
+      Attach to your identity.
+      . Each card you play costs 1 additional resource.
+      **Hero Action**: Exhaust your hero → discard this card.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/15026
+- names:
+  - Chaos Manipulation
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Chaos Manipulation
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Search the encounter deck and discard pile for Luminous
+      and put her into play engaged with you. Discard the top card of the encounter
+      deck. If 2 or more boost icons were discarded this way, Luminous activates against
+      you.'
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/15027
+- names:
+  - Browbeat
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 28
+    quantity: 3
+  faces:
+  - name: Browbeat
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Attack
+    text: |-
+      Play only if your identity has the [[Avenger]] trait.
+      **Hero Action** _(attack)_: Deal 2 damage to the villain. Deal X additional damage to the villain (to a maximum of 3), where X is equal to the villain's stage number.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/15028
+- names:
+  - Last Stand
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 29
+    quantity: 3
+  faces:
+  - name: Last Stand
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Tactic
+    text: '**Hero Interrupt**: When an ally you control attacks, it gets +3 ATK for
+      that attack. After that attack resolves, discard that ally.'
+    flavor_text: '"Heed, great fiend! Thou shalt not defeat me easily!" - Lady Sif'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/15029
+- names:
+  - Bait and Switch
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 30
+    quantity: 3
+  faces:
+  - name: Bait and Switch
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Thwart
+    text: '**Hero Action** _(thwart)_: The villain attacks you. Remove 4 threat from
+      the main scheme.'
+    flavor_text: '"You didn''t really think I''d let you get away with that, did you?"
+      - Spider-Man'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/15030
+- names:
+  - Recuperation
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 31
+    quantity: 3
+  faces:
+  - name: Recuperation
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    text: '**Alter-Ego Action**: Heal damage from your alter-ego equal to your REC.'
+    flavor_text: '"You look to be feeling better." - Stephen Strange'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/15031

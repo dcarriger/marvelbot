@@ -1,0 +1,692 @@
+- names:
+  - Wasp
+  - Nadia Van Dyne
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Nadia Van Dyne
+    type: Alter-Ego
+    unique: true
+    recover: 3
+    traits:
+    - Genius
+    text: G.I.R.L. - **Action:** Shuffle up to 2 cards with a printed [mental] resource
+      from your discard pile into your deck. (Limit once per round.)
+    hit_points: 11
+    flavor_text: '"G.I.R.L. is dedicated to finding brilliant women who will not only
+      save the world, but change it."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/13001b
+  - name: Wasp
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 1
+    defense: 2
+    traits:
+    - Avenger
+    - Tiny
+    text: Small but Mighty - **Response:** After Wasp <em>(or an event you play)</em>
+      defeats a minion or side scheme, deal 1 damage to the villain.
+    hit_points: 11
+    flavor_text: '"You should learn to play nice!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/13001a
+  - name: Wasp
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 2
+    defense: 3
+    traits:
+    - Avenger
+    - Giant
+    text: null
+    hit_points: 11
+    flavor_text: '"Aww, you''re all so tiny and cute."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/1C.png
+    marvelcdb_url: https://marvelcdb.com/card/13001c
+- names:
+  - Ant-Man
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Ant-Man
+    subtitle: Scott Lang
+    cost: 4
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: |-
+      While you are in [[Giant]] hero form, Ant-Man gains the [[Giant]] trait and gets +1 ATK.
+      While you are in [[Tiny]] hero form, Ant-Man gains the [[Tiny]] trait and gets +1 THW.
+    hit_points: 3
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/13002
+- names:
+  - Giant Help
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 3
+    quantity: 2
+  faces:
+  - name: Giant Help
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Thwart
+    text: '**Hero Action** _(thwart)_: Remove 3 threat from a scheme (remove a total
+      of 4 threat divided among schemes as you choose instead if you are in [[Giant]]
+      hero form).'
+    flavor_text: '"Glad to be of service!" - Wasp'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/13003
+- names:
+  - Pinpoint Strike
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 4
+    quantity: 3
+  faces:
+  - name: Pinpoint Strike
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Deal 7 damage to an enemy. If you are in [[Tiny]]
+      hero form, this attack deals 1 additional damage to that enemy and gains overkill.'
+    flavor_text: '"You''re going to want to ice that in the morning." - Wasp'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/13004
+- names:
+  - Rapid Growth
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 5
+    quantity: 2
+  faces:
+  - name: Rapid Growth
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Giant
+    - Superpower
+    text: '**Hero Interrupt**: When you use one of your hero''s basic powers (THW,
+      ATK, or DEF), change to your [[Giant]] hero form and get +2 to that power for
+      this use.'
+    flavor_text: '"Bet you didn''t expect to see that." - Wasp'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/13005
+- names:
+  - Wasp Sting
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 6
+    quantity: 2
+  faces:
+  - name: Wasp Sting
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    text: |-
+      **Hero Action** _(attack)_: If you are in [[Giant]] hero form, deal a total of 4 damage divided among enemies you choose.
+      **Hero Action** _(attack)_: If you are in [[Tiny]] hero form, deal 5 damage to an enemy.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/13006
+- names:
+  - Pym Particles
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 7
+    quantity: 2
+  faces:
+  - name: Pym Particles
+    type: Resource
+    unique: false
+    text: '**Hero Response**: After you spend this card, heal 2 damage from your hero
+      if you are in [[Giant]] hero form or draw 1 card if you are in [[Tiny]] hero
+      form.'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/13007
+- names:
+  - Red Room Training
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 8
+    quantity: 1
+  faces:
+  - name: Red Room Training
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Skill
+    text: |-
+      While you are in [[Giant]] hero form, you gain retaliate 1.
+      While you are in [[Tiny]] hero form, your basic attacks gain piercing. _(Discard any tough status cards from the target before dealing damage.)_
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/13008
+- names:
+  - Bio-Synthetic Wings
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 9
+    quantity: 1
+  faces:
+  - name: Bio-Synthetic Wings
+    cost: 2
+    type: Upgrade
+    unique: true
+    traits:
+    - Item
+    - Tech
+    text: |-
+      Wasp gains the [[Aerial]] trait.
+      **Interrupt:** When you would take any amount of damage, if you are in [[Tiny]] hero form, exhaust Bio-Synthetic Wings → prevent 1 of that damage.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/13009
+- names:
+  - Wasp's Helmet
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 10
+    quantity: 1
+  faces:
+  - name: Wasp's Helmet
+    cost: 2
+    type: Upgrade
+    unique: true
+    traits:
+    - Armor
+    - Tech
+    text: |-
+      While you are in [[Giant]] hero form, you get +1 THW.
+      While you are in [[Tiny]] hero form, you get +1 ATK.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/13010
+- names:
+  - Thor
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Thor
+    subtitle: Jane Foster
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Aggression
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Asgard
+    - Avenger
+    text: '**Response:** After you play Thor from your hand, deal 2 damage to the
+      villain (3 damage instead if you paid for this card using a [physical] resource).'
+    hit_points: 4
+    flavor_text: '"You wanna eat my hammer? Then by all means, take a big bite!"'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/13011
+- names:
+  - Wasp
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 12
+    quantity: 1
+  faces:
+  - name: Wasp
+    subtitle: Janet Van Dyne
+    cost: 0
+    type: Ally
+    unique: true
+    aspect:
+    - Aggression
+    thwart: 1
+    thwart_consequential: 1
+    attack: 3
+    attack_consequential: 1
+    traits:
+    - Aerial
+    - Avenger
+    text: |-
+      Wasp gets +1 hit point for each pym counter on her.
+      **Interrupt:** When Wasp enters play, place 1 pym counter on her (to a maximum of 3) for each [energy] resource you overpaid for Wasp's cost.
+    hit_points: 0
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/13012
+- names:
+  - Into the Fray
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 13
+    quantity: 3
+  faces:
+  - name: Into the Fray
+    cost: 3
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Deal 6 damage to a minion. For each point of
+      excess damage dealt by this attack, remove 1 threat from the main scheme.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/13013
+- names:
+  - Surprise Attack
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 14
+    quantity: 3
+  faces:
+  - name: Surprise Attack
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Attack
+    text: '**Hero Response** _(attack)_: After you change form, deal 3 damage to an
+      enemy (4 damage instead if you paid for this card using [physical] resource).'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/13014
+- names:
+  - Boot Camp
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 16
+    quantity: 3
+  faces:
+  - name: Boot Camp
+    cost: 3
+    type: Support
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Location
+    text: |-
+      Play under any player's control. Max 1 per player.
+      Each ally you control gets +1 ATK.
+    flavor_text: '"YOU CALL THAT A PUSHUP! MY GRANDMOTHER DOES BETTER PUSHUPS!"'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/16.png
+    marvelcdb_url: https://marvelcdb.com/card/13016
+- names:
+  - Lie in Wait
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 17
+    quantity: 3
+  faces:
+  - name: Lie in Wait
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Preparation
+    text: |-
+      Max 1 per player.
+      **Hero Response** _(attack)_: After a minion engages you, discard Lie in Wait → deal 3 damage to that minion.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/13017
+- names:
+  - Ironheart
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 18
+    quantity: 1
+  faces:
+  - name: Ironheart
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Basic
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Champion
+    text: '**Response**: After you play Ironheart from your hand, draw 1 card.'
+    hit_points: 2
+    flavor_text: '"I''m totally going to be like Tony Stark! Except for that weird
+      facial hair."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/18.png
+    marvelcdb_url: https://marvelcdb.com/card/13018
+- names:
+  - Spider-Man
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 19
+    quantity: 1
+  faces:
+  - name: Spider-Man
+    subtitle: Miles Morales
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Basic
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Champion
+    text: '**Response:** After you play Spider-Man from your hand, choose THW or ATK.
+      Spider-Man gets +2 to the chosen power until the end of the phase.'
+    hit_points: 3
+    flavor_text: '"I''m needed. And just like that, none of the rest of it matters."'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/19.png
+    marvelcdb_url: https://marvelcdb.com/card/13019
+- names:
+  - Swarm Tactics
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 20
+    quantity: 1
+  faces:
+  - name: Swarm Tactics
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Tactic
+    text: |-
+      Team-Up (Ant-Man and Wasp). Max 1 per deck.
+      **Hero Action:** Change to your other hero form. Ready your hero.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/20.png
+    marvelcdb_url: https://marvelcdb.com/card/13020
+- names:
+  - The Power in All of Us
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 24
+    quantity: 2
+  faces:
+  - name: The Power in All of Us
+    type: Resource
+    unique: false
+    aspect:
+    - Basic
+    text: |-
+      Max 2 per deck.
+      Double the number of resources this card generates when paying for a Basic (gray) card.
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/24.png
+    marvelcdb_url: https://marvelcdb.com/card/13024
+- names:
+  - Red Dreams
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Red Dreams
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Nadia Van Dyne player._**
+      You may flip to alter-ego form. Choose:
+      - Exhaust Nadia Van Dyne → remove Red Dreams from the game.
+      - Discard each card with a printed [mental] resource from your hand and take 1 damage. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/13026
+- names:
+  - Mother's Orders
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Mother's Orders
+    type: Side Scheme
+    unique: false
+    text: As an additional cost for each hero to make a basic attack, that hero must
+      spend 1 of any resource.
+    boost_icons: 3
+    starting_threat_per_player: 2
+    flavor_text: Mother has sent one of her most devious henchmen after Wasp, hoping
+      to recapture the Red Room escapee.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/13027
+  horizontal: true
+- names:
+  - Beetle
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 28
+    quantity: 1
+  faces:
+  - name: Beetle
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 1
+    traits:
+    - Criminal
+    keywords:
+    - Guard
+    text: |-
+      Guard.
+      **Forced Interrupt**: When Beetle is defeated, choose to either spend a [physical] resource or shuffle Beetle into the encounter deck.
+      _(Wasp's nemesis minion.)_
+    hit_points: 4
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/13028
+- names:
+  - Beetle Armor MK IV
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 29
+    quantity: 1
+  faces:
+  - name: Beetle Armor MK IV
+    type: Attachment
+    unique: true
+    traits:
+    - Armor
+    - Tech
+    text: |-
+      Attach to Beetle, if able. If you cannot, attach to the villain.
+      Attached Character gets +4 hit points.
+    boost_icons: 2
+    flavor_text: '"Ugh, why can''t I ever find anything around here?" - Janice Lincoln'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/13029
+- names:
+  - Beetle Mania
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 30
+    quantity: 2
+  faces:
+  - name: Beetle Mania
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: This card gains surge.
+      **When Revealed (Hero)**: Beetle attacks you with +1 ATK. If no attack was made this way, this card gains surge.
+    boost_icons: 1
+    flavor_text: '"I was waiting for this moment to arise." - Beetle'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/13030
+- names:
+  - Running Interference
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 31
+    quantity: 3
+  faces:
+  - name: Running Interference
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Thwart
+    text: |-
+      Play only if your identity has the [[Avenger]] trait.
+      **Hero Action** _(thwart)_: Remove 2 threat from the main scheme. Remove X additional threat from the main scheme (to a maximum of 3), where X is equal to the villain's stage number.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/13031
+- names:
+  - All for One
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 32
+    quantity: 3
+  faces:
+  - name: All for One
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Deal 3 damage to an enemy and exhaust any number
+      of [[Avenger]] characters you control. Deal 1 additional damage to that enemy
+      for each character exhausted this way.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/13032
+- names:
+  - Perseverance
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 33
+    quantity: 3
+  faces:
+  - name: Perseverance
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Tactic
+    text: '**Hero Response**: After you change form, give your hero a tough status
+      card.'
+    flavor_text: '"You do know the front door is unlocked, right?" - Spider-Man'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/33.png
+    marvelcdb_url: https://marvelcdb.com/card/13033
+- names:
+  - Athletic Conditioning
+  packs:
+  - name: Wasp
+    sku: MC13en
+    position: 34
+    quantity: 3
+  faces:
+  - name: Athletic Conditioning
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    text: '**Hero Action**: Discard 1 stun or confuse status card from your hero.'
+    flavor_text: '"Don''t worry, the ringing in your ears will go away... eventually."
+      - Nadia Van Dyne'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc13en/34.png
+    marvelcdb_url: https://marvelcdb.com/card/13034

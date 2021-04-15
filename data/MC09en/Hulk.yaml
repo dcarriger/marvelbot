@@ -1,0 +1,595 @@
+- names:
+  - Hulk
+  - Bruce Banner
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Bruce Banner
+    type: Alter-Ego
+    unique: true
+    recover: 4
+    traits:
+    - Genius
+    - Scientist
+    text: 'Experimental Research — **Action**: Draw 1 card. Choose and discard 1 card
+      from your hand. (Limit once per round.)'
+    hit_points: 18
+    flavor_text: '"Don''t make me angry. You wouldn''t like me when I''m angry."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/10001b
+  - name: Hulk
+    type: Hero
+    unique: true
+    thwart: 0
+    attack: 3
+    defense: 3
+    traits:
+    - Avenger
+    - Gamma
+    text: '"Enraged" — **Forced Interrupt**: When your turn ends, discard your hand.'
+    hit_points: 18
+    flavor_text: '"Hulk is not sorry. Hulk is Hulk."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/10001a
+- names:
+  - Crushing Blow
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 2
+    quantity: 2
+  faces:
+  - name: Crushing Blow
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    text: |-
+      You can only spend [physical] resources to pay for this card.
+       **Hero Action** _(attack)_: Deal damage to an enemy equal to your ATK.
+    flavor_text: '"Puny monster." -- Hulk'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/10002
+- names:
+  - Hulk Smash
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 3
+    quantity: 2
+  faces:
+  - name: Hulk Smash
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Interrupt**: When you make a basic attack, you get +10 ATK for that
+      attack. If you paid for this card using only [physical] resources, that attack
+      gains overkill.'
+    flavor_text: '"When Hulk smash something, it stay smashed!" -- Hulk'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/10003
+- names:
+  - Sub-Orbital Leap
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 4
+    quantity: 2
+  faces:
+  - name: Sub-Orbital Leap
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    - Thwart
+    text: '**Hero Action** _(thwart)_: Remove 3 threat from a scheme (5 threat instead
+      if you paid for this card using only [physical] resources).'
+    flavor_text: '"Leave Hulk alone!" -- Hulk'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/10004
+- names:
+  - Thunderclap
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 5
+    quantity: 2
+  faces:
+  - name: Thunderclap
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Action**: Choose up to 3 different enemies. Deal 3 damage to each
+      of them.'
+    flavor_text: '"Are you afraid of Hulk''s little wind?" -- Hulk'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/10005
+- names:
+  - Unstoppable Force
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 6
+    quantity: 2
+  faces:
+  - name: Unstoppable Force
+    cost: 2
+    type: Event
+    unique: false
+    text: '**Hero Action**: Ready Hulk. If you paid for this card using only [physical]
+      resources, draw 1 card.'
+    flavor_text: '"Nobody stop Hulk!" -- Hulk'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/10006
+- names:
+  - Limitless Strength
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 7
+    quantity: 2
+  faces:
+  - name: Limitless Strength
+    type: Resource
+    unique: false
+    text: Spend this card only in hero form.
+    resources:
+      physical: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/10007
+- names:
+  - Banner's Laboratory
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 8
+    quantity: 1
+  faces:
+  - name: Banner's Laboratory
+    cost: 2
+    type: Support
+    unique: true
+    traits:
+    - Location
+    text: |-
+      Bruce Banner gets +2 REC.
+      **Alter-Ego Resource**: Exhaust Banner's Laboratory → generate a [mental] resource.
+    flavor_text: '"The best thing about my lab is that nobody ever bothers me here."
+      -- Bruce Banner'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/10008
+- names:
+  - Boundless Rage
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 9
+    quantity: 1
+  faces:
+  - name: Boundless Rage
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Condition
+    - Gamma
+    text: |-
+      Hero form only. Hulk gets +1 ATK.
+      **Forced Response**: After you change form, discard this card.
+    flavor_text: '"The angrier I get, the stronger I get." -- Bruce Banner'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/10009
+- names:
+  - Immovable Object
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 10
+    quantity: 1
+  faces:
+  - name: Immovable Object
+    cost: 3
+    type: Upgrade
+    unique: false
+    traits:
+    - Condition
+    text: |-
+      You get +4 hit points.
+      Hulk gains retaliate 1.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/10010
+- names:
+  - Brawn
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Brawn
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Aggression
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Champion
+    - Gamma
+    text: '**Response**: After Brawn attacks, remove 1 threat from a scheme.'
+    hit_points: 5
+    flavor_text: '"I''m the strongest one there is. And the smartest. That''s all
+      the authority I need."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/10011
+- names:
+  - Sentry
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 12
+    quantity: 1
+  faces:
+  - name: Sentry
+    subtitle: Robert Reynolds
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Aggression
+    thwart: 2
+    thwart_consequential: 1
+    attack: 3
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Forced Response**: After Sentry enters play under your control, deal
+      yourself 1 encounter card.'
+    hit_points: 5
+    flavor_text: '"When I use my powers of a million exploding suns, I unleash the
+      Void. He attacks the world every time I try to save it."'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/10012
+- names:
+  - She-Hulk
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 13
+    quantity: 1
+  faces:
+  - name: She-Hulk
+    subtitle: Jennifer Walters
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Aggression
+    thwart: 2
+    thwart_consequential: 2
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Avenger
+    - Gamma
+    text: She-Hulk gets +1 ATK for each damage token here.
+    hit_points: 4
+    flavor_text: '"I''d ask your to surrender... but I''m really hoping you''ll put
+      up a fight."'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/10013
+- names:
+  - Drop Kick
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 14
+    quantity: 3
+  faces:
+  - name: Drop Kick
+    cost: 3
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Deal 4 damage to an enemy. If you paid for
+      this card using only [physical] resources, stun that enemy and draw 1 card.'
+    flavor_text: '"Smashing is what Hulk does best!" -- Hulk'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/10014
+- names:
+  - Toe to Toe
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 15
+    quantity: 3
+  faces:
+  - name: Toe to Toe
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Choose an enemy. That enemy attacks you. Deal
+      5 damage to that enemy.'
+    flavor_text: '"How about a taste of your own medicine!" -- Captain Marvel'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/10015
+- names:
+  - '"You''ll Pay for That!"'
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 16
+    quantity: 3
+  faces:
+  - name: '"You''ll Pay for That!"'
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Thwart
+    text: '**Hero Response** _(thwart)_: After the villain attacks you, remove 1 threat
+      from a scheme for each damage you took from the attack (to a maximum of 5).'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/16.png
+    marvelcdb_url: https://marvelcdb.com/card/10016
+- names:
+  - Martial Prowess
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 18
+    quantity: 3
+  faces:
+  - name: Martial Prowess
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Skill
+    text: |-
+      Play under any player's control.
+       Max 1 per player.
+       **Resource**: Exhaust Martial Prowess → generate a [physical] resource for an [[Attack]] event.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/18.png
+    marvelcdb_url: https://marvelcdb.com/card/10018
+- names:
+  - To the Rescue!
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 19
+    quantity: 3
+  faces:
+  - name: To the Rescue!
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Thwart
+    text: '**Hero Action** _(thwart)_: Remove 2 threat from a scheme.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/19.png
+    marvelcdb_url: https://marvelcdb.com/card/10019
+- names:
+  - Inner Demons
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 25
+    quantity: 1
+  faces:
+  - name: Inner Demons
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Bruce Banner player._**
+      You may flip to your alter-ego form. Choose:
+      - If you are Bruce Banner, discard 2 cards from your hand. Discard this obligation.
+      - If you are Hulk, exhaust your hero. Discard this obligation.
+    boost_icons: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/25.png
+    marvelcdb_url: https://marvelcdb.com/card/10025
+- names:
+  - Abomination
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Abomination
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 3
+    traits:
+    - Elite
+    - Gamma
+    text: '**Forced Response**: After Abomination attacks you, discard the top card
+      of your deck. If a [physical] resource was discarded this way, take 2 damage.'
+    hit_points: 6
+    boost_icons: 3
+    flavor_text: '"Foolish rabble! Your pitiful display is nothing to my newfound power!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/10026
+- names:
+  - Total Destruction
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Total Destruction
+    type: Side Scheme
+    unique: false
+    text: Threat cannot be removed from this scheme while Abomination is in play.
+    boost_icons: 3
+    starting_threat_per_player: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/10027
+  horizontal: true
+- names:
+  - Clash Of The Titans
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 28
+    quantity: 3
+  faces:
+  - name: Clash Of The Titans
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: The enemy with the highest ATK attacks the hero or ally
+      with the highest ATK (first player decides ties.) If no attack was made this
+      way, this card gains surge.'
+    boost_icons: 3
+    flavor_text: '"You are all beneath me!" --Abomination'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/10028
+- names:
+  - Beat Cop
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 29
+    quantity: 3
+  faces:
+  - name: Beat Cop
+    cost: 3
+    type: Support
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Persona
+    text: |-
+      **Action**: Exhaust Beat Cop → move 1 threat from a scheme to here.
+      **Action**: Exhaust and discard Beat Cop → deal 1 damage to a minion for each threat here.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/10029
+- names:
+  - Inspiring Presence
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 30
+    quantity: 3
+  faces:
+  - name: Inspiring Presence
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    text: |-
+      Play only if your identity has the [[Avenger]] trait.
+       **Hero Action**: Heal 1 damage from an ally and ready it.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/10030
+- names:
+  - Electrostatic Armor
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 31
+    quantity: 3
+  faces:
+  - name: Electrostatic Armor
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Armor
+    - Tech
+    text: |-
+      Player under any player's control.
+       Max 1 per player.
+       **Response**: After you defend against an attack, deal 1 damage to the attacking character.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/10031
+- names:
+  - Resourceful
+  packs:
+  - name: Hulk
+    sku: MC09en
+    position: 32
+    quantity: 3
+  faces:
+  - name: Resourceful
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Skill
+    text: '**Resource**: Discard Resourceful → generate a [wild] resource.'
+    flavor_text: '"Innovation is the ultimate weapon." -- Vision'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/10032

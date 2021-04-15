@@ -1,0 +1,77 @@
+- names:
+  - Spider-Man
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 45
+    quantity: 1
+  faces:
+  - name: Spider-Man
+    subtitle: Peter Parker
+    cost: 5
+    type: Ally
+    unique: true
+    aspect:
+    - Justice
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Response**: After you play Spider-Man from your hand, remove 3 [per_hero]
+      threat from a side scheme. '
+    hit_points: 4
+    flavor_text: '"Seriously, what is it with New York? Would it kill you to invade
+      Denver once?."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/45.png
+    marvelcdb_url: https://marvelcdb.com/card/04045
+- names:
+  - Skilled Investigator
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 47
+    quantity: 3
+  faces:
+  - name: Skilled Investigator
+    cost: 0
+    type: Upgrade
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Skill
+    text: |-
+      Play under any player's control. Max 1 per player.
+       **Hero Response**: After a side scheme is defeated, exhaust Skilled Investigator → draw 1 card.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/47.png
+    marvelcdb_url: https://marvelcdb.com/card/04047
+- names:
+  - Clear the Area
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 49
+    quantity: 3
+  faces:
+  - name: Clear the Area
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Thwart
+    text: '**Hero Action** _(thwart)_: Remove 2 threat from a scheme. If this removes
+      the last threat on that scheme, draw 1 card.'
+    flavor_text: '"Don''t be scared, honey. Just think about how jealous the other
+      kids will be when you tell them how Iron Man rescued you." -- Tony Stark'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/49.png
+    marvelcdb_url: https://marvelcdb.com/card/04049

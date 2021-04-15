@@ -1,0 +1,56 @@
+- names:
+  - Exhaustion
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 191
+    quantity: 1
+  faces:
+  - name: Exhaustion
+    type: Treachery
+    unique: false
+    keywords:
+    - Surge
+    text: |-
+      Surge.
+      **When Revealed**: Exhaust your identity card.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/191.png
+    marvelcdb_url: https://marvelcdb.com/card/01191
+- names:
+  - Masterplan
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 192
+    quantity: 1
+  faces:
+  - name: Masterplan
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Place 4 threat on each side scheme. If there are no
+      side schemes in play, discard cards from the top of the encounter deck until
+      a side scheme is discarded. Reveal that side scheme.'
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/192.png
+    marvelcdb_url: https://marvelcdb.com/card/01192
+- names:
+  - Under Fire
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 193
+    quantity: 1
+  faces:
+  - name: Under Fire
+    type: Treachery
+    unique: false
+    keywords:
+    - Surge
+    text: |-
+      Surge.
+      **When Revealed**: Reveal the top card of the encounter deck.
+    boost_icons: 3
+    flavor_text: '"But wait, there''s more" --Klaw'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/193.png
+    marvelcdb_url: https://marvelcdb.com/card/01193

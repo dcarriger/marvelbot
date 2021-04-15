@@ -1,0 +1,76 @@
+- names:
+  - Goblin Glider
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 33
+    quantity: 2
+  faces:
+  - name: Goblin Glider
+    type: Attachment
+    unique: false
+    attack: 1
+    traits:
+    - Vehicle
+    text: |-
+      Attach to the enemy with the highest printed hit points and without another Goblin Glider attached. If you cannot, this card gains surge.
+      **Hero Action**: Spend [energy] [energy] resources → discard this card.
+    boost_icons: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/33.png
+    marvelcdb_url: https://marvelcdb.com/card/02033
+- names:
+  - Pumpkin Bombs
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 34
+    quantity: 2
+  faces:
+  - name: Pumpkin Bombs
+    type: Attachment
+    unique: false
+    attack_text: '<b>Forced Response</b>: After the villain attacks you, discard Pumpkin
+      Bombs and take 2 indirect damage.'
+    traits:
+    - Weapon
+    text: |-
+      Attach to the villain.
+      **Hero Action**: Spend [physical] [physical] resources → discard this card.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/34.png
+    marvelcdb_url: https://marvelcdb.com/card/02034
+- names:
+  - Intimidation
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 35
+    quantity: 2
+  faces:
+  - name: Intimidation
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Choose to either spend 2 resources of any type or give
+      the villain 1 facedown boost card.'
+    boost_icons: 1
+    star_text: Give the villain 1 additional boost card for this activation.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/35.png
+    marvelcdb_url: https://marvelcdb.com/card/02035
+- names:
+  - Regenerative Healing
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 36
+    quantity: 2
+  faces:
+  - name: Regenerative Healing
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: The villain heals X damage, where X is equal to double
+      the villain''s stage number. If no damage was healed this way, this card gains
+      surge.'
+    boost_icons: 0
+    star_text: The villain heals 2 damage.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/36.png
+    marvelcdb_url: https://marvelcdb.com/card/02036

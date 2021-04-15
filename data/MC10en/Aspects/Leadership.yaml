@@ -1,0 +1,189 @@
+- names:
+  - Hawkeye
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Hawkeye
+    subtitle: Kate Bishop
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Action**: Exhaust this ally and discard 1 card from your hand → deal
+      X damage to an enemy, where X is the number of printed resources on that card.'
+    hit_points: 2
+    flavor_text: '"You see I'', literally pointing arrows at your, right?."'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/04011
+- names:
+  - Black Knight
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 12
+    quantity: 1
+  faces:
+  - name: Black Knight
+    subtitle: Dane Whitman
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: 'Black Knight''s basic attack gains piercing. '
+    hit_points: 3
+    flavor_text: '"As long as the Black Blade blazes darkly in my hand, I must fight
+      on."'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/04012
+- names:
+  - Goliath
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 13
+    quantity: 1
+  faces:
+  - name: Goliath
+    subtitle: Bill Foster
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 2
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 2
+    traits:
+    - Avenger
+    text: '**Action**: Goliath gets +4 ATK until the end of the phase. At the end
+      of the phase, discard Goliath. (Max once per phase.)'
+    hit_points: 4
+    flavor_text: '"Sometimes being a gentleman means holding the door, and the rest
+      of the building."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/04013
+- names:
+  - U.S. Agent
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 14
+    quantity: 1
+  faces:
+  - name: U.S. Agent
+    subtitle: John Walker
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Avenger
+    keywords:
+    - Retaliate
+    text: 'Retaliate 1. '
+    hit_points: 5
+    flavor_text: '"Cap isn''t the only soldier who loves his country."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/04014
+- names:
+  - Sky Cycle
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 15
+    quantity: 3
+  faces:
+  - name: Sky Cycle
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Vehicle
+    text: |-
+      Attach to an [[Avenger]] ally. Max 1 per ally.
+       Attached ally gains [[Aerial]].
+       **Action**: Exhaust Sky Cycle → ready attached ally.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/04015
+- names:
+  - Team Training
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 16
+    quantity: 3
+  faces:
+  - name: Team Training
+    cost: 2
+    type: Support
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Condition
+    text: |-
+      Play under any player's control. Max 1 per player.
+       Each ally you control gets +1 hit point.
+    flavor_text: '"We mostly just wait for Cap to yell ''Avengers Assemble'' and attack
+      in the same direction as him" -- Clint Barton'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/16.png
+    marvelcdb_url: https://marvelcdb.com/card/04016
+- names:
+  - Ready for Action
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 17
+    quantity: 3
+  faces:
+  - name: Ready for Action
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Tactic
+    text: '**Hero Action**: Give an ally you control a tough status card.'
+    flavor_text: '"Try that again. I dare you." -- Jessica Drew'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/04017

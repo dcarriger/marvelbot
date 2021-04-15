@@ -1,0 +1,1159 @@
+- names:
+  - Breakout
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Breakout
+    type: Main Scheme
+    unique: false
+    text: |-
+      **Scenario Contents**: Wrecker A, Thunderball A, Piledriver A, and Bulldozer A as villains. _(Version B for increased difficulty.)_ Wrecker, Thunderball, Piledriver, and Bulldozer encounter decks.
+      **Setup**: Put the Day of Reckoning, Thunderstruck, Pile It On!, and Clear the Road side schemes into play. Place the active counter on Wrecker. Advance to stage 1B.
+    starting_threat: 0
+    acceleration_threat: 1
+    completion_threat_per_player: 6
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/07001
+  - name: Breakout
+    type: Main Scheme
+    unique: false
+    text: |-
+      [star] **Forced Response**: After step one of the villain phase, place 1 threat on each side scheme. Move the active counter to the villain whose scheme has the most threat. _(If there is a tie, the first player chooses.)_
+      **If this stage is completed, the players lose the game.**
+    starting_threat: 0
+    acceleration_threat: 1
+    target_threat_per_player: 6
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/07001
+  horizontal: true
+- names:
+  - Wrecker
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Wrecker
+    type: Villain
+    unique: true
+    scheme: 2
+    scheme_text: When Wrecker schemes, place the threat on his side scheme instead
+      of the main scheme.
+    attack: 2
+    attack_text: While Wrecker is attacking, he gets +2 ATK if the attack is undefended.
+    traits:
+    - Wrecking Crew
+    text: null
+    hit_points_per_player: 14
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/07002
+- names:
+  - Wrecker
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 3
+    quantity: 1
+  faces:
+  - name: Wrecker
+    type: Villain
+    unique: true
+    scheme: 3
+    scheme_text: When Wrecker schemes, place the threat on his side scheme instead
+      of the main scheme.
+    attack: 3
+    attack_text: While Wrecker is attacking, he gets +2 ATK if the attack is undefended.
+    traits:
+    - Wrecking Crew
+    text: null
+    hit_points_per_player: 18
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/07003
+- names:
+  - Day of Reckoning
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 4
+    quantity: 1
+  faces:
+  - name: Day of Reckoning
+    type: Side Scheme
+    unique: false
+    text: |-
+      **Wrecker's Side Scheme.**
+      This card cannot leave play while Wrecker is in play.
+      Hard Hitter -- **Forced Response**: After threat is placed here, if there is 10 or more threat here, deal 2 damage to each friendly character. Remove all but 3 threat from this scheme.
+    boost_icons: 0
+    starting_threat: 6
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/07004
+  horizontal: true
+- names:
+  - Held Hostage
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 5
+    quantity: 1
+  faces:
+  - name: Held Hostage
+    type: Attachment
+    unique: false
+    text: |-
+      Attach to the active villain's side scheme.
+      Threat cannot be removed from attacked scheme by thwarting.
+      **Hero Action**: The villain corresponding to the attached side scheme attacks you. Then discard this card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/07005
+- names:
+  - Magic Crowbar
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 6
+    quantity: 1
+  faces:
+  - name: Magic Crowbar
+    type: Attachment
+    unique: true
+    attack: 1
+    attack_text: '<b>Forced Response</b>: After Wrecker attacks, place 1 threat on
+      the side scheme with the least threat.'
+    text: |-
+      Attach to Wrecker.
+      **Hero Action**: Exhaust your hero and discard 1 card at random from your hand → discard this card.
+    boost_icons: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/07006
+- names:
+  - Wrecker's Command
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 7
+    quantity: 1
+  faces:
+  - name: Wrecker's Command
+    type: Attachment
+    unique: true
+    scheme: 1
+    scheme_text: '<b>Forced Response</b>: After Wrecker schemes, place 1 threat on
+      each other villain''s side scheme.'
+    text: |-
+      Attach to Wrecker.
+      **Hero Action**: Spend [physical] [physical] resources -> discard this card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/07007
+- names:
+  - Corrupt Prison Guard
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 8
+    quantity: 1
+  faces:
+  - name: Corrupt Prison Guard
+    type: Minion
+    unique: false
+    scheme: 0
+    attack: 2
+    traits:
+    - Traitor
+    keywords:
+    - Guard
+    text: Guard. _(While this minion is engaged with you, you cannot attack the villain.)_
+    hit_points: 3
+    boost_icons: 0
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/07008
+- names:
+  - Escaped Convict
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 9
+    quantity: 1
+  faces:
+  - name: Escaped Convict
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 1
+    traits:
+    - Criminal
+    text: Surge
+    hit_points: 2
+    boost_icons: 0
+    star_text: Move the active counter to the villain whose side scheme has the least
+      threat. If you are in hero form, that villain attacks you after this attack.
+      That attack does not get a boost card.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/07009
+- names:
+  - Buddy System
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 10
+    quantity: 1
+  faces:
+  - name: Buddy System
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Choose the villain whose side scheme has the least threat.
+      Reveal the top card of his deck (top 2 cards instead if he is the only villain
+      in play).'
+    boost_icons: 0
+    star_text: Move the active counter to the villain whose side scheme has the least
+      threat.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/07010
+- names:
+  - Chaos In the Prison
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Chaos In the Prison
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Choose to either discard an upgrade you control or place
+      1 threat on the active villain''s side scheme for each upgrade you control.
+      If you do not control any upgrades, this card gains surge.'
+    boost_icons: 0
+    star_text: If this attack is undefended, discard an upgrade you control.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/07011
+- names:
+  - Crowbar Toss
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 12
+    quantity: 2
+  faces:
+  - name: Crowbar Toss
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: Wrecker schemes. Then, move the active villain counter to the villain whose side scheme has the least threat.
+      **When Revealed (Hero)**: Wrecker attacks you. Then, move the active villain counter to the villain whose side scheme has the least threat.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/07012
+- names:
+  - Get Wrecked!
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 13
+    quantity: 1
+  faces:
+  - name: Get Wrecked!
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: The villain whose side scheme has the most threat schemes.
+      **When Revealed (Hero)**: The villain whose side scheme has the least threat attacks you.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/07013
+- names:
+  - I've Been Waiting For This!
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 14
+    quantity: 1
+  faces:
+  - name: I've Been Waiting For This!
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: The active villain heals 3 hit points. Give that villain
+      a tough status card.'
+    boost_icons: 0
+    star_text: Move the active counter to the villain with the least threat on his
+      side scheme. That villain schemes.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/07014
+- names:
+  - Mystical Link
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 15
+    quantity: 2
+  faces:
+  - name: Mystical Link
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Place 2 threat on each side scheme.'
+    boost_icons: 0
+    star_text: Wrecker gets +3 ATK for this activation unless you place 2 threat on
+      his side scheme.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/07015
+- names:
+  - You're Dead Meat!
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 16
+    quantity: 2
+  faces:
+  - name: You're Dead Meat!
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Deal 1 damage to the hero or ally with the fewest remaining
+      hit points. If that character is defeated this way, place 3 threat on Wrecker''s
+      side scheme.'
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/16.png
+    marvelcdb_url: https://marvelcdb.com/card/07016
+- names:
+  - Thunderball
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 17
+    quantity: 1
+  faces:
+  - name: Thunderball
+    type: Villain
+    unique: true
+    scheme: 3
+    scheme_text: When Thunderball schemes, place the threat on his side scheme instead
+      of the main scheme.
+    attack: 1
+    attack_text: '<b>Forced Response</b>: After Thunderball attacks you, deal 1 damage
+      to each character you control.'
+    traits:
+    - Wrecking Crew
+    text: null
+    hit_points_per_player: 13
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/07017
+- names:
+  - Thunderball
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 18
+    quantity: 1
+  faces:
+  - name: Thunderball
+    type: Villain
+    unique: true
+    scheme: 3
+    scheme_text: When Thunderball schemes, place the threat on his side scheme instead
+      of the main scheme.
+    attack: 2
+    attack_text: '<b>Forced Response</b>: After Thunderball attacks you, deal 1 damage
+      to each character you control.'
+    traits:
+    - Wrecking Crew
+    text: null
+    hit_points_per_player: 16
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/18.png
+    marvelcdb_url: https://marvelcdb.com/card/07018
+- names:
+  - Thunderstruck
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 19
+    quantity: 1
+  faces:
+  - name: Thunderstruck
+    type: Side Scheme
+    unique: false
+    text: |-
+      **Thunderball's Side Scheme.**
+      This card cannot leave play while Thunderball is in play.
+      Gamma Blast -- **Forced Response**: After threat is placed here, if there is 10 or more threat here, stun each friendly character. Remove all but 3 threat from this scheme.
+    boost_icons: 0
+    starting_threat: 5
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/19.png
+    marvelcdb_url: https://marvelcdb.com/card/07019
+  horizontal: true
+- names:
+  - Ball and Chain
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 20
+    quantity: 1
+  faces:
+  - name: Ball and Chain
+    type: Attachment
+    unique: true
+    attack: 1
+    attack_text: '<b>Forced Response</b>: After Thunderball attacks, place 1 threat
+      on the main scheme.'
+    traits:
+    - Weapon
+    text: |-
+      Attach to Thunderball.
+      **Hero Action**: Exhaust your hero and discard 1 card at random from your hand → discard this card.
+    boost_icons: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/20.png
+    marvelcdb_url: https://marvelcdb.com/card/07020
+- names:
+  - Held Hostage
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 21
+    quantity: 1
+  faces:
+  - name: Held Hostage
+    type: Attachment
+    unique: false
+    text: |-
+      Attach to the active villain's side scheme.
+      Threat cannot be removed from attached scheme by thwarting.
+      **Hero Action**: The villain corresponding to the attached side scheme attacks you. Then, discard this card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/21.png
+    marvelcdb_url: https://marvelcdb.com/card/07021
+- names:
+  - Radioactive Buildup
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 22
+    quantity: 1
+  faces:
+  - name: Radioactive Buildup
+    type: Attachment
+    unique: false
+    attack: 3
+    attack_text: '<b>Forced Response</b>: After Thunderball attacks, discard this
+      card.'
+    text: |-
+      Attach to Thunderball.
+      Excess damage dealt by Thunderball is placed as threat on his corresponding side scheme.
+    boost_icons: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/22.png
+    marvelcdb_url: https://marvelcdb.com/card/07022
+- names:
+  - Corrupt Prison Guard
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 23
+    quantity: 1
+  faces:
+  - name: Corrupt Prison Guard
+    type: Minion
+    unique: false
+    scheme: 0
+    attack: 2
+    traits:
+    - Traitor
+    keywords:
+    - Guard
+    text: Guard. _(While this minion is engaged with you, you cannot attack the villain.)_
+    hit_points: 3
+    boost_icons: 0
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/23.png
+    marvelcdb_url: https://marvelcdb.com/card/07023
+- names:
+  - Escaped Convict
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 24
+    quantity: 1
+  faces:
+  - name: Escaped Convict
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 1
+    traits:
+    - Criminal
+    text: Surge
+    hit_points: 2
+    boost_icons: 0
+    star_text: Move the active counter to the villain whose side scheme has the least
+      threat. If you are in hero form, that villain attacks you after this attack.
+      That attack does not get a boost card.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/24.png
+    marvelcdb_url: https://marvelcdb.com/card/07024
+- names:
+  - Buddy System
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 25
+    quantity: 1
+  faces:
+  - name: Buddy System
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Choose the villain whose side scheme has the least threat.
+      Reveal the top card of his deck (top 2 cards instead if he is the only villain
+      in play).'
+    boost_icons: 0
+    star_text: Move the active counter to the villain whose side scheme has the least
+      threat.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/25.png
+    marvelcdb_url: https://marvelcdb.com/card/07025
+- names:
+  - Chaos In the Prison
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Chaos In the Prison
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Choose to either discard an upgrade you control or place
+      1 threat on the active villain''s side scheme for each upgrade you control.
+      If you do not control any upgrades, this card gains surge.'
+    boost_icons: 0
+    star_text: If this attack is undefended, discard an upgrade you control.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/07026
+- names:
+  - Energy Projectiles
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Energy Projectiles
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Deal 1 damage to each friendly character you control.'
+    boost_icons: 0
+    star_text: Deal 1 damage to the defending character.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/07027
+- names:
+  - Get Wrecked!
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 28
+    quantity: 1
+  faces:
+  - name: Get Wrecked!
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: The villain whose side scheme has the most threat schemes.
+      **When Revealed (Hero)**: The villain whose side scheme has the least threat attacks you.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/07028
+- names:
+  - I've Been Waiting For This!
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 29
+    quantity: 1
+  faces:
+  - name: I've Been Waiting For This!
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: The active villain heals 3 hit points. Give that villain
+      a tough status card.'
+    boost_icons: 0
+    star_text: Move the active counter to the villain with the least threat on his
+      side scheme. That villain schemes.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/07029
+- names:
+  - Lightning Blast
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 30
+    quantity: 2
+  faces:
+  - name: Lightning Blast
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: Place 3 threat on the side scheme with the most threat.
+      **When Revealed (Hero)**: Thunderball attacks you. If this attack is undefended, place 3 threat on Thunderball's side scheme.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/07030
+- names:
+  - Tactical Prowess
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 31
+    quantity: 2
+  faces:
+  - name: Tactical Prowess
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Move all threat from the side scheme with the least
+      threat to the side scheme with the most threat. If that scheme''s "**Forced
+      Response**" ability is not triggered this way, this card gains surge.'
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/07031
+- names:
+  - Piledriver
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 32
+    quantity: 1
+  faces:
+  - name: Piledriver
+    type: Villain
+    unique: true
+    scheme: 2
+    scheme_text: When Piledriver schemes, place the threat on his side scheme instead
+      of the main scheme.
+    attack: 2
+    traits:
+    - Wrecking Crew
+    keywords:
+    - Retaliate
+    text: Retaliate 1.
+    hit_points_per_player: 11
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/07032
+- names:
+  - Piledriver
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 33
+    quantity: 1
+  faces:
+  - name: Piledriver
+    type: Villain
+    unique: true
+    scheme: 2
+    scheme_text: When Wrecker schemes, place the threat on his side scheme instead
+      of the main scheme.
+    attack: 3
+    traits:
+    - Wrecking Crew
+    keywords:
+    - Retaliate
+    text: Retaliate 1.
+    hit_points_per_player: 14
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/33.png
+    marvelcdb_url: https://marvelcdb.com/card/07033
+- names:
+  - Pile It On!
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 34
+    quantity: 1
+  faces:
+  - name: Pile It On!
+    type: Side Scheme
+    unique: false
+    text: |-
+      **Piledriver's Side Scheme.**
+      This card cannot leave play while Wrecker is in play.
+      Pile Drive -- **Forced Response**: After threat is placed here, if there is 10 or more threat here, each player discards the upgrade or support they control with the highest cost. Remove all but 3 threat from this scheme.
+    boost_icons: 0
+    starting_threat: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/34.png
+    marvelcdb_url: https://marvelcdb.com/card/07034
+  horizontal: true
+- names:
+  - Distracting Taunts
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 35
+    quantity: 2
+  faces:
+  - name: Distracting Taunts
+    type: Attachment
+    unique: false
+    text: |-
+      Attach to Piledriver.
+       Piledriver gets +3 hit points. Players cannot attack other villains.
+      **Response**: After your hero attacks Piledriver, spend [physical] [physical] resources → discard this card.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/35.png
+    marvelcdb_url: https://marvelcdb.com/card/07035
+- names:
+  - Held Hostage
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 36
+    quantity: 1
+  faces:
+  - name: Held Hostage
+    type: Attachment
+    unique: false
+    text: |-
+      Attach to the active villain side scheme.
+      Threat cannot be removed from attached scheme by thwarting.
+      **Hero Action**: The villain corresponding to the attached side scheme attacks you. Then, discard this card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/36.png
+    marvelcdb_url: https://marvelcdb.com/card/07036
+- names:
+  - Corrupt Prison Guard
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 37
+    quantity: 1
+  faces:
+  - name: Corrupt Prison Guard
+    type: Minion
+    unique: false
+    scheme: 0
+    attack: 2
+    traits:
+    - Traitor
+    keywords:
+    - Guard
+    text: Guard. _(While this minion is engaged with you, you cannot attack the villain.)_
+    hit_points: 3
+    boost_icons: 0
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/37.png
+    marvelcdb_url: https://marvelcdb.com/card/07037
+- names:
+  - Escaped Convict
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 38
+    quantity: 1
+  faces:
+  - name: Escaped Convict
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 1
+    traits:
+    - Criminal
+    text: Surge
+    hit_points: 2
+    boost_icons: 0
+    star_text: Move the active counter to the villain whose side scheme has the least
+      threat. If you are in hero form, that villain attacks you after this attack.
+      That attack does not get a boost card.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/38.png
+    marvelcdb_url: https://marvelcdb.com/card/07038
+- names:
+  - Buddy System
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 39
+    quantity: 1
+  faces:
+  - name: Buddy System
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Choose the villain whose side scheme has the least threat.
+      Reveal the top card of his deck (top 2 cards instead if he is the only villain
+      in play).'
+    boost_icons: 0
+    star_text: Move the active counter to the villain whose side scheme has the least
+      threat.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/39.png
+    marvelcdb_url: https://marvelcdb.com/card/07039
+- names:
+  - Get Wrecked!
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 40
+    quantity: 1
+  faces:
+  - name: Get Wrecked!
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: The villain whose side scheme has the most threat schemes.
+      **When Revealed (Hero)**: The villain whose side scheme has the least threat attacks you.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/40.png
+    marvelcdb_url: https://marvelcdb.com/card/07040
+- names:
+  - I've Been Waiting For This!
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 41
+    quantity: 1
+  faces:
+  - name: I've Been Waiting For This!
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: The active villain heals 3 hit points. Give that villain
+      a tough status card.'
+    boost_icons: 0
+    star_text: Move the active counter to the villain with the least threat on his
+      side scheme. That villain schemes.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/41.png
+    marvelcdb_url: https://marvelcdb.com/card/07041
+- names:
+  - Oversized Hands
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 42
+    quantity: 2
+  faces:
+  - name: Oversized Hands
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Discard the support you control with the highest cost.
+      If no support was discarded this way, place 2 threat on the active villain''s
+      scheme.'
+    boost_icons: 0
+    star_text: Discard a support you control.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/42.png
+    marvelcdb_url: https://marvelcdb.com/card/07042
+- names:
+  - Escape Plan
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 43
+    quantity: 2
+  faces:
+  - name: Escape Plan
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: You are confused. If you are already confused, Piledriver
+      schemes.'
+    boost_icons: 0
+    star_text: Give the active villain a tough status card. If they already have a
+      tough status card, place 2 threat on their scheme.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/43.png
+    marvelcdb_url: https://marvelcdb.com/card/07043
+- names:
+  - Pummel
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 44
+    quantity: 2
+  faces:
+  - name: Pummel
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: Piledriver schemes. If Piledriver is tough, he gets +2 SCH for this activation.
+      **When Revealed (Hero)**: Piledriver attacks you. If Piledriver is tough, he gets +2 ATK for this activation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/44.png
+    marvelcdb_url: https://marvelcdb.com/card/07044
+- names:
+  - Uncanny Resilience
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 45
+    quantity: 1
+  faces:
+  - name: Uncanny Resilience
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Remove each stunned and confused status card from each
+      villain. If no status cards were removed, this card gains surge.'
+    boost_icons: 0
+    star_text: You are confused.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/45.png
+    marvelcdb_url: https://marvelcdb.com/card/07045
+- names:
+  - Bulldozer
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 46
+    quantity: 1
+  faces:
+  - name: Bulldozer
+    type: Villain
+    unique: true
+    scheme: 1
+    scheme_text: When Piledriver schemes, place the threat on his side scheme instead
+      of the main scheme.
+    attack: 3
+    attack_text: '<b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains
+      overkill.'
+    traits:
+    - Wrecking Crew
+    text: null
+    hit_points_per_player: 12
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/46.png
+    marvelcdb_url: https://marvelcdb.com/card/07046
+- names:
+  - Bulldozer
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 47
+    quantity: 1
+  faces:
+  - name: Bulldozer
+    type: Villain
+    unique: true
+    scheme: 2
+    scheme_text: When Bulldozer schemes, place the threat on his side scheme instead
+      of the main scheme.
+    attack: 3
+    attack_text: '<b>Forced Interrupt</b>: When Bulldozer attacks, the attack gains
+      overkill.'
+    traits:
+    - Wrecking Crew
+    text: null
+    hit_points_per_player: 15
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/47.png
+    marvelcdb_url: https://marvelcdb.com/card/07047
+- names:
+  - Clear the Road
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 48
+    quantity: 1
+  faces:
+  - name: Clear the Road
+    type: Side Scheme
+    unique: false
+    text: |-
+      **Bulldozer's Side Scheme.**
+      This card cannot leave play while Bulldozer is in play.
+      Charge! -- **Forced Response**: After threat is placed here, if there is 10 or more threat here, each player must discard the top 10 cards of their deck. Remove all but 3 threat from this scheme.
+    boost_icons: 0
+    starting_threat: 4
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/48.png
+    marvelcdb_url: https://marvelcdb.com/card/07048
+  horizontal: true
+- names:
+  - Bulldozer's Helmet
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 49
+    quantity: 1
+  faces:
+  - name: Bulldozer's Helmet
+    type: Attachment
+    unique: true
+    attack: 1
+    attack_text: '<b>Forced Response</b>: After Bulldozer attacks you, discard 1 card
+      from the top of your deck for each point of damage dealt by this attack.'
+    text: |-
+      Attach to Bulldozer.
+      **Hero Action**: Exhaust your hero and discard 1 card at random from your hand → discard this card.
+    boost_icons: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/49.png
+    marvelcdb_url: https://marvelcdb.com/card/07049
+- names:
+  - Held Hostage
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 50
+    quantity: 1
+  faces:
+  - name: Held Hostage
+    type: Attachment
+    unique: false
+    text: |-
+      Attach to the active villain side scheme.
+      Threat cannot be removed from attached scheme by thwarting.
+      **Hero Action**: The villain corresponding to the attached side scheme attacks you. Then, discard this card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/50.png
+    marvelcdb_url: https://marvelcdb.com/card/07050
+- names:
+  - Ramming Speed
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 51
+    quantity: 2
+  faces:
+  - name: Ramming Speed
+    type: Attachment
+    unique: false
+    attack: 2
+    attack_text: |-
+      <b>Forced Interrupt</b>: When Bulldozer attacks you, you must defend against Bulldozer's attacks with an ally you control, if able.
+      <b>Forced Response</b>: After Bulldozer attacks you, discard this card.
+    text: Attach to Bulldozer.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/51.png
+    marvelcdb_url: https://marvelcdb.com/card/07051
+- names:
+  - Corrupt Prison Guard
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 52
+    quantity: 1
+  faces:
+  - name: Corrupt Prison Guard
+    type: Minion
+    unique: false
+    scheme: 0
+    attack: 2
+    traits:
+    - Traitor
+    keywords:
+    - Guard
+    text: Guard. _(While this minion is engaged with you, you cannot attack the villain.)_
+    hit_points: 3
+    boost_icons: 0
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/52.png
+    marvelcdb_url: https://marvelcdb.com/card/07052
+- names:
+  - Escaped Convict
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 53
+    quantity: 1
+  faces:
+  - name: Escaped Convict
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 1
+    traits:
+    - Criminal
+    text: Surge
+    hit_points: 2
+    boost_icons: 0
+    star_text: Move the active counter to the villain whose side scheme has the least
+      threat. If you are in hero form, that villain attacks you after this attack.
+      That attack does not get a boost card.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/53.png
+    marvelcdb_url: https://marvelcdb.com/card/07053
+- names:
+  - Buddy System
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 54
+    quantity: 1
+  faces:
+  - name: Buddy System
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Choose the villain whose side scheme has the least threat.
+      Reveal the top card of his deck (top 2 cards instead if he is the only villain
+      in play).'
+    boost_icons: 0
+    star_text: Move the active counter to the villain whose side scheme has the least
+      threat.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/54.png
+    marvelcdb_url: https://marvelcdb.com/card/07054
+- names:
+  - Bull Rush
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 55
+    quantity: 2
+  faces:
+  - name: Bull Rush
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: Bulldozer schemes. Discard the top card of your deck for each threat placed by this activation.
+      **When Revealed (Hero)**: Bulldozer attacks you. Discard the top card of your deck for each damage dealt by this attack.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/55.png
+    marvelcdb_url: https://marvelcdb.com/card/07055
+- names:
+  - Chaos In the Prison
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 56
+    quantity: 1
+  faces:
+  - name: Chaos In the Prison
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Choose to either discard an upgrade you control or place
+      1 threat on the active villain''s side scheme for each upgrade you control.
+      If you do not control any upgrades, this card gains surge.'
+    boost_icons: 0
+    star_text: If this attack is undefended, discard an upgrade you control.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/56.png
+    marvelcdb_url: https://marvelcdb.com/card/07056
+- names:
+  - Get Wrecked!
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 57
+    quantity: 1
+  faces:
+  - name: Get Wrecked!
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: The villain whose side scheme has the most threat schemes.
+      **When Revealed (Hero)**: The villain whose side scheme has the least threat attacks you.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/57.png
+    marvelcdb_url: https://marvelcdb.com/card/07057
+- names:
+  - Headbutt
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 58
+    quantity: 2
+  faces:
+  - name: Headbutt
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Discard 1 card at random from your hand. If you are
+      in hero form, take damage equal to that card''s printed cost. If you are in
+      alter-ego form, place threat on Bulldozer''s side scheme equal to that card''s
+      printed cost.'
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/58.png
+    marvelcdb_url: https://marvelcdb.com/card/07058
+- names:
+  - Leading the Charge
+  packs:
+  - name: The Wrecking Crew
+    sku: MC03en
+    position: 59
+    quantity: 2
+  faces:
+  - name: Leading the Charge
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Discard the top X cards of your deck, where X is Bulldozer''s
+      ATK. Place 1 threat on Bulldozer''s side scheme for each different card type
+      discarded this way'
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc03en/59.png
+    marvelcdb_url: https://marvelcdb.com/card/07059

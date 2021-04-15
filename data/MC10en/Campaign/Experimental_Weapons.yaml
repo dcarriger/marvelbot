@@ -1,0 +1,90 @@
+- names:
+  - Laser Rifle
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 72
+    quantity: 1
+  faces:
+  - name: Laser Rifle
+    type: Attachment
+    unique: false
+    attack: 1
+    attack_text: <b>Forced Interrupt:</b> When attached villain attacks, the attack
+      gains ranged.
+    traits:
+    - Experimental
+    - Weapon
+    text: |-
+      Attach to the Villain.
+      **Hero Action:** Spend [energy][physical] resources → discard this card.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/72.png
+    marvelcdb_url: https://marvelcdb.com/card/04072
+- names:
+  - Energy Shield
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 73
+    quantity: 1
+  faces:
+  - name: Energy Shield
+    type: Attachment
+    unique: false
+    traits:
+    - Experimental
+    - Weapon
+    text: |-
+      Attach to the villain.
+      Attached villain gains retaliate 1.
+      **Hero Action:** Spend [energy][mental] resources → discard this card.
+    boost_icons: 2
+    flavor_text: '"You''re never going to convince Cap that an energy shield is as
+      good as his old frisbee." -- Carol Danvers'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/73.png
+    marvelcdb_url: https://marvelcdb.com/card/04073
+- names:
+  - Power Gauntlets
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 74
+    quantity: 1
+  faces:
+  - name: Power Gauntlets
+    type: Attachment
+    unique: false
+    attack: 0
+    attack_text: <b>Forced Response:</b> After the attached villain attacks and damages
+      you, discard 1 card from your hand.
+    traits:
+    - Experimental
+    - Weapon
+    text: |-
+      Attach to the Villain.
+      **Hero Action:** Spend [mental][physical] resources → discard this card.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/74.png
+    marvelcdb_url: https://marvelcdb.com/card/04074
+- names:
+  - Exo-Suit
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 75
+    quantity: 1
+  faces:
+  - name: Exo-Suit
+    type: Attachment
+    unique: false
+    traits:
+    - Experimental
+    - Weapon
+    text: |-
+      Attach to the villain.
+      **Hero Action:** Spend [energy][mental][physical] resources → discard this card.
+    boost_icons: 2
+    flavor_text: '"I never should have shared my tech with S.H.I.E.L.D." -- Tony Stark'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/75.png
+    marvelcdb_url: https://marvelcdb.com/card/04075

@@ -1,0 +1,755 @@
+- names:
+  - Doctor Strange
+  - Stephen Strange
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Stephen Strange
+    type: Alter-Ego
+    unique: true
+    recover: 3
+    traits:
+    - Mystic
+    text: |-
+      Stephen Strange begins the game with an [[Invocation]] deck. (See insert.)
+      _Natural Talent_ — **Action**: Discard the top card of the [[Invocation]] deck. (Limit once per phase.)
+    hit_points: 10
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/09001b
+  - name: Doctor Strange
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 1
+    defense: 2
+    traits:
+    - Avenger
+    - Mystic
+    text: '_Spell Mastery_ — **Action**: Exhaust Doctor Strange and pay the cost of
+      the top card of the [[Invocation]] deck → resolve the "**Special**" ability
+      on that card.'
+    hit_points: 10
+    flavor_text: '"By the Hoary Hosts of Hoggoth!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/09001a
+- names:
+  - Wong
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Wong
+    cost: 3
+    type: Ally
+    unique: true
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Mystic
+    text: '**Action**: Exhaust Wong → choose to either heal 1 damage from your identity
+      or discard the top card of the [[Invocation]] deck.'
+    hit_points: 3
+    flavor_text: '"The oath I swore to protect my master overrides all other directives."'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/09002
+- names:
+  - Astral Projection
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 3
+    quantity: 2
+  faces:
+  - name: Astral Projection
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Spell
+    - Thwart
+    text: '**Hero Action** _(thwart)_: Choose a scheme → remove 3 threat from that
+      scheme and look at the top card of the encounter deck. For each boost icon on
+      that card, remove 1 additional threat from the chosen scheme.'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/09003
+- names:
+  - Magic Blast
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 4
+    quantity: 2
+  faces:
+  - name: Magic Blast
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Spell
+    text: |-
+      **Hero Action** _(attack)_: Deal 5 damage to an enemy and discard the top card of your deck. If that card's printed resource has:
+      [physical] - Stun that enemy.
+      [energy] - Deal 2 damage to that enemy.
+      [mental] - Confuse that enemy.
+      [wild] - All of the above.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/09004
+- names:
+  - Master of the Mystic Arts
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 5
+    quantity: 2
+  faces:
+  - name: Master of the Mystic Arts
+    cost: 1
+    type: Event
+    unique: false
+    text: '**Hero Action**: Pay the printed cost of the top card of the [[Invocation]]
+      deck → resolve its "**Special**" ability. Then, place it back on top of the
+      [[Invocation]] deck faceup.'
+    flavor_text: '"Nothing is impossible for the Sorcerer Supreme!" -- Doctor Strange'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/09005
+- names:
+  - Mystical Studies
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 6
+    quantity: 1
+  faces:
+  - name: Mystical Studies
+    cost: 1
+    type: Event
+    unique: false
+    text: '**Alter-Ego Action**: Search your deck and discard pile for a Doctor Strange
+      card and add it to your hand. Shuffle your deck.'
+    flavor_text: '"I believe observation and knowledge must precede action." -- Doctor
+      Strange'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/09006
+- names:
+  - Protective Ward
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 7
+    quantity: 2
+  faces:
+  - name: Protective Ward
+    cost: 1
+    type: Event
+    unique: false
+    text: '**Hero Interrupt**: When a treachery is revealed from the encounter deck,
+      cancel all of its effects and discard it.'
+    flavor_text: '"This is one of the first spells I learned." -- Doctor Strange'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/09007
+- names:
+  - Sanctum Sanctorum
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 8
+    quantity: 1
+  faces:
+  - name: Sanctum Sanctorum
+    cost: 1
+    type: Support
+    unique: true
+    traits:
+    - Location
+    text: '**Alter-Ego Action**: Exhaust Sanctum Sanctorum → shuffle a [[Spell]] card
+      from your discard pile into your deck and draw 1 card.'
+    flavor_text: '"A bit ostentatious for Bleecker Street." -- Zelma Stanton'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/09008
+- names:
+  - Cloak of Levitation
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 9
+    quantity: 1
+  faces:
+  - name: Cloak of Levitation
+    cost: 2
+    type: Upgrade
+    unique: true
+    traits:
+    - Artifact
+    - Item
+    text: |-
+      You gain the [[Aerial]] trait.
+      **Hero Action**: Exhaust Cloak of Levitation → ready Doctor Strange.
+    flavor_text: '"If you''re gonna call yourself ''The Sorcerer Supreme'', then you
+      really should have a flying cloak." -- Spider-Man'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/09009
+- names:
+  - Magical Enhancements
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 10
+    quantity: 2
+  faces:
+  - name: Magical Enhancements
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Condition
+    - Spell
+    text: |-
+      Play under any player's control.
+      Your hero gets +1 THW, +1 ATK, and +1 DEF.
+      **Forced Interrupt**: When the round ends, discard Magical Enhancements.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/09010
+- names:
+  - The Eye of Agamotto
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 11
+    quantity: 1
+  faces:
+  - name: The Eye of Agamotto
+    cost: 2
+    type: Upgrade
+    unique: true
+    traits:
+    - Artifact
+    - Item
+    text: '**Hero Resource**: Exhaust The Eye of Agamotto → generate a [wild] resource.'
+    flavor_text: '"The Eye of Agamotto will reveal the truth." -- Doctor Strange'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/09011
+- names:
+  - Brother Voodoo
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 12
+    quantity: 1
+  faces:
+  - name: Brother Voodoo
+    subtitle: Jericho Drumm
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Protection
+    thwart: 2
+    thwart_consequential: 2
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Avenger
+    - Mystic
+    text: '**Response**: After Brother Voodoo enters play, search the top 5 cards
+      of your deck for an event card and add it to your hand. Shuffle your deck.'
+    hit_points: 3
+    flavor_text: '"My name is Jericho Drumm. They call me Brother Voodoo."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/09012
+- names:
+  - Clea
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 13
+    quantity: 1
+  faces:
+  - name: Clea
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Protection
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Mystic
+    text: '**Interrupt**: When Clea is defeated, shuffle her into her owner''s deck.'
+    hit_points: 2
+    flavor_text: '"I come from what you call the Dark Dimension. I don''t frighten
+      easily."'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/09013
+- names:
+  - Iron Fist
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 14
+    quantity: 1
+  faces:
+  - name: Iron Fist
+    subtitle: Danny Rand
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Protection
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Defender
+    text: |-
+      Iron First enters play with 2 mystic counters on him.
+      **Response**: When Iron Fist attacks an enemy, remove 1 mystic counter from him → stun that enemy and deal 1 damage to it.
+    hit_points: 3
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/09014
+- names:
+  - Desperate Defense
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 15
+    quantity: 3
+  faces:
+  - name: Desperate Defense
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Defense
+    text: '**Hero Interrupt** _(defense)_: When your hero defends against an attack,
+      it gets +2 DEF for that attack. If you take no damage from that attack, ready
+      your hero.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/09015
+- names:
+  - Momentum Shift
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 16
+    quantity: 3
+  faces:
+  - name: Momentum Shift
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Heal 2 damage from your hero → deal 2 damage
+      to an enemy.'
+    flavor_text: '"Have a seat!" -- Colleen Wing'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/16.png
+    marvelcdb_url: https://marvelcdb.com/card/09016
+- names:
+  - The Night Nurse
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 19
+    quantity: 1
+  faces:
+  - name: The Night Nurse
+    cost: 1
+    type: Support
+    unique: true
+    aspect:
+    - Protection
+    traits:
+    - Persona
+    keywords:
+    - Uses
+    text: |-
+      Uses (3 medical counters).
+      **Action**: Exhaust The Night Nurse and remove 1 medical counter from her → heal 1 damage from a hero and discard 1 status card from it.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/19.png
+    marvelcdb_url: https://marvelcdb.com/card/09019
+- names:
+  - Unflappable
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 20
+    quantity: 3
+  faces:
+  - name: Unflappable
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Condition
+    text: |-
+      Play under any player's control. Max 1 per player.
+      **Response**: After you defend against an attack and take no damage, exhaust Unflappable → draw 1 card.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/20.png
+    marvelcdb_url: https://marvelcdb.com/card/09020
+- names:
+  - Warning
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 21
+    quantity: 3
+  faces:
+  - name: Warning
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Defense
+    text: '**Interrupt** _(defense)_: When a hero would take any amount of damage,
+      reduce that amount by 1.'
+    flavor_text: '"Incoming!" -- Iron Man'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/21.png
+    marvelcdb_url: https://marvelcdb.com/card/09021
+- names:
+  - The Sorcerer Supreme
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 26
+    quantity: 1
+  faces:
+  - name: The Sorcerer Supreme
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Title
+    text: |-
+      Play only if you have the [[Mystic]] trait.
+      You get +1 hand size while in hero form.
+    flavor_text: '"The mantle of Sorcerer Supreme was bestowed upon me by the Ancient
+      One." -- Stephen Strange'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/09026
+- names:
+  - Physical Toll
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Physical Toll
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Stephen Strange player_**
+      You may flip to your alter-ego form. Choose:
+      - Exhaust Stephen Strange → remove Physical Toil from the game.
+      - The next event you play costs 3 additional resources. Discard this obligation after you play an event.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/09027
+- names:
+  - Baron Mordo
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 28
+    quantity: 1
+  faces:
+  - name: Baron Mordo
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 2
+    traits:
+    - Elite
+    - Mystic
+    text: |-
+      **Forced Interrupt**: When Baron Mordo attacks you, discard the top card of your deck. If that card's printed resource has:
+      [physical] - You are stunned.
+      [energy] - Take 2 damage.
+      [mental] - You are confused.
+      [wild] - All of the above.
+    hit_points: 5
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/09028
+- names:
+  - Open the Dark Dimension
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 29
+    quantity: 1
+  faces:
+  - name: Open the Dark Dimension
+    type: Side Scheme
+    unique: false
+    text: |-
+      **When Revealed**: Place the top card of the [[Invocation]] deck facedown under this scheme.
+      **When Defeated**: Shuffle the [[Invocation]] card under here into the [[Invocation]] deck.
+    boost_icons: 3
+    starting_threat_per_player: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/09029
+  horizontal: true
+- names:
+  - Counterspell
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 30
+    quantity: 2
+  faces:
+  - name: Counterspell
+    type: Attachment
+    unique: false
+    text: |-
+      Attach to your hero.
+      **Forced Interrupt**: When you play an event, cancel its effects and discard it. Then, discard this card.
+    boost_icons: 1
+    flavor_text: '"I should have been made Sorcerer Supreme, Strange. Not you!" --
+      Baron Mordo.'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/09030
+- names:
+  - Thoughtcasting
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 31
+    quantity: 1
+  faces:
+  - name: Thoughtcasting
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: Discard a card from your hand with the highest cost. Place threat on the main scheme equal to the printed cost of that card.
+      **When Revealed (Hero)**: Discard a card from your hand with the highest cost. Take damage equal to the printed cost of that card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/09031
+- names:
+  - Crimson Bands of Cyttorak
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 32
+    quantity: 1
+  faces:
+  - name: Crimson Bands of Cyttorak
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Invocation
+    text: '**Special**: Stun an enemy and deal 7 damage to it. Place this card in
+      the [[Invocation]] deck discard pile.'
+    flavor_text: '"That should hold him for a spell." -- Doctor Strange'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/09032
+- names:
+  - Images of Ikonn
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 33
+    quantity: 1
+  faces:
+  - name: Images of Ikonn
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Invocation
+    text: '**Special**: Confuse the villain and remove 4 threat from a scheme. Place
+      this card in the [[Invocation]] deck discard pile.'
+    flavor_text: '"You see only what I want you to see." -- Doctor Strange'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/33.png
+    marvelcdb_url: https://marvelcdb.com/card/09033
+- names:
+  - Seven Rings of Raggadorr
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 34
+    quantity: 1
+  faces:
+  - name: Seven Rings of Raggadorr
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Invocation
+    text: '**Special**: Give up to 3 characters each a tough status card. Place this
+      card in the [[Invocation]] deck discard pile.'
+    flavor_text: '"Let the Rings of Raggadorr shield you from harm!" -- Doctor Strange'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/34.png
+    marvelcdb_url: https://marvelcdb.com/card/09034
+- names:
+  - Vapors of Valtorr
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 35
+    quantity: 1
+  faces:
+  - name: Vapors of Valtorr
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Invocation
+    text: '**Special**: Choose a status card in play. Replace that status card with
+      a different status card. Place this card in the [[Invocation]] deck discard
+      pile.'
+    flavor_text: '"By the Vapors of Valtorr, be transformed!" -- Doctor Strange'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/35.png
+    marvelcdb_url: https://marvelcdb.com/card/09035
+- names:
+  - Winds of Watoomb
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 36
+    quantity: 1
+  faces:
+  - name: Winds of Watoomb
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Invocation
+    text: '**Special**: Draw 3 cards. Place this card in the [[Invocation]] deck discard
+      pile.'
+    flavor_text: '"By the blessed Vishanti!" -- Doctor Strange'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/36.png
+    marvelcdb_url: https://marvelcdb.com/card/09036
+- names:
+  - Skilled Strike
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 37
+    quantity: 3
+  faces:
+  - name: Skilled Strike
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Skill
+    text: '**Interrupt**: When your hero makes a basic attack, it gets +2 ATK for
+      that attack.'
+    flavor_text: '"You have much to learn." -- Karnak'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/37.png
+    marvelcdb_url: https://marvelcdb.com/card/09037
+- names:
+  - Foiled!
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 38
+    quantity: 3
+  faces:
+  - name: Foiled!
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    text: '**Interrupt**: When a boost card is turned faceup during a scheme activation,
+      cancel its boost icons.'
+    flavor_text: '"Not this time, Kingpin!" -- Spider-Man'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/38.png
+    marvelcdb_url: https://marvelcdb.com/card/09038
+- names:
+  - Iron Man
+  packs:
+  - name: Doctor Strange
+    sku: MC08en
+    position: 39
+    quantity: 1
+  faces:
+  - name: Iron Man
+    subtitle: Tony Stark
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: Reduce the cost to play each upgrade on Iron Man by 1.
+    hit_points: 3
+    flavor_text: '"I''ve got an idea for how to make this suit even better."'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/39.png
+    marvelcdb_url: https://marvelcdb.com/card/09039

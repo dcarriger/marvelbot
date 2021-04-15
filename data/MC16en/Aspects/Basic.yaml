@@ -1,0 +1,127 @@
+- names:
+  - Rocket Raccoon
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 19
+    quantity: 1
+  faces:
+  - name: Rocket Raccoon
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Basic
+    thwart: 2
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Guardian
+    text: |-
+      Play only if your identity has the [[guardian]] trait.
+       **Interrupt**: When Rocket Raccoon attacks a minion, he gets +3 ATK for that attack. That attack gains overkill.
+    hit_points: 3
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/19.png
+    marvelcdb_url: https://marvelcdb.com/card/16019
+- names:
+  - Flora and Fauna
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 20
+    quantity: 1
+  faces:
+  - name: Flora and Fauna
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    keywords:
+    - Team-Up
+    text: |-
+      Team Up (Groot and Rocket Raccoon).
+       Max 1 per deck
+       **Hero Action**: Place 2 growth counters on Groot (to a maximum of 10) and ready him, or place 2 charge counters on a Rocket Raccoon upgrade and ready that upgrade.
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/20.png
+    marvelcdb_url: https://marvelcdb.com/card/16020
+- names:
+  - Deft Focus
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 24
+    quantity: 3
+  faces:
+  - name: Deft Focus
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Skill
+    text: |-
+      Max 1 per player.
+       **Hero Action**: Exhaust Deft Focus → reduce the resource cost of the next [[superpower]] card you play this turn by 1.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/24.png
+    marvelcdb_url: https://marvelcdb.com/card/16024
+- names:
+  - Groot
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 47
+    quantity: 1
+  faces:
+  - name: Groot
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Basic
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 2
+    traits:
+    - Guardian
+    text: |-
+      Play only if your identity has the [[guardian]] trait.
+       **Response**: After Groot defends against an attack, heal 2 damage from him.
+    hit_points: 6
+    flavor_text: '"I am Groot!"'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/47.png
+    marvelcdb_url: https://marvelcdb.com/card/16047
+- names:
+  - Booster Boots
+  packs:
+  - name: Galaxy’s Most Wanted
+    sku: MC16en
+    position: 52
+    quantity: 3
+  faces:
+  - name: Booster Boots
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Armor
+    text: |-
+      Play only if your identity has the [[guardian]] trait.
+       **Hero Interrupt**: When you would take any amount of damage from an attack, exhaust Booster Boots and discard the top card of your deck → prevent 1 of that damage.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/52.png
+    marvelcdb_url: https://marvelcdb.com/card/16052

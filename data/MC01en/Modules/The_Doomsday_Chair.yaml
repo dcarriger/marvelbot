@@ -1,0 +1,66 @@
+- names:
+  - The Doomsday Chair
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 183
+    quantity: 2
+  faces:
+  - name: The Doomsday Chair
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: If MODOK is not in play, search the encounter deck and
+      discard pile for MODOK and put him into play engaged with you, then shuffle
+      the encounter deck.'
+    boost_icons: 3
+    starting_threat: 8
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/183.png
+    marvelcdb_url: https://marvelcdb.com/card/01183
+  horizontal: true
+- names:
+  - MODOK
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 184
+    quantity: 1
+  faces:
+  - name: MODOK
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 2
+    traits:
+    - Cyborg
+    - Elite
+    keywords:
+    - Retaliate
+    text: Retaliate 2. _(After this character is attacked, deal 2 damage to the attacking
+      character.)_
+    hit_points: 8
+    boost_icons: 2
+    flavor_text: '"You should have stayed hidden under the rock you crawled out from!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/184.png
+    marvelcdb_url: https://marvelcdb.com/card/01184
+- names:
+  - Biomechanical Upgrades
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 185
+    quantity: 3
+  faces:
+  - name: Biomechanical Upgrades
+    type: Attachment
+    unique: false
+    traits:
+    - Tech
+    keywords:
+    - Surge
+    text: |-
+      Surge.
+      Attach to the minion with the highest printed hit points and without another Biomechanical Upgrades attachment.
+      **Forced Interrupt**: When attached minion would be defeated, heal all damage from it instead, this discard this card.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/185.png
+    marvelcdb_url: https://marvelcdb.com/card/01185

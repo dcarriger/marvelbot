@@ -1,0 +1,32 @@
+---
+# Status Cards
+- names:
+    - Confused
+  faces:
+    - name: Confused
+      type: Status
+      text: |
+        "The next time this character
+        would thwart or scheme, discard
+        this status card instead."
+      image: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/status/confused.png"
+- names:
+    - Stunned
+  faces:
+    - name: Stunned
+      type: Status
+      text: |
+        "The next time this character
+        would attack, discard this status
+        card instead."
+      image: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/status/stunned.png"
+- names:
+    - Tough
+  faces:
+    - name: Tough
+      type: Status
+      text: |
+        "The next time this character would
+        take any amount of damage, discard 
+        this status card card instead."
+      image: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/status/tough.png"

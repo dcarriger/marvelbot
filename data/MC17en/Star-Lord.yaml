@@ -1,0 +1,191 @@
+---
+# Star-Lord
+- names:
+    - Star-Lord
+    - Peter Quill
+  packs:
+    - name: Star-Lord
+      sku: MC17en
+      position: 1
+      quantity: 1
+  faces:
+    - name: Peter Quill
+      type: Alter-Ego
+      unique: true
+      recover: 3
+      traits:
+        - Outlaw
+      keywords:
+        - Setup
+      text: |
+        "**Setup**: Search your deck and discard pile for
+        a copy of the Element Gun upgrade and add
+        it to your hand. Shuffle your deck.
+        _Smooth Talker_ — **Action**: Choose a card
+        in your hand. Swap that card with the top
+        card of your deck. (Limit once per round.)"
+      hand_size: 6
+      hit_points: 10
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/1B.png"
+    - name: Star-Lord
+      type: Hero
+      unique: true
+      thwart: 2
+      attack: 2
+      defense: 1
+      traits:
+        - Guardian
+      text: |
+        "Each ally you control gains the **Guardian** trait.
+        “What could go wrong?” — **Interrupt**:
+        When you play a card from your hand,
+        deal yourself 1 facedown encounter card
+        → reduce the resource cost to play that
+        card by 3. (Limit once per round.)"
+      hand_size: 5
+      hit_points: 10
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/1A.png"
+- names:
+  - Daring Escape
+  packs:
+    - name: Star-Lord
+      sku: MC17en
+      position: 3
+      quantity: 1
+  faces:
+    - name: Daring Escape
+      cost: 0
+      type: Event
+      unique: false
+      text: |
+        "**Hero Action**: Deal yourself 1 facedown
+        encounter card → ready your hero and
+        draw 1 card."
+      flavor_text: |
+        “Okay, not to brag, but that was probably the bravest
+        thing that any one of us has ever done.” —Star-Lord
+      resources:
+        energy: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/3.png"
+- names:
+  - Sliding Shot
+  packs:
+    - name: Star-Lord
+      sku: MC17en
+      position: 5
+      quantity: 1
+  faces:
+    - name: Sliding Shot
+      cost: 3
+      type: Event
+      unique: false
+      traits:
+        - Attack
+      text: |
+        "Play only if you control an Element Gun.
+        **Hero Action** _(attack)_: Deal 5 damage
+        to an enemy. Deal 2 additional damage
+        to that enemy for each facedown
+        encounter card in front of you."
+      resources:
+        physical: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/5.png"
+- names:
+  - Leader of the Guardians
+  packs:
+    - name: Star-Lord
+      sku: MC17en
+      position: 9
+      quantity: 1
+  faces:
+    - name: Leader of the Guardians
+      cost: 3
+      type: Upgrade
+      unique: true
+      traits:
+        - Title
+      text: |
+        "Each **Guardian** character you control
+        gets +1 THW."
+      flavor_text: |
+        “I know we all hate each other and we all tried to
+        kill one another. But from now on, and until the
+        job is done, we’re Guardians.” —Peter Quill
+      resources:
+        mental: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/9.png"
+- names:
+  - Star-Lord’s Helmet
+  packs:
+    - name: Star-Lord
+      sku: MC17en
+      position: 10
+      quantity: 1
+  faces:
+    - name: Star-Lord’s Helmet
+      cost: 1
+      type: Upgrade
+      unique: true
+      traits:
+        - Armor
+        - Tech
+      text: |
+        "While you are in hero form, you
+        get +1 hand size for each facedown
+        encounter card in front of you (to
+        a maximum of +3 hand size)."
+      flavor_text: |
+        “You can't see that I’m judging you, but I’m
+        judging you.” —Star-Lord
+      resources:
+        mental: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/10.png"
+- names:
+  - Blaze of Glory
+  packs:
+    - name: Star-Lord
+      sku: MC17en
+      position: 15
+      quantity: 3
+  faces:
+    - name: Blaze of Glory
+      cost: 2
+      type: Event
+      unique: false
+      aspect:
+        - Leadership
+      text: |
+        "Max 1 per round.
+        **Hero Action**: Each **Guardian** character
+        gets +2 THW and +2 ATK this phase. At
+        the end of the phase, deal 1 damage
+        to each **Guardian** character."
+      resources:
+        physical: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/15.png"
+- names:
+  - Knowhere
+  packs:
+    - name: Star-Lord
+      sku: MC17en
+      position: 22
+      quantity: 1
+  faces:
+    - name: Knowhere
+      cost: 2
+      type: Support
+      unique: true
+      aspect:
+        - Basic
+      traits:
+        - Location
+      text: |
+        "Play only if your identity has the
+        **Guardian** trait.
+        Increase your ally limit by 1.
+        **Response**: After a player plays a
+        **Guardian** ally, exhaust Knowhere → 
+        that player draws 1 card."
+      resources:
+        energy: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/22.png"

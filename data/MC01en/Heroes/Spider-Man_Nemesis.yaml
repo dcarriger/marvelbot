@@ -1,0 +1,97 @@
+- names:
+  - Eviction Notice
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 165
+    quantity: 1
+  faces:
+  - name: Eviction Notice
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Peter Parker player._**
+      You may flip to your alter-ego form. Choose:
+      - Exhaust Peter Parker → remove Eviction Notice from the game.
+      - Discard 1 card at random from your hand. This card gains surge. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/165.png
+    marvelcdb_url: https://marvelcdb.com/card/01165
+- names:
+  - Highway Robbery
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 166
+    quantity: 1
+  faces:
+  - name: Highway Robbery
+    type: Side Scheme
+    unique: false
+    text: |-
+      **When Revealed**: Each player places a random card from their hand facedown here.
+      **When Defeated**: Return each facedown card here to its owner's hand.
+    boost_icons: 3
+    starting_threat_per_player: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/166.png
+    marvelcdb_url: https://marvelcdb.com/card/01166
+  horizontal: true
+- names:
+  - Vulture
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 167
+    quantity: 1
+  faces:
+  - name: Vulture
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: 3
+    traits:
+    - Criminal
+    keywords:
+    - Quickstrike
+    text: Quickstrike. _(After this minion engages your hero, it attacks.)_
+    hit_points: 4
+    boost_icons: 2
+    flavor_text: '"I''m faster, strong, and smarter than a hundred men my age!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/167.png
+    marvelcdb_url: https://marvelcdb.com/card/01167
+- names:
+  - Sweeping Swoop
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 168
+    quantity: 2
+  faces:
+  - name: Sweeping Swoop
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Stun your hero. If Vulture is in play, this card gains
+      surge.'
+    boost_icons: 0
+    star_text: If this activation deals damage to a friendly character, stun that
+      character.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/168.png
+    marvelcdb_url: https://marvelcdb.com/card/01168
+- names:
+  - The Vulture's Plans
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 169
+    quantity: 1
+  faces:
+  - name: The Vulture's Plans
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Discard 1 card at random from each player''s hand. Place
+      1 threat on the main scheme for each different resource type discarded this
+      way.'
+    boost_icons: 2
+    flavor_text: '"Spider-Man will pay for interfering with my plans!" -- The Vulture'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/169.png
+    marvelcdb_url: https://marvelcdb.com/card/01169

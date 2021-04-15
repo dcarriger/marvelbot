@@ -1,0 +1,191 @@
+- names:
+  - Daredevil
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 58
+    quantity: 1
+  faces:
+  - name: Daredevil
+    subtitle: Matt Murdock
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Justice
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Defender
+    text: '**Response**: After Daredevil thwarts, deal 1 damage to an enemy.'
+    hit_points: 3
+    flavor_text: '"Sometimes, I think I accomplish more with my fists than with my
+      law firm."'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/58.png
+    marvelcdb_url: https://marvelcdb.com/card/01058
+- names:
+  - Jessica Jones
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 59
+    quantity: 1
+  faces:
+  - name: Jessica Jones
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Justice
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Defender
+    text: Jessica Jones gets +1 THW for each side scheme in play.
+    hit_points: 3
+    flavor_text: '"I am very good at finding people."'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/59.png
+    marvelcdb_url: https://marvelcdb.com/card/01059
+- names:
+  - For Justice!
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 60
+    quantity: 3
+  faces:
+  - name: For Justice!
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Thwart
+    text: '**Hero Action** (_thwart_): Remove 3 threat from a scheme (4 threat instead
+      if you paid for this card using a [mental] resource).'
+    flavor_text: '"You lose. And you''re going to answer for what you''ve done." --
+      Captain America'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/60.png
+    marvelcdb_url: https://marvelcdb.com/card/01060
+- names:
+  - Great Responsibility
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 61
+    quantity: 3
+  faces:
+  - name: Great Responsibility
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    text: '**Hero Interrupt**: When any amount of threat would be placed on a scheme,
+      you take it as damage instead.'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/61.png
+    marvelcdb_url: https://marvelcdb.com/card/01061
+- names:
+  - The Power of Justice
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 62
+    quantity: 2
+  faces:
+  - name: The Power of Justice
+    type: Resource
+    unique: false
+    aspect:
+    - Justice
+    text: |-
+      Max 2 per deck.
+      Double the number of resources this card generates while paying for a Justice _(yellow)_ card.
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/62.png
+    marvelcdb_url: https://marvelcdb.com/card/01062
+- names:
+  - Interrogation Room
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 63
+    quantity: 3
+  faces:
+  - name: Interrogation Room
+    cost: 1
+    type: Support
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Location
+    text: |-
+      Max 1 per player.
+      **Response**: After you defeat a minion, exhaust Interrogation Room → remove 1 threat from a scheme.
+    flavor_text: '"Oh, she''s sorry! Let me get the keys and call you a car service!"
+      -- Misty Knight'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/63.png
+    marvelcdb_url: https://marvelcdb.com/card/01063
+- names:
+  - Surveillance Team
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 64
+    quantity: 3
+  faces:
+  - name: Surveillance Team
+    cost: 2
+    type: Support
+    unique: false
+    aspect:
+    - Justice
+    keywords:
+    - Uses
+    text: |-
+      Uses (3 snoop counters). _(Enters play with 3 counters. When those are gone, discard this card)_
+      **Action**: Exhaust Surveillance Team and remove 1 snoop counter from it → remove 1 threat from a scheme.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/64.png
+    marvelcdb_url: https://marvelcdb.com/card/01064
+- names:
+  - Heroic Intuition
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 65
+    quantity: 3
+  faces:
+  - name: Heroic Intuition
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Skill
+    text: |-
+      Play under any player's control. Max 1 per player.
+      Your hero gets +1 THW.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/65.png
+    marvelcdb_url: https://marvelcdb.com/card/01065

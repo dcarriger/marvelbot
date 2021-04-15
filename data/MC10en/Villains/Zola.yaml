@@ -1,0 +1,366 @@
+- names:
+  - Zola
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 109
+    quantity: 1
+  faces:
+  - name: Zola
+    type: Villain
+    unique: true
+    scheme: 2
+    attack: 1
+    traits:
+    - Android
+    - Hydra
+    keywords:
+    - Retaliate
+    text: Retaliate 1.
+    hit_points_per_player: 12
+    flavor_text: '"My mutate program will transform these pathetic creatures into
+      Hydra''s elite shock-troops!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/109.png
+    marvelcdb_url: https://marvelcdb.com/card/04109
+- names:
+  - Zola
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 110
+    quantity: 1
+  faces:
+  - name: Zola
+    type: Villain
+    unique: true
+    scheme: 2
+    attack: 2
+    traits:
+    - Android
+    - Hydra
+    keywords:
+    - Retaliate
+    text: |-
+      Retaliate 1.
+      **When Revealed:** Search the encounter deck and discard pile for the Test Subjects side scheme and reveal it.
+      (Shuffle the encounter deck.)
+    hit_points_per_player: 14
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/110.png
+    marvelcdb_url: https://marvelcdb.com/card/04110
+- names:
+  - Zola
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 111
+    quantity: 1
+  faces:
+  - name: Zola
+    type: Villain
+    unique: true
+    scheme: 3
+    attack: 2
+    traits:
+    - Android
+    - Hydra
+    keywords:
+    - Retaliate
+    text: |-
+      Retaliate 1.
+      **When Revealed:** Each player searches the encounter deck and discard pile for a minion and reveals it. (Shuffle the encounter deck.)
+    hit_points_per_player: 16
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/111.png
+    marvelcdb_url: https://marvelcdb.com/card/04111
+- names:
+  - The Island of Dr. Zola
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 112
+    quantity: 1
+  faces:
+  - name: The Island of Dr. Zola
+    type: Main Scheme
+    unique: false
+    text: |-
+      **Contents:** Zola (I) and Zola (II). Zola and Standard encounter sets. One modular encounter set <em>(Under Attack)</em>
+      **Setup:** Search the encounter deck for Hydra Prison and reveal it. Each player searches the encounter deck for a copy of Ultimate Bio-Servant and puts it into play engaged with them. Shuffle the encounter deck.
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 6
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/112A.png
+    marvelcdb_url: https://marvelcdb.com/card/04112
+  - name: The Island of Dr. Zola
+    type: Main Scheme
+    unique: false
+    text: '**[star] Forced Response:** After resolving step one of the villain phase,
+      place 1 test counter here. Then, if there are 3 or more test counters here,
+      discard cards from the top of the encounter deck until a minion is discarded.
+      Put that minion into play engaged with the first player and remove 3 test counters
+      from this scheme.'
+    starting_threat: 0
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 6
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/112B.png
+    marvelcdb_url: https://marvelcdb.com/card/04112
+  horizontal: true
+- names:
+  - The Mad Doctor
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 113
+    quantity: 1
+  faces:
+  - name: The Mad Doctor
+    type: Main Scheme
+    unique: false
+    text: '**When Revealed:** Each player searches the encounter deck and discard
+      pile for a minion and reveals it. Shuffle the encounter deck.'
+    starting_threat_per_player: 1
+    acceleration_threat_per_player: 1
+    completion_threat_per_player: 8
+    flavor_text: Zola's mutates attack you with blind obedience and savage fury. It's
+      up to you to put an end to this nightmare before the mad doctor unleashes them
+      upon the world!
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/113A.png
+    marvelcdb_url: https://marvelcdb.com/card/04113
+  - name: The Mad Doctor
+    type: Main Scheme
+    unique: false
+    text: |-
+      **[star] Forced Response:** After resolving step 1 of the villain phase, place 1 test counter here. Then, if there are 3 or more test counters here, discard cards from the top of the encounter deck until a minion is discarded. Put that minion into play engaged with the first player and remove 3 test counters from this scheme.
+      **If this scheme is completed, the players lose the game.**
+    starting_threat_per_player: 1
+    acceleration_threat_per_player: 1
+    target_threat_per_player: 8
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/113B.png
+    marvelcdb_url: https://marvelcdb.com/card/04113
+  horizontal: true
+- names:
+  - Ultimate Bio-Servant
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 114
+    quantity: 4
+  faces:
+  - name: Ultimate Bio-Servant
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 1
+    attack_text: Ultimate Bio-Servant gets +1 ATK for each attachment on it.
+    traits:
+    - Hydra
+    - Mutate
+    keywords:
+    - Toughness
+    text: Toughness.
+    hit_points: 4
+    boost_icons: 0
+    star_text: Give the villain a tough status card.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/114.png
+    marvelcdb_url: https://marvelcdb.com/card/04114
+- names:
+  - Zola's Mutate
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 115
+    quantity: 3
+  faces:
+  - name: Zola's Mutate
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 2
+    traits:
+    - Hydra
+    - Mutate
+    text: '**When Revealed:** Discard cards from the top of the encounter deck until
+      a [[Tech]] attachment is discarded. Attach that card to Zola''s Mutate.'
+    hit_points: 5
+    boost_icons: 0
+    star_text: Shuffle Zola's Mutate into the encounter deck.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/115.png
+    marvelcdb_url: https://marvelcdb.com/card/04115
+- names:
+  - Berserk Mutate
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 116
+    quantity: 3
+  faces:
+  - name: Berserk Mutate
+    type: Minion
+    unique: false
+    scheme: 0
+    attack: 2
+    traits:
+    - Hydra
+    - Mutate
+    keywords:
+    - Quickstrike
+    text: Quickstrike.
+    hit_points: 3
+    boost_icons: 0
+    star_text: Place 1 test counter on the main scheme. For each test counter on the
+      main scheme, Zola gets +1 SCH and +1 ATK for this activation.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/116.png
+    marvelcdb_url: https://marvelcdb.com/card/04116
+- names:
+  - Defensive Programming
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 117
+    quantity: 3
+  faces:
+  - name: Defensive Programming
+    type: Attachment
+    unique: false
+    traits:
+    - Tech
+    text: |-
+      Attach to the minion with the most remaining hit points without another copy of Defensive Programming attached. If you cannot, this card gains surge.
+      Attached minion gets +2 hit points and gains guard.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/117.png
+    marvelcdb_url: https://marvelcdb.com/card/04117
+- names:
+  - Pain Inhibitors
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 118
+    quantity: 2
+  faces:
+  - name: Pain Inhibitors
+    type: Attachment
+    unique: false
+    traits:
+    - Tech
+    text: |-
+      Attach to the minion with the most remaining hit points without another copy of Pain Inhibitors attached. If you cannot, this card gains surge.
+      Attached minion gets +2 hit points and gains retaliate 1.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/118.png
+    marvelcdb_url: https://marvelcdb.com/card/04118
+- names:
+  - Neurological Implants
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 119
+    quantity: 2
+  faces:
+  - name: Neurological Implants
+    type: Attachment
+    unique: false
+    scheme: 2
+    attack: 2
+    traits:
+    - Tech
+    text: |-
+      Attach to the minion with the most remaining hit points without another copy of Neurological Implants attached. If you cannot, this card gains surge.
+      Attached minion gets +2 hit points.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/119.png
+    marvelcdb_url: https://marvelcdb.com/card/04119
+- names:
+  - Mind Ray
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 120
+    quantity: 3
+  faces:
+  - name: Mind Ray
+    type: Treachery
+    unique: false
+    text: |-
+      <B>When Revealed (Alter-Ego):** Zola schemes. You are confused.
+      **When Revealed (Hero):** Zola attacks you. You are stunned.
+    boost_icons: 2
+    flavor_text: '"You thought Zola defenseless? You arrogant fool!" -- Arnim Zola'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/120.png
+    marvelcdb_url: https://marvelcdb.com/card/04120
+- names:
+  - Technological Enhancements
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 121
+    quantity: 2
+  faces:
+  - name: Technological Enhancements
+    type: Treachery
+    unique: false
+    keywords:
+    - Incite
+    text: |-
+      Incite 1.
+      **When Revealed:** Place 1 test counter on the main scheme.
+    boost_icons: 0
+    star_text: Place 1 test counter on the main scheme.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/121.png
+    marvelcdb_url: https://marvelcdb.com/card/04121
+- names:
+  - Hydra Prison
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 122
+    quantity: 1
+  faces:
+  - name: Hydra Prison
+    type: Side Scheme
+    unique: false
+    text: |-
+      **When Revealed:** Each player searches their deck, discard pile and hand for a hero-specific ally and places it facedown beneath this scheme. Place X threat on this scheme where X is the total cost of all allies beneath it. Each player shuffles their deck.
+      **When Defeated:** remove this scheme from the game and return each ally beneath it to its owner's hand.
+    boost_icons: 0
+    starting_threat: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/122.png
+    marvelcdb_url: https://marvelcdb.com/card/04122
+  horizontal: true
+- names:
+  - Test Subjects
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 123
+    quantity: 2
+  faces:
+  - name: Test Subjects
+    type: Side Scheme
+    unique: false
+    text: '**When Defeated:** The first player discards cards from the top of the
+      encounter deck until they discard a minion. Reveal that minion.'
+    boost_icons: 2
+    starting_threat_per_player: 2
+    flavor_text: It is a fate rose than death.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/123.png
+    marvelcdb_url: https://marvelcdb.com/card/04123
+  horizontal: true
+- names:
+  - Zola's Experiments
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 124
+    quantity: 1
+  faces:
+  - name: Zola's Experiments
+    type: Side Scheme
+    unique: false
+    text: '**Forced Response:** After a minion enters play, attach the topmost [[Tech]]
+      attachment in the encounter discard pile to that minion.'
+    boost_icons: 3
+    starting_threat_per_player: 3
+    flavor_text: The mad doctor never grows tired of experimenting on his victims.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/124.png
+    marvelcdb_url: https://marvelcdb.com/card/04124
+  horizontal: true

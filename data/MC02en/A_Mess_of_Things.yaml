@@ -1,0 +1,77 @@
+- names:
+  - A Mess of Things
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 37
+    quantity: 1
+  faces:
+  - name: A Mess of Things
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Place 2 additional threat here for each stunned friendly
+      character.'
+    boost_icons: 2
+    starting_threat: 2
+    flavor_text: Scorpion tears through the business district, causing as much mayhem
+      as possible.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/37.png
+    marvelcdb_url: https://marvelcdb.com/card/02037
+  horizontal: true
+- names:
+  - Scorpion
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 38
+    quantity: 1
+  faces:
+  - name: Scorpion
+    type: Minion
+    unique: true
+    scheme: 3
+    attack: 3
+    attack_text: '<b>Forced Response</b>: After Scorpion attacks and damages a character,
+      stun that character.'
+    keywords:
+    - Quickstrike
+    text: Quickstrike. _(After this minion engages your hero, it attacks you.)_
+    hit_points: 7
+    boost_icons: 2
+    flavor_text: '"I''ll crush you, Spider-Man!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/38.png
+    marvelcdb_url: https://marvelcdb.com/card/02038
+- names:
+  - Gang-Up
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 39
+    quantity: 1
+  faces:
+  - name: Gang-Up
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: This card gains surge.
+      **When Revealed (Hero)**: The villain and each minion engaged with you attacks you.
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/39.png
+    marvelcdb_url: https://marvelcdb.com/card/02039
+- names:
+  - Tail Sweep
+  packs:
+  - name: The Green Goblin
+    sku: MC02en
+    position: 40
+    quantity: 2
+  faces:
+  - name: Tail Sweep
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Scorpion attacks your hero. If no attack was made this
+      way, you are stunned.'
+    boost_icons: 0
+    star_text: You are stunned.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc02en/40.png
+    marvelcdb_url: https://marvelcdb.com/card/02040

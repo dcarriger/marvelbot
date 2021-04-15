@@ -1,0 +1,25 @@
+package card
+
+var mcdbKeywords = []string{
+	"Guard.",
+	"Hinder",
+	"Incite",
+	"Overkill.",
+	"Patrol.",
+	"Peril.",
+	"Permanent.",
+	"Piercing.",
+	"Quickstrike.",
+	"Ranged.",
+	"Restricted.",
+	"Retaliate",
+	"Setup.",
+	"Stalwart.",
+	"Surge.",
+	"Team-Up.",
+	"Team Up",
+	"Toughness.",
+	"Uses",
+	"Victory",
+	"Villanous.",
+}

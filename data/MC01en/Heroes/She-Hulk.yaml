@@ -1,0 +1,232 @@
+- names:
+  - She-Hulk
+  - Jennifer Walters
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 19
+    quantity: 1
+  faces:
+  - name: Jennifer Walters
+    type: Alter-Ego
+    unique: true
+    recover: 5
+    traits:
+    - Attorney
+    - Gamma
+    text: '"I Object!" — **Interrupt**: When threat would be placed on a scheme, prevent
+      1 of that threat. (Limit once per round.)'
+    hit_points: 15
+    flavor_text: '"I can turn into a Hulk anytime I want. But just because you can
+      do something doesn''t always mean you should.'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/19B.png
+    marvelcdb_url: https://marvelcdb.com/card/01019b
+  - name: She-Hulk
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 3
+    defense: 2
+    traits:
+    - Avenger
+    - Gamma
+    text: '"Do You Even Lift?" — **Response**: After you change to this form, deal
+      2 damage to an enemy.'
+    hit_points: 15
+    flavor_text: '"I''m six foot seven and bright green! People are gonna stare no
+      matter how I dress."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/19A.png
+    marvelcdb_url: https://marvelcdb.com/card/01019a
+- names:
+  - Hellcat
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 20
+    quantity: 1
+  faces:
+  - name: Hellcat
+    subtitle: Patsy Walker
+    cost: 3
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Action**: Return Hellcat to your hand.'
+    hit_points: 3
+    flavor_text: '"Turn around gentlemen, and meet -- the Hellcat!"'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/20.png
+    marvelcdb_url: https://marvelcdb.com/card/01020
+- names:
+  - Gamma Slam
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 21
+    quantity: 1
+  faces:
+  - name: Gamma Slam
+    cost: 4
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Superpower
+    text: '**Hero Action** (_attack_): Deal X damage to an enemy (to a maximum of
+      15). X is the amount of damage you have sustained.'
+    flavor_text: '"You messed with the wrong woman!" -- She-Hulk'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/21.png
+    marvelcdb_url: https://marvelcdb.com/card/01021
+- names:
+  - Ground Stomp
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 22
+    quantity: 2
+  faces:
+  - name: Ground Stomp
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Action**: Deal 1 damage to each enemy.'
+    flavor_text: '"These boots were made for stompin''." -- She-Hulk'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/22.png
+    marvelcdb_url: https://marvelcdb.com/card/01022
+- names:
+  - Legal Practice
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 23
+    quantity: 2
+  faces:
+  - name: Legal Practice
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Skill
+    - Thwart
+    text: '**Alter-Ego Action** (_thwart_): Choose and discard up to 5 cards from
+      your hand → remove 1 threat from a scheme for each card discarded this way.'
+    flavor_text: '"That''s the first time I''ve ever seen someone argue their way
+      out of a fight." -- Spider-Man'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/23.png
+    marvelcdb_url: https://marvelcdb.com/card/01023
+- names:
+  - One-Two Punch
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 24
+    quantity: 3
+  faces:
+  - name: One-Two Punch
+    cost: 1
+    type: Event
+    unique: false
+    traits:
+    - Skill
+    text: '**Response**: After you make a basic attack _(using your ATK)_, ready She-Hulk.'
+    flavor_text: '"I just don''t care for men with fresh mouths." -- Jennifer Walters'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/24.png
+    marvelcdb_url: https://marvelcdb.com/card/01024
+- names:
+  - Split Personality
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 25
+    quantity: 1
+  faces:
+  - name: Split Personality
+    cost: 3
+    type: Event
+    unique: false
+    text: '**Action**: Change your form _(flip your identity card)_. Then, draw up
+      to your printed hand size.'
+    flavor_text: '"I know a thing or two about rage. And that kind of fury... it''s
+      not going to pass without taking someone with it." -- Jennifer Walters'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/25.png
+    marvelcdb_url: https://marvelcdb.com/card/01025
+- names:
+  - Superhuman Law Division
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Superhuman Law Division
+    cost: 1
+    type: Support
+    unique: false
+    traits:
+    - Location
+    text: '**Alter-Ego Action** (_thwart_): Exhaust Superhuman Law Division and spend
+      a [mental] resource → remove 2 threat from a scheme.'
+    flavor_text: '"I''ll be sending you a bill. My time is valuable these days." --
+      Jennifer Walters'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/01026
+- names:
+  - Focused Rage
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 27
+    quantity: 2
+  faces:
+  - name: Focused Rage
+    cost: 3
+    type: Upgrade
+    unique: false
+    traits:
+    - Skill
+    text: '**Hero Action**: Exhaust Focused Rage and take 1 damage → draw 1 card.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/01027
+- names:
+  - Superhuman Strength
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 28
+    quantity: 2
+  faces:
+  - name: Superhuman Strength
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Superpower
+    text: |-
+      She-Hulk gets +2 ATK.
+      **Forced Response**: After She-Hulk attacks, discard Superhuman Strength → stun the attacked enemy.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/01028

@@ -1,0 +1,635 @@
+- names:
+  - Ms. Marvel
+  - Kamala Khan
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 1
+    quantity: 1
+  faces:
+  - name: Kamala Khan
+    type: Alter-Ego
+    unique: true
+    recover: 5
+    traits:
+    - Inhuman
+    text: 'Teen Spirit — **Action**: Discard cards from the top of your deck until
+      you discard a Ms. Marvel card, then add that card to your hand. (Limit once
+      per round.)'
+    hit_points: 10
+    flavor_text: '"I want to be beautiful and awesome and butt-kicking and less complicated"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/05001b
+  - name: Ms. Marvel
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 1
+    defense: 1
+    traits:
+    - Champion
+    - Inhuman
+    text: '"Morphogenetics" — **Response**: After you play an [[Attack]], [[Thwart]],
+      or [[Defense]] event, exhaust Ms. Marvel → return that event to your hand.'
+    hit_points: 10
+    flavor_text: '"You can call me Ms. Marvel. And if you cooperate, I won''t throw
+      you again."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/05001a
+- names:
+  - Red Dagger
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Red Dagger
+    cost: 3
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Champion
+    text: '**Interrupt**: When Red Dagger is defeated, spend 2 resources of different
+      types → deal 2 damage to an enemy and return Red Dagger to your hand.'
+    hit_points: 3
+    flavor_text: '"Karachi is my home. I patrol these neighborhoods."'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/05002
+- names:
+  - Big Hands
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 3
+    quantity: 3
+  faces:
+  - name: Big Hands
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    - Superpower
+    text: '**Hero Action** _(attack)_: Deal 4 damage to an enemy.'
+    flavor_text: '"This hand thing... is getting out of hand..." -- Ms. Marvel'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/05003
+- names:
+  - Sneak By
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 4
+    quantity: 3
+  faces:
+  - name: Sneak By
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Skill
+    - Thwart
+    text: '**Hero Action** _(thwart)_: Remove 3 threat from a scheme.'
+    flavor_text: '"This is my whole life in one garbage metaphor." -- Kamala Khan'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/05004
+- names:
+  - Wiggle Room
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 5
+    quantity: 2
+  faces:
+  - name: Wiggle Room
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Defense
+    - Superpower
+    text: '**Hero Interrupt** _(defense)_: When you would take any amount of damage,
+      prevent 3 of that damage. Draw 1 card.'
+    flavor_text: '"Since we''re just getting to know each other, a little FYI: I don''t
+      like being taken by surprise!" -- Ms. Marvel'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/05005
+- names:
+  - Aamir Khan
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 6
+    quantity: 1
+  faces:
+  - name: Aamir Khan
+    cost: 1
+    type: Support
+    unique: true
+    traits:
+    - Persona
+    text: '**Alter-Ego Action**: Exhaust Aamir Khan → place 1 card from your discard
+      pile on the bottom of your deck, then draw 1 card.'
+    flavor_text: '"Are you okay? I mean, aside from being in the worst trouble of
+      your life?"'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/05006
+- names:
+  - Bruno Carrelli
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 7
+    quantity: 1
+  faces:
+  - name: Bruno Carrelli
+    cost: 1
+    type: Support
+    unique: true
+    traits:
+    - Persona
+    text: |-
+      **Alter-Ego Action**: Exhaust Bruno Carrelli → attach 1 card from your hand facedown here.
+      **Action**: Exhaust Bruno Carrelli → add up to 3 cards attached here to your hand.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/05007
+- names:
+  - Nakia Bahadir
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 8
+    quantity: 1
+  faces:
+  - name: Nakia Bahadir
+    cost: 1
+    type: Support
+    unique: true
+    traits:
+    - Persona
+    text: '**Alter-Ego Action**: Exhaust Nakia Bahadir → reduce the cost of the next
+      card you play this phase by 1.'
+    flavor_text: '"You''re too sweet, squishy muffin. You give people way too much
+      credit." -- Nakia Bahadir'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/05008
+- names:
+  - Biokinetic Polymer Suit
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 9
+    quantity: 1
+  faces:
+  - name: Biokinetic Polymer Suit
+    cost: 1
+    type: Upgrade
+    unique: true
+    traits:
+    - Armor
+    text: '**Hero Resource**: Exhaust Biokinetic Polymer Suit → generate a [wild]
+      resource for an event.'
+    flavor_text: '"What about that polymer you were working on for the scholarship?
+      The super snot?" -- Kamala Khan'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/05009
+- names:
+  - Embiggen!
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 10
+    quantity: 1
+  faces:
+  - name: Embiggen!
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Condition
+    - Superpower
+    text: '**Hero Interrupt**: When you play an [[Attack]] event, exhaust Embiggen!
+      → increase the amount of damage that event deals by 2.'
+    flavor_text: '"EMBIGGEN!" -- Ms. Marvel'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/05010
+- names:
+  - Shrink
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Shrink
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Condition
+    - Superpower
+    text: '**Hero Interrupt**: When you play a [[Thwart]] event, exhaust Shrink →
+      increase the amount of threat that event removes by 2.'
+    flavor_text: '"Shrink, shrink, shrink!" -- Ms. Marvel'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/05011
+- names:
+  - Nova
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 12
+    quantity: 1
+  faces:
+  - name: Nova
+    subtitle: Sam Alexander
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Protection
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    text: '**Interrupt**: When an enemy initiates an attack against you, spend a [energy]
+      resource → deal 2 damage to that enemy.'
+    hit_points: 3
+    flavor_text: '"I guess my mom was wrong. All those years of playing video games
+      did pay off!."'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/05012
+- names:
+  - Preemptive Strike
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 14
+    quantity: 3
+  faces:
+  - name: Preemptive Strike
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    thwart: 1
+    thwart_consequential: 1
+    attack: 3
+    attack_consequential: 1
+    traits:
+    - Defense
+    text: '**Hero Interrupt** _(defense)_: When a boost card is turned face up while
+      the villain attacks, cancel all boost icons ([boost]) on that card. Then deal
+      1 damage to the villain for each boost icon cancelled this way.'
+    flavor_text: ""
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/05014
+- names:
+  - Tackle
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 15
+    quantity: 3
+  faces:
+  - name: Tackle
+    cost: 3
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Stun an enemy. If you paid for this card using
+      a [physical] resource, deal 3 damage to that enemy.'
+    flavor_text: That's gonna hurt in the morning.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/05015
+- names:
+  - Energy Barrier
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 17
+    quantity: 3
+  faces:
+  - name: Energy Barrier
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Item
+    - Tech
+    keywords:
+    - Uses
+    text: Uses (3 reflection counters). **Interrupt:** When you would take any amount
+      of damage, remove 1 reflection counter from here → prevent 1 of that damage
+      and deal 1 damage to an enemy.
+    flavor_text: ""
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/05017
+- names:
+  - Lockjaw
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 18
+    quantity: 1
+  faces:
+  - name: Lockjaw
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Basic
+    thwart: 2
+    thwart_consequential: 2
+    attack: 2
+    attack_consequential: 2
+    traits:
+    - Inhuman
+    text: You may play Lockjaw from your discard pile during your turn (paying his
+      resource cost).
+    hit_points: 4
+    flavor_text: '"Uhhh... hold on, Bruno. I think my new dog just teleported into
+      my room." -- Kamala Khan'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/18.png
+    marvelcdb_url: https://marvelcdb.com/card/05018
+- names:
+  - Endurance
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 23
+    quantity: 3
+  faces:
+  - name: Endurance
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Condition
+    text: |-
+      Play under any player's control. Max 1 per player.
+      You get +3 hit points.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/23.png
+    marvelcdb_url: https://marvelcdb.com/card/05023
+- names:
+  - Enhanced Reflexes
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 24
+    quantity: 3
+  faces:
+  - name: Enhanced Reflexes
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Condition
+    keywords:
+    - Uses
+    text: Uses (3 energy counters). **Hero Resource:** Exhaust Enhanced Reflexes and
+      remove 1 energy counter from it → generate a [energy] resource.
+    flavor_text: ""
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/24.png
+    marvelcdb_url: https://marvelcdb.com/card/05024
+- names:
+  - Home by Dawn
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 25
+    quantity: 1
+  faces:
+  - name: Home by Dawn
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Kamala Khan player_**
+      You may flip to your alter-ego form. Choose:
+      - Exhaust Kamala Khan → remove Home by Dawn from the game.
+      - Discard 1 [[Persona]] support you control. If no support was discarded this way, this card gains surge. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/25.png
+    marvelcdb_url: https://marvelcdb.com/card/05025
+- names:
+  - Generation Why?
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Generation Why?
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: Discard the top card of each player''s deck for each
+      ally and [[Persona]] support in play.'
+    boost_icons: 3
+    starting_threat_per_player: 2
+    flavor_text: The Inventor has convinced the youth of Jersey City that they should
+      serve as human batteries for his experiments
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/05026
+  horizontal: true
+- names:
+  - Thomas Edison
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Thomas Edison
+    type: Minion
+    unique: true
+    scheme: 3
+    attack: 1
+    traits:
+    - Bird
+    - Genius
+    text: |-
+      Thomas Edison cannot take damage while you are engaged with another minion.
+      _(Ms. Marvel's nemesis minion.)_
+    hit_points: 3
+    boost_icons: 2
+    flavor_text: '"I AM NOT A BIRD!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/05027
+- names:
+  - Edison's Giant Robot
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 28
+    quantity: 1
+  faces:
+  - name: Edison's Giant Robot
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: 2
+    traits:
+    - Robot
+    text: |-
+      Edison's Giant Robot cannot take damage.
+      **Hero Action:** Spend a [mental] resource → until the end of the phase, treat this card's printed text box as if it were blank.
+    hit_points: 8
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/05028
+- names:
+  - Harvest
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 29
+    quantity: 2
+  faces:
+  - name: Harvest
+    type: Treachery
+    unique: false
+    text: '**When Revealed**: Exhaust each [[Persona]] support in play. For each support
+      exhaust this way, the villain heals 1 damage. If no [[Persona]] support was
+      exhausted this way, this card gains surge.'
+    boost_icons: 0
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/05029
+- names:
+  - Melee
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 30
+    quantity: 3
+  faces:
+  - name: Melee
+    cost: 3
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Deal 3 damage to an enemy. Deal 3 damage to
+      another enemy.'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/05030
+- names:
+  - Concussive Blow
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 31
+    quantity: 3
+  faces:
+  - name: Concussive Blow
+    cost: 3
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Confuse an enemy. If you paid for this card
+      using a [physical] resource, deal 3 damage to that enemy.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/05031
+- names:
+  - Morale Boost
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 32
+    quantity: 3
+  faces:
+  - name: Morale Boost
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    text: '**Hero Action**: Choose a hero. Until the end of the round, that hero gets
+      +1 THW, +1 ATK, and +1 DEF'
+    flavor_text: '"This is a stand I need to take. This time, no compromises." --
+      Sam Wilson'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/05032
+- names:
+  - Down Time
+  packs:
+  - name: Ms. Marvel
+    sku: MC05en
+    position: 33
+    quantity: 3
+  faces:
+  - name: Down Time
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Condition
+    text: |-
+      Play under any player's control. Max 1 per player.
+      Your alter-ego gets +2 REC.
+    flavor_text: '"We should do this more often."'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc05en/33.png
+    marvelcdb_url: https://marvelcdb.com/card/05033

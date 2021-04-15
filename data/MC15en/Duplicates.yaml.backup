@@ -1,0 +1,118 @@
+- names:
+  - The Power of Justice
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 16
+    quantity: 2
+  faces:
+  - name: The Power of Justice
+    type: Resource
+    unique: false
+    aspect:
+    - Justice
+    text: |-
+      Max 2 per deck.
+      Double the number of resources this card generates while paying for a Justice _(yellow)_ card.
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/16.png
+    marvelcdb_url: https://marvelcdb.com/card/15016
+- names:
+  - Heroic Intuition
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 17
+    quantity: 2
+  faces:
+  - name: Heroic Intuition
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Skill
+    text: |-
+      Play under any player's control. Max 1 per player.
+      Your hero gets +1 THW.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/15017
+- names:
+  - Order and Chaos
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 18
+    quantity: 2
+  faces:
+  - name: Order and Chaos
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    text: |-
+      Team-Up (Quicksilver and Scarlet Witch). Max 1 per deck.
+      **Hero Interrupt**: When a treachery card is revealed from the encounter deck, cancel its "**When Revealed**" effects, then deal 2 damage to the villain.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/18.png
+    marvelcdb_url: https://marvelcdb.com/card/15018
+- names:
+  - Energy
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 20
+    quantity: 1
+  faces:
+  - name: Energy
+    type: Resource
+    unique: false
+    aspect:
+    - Basic
+    text: Max 1 per deck.
+    resources:
+      energy: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/20.png
+    marvelcdb_url: https://marvelcdb.com/card/15020
+- names:
+  - Genius
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 21
+    quantity: 1
+  faces:
+  - name: Genius
+    type: Resource
+    unique: false
+    aspect:
+    - Basic
+    text: Max 1 per deck.
+    resources:
+      mental: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/21.png
+    marvelcdb_url: https://marvelcdb.com/card/15021
+- names:
+  - Strength
+  packs:
+  - name: Scarlet Witch
+    sku: MC15en
+    position: 22
+    quantity: 1
+  faces:
+  - name: Strength
+    type: Resource
+    unique: false
+    aspect:
+    - Basic
+    text: Max 1 per deck.
+    resources:
+      physical: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/22.png
+    marvelcdb_url: https://marvelcdb.com/card/15022

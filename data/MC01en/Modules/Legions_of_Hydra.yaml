@@ -1,0 +1,81 @@
+- names:
+  - Legions of Hydra
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 180
+    quantity: 2
+  faces:
+  - name: Legions of Hydra
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed**: If Madame Hydra is not in play, search the encounter
+      deck and discard pile for Madame Hydra and put her into play engaged with you,
+      then shuffle the encounter deck. Place 2 additional threat here for each [[Hydra]]
+      enemy in play.'
+    boost_icons: 3
+    starting_threat: 3
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/180.png
+    marvelcdb_url: https://marvelcdb.com/card/01180
+  horizontal: true
+- names:
+  - Madame Hydra
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 181
+    quantity: 1
+  faces:
+  - name: Madame Hydra
+    type: Minion
+    unique: true
+    scheme: 2
+    scheme_text: '<b>Forced Response</b>: After Madame Hydra schemes or attacks, place
+      2 threat on the Legions of Hydra side scheme.'
+    attack: 2
+    attack_text: '<b>Forced Response</b>: After Madame Hydra schemes or attacks, place
+      2 threat on the Legions of Hydra side scheme.'
+    traits:
+    - Elite
+    - Hydra
+    text: Madame Hydra cannot take damage while the Legions of Hydra side scheme is
+      in play.
+    hit_points: 6
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/181.png
+    marvelcdb_url: https://marvelcdb.com/card/01181
+- names:
+  - Hydra Soldier
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 182
+    quantity: 3
+  - name: Captain America
+    sku: MC04en
+    position: 29
+    quantity: 2
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 153
+    quantity: 3
+  faces:
+  - name: Hydra Soldier
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 2
+    traits:
+    - Hydra
+    keywords:
+    - Guard
+    text: |-
+      Guard. _(While this minion is engaged with you, you cannot attack the villain.)_
+      **When Defeated**: Deal the engaged player an encounter card.
+    hit_points: 4
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/182.png
+    alternate_images:
+      - https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc04en/29.png
+      - https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/153.png 
+    marvelcdb_url: https://marvelcdb.com/card/01182
