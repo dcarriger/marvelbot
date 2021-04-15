@@ -1,27 +1,5 @@
 - names:
   - Spider-Woman
-  packs:
-  - name: The Rise of Red Skull
-    sku: MC10en
-    position: 31
-    quantity: 1
-  faces:
-  - name: Spider-Woman
-    type: Hero
-    unique: true
-    thwart: 1
-    attack: 1
-    defense: 1
-    traits:
-    - Avenger
-    - Spy
-    text: '"Superhuman Agility" — **Interrupt**: When you play an aspect card, Spider-Woman
-      gets +1 THW, +1 ATK, and +1 DEF until the end of the round. (limit once per
-      round for each aspect.)'
-    hit_points: 11
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/31A.png
-    marvelcdb_url: https://marvelcdb.com/card/04031a
-- names:
   - Jessica Drew
   packs:
   - name: The Rise of Red Skull
@@ -41,6 +19,21 @@
     hit_points: 11
     image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/31B.png
     marvelcdb_url: https://marvelcdb.com/card/04031b
+  - name: Spider-Woman
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 1
+    defense: 1
+    traits:
+    - Avenger
+    - Spy
+    text: '"Superhuman Agility" — **Interrupt**: When you play an aspect card, Spider-Woman
+      gets +1 THW, +1 ATK, and +1 DEF until the end of the round. (limit once per
+      round for each aspect.)'
+    hit_points: 11
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/31A.png
+    marvelcdb_url: https://marvelcdb.com/card/04031a
 - names:
   - Captain Marvel
   packs:

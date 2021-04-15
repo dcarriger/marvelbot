@@ -1,25 +1,5 @@
 - names:
   - Hawkeye
-  packs:
-  - name: The Rise of Red Skull
-    sku: MC10en
-    position: 1
-    quantity: 1
-  faces:
-  - name: Hawkeye
-    type: Hero
-    unique: true
-    thwart: 1
-    attack: 2
-    defense: 1
-    traits:
-    - Avenger
-    text: '"Quick Draw" — **Action**: Exhaust Hawkeye → ready Hawkeye''s bow.'
-    hit_points: 9
-    flavor_text: '"I may not be the mightiest Avenger, but I''m definitely the coolest."'
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/1A.png
-    marvelcdb_url: https://marvelcdb.com/card/04001a
-- names:
   - Clint Barton
   packs:
   - name: The Rise of Red Skull
@@ -37,6 +17,19 @@
     hit_points: 9
     image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/1B.png
     marvelcdb_url: https://marvelcdb.com/card/04001b
+  - name: Hawkeye
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 2
+    defense: 1
+    traits:
+    - Avenger
+    text: '"Quick Draw" — **Action**: Exhaust Hawkeye → ready Hawkeye''s bow.'
+    hit_points: 9
+    flavor_text: '"I may not be the mightiest Avenger, but I''m definitely the coolest."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/04001a
 - names:
   - Hawkeye's Bow
   packs:

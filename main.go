@@ -3,9 +3,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"gopkg.in/yaml.v2"
-	"marvelbot/card"
-	"marvelbot/manualcards"
 	"marvelbot/server"
 	"os"
 	"os/signal"
@@ -85,6 +82,7 @@ func main() {
 		}
 	 */
 
+	/*
 	// Convert manual cards over to our YAML format
 	var manualCards []*card.Card
 	for _, c := range manualcards.ManualCards {
@@ -105,12 +103,13 @@ func main() {
 		fmt.Println(err)
 		os.Exit(1)
 	}
+	 */
 
 	// Register the MessageCreate func as a callback for MessageCreate events.
 	srv.Session.AddHandler(srv.MessageCreate)
 
 	// Open a websocket connection to Discord and begin listening.
-	err = srv.Session.Open()
+	err := srv.Session.Open()
 	if err != nil {
 		srv.Logger.Fatal("error opening Discord websocket: ", err)
 		return

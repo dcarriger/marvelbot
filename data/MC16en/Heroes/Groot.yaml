@@ -15,8 +15,8 @@
     text: '_Growth Spurt_ — **Action**: Place 2 growth counters on Groot (to a maximum
       of 10). (Limit once per round.)'
     hit_points: 10
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/1B.png
-    marvelcdb_url: https://marvelcdb.com/card/16001b
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/16001a
   - name: Groot
     type: Hero
     unique: true
@@ -29,7 +29,7 @@
       of damage, remove that many growth counters from him. For each growth counter
       removed this way, prevent 1 of that damage.'
     hit_points: 10
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/1A.png
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/1B.png
     marvelcdb_url: https://marvelcdb.com/card/16001a
 - names:
   - Fruition
