@@ -16,8 +16,8 @@
     text: '_Tinkering_ — **Action**: Choose and discard a [[tech]] upgrade you control
       -> draw 2 cards. (Limit once per round.)'
     hit_points: 9
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/29B.png
-    marvelcdb_url: https://marvelcdb.com/card/16029b
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/29A.png
+    marvelcdb_url: https://marvelcdb.com/card/16029a
   - name: Rocket Raccoon
     type: Hero
     unique: true
@@ -29,7 +29,7 @@
     text: '_"Murdered You!"_ — **Response**: After you deal excess damage to an enemy,
       draw 1 card.'
     hit_points: 9
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/29A.png
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/29B.png
     marvelcdb_url: https://marvelcdb.com/card/16029a
 - names:
   - I've Got a Plan
