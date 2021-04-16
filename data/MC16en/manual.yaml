@@ -257,6 +257,8 @@
   horizontal: true
 - names:
   - Collector
+  - Collector I
+  - Collector 1
   packs:
   - name: "Galaxy’s Most Wanted"
     sku: MC16en
@@ -271,6 +273,8 @@
     marvelcdb_url: null
 - names:
   - Collector
+  - Collector II
+  - Collector 2
   packs:
   - name: "Galaxy’s Most Wanted"
     sku: MC16en
@@ -285,6 +289,8 @@
     marvelcdb_url: null
 - names:
   - Collector
+  - Collector III
+  - Collector 3
   packs:
   - name: "Galaxy’s Most Wanted"
     sku: MC16en
@@ -390,6 +396,8 @@
     marvelcdb_url: null
 - names:
   - Collector
+  - Collector A1
+  - Collector A2
   packs:
   - name: "Galaxy’s Most Wanted"
     sku: MC16en
@@ -400,10 +408,18 @@
     type: Villain
     unique: false
     text: null
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/80.png
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/80A.png
+    marvelcdb_url: null
+  - name: Collector
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/80B.png
     marvelcdb_url: null
 - names:
   - Collector
+  - Collector B1
+  - Collector B2
   packs:
   - name: "Galaxy’s Most Wanted"
     sku: MC16en
@@ -414,7 +430,13 @@
     type: Villain
     unique: false
     text: null
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/81.png
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/81A.png
+    marvelcdb_url: null
+  - name: Collector
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/81B.png
     marvelcdb_url: null
 - names:
   - The Missing Milano
@@ -1840,7 +1862,13 @@
     type: Side Scheme
     unique: false
     text: null
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/178.png
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/178A.png
+    marvelcdb_url: null
+  - name: Badoon Blitz
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/178B.png
     marvelcdb_url: null
   horizontal: true
 - names:
@@ -1855,7 +1883,13 @@
     type: Side Scheme
     unique: false
     text: null
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/179.png
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/179A.png
+    marvelcdb_url: null
+  - name: Gallery of Splendor
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/179B.png
     marvelcdb_url: null
   horizontal: true
 - names:
@@ -1870,7 +1904,13 @@
     type: Side Scheme
     unique: false
     text: null
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/180.png
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/180A.png
+    marvelcdb_url: null
+  - name: '"There Is No Escape"'
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/180B.png
     marvelcdb_url: null
   horizontal: true
 - names:
@@ -1885,7 +1925,13 @@
     type: Side Scheme
     unique: false
     text: null
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/181.png
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/181A.png
+    marvelcdb_url: null
+  - name: Guerilla Tactics
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/181B.png
     marvelcdb_url: null
   horizontal: true
 - names:
@@ -1900,8 +1946,12 @@
     type: Side Scheme
     unique: false
     text: null
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/182.png
-    marvelcdb_url: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/182A.png
+  - name: Kree Supremacy
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/182B.png
   horizontal: true
 - names:
   - Badoon Headhunter
