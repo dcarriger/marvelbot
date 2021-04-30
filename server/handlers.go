@@ -170,9 +170,9 @@ func (srv *Server) HandleCommands(s *discordgo.Session, m *discordgo.MessageCrea
 		}
 
 		// If the query was too short, reject it
-		if len(query) < 4 {
+		if len(query) < 3 {
 			msg := fmt.Sprintf(
-				"Director %s, the S.H.I.E.L.D. database requires that your query contain 4 or more characters:\n%s",
+				"Director %s, the S.H.I.E.L.D. database requires that your query contain 3 or more characters:\n%s",
 				u.Mention(), query)
 			_, err := s.ChannelMessageSend(m.ChannelID, msg)
 			if err != nil {
