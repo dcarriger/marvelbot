@@ -210,6 +210,15 @@ func (srv *Server) HandleCommands(s *discordgo.Session, m *discordgo.MessageCrea
 			}
 			// We found a rule, so we'll add it to the list of Rules to return to the user
 			matchedRules = append(matchedRules, r)
+		case "set":
+			cards := findCards(filter, query, srv.Cards)
+			// We didn't find a card, so we'll add the command to the list of failed commands
+			if len(cards) == 0 {
+				unmatchedCommands = append(unmatchedCommands, query)
+				break
+			}
+			// We found a card (or cards), so we'll add them to the list of Cards to return to the user
+			matchedCards = append(matchedCards, cards...)
 		default:
 			cards := findCards(filter, query, srv.Cards)
 			// We didn't find a card, so we'll add the command to the list of failed commands
@@ -292,8 +301,8 @@ func sendCardInfoMessage(srv *Server, s *discordgo.Session, m *discordgo.Message
 	// Send a message back to the channel
 	ms := &discordgo.MessageSend{
 		Embed: &discordgo.MessageEmbed{
-			Color:       0x78141b,
-			Fields:      fields,
+			Color:  0x78141b,
+			Fields: fields,
 		},
 	}
 
@@ -903,9 +912,78 @@ func normalize(s string) string {
 // findCards is a function that takes a filter and a query string and returns the closest matching Cards.
 func findCards(filter string, query string, cards []*card.Card) (matches []*card.Card) {
 	switch filter {
+	// Pack has different logic than the other filters, since we are not looking at the Type field
+	case "pack":
+		lowercaseMatches := []*card.Card{}
+		containsMatches := []*card.Card{}
+		levenshteinMatches := []*card.Card{}
+		for _, c := range cards {
+			for _, pack := range c.Packs {
+				packName := strings.ToLower(pack.Name)
+				// Pack name is an exact match
+				// e.g., "captain america" == "captain america"
+				if query == packName {
+					lowercaseMatches = append(lowercaseMatches, c)
+					break
+				}
+				// Set name is a contains match
+				if strings.Contains(packName, query) {
+					containsMatches = append(containsMatches, c)
+					break
+				}
+			}
+		}
+		// Prefer exact card name matching
+		if len(lowercaseMatches) > 0 {
+			matches = append(matches, lowercaseMatches...)
+			return
+		}
+		// Next, prefer "contains" card name matching
+		if len(containsMatches) > 0 {
+			matches = append(matches, containsMatches...)
+			return
+		}
+		// If the other algorithms haven't matched, we'll use Levenshtein distance
+		// This is in a separate for loop since we have to create a new object for each card
+		levenshteinMatches = append(levenshteinMatches, findLevenshteinCards(filter, query, cards)...)
+		matches = append(matches, levenshteinMatches...)
+		return matches
 	// Set has different logic than the other filters, since we are not looking at the Type field
 	case "set":
-		// TODO - implement me
+		lowercaseMatches := []*card.Card{}
+		containsMatches := []*card.Card{}
+		levenshteinMatches := []*card.Card{}
+		for _, c := range cards {
+			for _, set := range c.Sets {
+				setName := strings.ToLower(set.Name)
+				// Set name is an exact match
+				// e.g., "expert" == "expert"
+				if query == setName {
+					lowercaseMatches = append(lowercaseMatches, c)
+					break
+				}
+				// Set name is a contains match
+				if strings.Contains(setName, query) {
+					containsMatches = append(containsMatches, c)
+					break
+				}
+			}
+		}
+		// Prefer exact card name matching
+		if len(lowercaseMatches) > 0 {
+			matches = append(matches, lowercaseMatches...)
+			return
+		}
+		// Next, prefer "contains" card name matching
+		if len(containsMatches) > 0 {
+			matches = append(matches, containsMatches...)
+			return
+		}
+		// If the other algorithms haven't matched, we'll use Levenshtein distance
+		// This is in a separate for loop since we have to create a new object for each card
+		levenshteinMatches = append(levenshteinMatches, findLevenshteinCards(filter, query, cards)...)
+		matches = append(matches, levenshteinMatches...)
+		return matches
 	// These filters compare against face.Type
 	case "attachment", "ally", "alter-ego", "hero", "minion", "upgrade", "obligation", "support", "villain":
 		lowercaseMatches := []*card.Card{}
@@ -1006,6 +1084,33 @@ func findLevenshteinCards(filter string, query string, cards []*card.Card) (best
 	options := levenshtein.DefaultOptions
 	matches := []*LevenshteinCard{}
 	for _, c := range cards {
+		// Pack match logic
+		if filter == "pack" {
+			for _, pack := range c.Packs {
+				packName := strings.ToLower(pack.Name)
+				distance := levenshtein.DistanceForStrings([]rune(query), []rune(packName), options)
+				ratio := levenshtein.RatioForStrings([]rune(query), []rune(packName), options)
+				// 70% match is our cutoff point, we'll add these to a slice
+				if ratio > 0.70 {
+					matches = append(matches, &LevenshteinCard{c, distance, ratio})
+				}
+			}
+			continue
+		}
+		// Set match logic
+		if filter == "set" {
+			for _, set := range c.Sets {
+				setName := strings.ToLower(set.Name)
+				distance := levenshtein.DistanceForStrings([]rune(query), []rune(setName), options)
+				ratio := levenshtein.RatioForStrings([]rune(query), []rune(setName), options)
+				// 70% match is our cutoff point, we'll add these to a slice
+				if ratio > 0.70 {
+					matches = append(matches, &LevenshteinCard{c, distance, ratio})
+				}
+			}
+			continue
+		}
+		// Card name match logic
 		for _, cardName := range c.Names {
 			cardName = strings.ToLower(cardName)
 			distance := levenshtein.DistanceForStrings([]rune(query), []rune(cardName), options)

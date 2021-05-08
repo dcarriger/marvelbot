@@ -5,6 +5,8 @@
     sku: MC01en
     position: 186
     quantity: 2
+  sets:
+  - name: Standard
   faces:
   - name: Advance
     type: Treachery
@@ -21,6 +23,8 @@
     sku: MC01en
     position: 187
     quantity: 2
+  sets:
+  - name: Standard
   faces:
   - name: Assault
     type: Treachery
@@ -39,6 +43,8 @@
     sku: MC01en
     position: 188
     quantity: 1
+  sets:
+  - name: Standard
   faces:
   - name: Caught Off Guard
     type: Treachery
@@ -55,6 +61,8 @@
     sku: MC01en
     position: 189
     quantity: 1
+  sets:
+  - name: Standard
   faces:
   - name: Gang-Up
     type: Treachery
@@ -72,6 +80,8 @@
     sku: MC01en
     position: 190
     quantity: 1
+  sets:
+  - name: Standard
   faces:
   - name: Shadow of the Past
     type: Treachery

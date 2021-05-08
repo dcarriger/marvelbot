@@ -5,6 +5,8 @@
     sku: MC01en
     position: 109
     quantity: 1
+  sets:
+  - name: Bomb Scare
   faces:
   - name: Bomb Scare
     type: Side Scheme
@@ -26,6 +28,8 @@
     sku: MC01en
     position: 110
     quantity: 2
+  sets:
+  - name: Bomb Scare
   faces:
   - name: Hydra Bomber
     type: Minion
@@ -49,6 +53,8 @@
     sku: MC01en
     position: 111
     quantity: 1
+  sets:
+  - name: Bomb Scare
   faces:
   - name: Explosion
     type: Treachery
@@ -66,6 +72,8 @@
     sku: MC01en
     position: 112
     quantity: 2
+  sets:
+  - name: Bomb Scare
   faces:
   - name: False Alarm
     type: Treachery

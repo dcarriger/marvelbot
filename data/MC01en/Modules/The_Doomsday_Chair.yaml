@@ -5,6 +5,8 @@
     sku: MC01en
     position: 183
     quantity: 2
+  sets:
+  - name: The Doomsday Chair
   faces:
   - name: The Doomsday Chair
     type: Side Scheme
@@ -24,6 +26,8 @@
     sku: MC01en
     position: 184
     quantity: 1
+  sets:
+  - name: The Doomsday Chair
   faces:
   - name: MODOK
     type: Minion
@@ -49,6 +53,8 @@
     sku: MC01en
     position: 185
     quantity: 3
+  sets:
+  - name: The Doomsday Chair
   faces:
   - name: Biomechanical Upgrades
     type: Attachment

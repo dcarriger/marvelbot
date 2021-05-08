@@ -5,6 +5,8 @@
     sku: MC01en
     position: 128
     quantity: 1
+  sets:
+  - name: Masters of Evil
   faces:
   - name: The Masters of Evil
     type: Side Scheme
@@ -25,6 +27,8 @@
     sku: MC01en
     position: 129
     quantity: 1
+  sets:
+  - name: Masters of Evil
   faces:
   - name: Radioactive Man
     type: Minion
@@ -49,6 +53,8 @@
     sku: MC01en
     position: 130
     quantity: 1
+  sets:
+  - name: Masters of Evil
   faces:
   - name: Whirlwind
     type: Minion
@@ -72,6 +78,8 @@
     sku: MC01en
     position: 131
     quantity: 1
+  sets:
+  - name: Masters of Evil
   faces:
   - name: Tiger Shark
     type: Minion
@@ -96,6 +104,8 @@
     sku: MC01en
     position: 132
     quantity: 1
+  sets:
+  - name: Masters of Evil
   faces:
   - name: Melter
     type: Minion
@@ -119,6 +129,8 @@
     sku: MC01en
     position: 133
     quantity: 2
+  sets:
+  - name: Masters of Evil
   faces:
   - name: Masters of Mayhem
     type: Treachery

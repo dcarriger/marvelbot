@@ -20,6 +20,7 @@ const IMAGE_BASEDIR = "images"
 type Card struct {
 	Names      []string `json:"names" yaml:"names"`                               // Names in which the card is known by.
 	Packs      []*Pack  `json:"packs" yaml:"packs"`                               // Packs in which the card has appeared.
+	Sets       []*Set   `json:"sets"  yaml:"sets"`                                // Sets in which the card is a member.
 	Faces      []*Face  `json:"faces" yaml:"faces"`                               // Supports multiple sides of the card.
 	Horizontal bool     `json:"horizontal,omitempty" yaml:"horizontal,omitempty"` // Whether the card is rotated horizontally.
 }
@@ -79,7 +80,7 @@ type MarvelCDBCard struct {
 	Hidden                bool    `json:"hidden"`
 	DoubleSided           bool    `json:"double_sided"`
 	BackText              *string `json:"back_text"`
-	BackFlavor            *string  `json:"back_flavor"`
+	BackFlavor            *string `json:"back_flavor"`
 	OCTGNId               string  `json:"octgn_id"`
 	URL                   *string `json:"url"`
 	ImageSrc              string  `json:"imagesrc"`
@@ -187,6 +188,11 @@ type Pack struct {
 	SKU      string `json:"sku" yaml:"sku"`           // For PnP sets, we will create our own SKU.
 	Position *int   `json:"position" yaml:"position"` // Position may not exist for entities like status cards.
 	Quantity *int   `json:"quantity" yaml:"quantity"` // Quantity may not exist for entities like status cards.
+}
+
+// Set is a subset of Marvel Champions cards, such as the Spider-Man Hero deck or the Expert encounter cards
+type Set struct {
+	Name string `json:"name" yaml:"name"`
 }
 
 // DownloadImages will attempt to download all images for the card from S3 to local storage.

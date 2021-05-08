@@ -5,6 +5,8 @@
     sku: MC01en
     position: 180
     quantity: 2
+  sets:
+  - name: Legions of Hydra
   faces:
   - name: Legions of Hydra
     type: Side Scheme
@@ -25,6 +27,8 @@
     sku: MC01en
     position: 181
     quantity: 1
+  sets:
+  - name: Legions of Hydra
   faces:
   - name: Madame Hydra
     type: Minion
@@ -59,6 +63,10 @@
     sku: MC10en
     position: 153
     quantity: 3
+  sets:
+  - name: Legions of Hydra
+  - name: Captain America Nemesis
+  - name: Hydra Patrol
   faces:
   - name: Hydra Soldier
     type: Minion

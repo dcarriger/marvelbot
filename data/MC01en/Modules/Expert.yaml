@@ -5,6 +5,8 @@
     sku: MC01en
     position: 191
     quantity: 1
+  sets:
+  - name: Expert
   faces:
   - name: Exhaustion
     type: Treachery
@@ -24,6 +26,8 @@
     sku: MC01en
     position: 192
     quantity: 1
+  sets:
+  - name: Expert
   faces:
   - name: Masterplan
     type: Treachery
@@ -41,6 +45,8 @@
     sku: MC01en
     position: 193
     quantity: 1
+  sets:
+  - name: Expert
   faces:
   - name: Under Fire
     type: Treachery
