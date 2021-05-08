@@ -80,30 +80,30 @@ func main() {
 			fmt.Println(err)
 			os.Exit(1)
 		}
-	 */
+	*/
 
 	/*
-	// Convert manual cards over to our YAML format
-	var manualCards []*card.Card
-	for _, c := range manualcards.ManualCards {
-		convertedCard := c.Convert()
-		manualCards = append(manualCards, convertedCard)
-	}
+		// Convert manual cards over to our YAML format
+		var manualCards []*card.Card
+		for _, c := range manualcards.ManualCards {
+			convertedCard := c.Convert()
+			manualCards = append(manualCards, convertedCard)
+		}
 
-	// Write the converted YAML to a file somewhere
-	yamlText, err := yaml.Marshal(&manualCards)
-	f, err := os.Create("data/manual.yaml")
-	if err != nil {
-		fmt.Println(err)
-		os.Exit(1)
-	}
-	defer f.Close()
-	_, err = f.Write(yamlText)
-	if err != nil {
-		fmt.Println(err)
-		os.Exit(1)
-	}
-	 */
+		// Write the converted YAML to a file somewhere
+		yamlText, err := yaml.Marshal(&manualCards)
+		f, err := os.Create("data/manual.yaml")
+		if err != nil {
+			fmt.Println(err)
+			os.Exit(1)
+		}
+		defer f.Close()
+		_, err = f.Write(yamlText)
+		if err != nil {
+			fmt.Println(err)
+			os.Exit(1)
+		}
+	*/
 
 	// Register the MessageCreate func as a callback for MessageCreate events.
 	srv.Session.AddHandler(srv.MessageCreate)

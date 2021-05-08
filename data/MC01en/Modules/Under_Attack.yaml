@@ -5,6 +5,8 @@
     sku: MC01en
     position: 151
     quantity: 1
+  sets:
+  - name: Under Attack
   faces:
   - name: Under Attack
     type: Side Scheme
@@ -24,6 +26,8 @@
     sku: MC01en
     position: 152
     quantity: 1
+  sets:
+  - name: Under Attack
   faces:
   - name: Vibranium Armor
     type: Attachment
@@ -44,6 +48,8 @@
     sku: MC01en
     position: 153
     quantity: 1
+  sets:
+  - name: Under Attack
   faces:
   - name: Concussion Blasters
     type: Attachment
@@ -64,6 +70,8 @@
     sku: MC01en
     position: 154
     quantity: 2
+  sets:
+  - name: Under Attack
   faces:
   - name: Concussive Blast
     type: Treachery

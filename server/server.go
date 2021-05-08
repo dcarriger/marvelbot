@@ -20,12 +20,12 @@ const baseURL = "https://marvelcdb.com/api/public"
 
 // Server is used to handle dependency injection into our bot.
 type Server struct {
-	Session *discordgo.Session
-	Client  *http.Client
-	Cards   []*card.Card
+	Session  *discordgo.Session
+	Client   *http.Client
+	Cards    []*card.Card
 	Homebrew []*card.Card
-	Rules   []*rule.Rule
-	Logger  *logrus.Logger
+	Rules    []*rule.Rule
+	Logger   *logrus.Logger
 }
 
 // NewServer creates a new Server with all our expected dependencies - cards, logging, and a working Discord session.
@@ -75,12 +75,12 @@ func NewServer(token string) (s *Server) {
 
 	// Build and return our server
 	s = &Server{
-		Session: dg,
-		Client:  client,
-		Cards:   cards,
+		Session:  dg,
+		Client:   client,
+		Cards:    cards,
 		Homebrew: homebrew,
-		Rules:   rules,
-		Logger:  log,
+		Rules:    rules,
+		Logger:   log,
 	}
 	return s
 }
