@@ -7,6 +7,8 @@
       sku: MC18en
       position: 1
       quantity: 1
+  sets:
+  - name: Gamora
   faces:
     - name: Gamora
       type: Alter-Ego
@@ -49,6 +51,8 @@
       sku: MC18en
       position: 2
       quantity: 1
+  sets:
+  - name: Gamora
   faces:
     - name: Nebula
       cost: 2
@@ -72,12 +76,37 @@
       hit_points: 2
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/2.png"
 - names:
+  - Acrobatic Move
+  packs:
+    - name: Gamora
+      sku: MC18en
+      position: 3
+      quantity: 2
+  sets:
+  - name: Gamora
+  faces:
+    - name: Acrobatic Move
+      cost: 0
+      type: Event
+      unique: false
+      traits:
+        - Attack
+      text: |
+        "**Hero Action** _(attack)_: Deal 2 damage to an enemy.
+      flavor_text: |
+        “If you really knew me as well as you thought you did, you would not have attacked me.” —Gamora
+      resources:
+        energy: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/3.png"
+- names:
   - Crosscounter
   packs:
     - name: Gamora
       sku: MC18en
       position: 4
-      quantity: 1
+      quantity: 2
+  sets:
+  - name: Gamora
   faces:
     - name: Crosscounter
       cost: 1
@@ -99,12 +128,37 @@
         physical: 1
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/4.png"
 - names:
+  - Set the Pace
+  packs:
+    - name: Gamora
+      sku: MC18en
+      position: 5
+      quantity: 2
+  sets:
+  - name: Gamora
+  faces:
+    - name: Set the Pace
+      cost: 0
+      type: Event
+      unique: false
+      traits:
+        - Thwart
+      text: |
+        "**Hero Action** _(thwart)_: Remove 1 threat from a scheme."
+      flavor_text: |
+        “They don’t realize it’s over.” —Gamora
+      resources:
+        physical: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/5.png"
+- names:
   - Decisive Blow
   packs:
     - name: Gamora
       sku: MC18en
       position: 6
-      quantity: 1
+      quantity: 2
+  sets:
+  - name: Gamora
   faces:
     - name: Decisive Blow
       cost: 2
@@ -123,12 +177,60 @@
         physical: 1
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/6.png"
 - names:
+  - Forward Momentum
+  packs:
+    - name: Gamora
+      sku: MC18en
+      position: 7
+      quantity: 2
+  sets:
+  - name: Gamora
+  faces:
+    - name: Forward Momentum
+      cost: 2
+      type: Event
+      unique: false
+      traits:
+        - Thwart
+      text: |
+        "**Hero Action** _(thwart)_: Remove 3 threat from a scheme (5 threat instead if you have played an **Attack** event this turn)."
+      flavor_text: |
+        “This isn’t going well for you.” —Gamora
+      resources:
+        mental: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/7.png"
+- names:
+  - Conditioning Room
+  packs:
+    - name: Gamora
+      sku: MC18en
+      position: 8
+      quantity: 1
+  sets:
+  - name: Gamora
+  faces:
+    - name: Conditioning Room
+      cost: 1
+      type: Support
+      unique: false
+      traits:
+        - Location
+      text: |
+        "**Alter-Ego Action**: Exhaust Conditioning Room → return the bottommost **Attack** or **Thwart** event from your discard pile to your hand. Heal 1 damage from Gamora."
+      flavor_text: |
+        “I’m always prepared.” —Gamora
+      resources:
+        mental: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/8.png"
+- names:
   - Keen Instincts
   packs:
     - name: Gamora
       sku: MC18en
       position: 9
-      quantity: 1
+      quantity: 2
+  sets:
+  - name: Gamora
   faces:
     - name: Keen Instincts
       cost: 1
@@ -146,6 +248,79 @@
       resources:
         energy: 1
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/9.png"
+- names:
+  - Gamora’s Sword
+  packs:
+    - name: Gamora
+      sku: MC18en
+      position: 10
+      quantity: 1
+  sets:
+  - name: Gamora
+  faces:
+    - name: Gamora’s Sword
+      cost: 3
+      type: Upgrade
+      unique: true
+      traits:
+        - Weapon
+      text: |
+        "Restricted. _(Max 2 restricted cards per player).
+        **Response**: After you play an **Attack** event, deal 1 damage to an enemy."
+      resources:
+        physical: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/10.png"
+- names:
+  - Angela
+  packs:
+    - name: Gamora
+      sku: MC18en
+      position: 11
+      quantity: 1
+  faces:
+    - name: Angela
+      subtitle: Aldrif Odinsdottir
+      cost: 0
+      type: Ally
+      unique: true
+      aspect:
+        - Aggression
+      thwart: 0
+      thwart_consequential: 1
+      attack: 2
+      attack_consequential: 1
+      traits:
+        - Asgard
+        - Guardian
+      text: |
+        "**Forced Response**: After Angela enters play under your control, search the top 10 cards of the encounter deck for a minion and put it into play engaged with you. Shuffle the encounter deck. If a minion was not put into play this way, discard Angela."
+      resources:
+        mental: 1
+      hit_points: 3
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/11.png"
+- names:
+  - Clobber
+  packs:
+    - name: Gamora
+      sku: MC18en
+      position: 12
+      quantity: 3
+  faces:
+    - name: Clobber
+      cost: 2
+      type: Event
+      unique: false
+      aspect:
+        - Aggression
+      traits:
+        - Attack
+      text: |
+        "**Hero Action** _(attack)_: Deal 3 damage to an enemy. If this is the first card you have played this round, return this card to your hand."
+      flavor_text: |
+        “If I have to hit you again, you’ll stay down. For good.” —Gamora
+      resources:
+        physical: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/12.png"
 - names:
   - Plan of Attack
   packs:
@@ -225,6 +400,59 @@
         mental: 1
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/16.png"
 - names:
+  - Godslayer
+  packs:
+    - name: Gamora
+      sku: MC18en
+      position: 18
+      quantity: 1
+  faces:
+    - name: Godslayer
+      cost: 3
+      type: Upgrade
+      unique: true
+      aspect:
+        - Aggression
+      traits:
+        - Weapon
+      text: |
+        "Restricted.
+        **Hero Interrupt**: When your hero makes a basic attack against a unique enemy ([Unique]), exhaust Godslayer → your hero gets +2 ATK for that attack."
+      resources:
+        mental: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/18.png"
+- names:
+  - Drax
+  packs:
+    - name: Gamora
+      sku: MC18en
+      position: 2
+      quantity: 1
+  faces:
+    - name: Drax
+      cost: 3
+      type: Ally
+      unique: true
+      type: Ally
+      unique: true
+      aspect:
+        - Basic
+      thwart: 1
+      thwart_consequential: 1
+      attack: 3
+      attack_consequential: 1
+      traits:
+        - Guardian
+      text: |
+        "Play only if your identity has the **Guardian** trait.
+        Drax cannot attack minions."
+      flavor_text: |
+        “Behold, this battle has raised my spirits greatly!”
+      resources:
+        physical: 1
+      hit_points: 4
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/19.png"
+- names:
   - Hit and Run
   packs:
     - name: Gamora
@@ -253,12 +481,56 @@
         energy: 1
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/20.png"
 - names:
+  - Unfulfilled Destiny
+  packs:
+    - name: Gamora
+      sku: MC18en
+      position: 24
+      quantity: 1
+  sets:
+  - name: Gamora
+  faces:
+    - name: Unfulfilled Destiny
+      type: Obligation
+      unique: false
+      text: |
+        "**_Give to the Gamora player._**
+        You may flip to alter-ego form. Choose:
+        • Exhaust your alter-ego → remove Unfulfilled Destiny from the game.
+        • Choose and discard 2 events from your hand. Discard this obligation."
+      boost_icons: 2
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/24.png"
+- names:
+  - Sibling Rivalry
+  packs:
+  - name: Gamora
+    sku: MC18en
+    position: 25
+    quantity: 1
+  sets:
+  - name: Gamora Nemesis
+  faces:
+  - name: Sibling Rivalry
+    type: Side Scheme
+    unique: false
+    text: |
+      "Players other than Gamora cannot remove threat from Sibling Rivalry.
+      **Forced Response**: After the villain phase begins, deal 1 facedown encounter card to Gamora." 
+    boost_icons: 3
+    starting_threat: 4
+    flavor_text: |
+     “One day, sister, our father will see that I am far more worthy than you.” –Nebula 
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/25.png
+  horizontal: true
+- names:
   - Nebula
   packs:
     - name: Gamora
       sku: MC18en
       position: 26
       quantity: 1
+  sets:
+  - name: Gamora Nemesis
   faces:
     - name: Nebula
       type: Minion
@@ -277,3 +549,112 @@
       hit_points: 5
       boost_icons: 3
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/26.png"
+- names:
+  - In a Bind
+  packs:
+  - name: Gamora
+    sku: MC18en
+    position: 27
+    quantity: 1
+  sets:
+    - name: Gamora Nemesis
+  faces:
+  - name: In a Bind
+    type: Attachment
+    unique: false
+    text: |
+      "Attach to Gamora.
+      Treat Gamora’s printed text box as if it were blank _(except for **Traits**)_.
+      **Hero Action**: Choose and discard an **Attack** event from your hand and deal 1 damage to Gamora → discard this card."
+    boost_icons: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/27.png
+- names:
+  - Waylay
+  packs:
+  - name: Gamora
+    sku: MC18en
+    position: 28
+    quantity: 2
+  sets:
+    - name: Gamora Nemesis
+  faces:
+  - name: Waylay
+    type: Treachery
+    unique: false
+    text: |
+      "**When Revealed**: Stun and confuse Gamora. If Gamora is already stunned or confused, this card gains surge."
+    flavor_text: |
+      “You won’t be father’s favorite for much longer, dear sister.” –Nebula
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/28.png
+- names:
+  - Pivotal Moment
+  packs:
+    - name: Gamora
+      sku: MC18en
+      position: 29
+      quantity: 3
+  faces:
+    - name: Pivotal Moment
+      cost: 2
+      type: Event
+      unique: false
+      aspect:
+        - Justice
+      traits:
+        - Attack
+      text: |
+        "**Hero Action** _(attack)_: Deal 2 damage to the villain (5 damage instead if there is no threat on the main scheme)."
+      flavor_text: |
+        “This isn’t quite what I had in mind... but I’ll take it!” —Rocket Raccoon
+      resources:
+        physical: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/29.png"
+- names:
+  - Comms Implant
+  packs:
+    - name: Gamora
+      sku: MC18en
+      position: 30
+      quantity: 3
+  faces:
+    - name: Comms Implant
+      cost: 1
+      type: Upgrade
+      unique: false
+      aspect:
+        - Leadership
+      traits:
+        - Item
+        - Tech
+      text: |
+        "Attach to a **Guardian** ally. Max 1 per ally.
+        Attached ally gets +1 THW and +1 hit point."
+      flavor_text: |
+        “So... you come here often?” —Peter Quill
+      resources:
+        mental: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/30.png"
+- names:
+  - "True Grit"
+  packs:
+    - name: Gamora
+      sku: MC18en
+      position: 31
+      quantity: 3
+  faces:
+    - name: "True Grit"
+      cost: 1
+      type: Event
+      unique: false
+      aspect:
+        - Protection
+      traits:
+        - Thwart
+      text: |
+        "**Response** _(thwart)_: After your hero defends against an enemy attack, remove threat from a scheme equal to your hero’s THW."
+      flavor_text: |
+        “Just remember, I didn’t start this!” –Luke Cage
+      resources:
+        energy: 1
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/31.png"

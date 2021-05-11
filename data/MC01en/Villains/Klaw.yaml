@@ -8,6 +8,8 @@
     sku: MC01en
     position: 113
     quantity: 1
+  sets:
+  - name: Klaw
   faces:
   - name: Klaw
     type: Villain
@@ -35,6 +37,8 @@
     sku: MC01en
     position: 114
     quantity: 1
+  sets:
+  - name: Klaw
   faces:
   - name: Klaw
     type: Villain
@@ -62,6 +66,8 @@
     sku: MC01en
     position: 115
     quantity: 1
+  sets:
+  - name: Klaw
   faces:
   - name: Klaw
     type: Villain
@@ -86,6 +92,8 @@
     sku: MC01en
     position: 116
     quantity: 1
+  sets:
+  - name: Klaw
   faces:
   - name: Underground Distribution
     type: Main Scheme
@@ -117,6 +125,8 @@
     sku: MC01en
     position: 117
     quantity: 1
+  sets:
+  - name: Klaw
   faces:
   - name: Secret Rendezvous
     type: Main Scheme
@@ -147,6 +157,8 @@
     sku: MC01en
     position: 118
     quantity: 1
+  sets:
+  - name: Klaw
   faces:
   - name: Sonic Converter
     type: Attachment
@@ -169,6 +181,8 @@
     sku: MC01en
     position: 119
     quantity: 1
+  sets:
+  - name: Klaw
   faces:
   - name: Solid-Sound Body
     type: Attachment
@@ -189,6 +203,8 @@
     sku: MC01en
     position: 120
     quantity: 3
+  sets:
+  - name: Klaw
   faces:
   - name: Armored Guard
     type: Minion
@@ -214,6 +230,8 @@
     sku: MC01en
     position: 121
     quantity: 2
+  sets:
+  - name: Klaw
   faces:
   - name: Weapons Runner
     type: Minion
@@ -237,6 +255,8 @@
     sku: MC01en
     position: 122
     quantity: 2
+  sets:
+  - name: Klaw
   faces:
   - name: Klaw's Vengeance
     type: Treachery
@@ -254,6 +274,8 @@
     sku: MC01en
     position: 123
     quantity: 2
+  sets:
+  - name: Klaw
   faces:
   - name: Sonic Boom
     type: Treachery
@@ -271,6 +293,8 @@
     sku: MC01en
     position: 124
     quantity: 2
+  sets:
+  - name: Klaw
   faces:
   - name: Sound Manipulation
     type: Treachery
@@ -288,6 +312,8 @@
     sku: MC01en
     position: 125
     quantity: 1
+  sets:
+  - name: Klaw
   faces:
   - name: Defense Network
     type: Side Scheme
@@ -306,6 +332,8 @@
     sku: MC01en
     position: 126
     quantity: 1
+  sets:
+  - name: Klaw
   faces:
   - name: Illegal Arms Factory
     type: Side Scheme
@@ -325,6 +353,8 @@
     sku: MC01en
     position: 127
     quantity: 1
+  sets:
+  - name: Klaw
   faces:
   - name: The "Immortal" Klaw
     type: Side Scheme
