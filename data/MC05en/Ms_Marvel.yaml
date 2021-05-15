@@ -423,6 +423,10 @@
     sku: MC05en
     position: 24
     quantity: 3
+  - name: Star-Lord
+    sku: MC17en
+    position: 31
+    quantity: 3
   faces:
   - name: Enhanced Reflexes
     cost: 2
