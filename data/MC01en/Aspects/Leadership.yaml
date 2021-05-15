@@ -87,6 +87,11 @@
     sku: MC01en
     position: 69
     quantity: 3
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 16
+    quantity: 2
   faces:
   - name: Get Ready
     cost: 0
@@ -151,6 +156,10 @@
   - name: Core Set
     sku: MC01en
     position: 72
+    quantity: 2
+  - name: Star-Lord
+    sku: MC17en
+    position: 18
     quantity: 2
   faces:
   - name: The Power of Leadership

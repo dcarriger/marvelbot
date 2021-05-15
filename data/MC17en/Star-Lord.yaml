@@ -1,191 +1,683 @@
----
-# Star-Lord
 - names:
-    - Star-Lord
-    - Peter Quill
+  - Star-Lord
+  - Peter Quill
   packs:
-    - name: Star-Lord
-      sku: MC17en
-      position: 1
-      quantity: 1
+  - name: Star-Lord
+    sku: MC17en
+    position: 1
+    quantity: 1
+  sets:
+  - name: Star-Lord
   faces:
-    - name: Peter Quill
-      type: Alter-Ego
-      unique: true
-      recover: 3
-      traits:
-        - Outlaw
-      keywords:
-        - Setup
-      text: |
-        "**Setup**: Search your deck and discard pile for
-        a copy of the Element Gun upgrade and add
-        it to your hand. Shuffle your deck.
-        _Smooth Talker_ — **Action**: Choose a card
-        in your hand. Swap that card with the top
-        card of your deck. (Limit once per round.)"
-      hand_size: 6
-      hit_points: 10
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/1B.png"
-    - name: Star-Lord
-      type: Hero
-      unique: true
-      thwart: 2
-      attack: 2
-      defense: 1
-      traits:
-        - Guardian
-      text: |
-        "Each ally you control gains the **Guardian** trait.
-        “What could go wrong?” — **Interrupt**:
-        When you play a card from your hand,
-        deal yourself 1 facedown encounter card
-        → reduce the resource cost to play that
-        card by 3. (Limit once per round.)"
-      hand_size: 5
-      hit_points: 10
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/1A.png"
+  - name: Peter Quill
+    type: Alter Ego
+    unique: true
+    recover: 3
+    traits:
+    - Outlaw
+    text: |-
+      **Setup:** Search your deck and discard pile for a copy of the Element Gun upgrade and add it to your hand.
+       Smooth Talker - **Action:** Choose a card in your hand. Swap that card with the top card of your deck. (Limit once per round.)
+    hit_points: 10
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/1B.png
+    marvelcdb_url: https://marvelcdb.com/card/17001b
+  - name: Star-Lord
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 2
+    defense: 1
+    traits:
+    - Guardian
+    text: |-
+      Each ally you control gains the [[guardian]] trait.
+       "What could go wrong?" - **Interrupt:** When you play a card from your hand, deal yourself 1 facedown encounter card → reduce the cost to play that card by 3. (Limit once per round.)
+    hit_points: 10
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/17001a
+- names:
+  - Nova Prime
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 2
+    quantity: 1
+  sets:
+  - name: Star-Lord
+  faces:
+  - name: Nova Prime
+    subtitle: Richard Rider
+    cost: 5
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 3
+    attack_consequential: 1
+    traits:
+    - Aerial
+    - Nova Corps
+    text: '**Response:** After you play Nova Prime from your hand, defeat a non-[[elite]]
+      minion.'
+    hit_points: 3
+    flavor_text: '"This is for Nova Corps!" - Nova Prime'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/17002
 - names:
   - Daring Escape
   packs:
-    - name: Star-Lord
-      sku: MC17en
-      position: 3
-      quantity: 1
+  - name: Star-Lord
+    sku: MC17en
+    position: 3
+    quantity: 3
+  sets:
+  - name: Star-Lord
   faces:
-    - name: Daring Escape
-      cost: 0
-      type: Event
-      unique: false
-      text: |
-        "**Hero Action**: Deal yourself 1 facedown
-        encounter card → ready your hero and
-        draw 1 card."
-      flavor_text: |
-        “Okay, not to brag, but that was probably the bravest
-        thing that any one of us has ever done.” —Star-Lord
-      resources:
-        energy: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/3.png"
+  - name: Daring Escape
+    cost: 0
+    type: Event
+    unique: false
+    text: '**Hero Action** Deal yourself 1 facedown encounter card → ready your hero
+      and draw 1 card.'
+    flavor_text: '"Okay, not to brag, but that was probably the bravest thing that
+      anyone one of us has ever done." - Star-lord'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/17003
+- names:
+  - Gutsy Move
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 4
+    quantity: 2
+  sets:
+  - name: Star-Lord
+  faces:
+  - name: Gutsy Move
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Thwart
+    text: '**Hero Action** _(thwart)_: Remove 2 threat from a scheme. Remove 2 additional
+      threat from that scheme for each facedown encounter card in front of you.'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/17004
 - names:
   - Sliding Shot
   packs:
-    - name: Star-Lord
-      sku: MC17en
-      position: 5
-      quantity: 1
+  - name: Star-Lord
+    sku: MC17en
+    position: 5
+    quantity: 3
+  sets:
+  - name: Star-Lord
   faces:
-    - name: Sliding Shot
-      cost: 3
-      type: Event
-      unique: false
-      traits:
-        - Attack
-      text: |
-        "Play only if you control an Element Gun.
-        **Hero Action** _(attack)_: Deal 5 damage
-        to an enemy. Deal 2 additional damage
-        to that enemy for each facedown
-        encounter card in front of you."
-      resources:
-        physical: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/5.png"
+  - name: Sliding Shot
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    text: |-
+      Play only if you control an Element Gun.
+       **Hero Action** _(attack)_: Deal 5 damage to an enemy. Deal 2 additional damage to that enemy for each facedown encounter card in front of you.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/17005
+- names:
+  - Bad Boy
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 6
+    quantity: 1
+  sets:
+  - name: Star-Lord
+  faces:
+  - name: Bad Boy
+    cost: 3
+    type: Support
+    unique: true
+    traits:
+    - Vehicle
+    text: '**Hero Interrupt** When you would take any amount of damage from the villain''s
+      attack, discard this card → prevent all of that damage. Change to alter-ego
+      form and draw 2 cards.'
+    flavor_text: '"Ridin'' in style!" - Peter Quill'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/17006
+- names:
+  - Element Gun
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 7
+    quantity: 2
+  sets:
+  - name: Star-Lord
+  faces:
+  - name: Element Gun
+    cost: 3
+    type: Upgrade
+    unique: false
+    traits:
+    - Tech
+    - Weapon
+    keywords:
+    - Restricted
+    text: |-
+      Restricted.
+       **Hero Action** _(attack)_: Exhaust Element Gun and spend 1 resource of any type → deal 3 damage to an enemy. This attack gains piercing.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/17007
+- names:
+  - Jet Boots
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 8
+    quantity: 1
+  sets:
+  - name: Star-Lord
+  faces:
+  - name: Jet Boots
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Item
+    - Tech
+    text: |-
+      Star-Lord gains the [[aerial]] trait.
+       **Hero Interrupt**: When Star-Lord would take any amount of damage, exhaust Jet Boots → prevent 1 of that damage for each facedown encounter card in front of you.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/17008
 - names:
   - Leader of the Guardians
   packs:
-    - name: Star-Lord
-      sku: MC17en
-      position: 9
-      quantity: 1
+  - name: Star-Lord
+    sku: MC17en
+    position: 9
+    quantity: 1
+  sets:
+  - name: Star-Lord
   faces:
-    - name: Leader of the Guardians
-      cost: 3
-      type: Upgrade
-      unique: true
-      traits:
-        - Title
-      text: |
-        "Each **Guardian** character you control
-        gets +1 THW."
-      flavor_text: |
-        “I know we all hate each other and we all tried to
-        kill one another. But from now on, and until the
-        job is done, we’re Guardians.” —Peter Quill
-      resources:
-        mental: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/9.png"
+  - name: Leader of the Guardians
+    cost: 3
+    type: Upgrade
+    unique: true
+    traits:
+    - Title
+    text: Each [[guardian]] character you control gets +1 THW.
+    flavor_text: '"I know we all hate each other and we all tried to kill one another.
+      But from now on, and until the job is done, we''re Guardians." - Peter Quill'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/17009
 - names:
-  - Star-Lord’s Helmet
+  - Star-Lord's Helmet
   packs:
-    - name: Star-Lord
-      sku: MC17en
-      position: 10
-      quantity: 1
+  - name: Star-Lord
+    sku: MC17en
+    position: 10
+    quantity: 1
+  sets:
+  - name: Star-Lord
   faces:
-    - name: Star-Lord’s Helmet
-      cost: 1
-      type: Upgrade
-      unique: true
-      traits:
-        - Armor
-        - Tech
-      text: |
-        "While you are in hero form, you
-        get +1 hand size for each facedown
-        encounter card in front of you (to
-        a maximum of +3 hand size)."
-      flavor_text: |
-        “You can't see that I’m judging you, but I’m
-        judging you.” —Star-Lord
-      resources:
-        mental: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/10.png"
+  - name: Star-Lord's Helmet
+    cost: 1
+    type: Upgrade
+    unique: true
+    traits:
+    - Armor
+    - Tech
+    text: While you are in hero form, you get +1 hand size for each facedown encounter
+      card in front of you (to a maximum of +3 hand size)
+    flavor_text: '"You can''t see that I''m judging you, but I''m judging you." -
+      Star-Lord'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/17010
+- names:
+  - Adam Warlock
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 11
+    quantity: 1
+  sets: []
+  faces:
+  - name: Adam Warlock
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Aerial
+    - Mystic
+    text: |-
+      **Response:** After Adam Warlock attacks or thwarts, discard 1 card at random from your hand. If that card's printed resource has:
+       [physical] - Remove 3 threat from a scheme.
+       [energy] - Heal 3 damage from an identity
+       [mental] - Deal 3 damage to an enemy
+       [wild] - Choose one of the above.
+    hit_points: 3
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/17011
+- names:
+  - Beta Ray Bill
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 12
+    quantity: 1
+  sets: []
+  faces:
+  - name: Beta Ray Bill
+    cost: 5
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 1
+    thwart_consequential: 1
+    attack: 3
+    attack_consequential: 1
+    traits:
+    - Asgard
+    text: '**Response:** After Beta Ray Bill attacks and defeats a minion, remove
+      2 threat from the main scheme.'
+    hit_points: 4
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/17012
+- names:
+  - Yondu
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 13
+    quantity: 1
+  sets: []
+  faces:
+  - name: Yondu
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 2
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 0
+    traits:
+    - Guardian
+    text: Yondu's attacks gain ranged.
+    hit_points: 2
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/17013
+- names:
+  - Air Supremacy
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 14
+    quantity: 3
+  sets: []
+  faces:
+  - name: Air Supremacy
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Aerial
+    - Tactic
+    text: '**Hero Action**: Choose up to X enemies, where X is equal to the number
+      of [[aerial]] characters you control → deal 3 damage to each chosen enemy.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/17014
 - names:
   - Blaze of Glory
   packs:
-    - name: Star-Lord
-      sku: MC17en
-      position: 15
-      quantity: 3
+  - name: Star-Lord
+    sku: MC17en
+    position: 15
+    quantity: 3
+  sets: []
   faces:
-    - name: Blaze of Glory
-      cost: 2
-      type: Event
-      unique: false
-      aspect:
-        - Leadership
-      text: |
-        "Max 1 per round.
-        **Hero Action**: Each **Guardian** character
-        gets +2 THW and +2 ATK this phase. At
-        the end of the phase, deal 1 damage
-        to each **Guardian** character."
-      resources:
-        physical: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/15.png"
+  - name: Blaze of Glory
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    text: |-
+      Max 1 per round.
+       **Hero Action**: Each [[guardian]] character gets +2 THW and +2 ATK this phase. At the end of the phase, deal 1 damage to each [[guardian]] character.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/17015
+    #- names:
+    #  - Get Ready
+    #  packs:
+    #  - name: Star-Lord
+    #    sku: MC17en
+    #    position: 16
+    #    quantity: 2
+    #  sets: []
+    #  faces:
+    #  - name: Get Ready
+    #    cost: 0
+    #    type: Event
+    #    unique: false
+    #    aspect:
+    #    - Leadership
+    #    text: '**Action**: Ready an ally.'
+    #    flavor_text: '"We train hard every day so that when the time comes, we''ll be
+    #      ready" -- Steve Rogers'
+    #    resources:
+    #      physical: 1
+    #    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/16.png
+    #    marvelcdb_url: https://marvelcdb.com/card/17016
+- names:
+  - Target Practice
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 17
+    quantity: 3
+  sets: []
+  faces:
+  - name: Target Practice
+    cost: 0
+    type: Support
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Skill
+    text: '**Interrupt**: When an ally with a [[weapon]] attachment upgrade makes
+      an attack, discard Target Practice → that ally gets +2 ATM for that attack.'
+    flavor_text: '"Man, too easy." - Star-Lord'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/17017
+    #- names:
+    #  - The Power of Leadership
+    #  packs:
+    #  - name: Star-Lord
+    #    sku: MC17en
+    #    position: 18
+    #    quantity: 2
+    #  sets: []
+    #  faces:
+    #  - name: The Power of Leadership
+    #    type: Resource
+    #    unique: false
+    #    aspect:
+    #    - Leadership
+    #    text: |-
+    #      Max 2 per deck.
+    #      Double the number of resources this card generates while paying for a Leadership _(blue)_ card.
+    #    resources:
+    #      wild: 1
+    #    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/18.png
+    #    marvelcdb_url: https://marvelcdb.com/card/17018
+- names:
+  - Laser Blaster
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 19
+    quantity: 3
+  sets: []
+  faces:
+  - name: Laser Blaster
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Tech
+    - Weapon
+    text: |-
+      Attach to a [[guardian]] ally. Max 1 per ally.
+       Attached ally gets +1 ATK and its attacks gain overkill.
+    flavor_text: '"I''ll make short work of you." - Nebula'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/19.png
+    marvelcdb_url: https://marvelcdb.com/card/17019
+- names:
+  - Cosmo
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 20
+    quantity: 1
+  sets: []
+  faces:
+  - name: Cosmo
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Basic
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Guardian
+    text: '**Interrupt**: When Cosmo attacks or thwarts, name a card type, then discard
+      the top card of the deck. If that card is of the named type, Cosmo does not
+      take consequential damage (the damage under THW or ATK) for this use.'
+    hit_points: 2
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/20.png
+    marvelcdb_url: https://marvelcdb.com/card/17020
+- names:
+  - C.I.T.T.
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 21
+    quantity: 1
+  sets: []
+  faces:
+  - name: C.I.T.T.
+    cost: 2
+    type: Support
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Vehicle
+    text: '**Hero Action**: Exhaust C.I.T.T. and spend 2 resources of any type →
+      ready a [[guardian]] character.'
+    flavor_text: '"I don''t know, I kind of like calling it the Cool Interstellar
+      Travel Travelship." - Peter Quill'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/21.png
+    marvelcdb_url: https://marvelcdb.com/card/17021
 - names:
   - Knowhere
   packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 22
+    quantity: 1
+  sets: []
+  faces:
+  - name: Knowhere
+    cost: 2
+    type: Support
+    unique: true
+    aspect:
+    - Basic
+    traits:
+    - Location
+    text: |-
+      Play only if your identity has the [[guardian]] trait.
+       Increase your ally limit by 1.
+       **Response**: After a player plays a [[guardian]] ally, exhaust Knowhere → that player draws 1 card.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/22.png
+    marvelcdb_url: https://marvelcdb.com/card/17022
+- names:
+  - Pulse Grenade
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 23
+    quantity: 3
+  sets: []
+  faces:
+  - name: Pulse Grenade
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Weapon
+    text: '**Hero Action** _(attack)_: Discard Pulse Grenade and choose an enemy →
+      discard the top 2 cards of the encounter deck. Deal 1 damage to the chosen enemy
+      for each boost icon discarded this way.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/23.png
+    marvelcdb_url: https://marvelcdb.com/card/17023
+- names:
+  - Banishment
+  packs:
     - name: Star-Lord
       sku: MC17en
-      position: 22
+      position: 24
       quantity: 1
+  sets:
+  - name: Star-Lord
   faces:
-    - name: Knowhere
-      cost: 2
-      type: Support
-      unique: true
-      aspect:
-        - Basic
-      traits:
-        - Location
+    - name: Unfulfilled Destiny
+      type: Obligation
+      unique: false
       text: |
-        "Play only if your identity has the
-        **Guardian** trait.
-        Increase your ally limit by 1.
-        **Response**: After a player plays a
-        **Guardian** ally, exhaust Knowhere → 
-        that player draws 1 card."
-      resources:
-        energy: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/22.png"
+        "**_Give to the Peter Quill player._**
+        You may flip to alter-ego form. Choose:
+        • Exhaust Peter Quill → remove Banishment from the game.
+        • Discard an Element Gun from play. If you cannot, place 3 threat on the main scheme. Discard this obligation."
+      boost_icons: 2
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/24.png"
+- names:
+  - Dive Bomb
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 28
+    quantity: 3
+  sets: []
+  faces:
+  - name: Dive Bomb
+    cost: 4
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Aerial
+    - Attack
+    text: |-
+      Play only if your identity has the [[aerial]] trait.
+      **Hero Action** _(attack)_: Deal 7 damage to an enemy. Deal 1 damage to each other enemy.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/17028
+- names:
+  - Agile Flight
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 29
+    quantity: 3
+  sets: []
+  faces:
+  - name: Agile Flight
+    cost: 4
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Aerial
+    - Thwart
+    text: |-
+      Play only if your identity has the [[aerial]] trait.
+      **Hero Action** _(thwart)_: Remove a total of up to 5 threat from among schemes (as you choose).
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/17029
+- names:
+  - Ever Vigilant
+  packs:
+  - name: Star-Lord
+    sku: MC17en
+    position: 30
+    quantity: 3
+  sets: []
+  faces:
+  - name: Ever Vigilant
+    cost: 4
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Aerial
+    - Skill
+    text: |-
+      Play only if your identity has the [[aerial]] trait.
+      **Hero Action**: Ready your hero and remove 2 threat from the main scheme.
+    flavor_text: '"I feel like I''ve got the while weight of the world on my shoulders."
+      - Captain Marvel'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc17en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/17030
