@@ -1,0 +1,77 @@
+- names:
+  - Spider-Girl
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 40
+    quantity: 1
+  sets: []
+  faces:
+  - name: Spider-Girl
+    subtitle: Anya Corazon
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Aggression
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: '**Response**: After you play Spider-Girl from your hand, stun and confuse
+      a minion. '
+    hit_points: 2
+    flavor_text: '"Alright you bunch of losers. Who wants a piece of me?."'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/40.png
+    marvelcdb_url: https://marvelcdb.com/card/04040
+- names:
+  - Press the Advantage
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 43
+    quantity: 3
+  sets: []
+  faces:
+  - name: Press the Advantage
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Deal 2 damage to an enemy. If that enemy is
+      stunned or confused, draw 1 card.'
+    flavor_text: '"You are in Wakanda now!" -- T''Challa'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/43.png
+    marvelcdb_url: https://marvelcdb.com/card/04043
+- names:
+  - Piercing Strike
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 44
+    quantity: 3
+  sets: []
+  faces:
+  - name: Piercing Strike
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Deal 3 damage to an enemy. This attack gains
+      piercing.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/44.png
+    marvelcdb_url: https://marvelcdb.com/card/04044
