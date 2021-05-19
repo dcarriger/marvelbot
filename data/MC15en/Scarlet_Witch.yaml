@@ -6,6 +6,8 @@
     sku: MC15en
     position: 1
     quantity: 1
+  sets:
+  - name: Scarlet Witch
   faces:
   - name: Wanda Maximoff
     type: Alter-Ego
@@ -41,6 +43,8 @@
     sku: MC15en
     position: 2
     quantity: 1
+  sets:
+  - name: Scarlet Witch
   faces:
   - name: Quicksilver
     subtitle: Pietro Maximoff
@@ -67,6 +71,8 @@
     sku: MC15en
     position: 3
     quantity: 1
+  sets:
+  - name: Scarlet Witch
   faces:
   - name: Chaos Magic
     cost: 0
@@ -90,6 +96,8 @@
     sku: MC15en
     position: 4
     quantity: 4
+  sets:
+  - name: Scarlet Witch
   faces:
   - name: Hex Bolt
     cost: 2
@@ -115,6 +123,8 @@
     sku: MC15en
     position: 5
     quantity: 3
+  sets:
+  - name: Scarlet Witch
   faces:
   - name: Molecular Decay
     cost: 3
@@ -138,6 +148,8 @@
     sku: MC15en
     position: 6
     quantity: 1
+  sets:
+  - name: Scarlet Witch
   faces:
   - name: Warp Reality
     cost: 1
@@ -160,6 +172,8 @@
     sku: MC15en
     position: 7
     quantity: 1
+  sets:
+  - name: Scarlet Witch
   faces:
   - name: Agatha Harkness
     cost: 1
@@ -182,6 +196,8 @@
     sku: MC15en
     position: 8
     quantity: 3
+  sets:
+  - name: Scarlet Witch
   faces:
   - name: Magic Shield
     cost: 1
@@ -202,6 +218,8 @@
     sku: MC15en
     position: 9
     quantity: 1
+  sets:
+  - name: Scarlet Witch
   faces:
   - name: Scarlet Witch's Crest
     cost: 2
@@ -368,27 +386,8 @@
     image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/15.png
     marvelcdb_url: https://marvelcdb.com/card/15015
 - names:
-  - The Power of Justice
-  packs:
-  - name: Scarlet Witch
-    sku: MC15en
-    position: 16
-    quantity: 2
-  faces:
-  - name: The Power of Justice
-    type: Resource
-    unique: false
-    aspect:
-    - Justice
-    text: |-
-      Max 2 per deck.
-      Double the number of resources this card generates while paying for a Justice _(yellow)_ card.
-    resources:
-      wild: 1
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/16.png
-    marvelcdb_url: https://marvelcdb.com/card/15016
-- names:
   - Spiritual Meditation
+  - Most Broken Card in the Game
   packs:
   - name: Scarlet Witch
     sku: MC15en
@@ -419,6 +418,8 @@
     sku: MC15en
     position: 23
     quantity: 2
+  sets:
+  - name: Scarlet Witch
   faces:
   - name: Slipping Sanity
     type: Obligation
@@ -438,6 +439,8 @@
     sku: MC15en
     position: 24
     quantity: 1
+  sets:
+  - name: Scarlet Witch Nemesis
   faces:
   - name: The Next Evolution
     type: Side Scheme
@@ -457,6 +460,8 @@
     sku: MC15en
     position: 25
     quantity: 1
+  sets:
+  - name: Scarlet Witch Nemesis
   faces:
   - name: Luminous
     type: Minion
@@ -479,6 +484,8 @@
     sku: MC15en
     position: 26
     quantity: 1
+  sets:
+  - name: Scarlet Witch Nemesis
   faces:
   - name: Magical Suspension
     type: Attachment
@@ -499,6 +506,8 @@
     sku: MC15en
     position: 27
     quantity: 1
+  sets:
+  - name: Scarlet Witch Nemesis
   faces:
   - name: Chaos Manipulation
     type: Treachery

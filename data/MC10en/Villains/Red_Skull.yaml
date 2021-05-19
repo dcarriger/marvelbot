@@ -1,10 +1,15 @@
 - names:
   - Red Skull
+  - Red Skull 1
+  - Red Skull I
+  - Standard Red Skull
   packs:
   - name: The Rise of Red Skull
     sku: MC10en
     position: 125
     quantity: 1
+  sets:
+  - name: Red Skull
   faces:
   - name: Red Skull
     type: Villain
@@ -21,11 +26,17 @@
     marvelcdb_url: https://marvelcdb.com/card/04125
 - names:
   - Red Skull
+  - Red Skull 2
+  - Red Skull II
+  - Standard Red Skull
+  - Expert Red Skull
   packs:
   - name: The Rise of Red Skull
     sku: MC10en
     position: 126
     quantity: 1
+  sets:
+  - name: Red Skull
   faces:
   - name: Red Skull
     type: Villain
@@ -42,11 +53,16 @@
     marvelcdb_url: https://marvelcdb.com/card/04126
 - names:
   - Red Skull
+  - Red Skull 3
+  - Red Skull III
+  - Expert Red Skull
   packs:
   - name: The Rise of Red Skull
     sku: MC10en
     position: 127
     quantity: 1
+  sets:
+  - name: Red Skull
   faces:
   - name: Red Skull
     type: Villain
@@ -68,6 +84,8 @@
     sku: MC10en
     position: 128
     quantity: 1
+  sets:
+  - name: Red Skull
   faces:
   - name: The Rise of the Red Skull
     type: Main Scheme
@@ -102,6 +120,8 @@
     sku: MC10en
     position: 129
     quantity: 1
+  sets:
+  - name: Red Skull
   faces:
   - name: New World Hydra
     type: Main Scheme
@@ -135,6 +155,8 @@
     sku: MC10en
     position: 130
     quantity: 1
+  sets:
+  - name: Red Skull
   faces:
   - name: The Sleeper
     type: Minion
@@ -164,6 +186,8 @@
     sku: MC10en
     position: 131
     quantity: 3
+  sets:
+  - name: Red Skull
   faces:
   - name: Hydra Exo-Soldier
     type: Minion
@@ -188,6 +212,8 @@
     sku: MC10en
     position: 132
     quantity: 1
+  sets:
+  - name: Red Skull
   faces:
   - name: Red Skull's Luger
     type: Attachment
@@ -211,6 +237,8 @@
     sku: MC10en
     position: 133
     quantity: 2
+  sets:
+  - name: Red Skull
   faces:
   - name: Red Skull's Right Hook
     type: Attachment
@@ -232,6 +260,8 @@
     sku: MC10en
     position: 134
     quantity: 2
+  sets:
+  - name: Red Skull
   faces:
   - name: Master Strategist
     type: Attachment
@@ -257,6 +287,8 @@
     sku: MC10en
     position: 135
     quantity: 2
+  sets:
+  - name: Red Skull
   faces:
   - name: Twisted Reality
     type: Attachment
@@ -281,6 +313,8 @@
     sku: MC10en
     position: 136
     quantity: 2
+  sets:
+  - name: Red Skull
   faces:
   - name: Bitter Rival
     type: Treachery
@@ -299,6 +333,8 @@
     sku: MC10en
     position: 137
     quantity: 2
+  sets:
+  - name: Red Skull
   faces:
   - name: Spreading Lies
     type: Treachery
@@ -317,6 +353,8 @@
     sku: MC10en
     position: 138
     quantity: 2
+  sets:
+  - name: Red Skull
   faces:
   - name: Infinite Power
     type: Treachery
@@ -334,6 +372,8 @@
     sku: MC10en
     position: 139
     quantity: 1
+  sets:
+  - name: Red Skull
   faces:
   - name: The Red House
     type: Side Scheme
@@ -355,6 +395,8 @@
     sku: MC10en
     position: 140
     quantity: 1
+  sets:
+  - name: Red Skull
   faces:
   - name: The Sleeper Awakened
     type: Side Scheme
@@ -376,6 +418,8 @@
     sku: MC10en
     position: 141
     quantity: 1
+  sets:
+  - name: Red Skull
   faces:
   - name: Prison Camps
     type: Side Scheme
@@ -396,6 +440,8 @@
     sku: MC10en
     position: 142
     quantity: 1
+  sets:
+  - name: Red Skull
   faces:
   - name: Censor the Past
     type: Side Scheme
@@ -416,6 +462,8 @@
     sku: MC10en
     position: 143
     quantity: 1
+  sets:
+  - name: Red Skull
   faces:
   - name: Hydra Reinforcements
     type: Side Scheme
@@ -435,6 +483,8 @@
     sku: MC10en
     position: 144
     quantity: 1
+  sets:
+  - name: Red Skull
   faces:
   - name: Mass Chaos
     type: Side Scheme

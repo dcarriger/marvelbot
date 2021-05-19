@@ -6,6 +6,8 @@
       sku: PNP01en
       position: 1
       quantity: 1
+  sets:
+  - name: Kree Fanatic
   faces:
     - name: Ronan the Accuser
       type: Minion
@@ -34,6 +36,8 @@
       sku: PNP01en
       position: 2
       quantity: 1
+  sets:
+  - name: Kree Fanatic
   faces:
     - name: Judge, Jury, Executioner
       type: Side Scheme
@@ -45,6 +49,7 @@
       star_text: Put Judge, Jury, Executioner into play.
       starting_threat_per_player: 3
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/pnp01en/2.png"
+  horizontal: true
 - names:
     - The Accused
   packs:
@@ -52,6 +57,8 @@
       sku: PNP01en
       position: 3
       quantity: 1
+  sets:
+  - name: Kree Fanatic
   faces:
     - name: The Accused
       type: Attachment
@@ -73,6 +80,8 @@
       sku: PNP01en
       position: 4
       quantity: 2
+  sets:
+  - name: Kree Fanatic
   faces:
     - name: Bring the Hammer Down
       type: Treachery
@@ -92,6 +101,8 @@
       sku: PNP01en
       position: 5
       quantity: 2
+  sets:
+  - name: Kree Fanatic
   faces:
     - name: You Dare Oppose Me?
       type: Treachery

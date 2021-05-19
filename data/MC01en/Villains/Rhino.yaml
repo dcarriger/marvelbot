@@ -8,6 +8,8 @@
     sku: MC01en
     position: 94
     quantity: 1
+  sets:
+  - name: Rhino
   faces:
   - name: Rhino
     type: Villain
@@ -35,6 +37,8 @@
     sku: MC01en
     position: 95
     quantity: 1
+  sets:
+  - name: Rhino
   faces:
   - name: Rhino
     type: Villain
@@ -61,6 +65,8 @@
     sku: MC01en
     position: 96
     quantity: 1
+  sets:
+  - name: Rhino
   faces:
   - name: Rhino
     type: Villain
@@ -87,6 +93,8 @@
     sku: MC01en
     position: 97
     quantity: 1
+  sets:
+  - name: Rhino
   faces:
   - name: The Break-In!
     type: Main Scheme
@@ -119,6 +127,8 @@
     sku: MC01en
     position: 98
     quantity: 1
+  sets:
+  - name: Rhino
   faces:
   - name: Armored Rhino Suit
     type: Attachment
@@ -138,6 +148,8 @@
     sku: MC01en
     position: 99
     quantity: 2
+  sets:
+  - name: Rhino
   faces:
   - name: Charge
     type: Attachment
@@ -157,6 +169,8 @@
     sku: MC01en
     position: 100
     quantity: 1
+  sets:
+  - name: Rhino
   faces:
   - name: Enhanced Ivory Horn
     type: Attachment
@@ -177,6 +191,8 @@
     sku: MC01en
     position: 101
     quantity: 2
+  sets:
+  - name: Rhino
   faces:
   - name: Hydra Mercenary
     type: Minion
@@ -200,6 +216,8 @@
     sku: MC01en
     position: 102
     quantity: 1
+  sets:
+  - name: Rhino
   faces:
   - name: Sandman
     type: Minion
@@ -224,6 +242,8 @@
     sku: MC01en
     position: 103
     quantity: 1
+  sets:
+  - name: Rhino
   faces:
   - name: Shocker
     type: Minion
@@ -245,6 +265,8 @@
     sku: MC01en
     position: 104
     quantity: 2
+  sets:
+  - name: Rhino
   faces:
   - name: Hard to Keep Down
     type: Treachery
@@ -262,6 +284,8 @@
     sku: MC01en
     position: 105
     quantity: 2
+  sets:
+  - name: Rhino
   faces:
   - name: '"I''m Tough"'
     type: Treachery
@@ -279,6 +303,8 @@
     sku: MC01en
     position: 106
     quantity: 3
+  sets:
+  - name: Rhino
   faces:
   - name: Stampede
     type: Treachery
@@ -296,6 +322,8 @@
     sku: MC01en
     position: 107
     quantity: 1
+  sets:
+  - name: Rhino
   faces:
   - name: Breakin' & Takin'
     type: Side Scheme
@@ -316,6 +344,8 @@
     sku: MC01en
     position: 108
     quantity: 1
+  sets:
+  - name: Rhino
   faces:
   - name: Crowd Control
     type: Side Scheme

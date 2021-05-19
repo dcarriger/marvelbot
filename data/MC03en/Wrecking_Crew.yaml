@@ -5,6 +5,8 @@
     sku: MC03en
     position: 1
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Breakout
     type: Main Scheme
@@ -36,6 +38,8 @@
     sku: MC03en
     position: 2
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Wrecker
     type: Villain
@@ -58,6 +62,8 @@
     sku: MC03en
     position: 3
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Wrecker
     type: Villain
@@ -80,6 +86,8 @@
     sku: MC03en
     position: 4
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Day of Reckoning
     type: Side Scheme
@@ -100,6 +108,8 @@
     sku: MC03en
     position: 5
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Held Hostage
     type: Attachment
@@ -118,6 +128,8 @@
     sku: MC03en
     position: 6
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Magic Crowbar
     type: Attachment
@@ -138,6 +150,8 @@
     sku: MC03en
     position: 7
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Wrecker's Command
     type: Attachment
@@ -158,6 +172,8 @@
     sku: MC03en
     position: 8
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Corrupt Prison Guard
     type: Minion
@@ -180,6 +196,8 @@
     sku: MC03en
     position: 9
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Escaped Convict
     type: Minion
@@ -203,6 +221,8 @@
     sku: MC03en
     position: 10
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Buddy System
     type: Treachery
@@ -222,6 +242,8 @@
     sku: MC03en
     position: 11
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Chaos In the Prison
     type: Treachery
@@ -240,6 +262,8 @@
     sku: MC03en
     position: 12
     quantity: 2
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Crowbar Toss
     type: Treachery
@@ -257,6 +281,8 @@
     sku: MC03en
     position: 13
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Get Wrecked!
     type: Treachery
@@ -274,6 +300,8 @@
     sku: MC03en
     position: 14
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: I've Been Waiting For This!
     type: Treachery
@@ -292,6 +320,8 @@
     sku: MC03en
     position: 15
     quantity: 2
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Mystical Link
     type: Treachery
@@ -309,6 +339,8 @@
     sku: MC03en
     position: 16
     quantity: 2
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: You're Dead Meat!
     type: Treachery
@@ -326,6 +358,8 @@
     sku: MC03en
     position: 17
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Thunderball
     type: Villain
@@ -349,6 +383,8 @@
     sku: MC03en
     position: 18
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Thunderball
     type: Villain
@@ -372,6 +408,8 @@
     sku: MC03en
     position: 19
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Thunderstruck
     type: Side Scheme
@@ -392,6 +430,8 @@
     sku: MC03en
     position: 20
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Ball and Chain
     type: Attachment
@@ -414,6 +454,8 @@
     sku: MC03en
     position: 21
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Held Hostage
     type: Attachment
@@ -432,6 +474,8 @@
     sku: MC03en
     position: 22
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Radioactive Buildup
     type: Attachment
@@ -452,6 +496,8 @@
     sku: MC03en
     position: 23
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Corrupt Prison Guard
     type: Minion
@@ -474,6 +520,8 @@
     sku: MC03en
     position: 24
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Escaped Convict
     type: Minion
@@ -497,6 +545,8 @@
     sku: MC03en
     position: 25
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Buddy System
     type: Treachery
@@ -516,6 +566,8 @@
     sku: MC03en
     position: 26
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Chaos In the Prison
     type: Treachery
@@ -534,6 +586,8 @@
     sku: MC03en
     position: 27
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Energy Projectiles
     type: Treachery
@@ -550,6 +604,8 @@
     sku: MC03en
     position: 28
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Get Wrecked!
     type: Treachery
@@ -567,6 +623,8 @@
     sku: MC03en
     position: 29
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: I've Been Waiting For This!
     type: Treachery
@@ -585,6 +643,8 @@
     sku: MC03en
     position: 30
     quantity: 2
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Lightning Blast
     type: Treachery
@@ -602,6 +662,8 @@
     sku: MC03en
     position: 31
     quantity: 2
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Tactical Prowess
     type: Treachery
@@ -619,6 +681,8 @@
     sku: MC03en
     position: 32
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Piledriver
     type: Villain
@@ -642,6 +706,8 @@
     sku: MC03en
     position: 33
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Piledriver
     type: Villain
@@ -665,6 +731,8 @@
     sku: MC03en
     position: 34
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Pile It On!
     type: Side Scheme
@@ -685,6 +753,8 @@
     sku: MC03en
     position: 35
     quantity: 2
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Distracting Taunts
     type: Attachment
@@ -703,6 +773,8 @@
     sku: MC03en
     position: 36
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Held Hostage
     type: Attachment
@@ -721,6 +793,8 @@
     sku: MC03en
     position: 37
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Corrupt Prison Guard
     type: Minion
@@ -743,6 +817,8 @@
     sku: MC03en
     position: 38
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Escaped Convict
     type: Minion
@@ -766,6 +842,8 @@
     sku: MC03en
     position: 39
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Buddy System
     type: Treachery
@@ -785,6 +863,8 @@
     sku: MC03en
     position: 40
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Get Wrecked!
     type: Treachery
@@ -802,6 +882,8 @@
     sku: MC03en
     position: 41
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: I've Been Waiting For This!
     type: Treachery
@@ -820,6 +902,8 @@
     sku: MC03en
     position: 42
     quantity: 2
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Oversized Hands
     type: Treachery
@@ -838,6 +922,8 @@
     sku: MC03en
     position: 43
     quantity: 2
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Escape Plan
     type: Treachery
@@ -856,6 +942,8 @@
     sku: MC03en
     position: 44
     quantity: 2
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Pummel
     type: Treachery
@@ -873,6 +961,8 @@
     sku: MC03en
     position: 45
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Uncanny Resilience
     type: Treachery
@@ -890,6 +980,8 @@
     sku: MC03en
     position: 46
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Bulldozer
     type: Villain
@@ -913,6 +1005,8 @@
     sku: MC03en
     position: 47
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Bulldozer
     type: Villain
@@ -936,6 +1030,8 @@
     sku: MC03en
     position: 48
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Clear the Road
     type: Side Scheme
@@ -956,6 +1052,8 @@
     sku: MC03en
     position: 49
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Bulldozer's Helmet
     type: Attachment
@@ -976,6 +1074,8 @@
     sku: MC03en
     position: 50
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Held Hostage
     type: Attachment
@@ -994,6 +1094,8 @@
     sku: MC03en
     position: 51
     quantity: 2
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Ramming Speed
     type: Attachment
@@ -1013,6 +1115,8 @@
     sku: MC03en
     position: 52
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Corrupt Prison Guard
     type: Minion
@@ -1035,6 +1139,8 @@
     sku: MC03en
     position: 53
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Escaped Convict
     type: Minion
@@ -1058,6 +1164,8 @@
     sku: MC03en
     position: 54
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Buddy System
     type: Treachery
@@ -1077,6 +1185,8 @@
     sku: MC03en
     position: 55
     quantity: 2
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Bull Rush
     type: Treachery
@@ -1094,6 +1204,8 @@
     sku: MC03en
     position: 56
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Chaos In the Prison
     type: Treachery
@@ -1112,6 +1224,8 @@
     sku: MC03en
     position: 57
     quantity: 1
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Get Wrecked!
     type: Treachery
@@ -1129,6 +1243,8 @@
     sku: MC03en
     position: 58
     quantity: 2
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Headbutt
     type: Treachery
@@ -1147,6 +1263,8 @@
     sku: MC03en
     position: 59
     quantity: 2
+  sets:
+  - name: Wrecking Crew
   faces:
   - name: Leading the Charge
     type: Treachery

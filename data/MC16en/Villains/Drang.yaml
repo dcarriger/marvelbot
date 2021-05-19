@@ -1,0 +1,220 @@
+- names:
+  - Drang
+  - Drang 1
+  - Drang I
+  - Standard Drang
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 58
+    quantity: 1
+  sets:
+  - name: Drang
+  faces:
+  - name: Drang
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/58.png
+    marvelcdb_url: null
+- names:
+  - Drang
+  - Drang 2
+  - Drang II
+  - Standard Drang
+  - Expert Drang
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 59
+    quantity: 1
+  sets:
+  - name: Drang
+  faces:
+  - name: Drang
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/59.png
+    marvelcdb_url: null
+- names:
+  - Drang
+  - Drang 3
+  - Drang III
+  - Expert Drang
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 60
+    quantity: 1
+  sets:
+  - name: Drang
+  faces:
+  - name: Drang
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/60.png
+    marvelcdb_url: null
+- names:
+  - Terrestrial Invasion
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 61
+    quantity: 1
+  sets:
+  - name: Drang
+  faces:
+  - name: Terrestrial Invasion
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/61A.png
+    marvelcdb_url: null
+  - name: Terrestrial Invasion
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/61B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Protect the Planet
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 62
+    quantity: 1
+  sets:
+  - name: Drang
+  faces:
+  - name: Protect the Planet
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/62A.png
+    marvelcdb_url: null
+  - name: Protect the Planet
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/62B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Badoon Ship
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 63
+    quantity: 1
+  sets:
+  - name: Drang
+  faces:
+  - name: Badoon Ship
+    type: Environment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/63.png
+    marvelcdb_url: null
+- names:
+  - Drang's Spear
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 64
+    quantity: 1
+  sets:
+  - name: Drang
+  faces:
+  - name: Drang's Spear
+    type: Attachment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/64.png
+    marvelcdb_url: null
+- names:
+  - Badoon Engineer
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 65
+    quantity: 2
+  sets:
+  - name: Drang
+  faces:
+  - name: Badoon Engineer
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/65.png
+    marvelcdb_url: null
+- names:
+  - Blockade
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 66
+    quantity: 1
+  sets:
+  - name: Drang
+  faces:
+  - name: Blockade
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/66.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Bombardment
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 67
+    quantity: 1
+  sets:
+  - name: Drang
+  faces:
+  - name: Bombardment
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/67.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Oppressive Armada
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 68
+    quantity: 1
+  sets:
+  - name: Drang
+  faces:
+  - name: Oppressive Armada
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/68.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Spatial Positioning
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 69
+    quantity: 1
+  sets:
+  - name: Drang
+  faces:
+  - name: Spatial Positioning
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/69.png
+    marvelcdb_url: null
+  horizontal: true

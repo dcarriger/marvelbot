@@ -5,6 +5,8 @@
     sku: MC01en
     position: 165
     quantity: 1
+  sets:
+  - name: Spider-Man
   faces:
   - name: Eviction Notice
     type: Obligation
@@ -24,6 +26,8 @@
     sku: MC01en
     position: 166
     quantity: 1
+  sets:
+  - name: Spider-Man Nemesis
   faces:
   - name: Highway Robbery
     type: Side Scheme
@@ -43,6 +47,8 @@
     sku: MC01en
     position: 167
     quantity: 1
+  sets:
+  - name: Spider-Man Nemesis
   faces:
   - name: Vulture
     type: Minion
@@ -66,6 +72,8 @@
     sku: MC01en
     position: 168
     quantity: 2
+  sets:
+  - name: Spider-Man Nemesis
   faces:
   - name: Sweeping Swoop
     type: Treachery
@@ -84,6 +92,8 @@
     sku: MC01en
     position: 169
     quantity: 1
+  sets:
+  - name: Spider-Man Nemesis
   faces:
   - name: The Vulture's Plans
     type: Treachery

@@ -1,0 +1,48 @@
+- names:
+  - Psionic Ghost
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 135
+    quantity: 4
+  sets:
+  - name: Menagerie Medley
+  faces:
+  - name: Psionic Ghost
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/135.png
+    marvelcdb_url: null
+- names:
+  - Servant Bot
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 136
+    quantity: 3
+  sets:
+  - name: Menagerie Medley
+  faces:
+  - name: Servant Bot
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/136.png
+    marvelcdb_url: null
+- names:
+  - Starshark
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 137
+    quantity: 2
+  sets:
+  - name: Menagerie Medley
+  faces:
+  - name: Starshark
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/137.png
+    marvelcdb_url: null

@@ -6,6 +6,8 @@
     sku: MC13en
     position: 1
     quantity: 1
+  sets:
+  - name: Wasp
   faces:
   - name: Nadia Van Dyne
     type: Alter-Ego
@@ -56,6 +58,8 @@
     sku: MC13en
     position: 2
     quantity: 1
+  sets:
+  - name: Wasp
   faces:
   - name: Ant-Man
     subtitle: Scott Lang
@@ -83,6 +87,8 @@
     sku: MC13en
     position: 3
     quantity: 2
+  sets:
+  - name: Wasp
   faces:
   - name: Giant Help
     cost: 2
@@ -105,6 +111,8 @@
     sku: MC13en
     position: 4
     quantity: 3
+  sets:
+  - name: Wasp
   faces:
   - name: Pinpoint Strike
     cost: 3
@@ -126,6 +134,8 @@
     sku: MC13en
     position: 5
     quantity: 2
+  sets:
+  - name: Wasp
   faces:
   - name: Rapid Growth
     cost: 1
@@ -149,6 +159,8 @@
     sku: MC13en
     position: 6
     quantity: 2
+  sets:
+  - name: Wasp
   faces:
   - name: Wasp Sting
     cost: 2
@@ -170,6 +182,8 @@
     sku: MC13en
     position: 7
     quantity: 2
+  sets:
+  - name: Wasp
   faces:
   - name: Pym Particles
     type: Resource
@@ -188,6 +202,8 @@
     sku: MC13en
     position: 8
     quantity: 1
+  sets:
+  - name: Wasp
   faces:
   - name: Red Room Training
     cost: 2
@@ -209,6 +225,8 @@
     sku: MC13en
     position: 9
     quantity: 1
+  sets:
+  - name: Wasp
   faces:
   - name: Bio-Synthetic Wings
     cost: 2
@@ -231,6 +249,8 @@
     sku: MC13en
     position: 10
     quantity: 1
+  sets:
+  - name: Wasp
   faces:
   - name: Wasp's Helmet
     cost: 2
@@ -504,6 +524,8 @@
     sku: MC13en
     position: 26
     quantity: 1
+  sets:
+  - name: Wasp
   faces:
   - name: Red Dreams
     type: Obligation
@@ -523,6 +545,8 @@
     sku: MC13en
     position: 27
     quantity: 1
+  sets:
+  - name: Wasp Nemesis
   faces:
   - name: Mother's Orders
     type: Side Scheme
@@ -543,6 +567,8 @@
     sku: MC13en
     position: 28
     quantity: 1
+  sets:
+  - name: Wasp Nemesis
   faces:
   - name: Beetle
     type: Minion
@@ -568,6 +594,8 @@
     sku: MC13en
     position: 29
     quantity: 1
+  sets:
+  - name: Wasp Nemesis
   faces:
   - name: Beetle Armor MK IV
     type: Attachment
@@ -589,6 +617,8 @@
     sku: MC13en
     position: 30
     quantity: 2
+  sets:
+  - name: Wasp Nemesis
   faces:
   - name: Beetle Mania
     type: Treachery

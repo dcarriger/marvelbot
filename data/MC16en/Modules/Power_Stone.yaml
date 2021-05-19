@@ -1,0 +1,16 @@
+- names:
+  - Power Stone
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 149
+    quantity: 1
+  sets:
+  - name: Power Stone
+  faces:
+  - name: Power Stone
+    type: Attachment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/149.png
+    marvelcdb_url: null

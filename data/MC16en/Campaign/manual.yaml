@@ -1,0 +1,495 @@
+- names:
+  - Brainstorm
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 150
+    quantity: 1
+  faces:
+  - name: Brainstorm
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/150.png
+    marvelcdb_url: null
+- names:
+  - By Any Means
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 151
+    quantity: 1
+  faces:
+  - name: By Any Means
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/151.png
+    marvelcdb_url: null
+- names:
+  - Contingency Plan
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 152
+    quantity: 1
+  faces:
+  - name: Contingency Plan
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/152.png
+    marvelcdb_url: null
+- names:
+  - In Defiance
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 153
+    quantity: 1
+  faces:
+  - name: In Defiance
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/153.png
+    marvelcdb_url: null
+- names:
+  - Calculate the Odds
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 154
+    quantity: 1
+  faces:
+  - name: Calculate the Odds
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/154.png
+    marvelcdb_url: null
+- names:
+  - Creative Solution
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 155
+    quantity: 1
+  faces:
+  - name: Creative Solution
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/155.png
+    marvelcdb_url: null
+- names:
+  - Grapple
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 156
+    quantity: 1
+  faces:
+  - name: Grapple
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/156.png
+    marvelcdb_url: null
+- names:
+  - Wing It
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 157
+    quantity: 1
+  faces:
+  - name: Wing It
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/157.png
+    marvelcdb_url: null
+- names:
+  - Close Call
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 158
+    quantity: 1
+  faces:
+  - name: Close Call
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/158.png
+    marvelcdb_url: null
+- names:
+  - Defy Danger
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 159
+    quantity: 1
+  faces:
+  - name: Defy Danger
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/159.png
+    marvelcdb_url: null
+- names:
+  - In Harm's Way
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 160
+    quantity: 1
+  faces:
+  - name: In Harm's Way
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/160.png
+    marvelcdb_url: null
+- names:
+  - Take the Fight to Them
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 161
+    quantity: 1
+  faces:
+  - name: Take the Fight to Them
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/161.png
+    marvelcdb_url: null
+- names:
+  - Armor Plating
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 162
+    quantity: 1
+  faces:
+  - name: Armor Plating
+    type: Upgrade
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/162.png
+    marvelcdb_url: null
+- names:
+  - Heavy Cannon
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 163
+    quantity: 1
+  faces:
+  - name: Heavy Cannon
+    type: Upgrade
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/163.png
+    marvelcdb_url: null
+- names:
+  - Hyper Thrusters
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 164
+    quantity: 1
+  faces:
+  - name: Hyper Thrusters
+    type: Upgrade
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/164.png
+    marvelcdb_url: null
+- names:
+  - Reactor Core
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 165
+    quantity: 1
+  faces:
+  - name: Reactor Core
+    type: Upgrade
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/165.png
+    marvelcdb_url: null
+- names:
+  - Ardent Resolve
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 166
+    quantity: 1
+  faces:
+  - name: Ardent Resolve
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/166.png
+    marvelcdb_url: null
+- names:
+  - Onrush
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 167
+    quantity: 1
+  faces:
+  - name: Onrush
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/167.png
+    marvelcdb_url: null
+- names:
+  - Safeguard
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 168
+    quantity: 1
+  faces:
+  - name: Safeguard
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/168.png
+    marvelcdb_url: null
+- names:
+  - Sure Gamble
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 169
+    quantity: 1
+  faces:
+  - name: Sure Gamble
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/169.png
+    marvelcdb_url: null
+- names:
+  - Cargo Hold
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 170
+    quantity: 1
+  faces:
+  - name: Cargo Hold
+    type: Upgrade
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/170.png
+    marvelcdb_url: null
+- names:
+  - Mounted Laser
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 171
+    quantity: 1
+  faces:
+  - name: Mounted Laser
+    type: Upgrade
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/171.png
+    marvelcdb_url: null
+- names:
+  - Navigation Column
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 172
+    quantity: 1
+  faces:
+  - name: Navigation Column
+    type: Upgrade
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/172.png
+    marvelcdb_url: null
+- names:
+  - Targeting Screen
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 173
+    quantity: 1
+  faces:
+  - name: Targeting Screen
+    type: Upgrade
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/173.png
+    marvelcdb_url: null
+- names:
+  - Grand Strategy
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 174
+    quantity: 1
+  faces:
+  - name: Grand Strategy
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/174.png
+    marvelcdb_url: null
+- names:
+  - Power Unleashed
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 175
+    quantity: 1
+  faces:
+  - name: Power Unleashed
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/175.png
+    marvelcdb_url: null
+- names:
+  - Tried and True
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 176
+    quantity: 1
+  faces:
+  - name: Tried and True
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/176.png
+    marvelcdb_url: null
+- names:
+  - Triple Threat
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 177
+    quantity: 1
+  faces:
+  - name: Triple Threat
+    type: Event
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/177.png
+    marvelcdb_url: null
+- names:
+  - Badoon Blitz
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 178
+    quantity: 1
+  faces:
+  - name: Badoon Blitz
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/178A.png
+    marvelcdb_url: null
+  - name: Badoon Blitz
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/178B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Gallery of Splendor
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 179
+    quantity: 1
+  faces:
+  - name: Gallery of Splendor
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/179A.png
+    marvelcdb_url: null
+  - name: Gallery of Splendor
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/179B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - '"There Is No Escape"'
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 180
+    quantity: 1
+  faces:
+  - name: '"There Is No Escape"'
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/180A.png
+    marvelcdb_url: null
+  - name: '"There Is No Escape"'
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/180B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Guerilla Tactics
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 181
+    quantity: 1
+  faces:
+  - name: Guerilla Tactics
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/181A.png
+    marvelcdb_url: null
+  - name: Guerilla Tactics
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/181B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Kree Supremacy
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 182
+    quantity: 1
+  faces:
+  - name: Kree Supremacy
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/182A.png
+  - name: Kree Supremacy
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/182B.png
+  horizontal: true

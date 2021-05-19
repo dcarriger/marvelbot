@@ -1,0 +1,81 @@
+- names:
+  - Crisis on Halfworld
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 53
+    quantity: 1
+  sets:
+  - name: Rocket Raccoon Nemesis
+  faces:
+  - name: Crisis on Halfworld
+    type: Obligation
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/53.png
+    marvelcdb_url: null
+- names:
+  - Vendetta
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 54
+    quantity: 1
+  sets:
+  - name: Rocket Raccoon Nemesis
+  faces:
+  - name: Vendetta
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/54.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Blackjack O'Hare
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 55
+    quantity: 1
+  sets:
+  - name: Rocket Raccoon Nemesis
+  faces:
+  - name: Blackjack O'Hare
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/55.png
+    marvelcdb_url: null
+- names:
+  - Blackjack's Bazooka
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 56
+    quantity: 1
+  sets:
+  - name: Rocket Raccoon Nemesis
+  faces:
+  - name: Blackjack's Bazooka
+    type: Attachment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/56.png
+    marvelcdb_url: null
+- names:
+  - Planetary Invasion
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 57
+    quantity: 2
+  sets:
+  - name: Rocket Raccoon Nemesis
+  faces:
+  - name: Planetary Invasion
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/57.png
+    marvelcdb_url: null

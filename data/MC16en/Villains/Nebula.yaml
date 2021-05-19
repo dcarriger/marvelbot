@@ -1,0 +1,265 @@
+- names:
+  - Nebula
+  - Nebula 1
+  - Nebula I
+  - Standard Nebula
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 88
+    quantity: 1
+  sets:
+  - name: Nebula
+  faces:
+  - name: Nebula
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/88.png
+    marvelcdb_url: null
+- names:
+  - Nebula
+  - Nebula 2
+  - Nebula II
+  - Standard Nebula
+  - Expert Nebula
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 89
+    quantity: 1
+  sets:
+  - name: Nebula
+  faces:
+  - name: Nebula
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/89.png
+    marvelcdb_url: null
+- names:
+  - Nebula
+  - Nebula 3
+  - Nebula III
+  - Expert Nebula
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 90
+    quantity: 1
+  sets:
+  - name: Nebula
+  faces:
+  - name: Nebula
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/90.png
+    marvelcdb_url: null
+- names:
+  - The Art of Evasion
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 91
+    quantity: 1
+  sets:
+  - name: Nebula
+  faces:
+  - name: The Art of Evasion
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/91A.png
+    marvelcdb_url: null
+  - name: The Art of Evasion
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/91B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Warp Drive Initiated
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 92
+    quantity: 1
+  sets:
+  - name: Nebula
+  faces:
+  - name: Warp Drive Initiated
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/92A.png
+    marvelcdb_url: null
+  - name: Warp Drive Initiated
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/92B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Nebula's Ship
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 93
+    quantity: 1
+  sets:
+  - name: Nebula
+  faces:
+  - name: Nebula's Ship
+    type: Environment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/93.png
+    marvelcdb_url: null
+- names:
+  - Cutthroat Ambition
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 94
+    quantity: 2
+  sets:
+  - name: Nebula
+  faces:
+  - name: Cutthroat Ambition
+    type: Technique
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/94.png
+    marvelcdb_url: null
+- names:
+  - Evasive Maneuvering
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 95
+    quantity: 1
+  sets:
+  - name: Nebula
+  faces:
+  - name: Evasive Maneuvering
+    type: Technique
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/95.png
+    marvelcdb_url: null
+- names:
+  - Unyielding Persistence
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 96
+    quantity: 1
+  sets:
+  - name: Nebula
+  faces:
+  - name: Unyielding Persistence
+    type: Technique
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/96.png
+    marvelcdb_url: null
+- names:
+  - Weapon Mastery
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 97
+    quantity: 2
+  sets:
+  - name: Nebula
+  faces:
+  - name: Weapon Mastery
+    type: Technique
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/97.png
+    marvelcdb_url: null
+- names:
+  - Wide Stance
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 98
+    quantity: 2
+  sets:
+  - name: Nebula
+  faces:
+  - name: Wide Stance
+    type: Technique
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/98.png
+    marvelcdb_url: null
+- names:
+  - Lethal Intent
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 99
+    quantity: 2
+  sets:
+  - name: Nebula
+  faces:
+  - name: Lethal Intent
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/99.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Barrel Roll
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 100
+    quantity: 2
+  sets:
+  - name: Nebula
+  faces:
+  - name: Barrel Roll
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/100.png
+    marvelcdb_url: null
+- names:
+  - Combat Ready
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 101
+    quantity: 2
+  sets:
+  - name: Nebula
+  faces:
+  - name: Combat Ready
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/101.png
+    marvelcdb_url: null
+- names:
+  - Ruthless
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 102
+    quantity: 2
+  sets:
+  - name: Nebula
+  faces:
+  - name: Ruthless
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/102.png
+    marvelcdb_url: null

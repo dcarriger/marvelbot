@@ -6,6 +6,8 @@
     sku: MC01en
     position: 19
     quantity: 1
+  sets:
+  - name: She-Hulk
   faces:
   - name: Jennifer Walters
     type: Alter-Ego
@@ -44,6 +46,8 @@
     sku: MC01en
     position: 20
     quantity: 1
+  sets:
+  - name: She-Hulk
   faces:
   - name: Hellcat
     subtitle: Patsy Walker
@@ -70,6 +74,8 @@
     sku: MC01en
     position: 21
     quantity: 1
+  sets:
+  - name: She-Hulk
   faces:
   - name: Gamma Slam
     cost: 4
@@ -92,6 +98,8 @@
     sku: MC01en
     position: 22
     quantity: 2
+  sets:
+  - name: She-Hulk
   faces:
   - name: Ground Stomp
     cost: 2
@@ -112,6 +120,8 @@
     sku: MC01en
     position: 23
     quantity: 2
+  sets:
+  - name: She-Hulk
   faces:
   - name: Legal Practice
     cost: 0
@@ -135,6 +145,8 @@
     sku: MC01en
     position: 24
     quantity: 3
+  sets:
+  - name: She-Hulk
   faces:
   - name: One-Two Punch
     cost: 1
@@ -155,6 +167,8 @@
     sku: MC01en
     position: 25
     quantity: 1
+  sets:
+  - name: She-Hulk
   faces:
   - name: Split Personality
     cost: 3
@@ -175,6 +189,8 @@
     sku: MC01en
     position: 26
     quantity: 1
+  sets:
+  - name: She-Hulk
   faces:
   - name: Superhuman Law Division
     cost: 1
@@ -197,6 +213,8 @@
     sku: MC01en
     position: 27
     quantity: 2
+  sets:
+  - name: She-Hulk
   faces:
   - name: Focused Rage
     cost: 3
@@ -216,6 +234,8 @@
     sku: MC01en
     position: 28
     quantity: 2
+  sets:
+  - name: She-Hulk
   faces:
   - name: Superhuman Strength
     cost: 2

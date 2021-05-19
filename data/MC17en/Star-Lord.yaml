@@ -428,7 +428,7 @@
     traits:
     - Skill
     text: '**Interrupt**: When an ally with a [[weapon]] attachment upgrade makes
-      an attack, discard Target Practice → that ally gets +2 ATM for that attack.'
+      an attack, discard Target Practice → that ally gets +2 ATK for that attack.'
     flavor_text: '"Man, too easy." - Star-Lord'
     resources:
       mental: 1
@@ -512,6 +512,7 @@
     marvelcdb_url: https://marvelcdb.com/card/17020
 - names:
   - C.I.T.T.
+  - CITT
   packs:
   - name: Star-Lord
     sku: MC17en

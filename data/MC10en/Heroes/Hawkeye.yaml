@@ -6,6 +6,8 @@
     sku: MC10en
     position: 1
     quantity: 1
+  sets:
+  - name: Hawkeye
   faces:
   - name: Clint Barton
     type: Alter-Ego
@@ -37,6 +39,8 @@
     sku: MC10en
     position: 2
     quantity: 1
+  sets:
+  - name: Hawkeye
   faces:
   - name: Hawkeye's Bow
     cost: 0
@@ -60,6 +64,8 @@
     sku: MC10en
     position: 3
     quantity: 1
+  sets:
+  - name: Hawkeye
   faces:
   - name: Hawkeye's Quiver
     cost: 1
@@ -81,6 +87,8 @@
     sku: MC10en
     position: 4
     quantity: 1
+  sets:
+  - name: Hawkeye
   faces:
   - name: Mockingbird
     subtitle: Bobbi Morse
@@ -109,6 +117,8 @@
     sku: MC10en
     position: 5
     quantity: 2
+  sets:
+  - name: Hawkeye
   faces:
   - name: Sonic Arrow
     cost: 2
@@ -130,6 +140,8 @@
     sku: MC10en
     position: 6
     quantity: 2
+  sets:
+  - name: Hawkeye
   faces:
   - name: Explosive Arrow
     cost: 1
@@ -152,6 +164,8 @@
     sku: MC10en
     position: 7
     quantity: 2
+  sets:
+  - name: Hawkeye
   faces:
   - name: Electric Arrow
     cost: 2
@@ -174,6 +188,8 @@
     sku: MC10en
     position: 8
     quantity: 2
+  sets:
+  - name: Hawkeye
   faces:
   - name: Cable Arrow
     cost: 1
@@ -196,6 +212,8 @@
     sku: MC10en
     position: 9
     quantity: 2
+  sets:
+  - name: Hawkeye
   faces:
   - name: Vibranium Arrow
     cost: 2
@@ -217,6 +235,8 @@
     sku: MC10en
     position: 10
     quantity: 2
+  sets:
+  - name: Hawkeye
   faces:
   - name: Expert Marksman
     cost: 1

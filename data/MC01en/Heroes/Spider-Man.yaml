@@ -6,6 +6,8 @@
     sku: MC01en
     position: 1
     quantity: 1
+  sets:
+  - name: Spider-Man
   faces:
   - name: Peter Parker
     type: Alter-Ego
@@ -41,6 +43,8 @@
     sku: MC01en
     position: 2
     quantity: 1
+  sets:
+  - name: Spider-Man
   faces:
   - name: Black Cat
     subtitle: Felicia Hardy
@@ -68,6 +72,8 @@
     sku: MC01en
     position: 3
     quantity: 2
+  sets:
+  - name: Spider-Man
   faces:
   - name: Backflip
     cost: 0
@@ -90,6 +96,8 @@
     sku: MC01en
     position: 4
     quantity: 2
+  sets:
+  - name: Spider-Man
   faces:
   - name: Enhanced Spider-Sense
     cost: 1
@@ -111,6 +119,8 @@
     sku: MC01en
     position: 5
     quantity: 3
+  sets:
+  - name: Spider-Man
   faces:
   - name: Swinging Web Kick
     cost: 3
@@ -133,6 +143,8 @@
     sku: MC01en
     position: 6
     quantity: 1
+  sets:
+  - name: Spider-Man
   faces:
   - name: Aunt May
     cost: 1
@@ -153,6 +165,8 @@
     sku: MC01en
     position: 7
     quantity: 2
+  sets:
+  - name: Spider-Man
   faces:
   - name: Spider-Tracer
     cost: 1
@@ -175,6 +189,8 @@
     sku: MC01en
     position: 8
     quantity: 2
+  sets:
+  - name: Spider-Man
   faces:
   - name: Web-Shooter
     cost: 1
@@ -199,6 +215,8 @@
     sku: MC01en
     position: 9
     quantity: 2
+  sets:
+  - name: Spider-Man
   faces:
   - name: Webbed Up
     cost: 4

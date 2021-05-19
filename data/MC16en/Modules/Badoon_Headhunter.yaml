@@ -1,0 +1,80 @@
+- names:
+  - Badoon Headhunter
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 183
+    quantity: 1
+  sets:
+  - name: Badoon Headhunter
+  faces:
+  - name: Badoon Headhunter
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/183.png
+    marvelcdb_url: null
+- names:
+  - On the Hunt
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 184
+    quantity: 1
+  sets:
+  - name: Badoon Headhunter
+  faces:
+  - name: On the Hunt
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/184.png
+    marvelcdb_url: null
+- names:
+  - Dead to Rights
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 185
+    quantity: 1
+  sets:
+  - name: Badoon Headhunter
+  faces:
+  - name: Dead to Rights
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/185.png
+    marvelcdb_url: null
+- names:
+  - Headhunter's Henchman
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 186
+    quantity: 1
+  sets:
+  - name: Badoon Headhunter
+  faces:
+  - name: Headhunter's Henchman
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/186.png
+    marvelcdb_url: null
+- names:
+  - Fugitive Recovery
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 187
+    quantity: 1
+  sets:
+  - name: Badoon Headhunter
+  faces:
+  - name: Fugitive Recovery
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/187.png
+    marvelcdb_url: null

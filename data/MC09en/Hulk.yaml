@@ -6,6 +6,8 @@
     sku: MC09en
     position: 1
     quantity: 1
+  sets:
+  - name: Hulk
   faces:
   - name: Bruce Banner
     type: Alter-Ego
@@ -41,6 +43,8 @@
     sku: MC09en
     position: 2
     quantity: 2
+  sets:
+  - name: Hulk
   faces:
   - name: Crushing Blow
     cost: 1
@@ -63,6 +67,8 @@
     sku: MC09en
     position: 3
     quantity: 2
+  sets:
+  - name: Hulk
   faces:
   - name: Hulk Smash
     cost: 3
@@ -85,6 +91,8 @@
     sku: MC09en
     position: 4
     quantity: 2
+  sets:
+  - name: Hulk
   faces:
   - name: Sub-Orbital Leap
     cost: 3
@@ -107,6 +115,8 @@
     sku: MC09en
     position: 5
     quantity: 2
+  sets:
+  - name: Hulk
   faces:
   - name: Thunderclap
     cost: 3
@@ -128,6 +138,8 @@
     sku: MC09en
     position: 6
     quantity: 2
+  sets:
+  - name: Hulk
   faces:
   - name: Unstoppable Force
     cost: 2
@@ -147,6 +159,8 @@
     sku: MC09en
     position: 7
     quantity: 2
+  sets:
+  - name: Hulk
   faces:
   - name: Limitless Strength
     type: Resource
@@ -163,6 +177,8 @@
     sku: MC09en
     position: 8
     quantity: 1
+  sets:
+  - name: Hulk
   faces:
   - name: Banner's Laboratory
     cost: 2
@@ -186,6 +202,8 @@
     sku: MC09en
     position: 9
     quantity: 1
+  sets:
+  - name: Hulk
   faces:
   - name: Boundless Rage
     cost: 1
@@ -209,6 +227,8 @@
     sku: MC09en
     position: 10
     quantity: 1
+  sets:
+  - name: Hulk
   faces:
   - name: Immovable Object
     cost: 3
@@ -432,6 +452,8 @@
     sku: MC09en
     position: 25
     quantity: 1
+  sets:
+  - name: Hulk Nemesis
   faces:
   - name: Inner Demons
     type: Obligation
@@ -451,6 +473,8 @@
     sku: MC09en
     position: 26
     quantity: 1
+  sets:
+  - name: Hulk Nemesis
   faces:
   - name: Abomination
     type: Minion
@@ -474,6 +498,8 @@
     sku: MC09en
     position: 27
     quantity: 1
+  sets:
+  - name: Hulk Nemesis
   faces:
   - name: Total Destruction
     type: Side Scheme
@@ -491,6 +517,8 @@
     sku: MC09en
     position: 28
     quantity: 3
+  sets:
+  - name: Hulk Nemesis
   faces:
   - name: Clash Of The Titans
     type: Treachery

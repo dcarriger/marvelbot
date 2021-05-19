@@ -5,6 +5,8 @@
     sku: MC10en
     position: 53
     quantity: 1
+  sets:
+  - name: Spider-Woman Nemesis
   faces:
   - name: Uncertain Loyalties
     type: Obligation
@@ -23,6 +25,8 @@
     sku: MC10en
     position: 54
     quantity: 1
+  sets:
+  - name: Spider-Woman Nemesis
   faces:
   - name: The Viper
     type: Minion
@@ -47,6 +51,8 @@
     sku: MC10en
     position: 55
     quantity: 1
+  sets:
+  - name: Spider-Woman Nemesis
   faces:
   - name: The Viper's Ambition
     type: Side Scheme
@@ -66,10 +72,14 @@
     sku: MC10en
     position: 56
     quantity: 2
+  sets:
+  - name: Spider-Woman Nemesis
   - name: The Rise of Red Skull
     sku: MC10en
     position: 152
     quantity: 2
+  sets:
+  - name: Spider-Woman Nemesis
   faces:
   - name: Hydra Regular
     type: Minion

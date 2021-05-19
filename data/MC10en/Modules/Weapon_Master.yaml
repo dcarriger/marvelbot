@@ -5,6 +5,8 @@
     sku: MC10en
     position: 148
     quantity: 1
+  sets:
+  - name: Weapon Master
   faces:
   - name: Combat Knife
     type: Attachment
@@ -26,6 +28,8 @@
     sku: MC10en
     position: 149
     quantity: 1
+  sets:
+  - name: Weapon Master
   faces:
   - name: Hydra Sidearm
     type: Attachment
@@ -48,6 +52,8 @@
     sku: MC10en
     position: 150
     quantity: 2
+  sets:
+  - name: Weapon Master
   faces:
   - name: Weapon Master
     type: Treachery
@@ -65,6 +71,8 @@
     sku: MC10en
     position: 151
     quantity: 1
+  sets:
+  - name: Weapon Master
   faces:
   - name: Concussion Grenade
     type: Treachery

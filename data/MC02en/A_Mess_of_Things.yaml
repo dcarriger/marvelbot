@@ -5,6 +5,8 @@
     sku: MC02en
     position: 37
     quantity: 1
+  sets:
+  - name: A Mess of Things
   faces:
   - name: A Mess of Things
     type: Side Scheme
@@ -25,6 +27,8 @@
     sku: MC02en
     position: 38
     quantity: 1
+  sets:
+  - name: A Mess of Things
   faces:
   - name: Scorpion
     type: Minion
@@ -48,6 +52,8 @@
     sku: MC02en
     position: 39
     quantity: 1
+  sets:
+  - name: A Mess of Things
   faces:
   - name: Gang-Up
     type: Treachery
@@ -65,6 +71,8 @@
     sku: MC02en
     position: 40
     quantity: 2
+  sets:
+  - name: A Mess of Things
   faces:
   - name: Tail Sweep
     type: Treachery

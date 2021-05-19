@@ -5,6 +5,8 @@
     sku: MC02en
     position: 41
     quantity: 1
+  sets:
+  - name: Power Drain
   faces:
   - name: Power Drain
     type: Side Scheme
@@ -24,6 +26,8 @@
     sku: MC02en
     position: 42
     quantity: 1
+  sets:
+  - name: Power Drain
   faces:
   - name: Electro
     type: Minion
@@ -48,6 +52,8 @@
     sku: MC02en
     position: 43
     quantity: 1
+  sets:
+  - name: Power Drain
   faces:
   - name: Electromagnetic Pulse
     type: Treachery
@@ -66,6 +72,8 @@
     sku: MC02en
     position: 44
     quantity: 1
+  sets:
+  - name: Power Drain
   faces:
   - name: Lightning Bolt
     type: Treachery
@@ -83,6 +91,8 @@
     sku: MC02en
     position: 45
     quantity: 1
+  sets:
+  - name: Power Drain
   faces:
   - name: Shock Therapy
     type: Treachery

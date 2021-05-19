@@ -1,0 +1,65 @@
+- names:
+  - Pirate Commander
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 138
+    quantity: 1
+  sets:
+  - name: Space Pirates
+  faces:
+  - name: Pirate Commander
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/138.png
+    marvelcdb_url: null
+- names:
+  - Pirate Lackey
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 139
+    quantity: 4
+  sets:
+  - name: Space Pirates
+  faces:
+  - name: Pirate Lackey
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/139.png
+    marvelcdb_url: null
+- names:
+  - Sound the Alarms
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 140
+    quantity: 1
+  sets:
+  - name: Space Pirates
+  faces:
+  - name: Sound the Alarms
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/140.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Honor Among Thieves
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 141
+    quantity: 2
+  sets:
+  - name: Space Pirates
+  faces:
+  - name: Honor Among Thieves
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/141.png
+    marvelcdb_url: null

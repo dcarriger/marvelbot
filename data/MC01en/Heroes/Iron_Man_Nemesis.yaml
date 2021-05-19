@@ -5,6 +5,8 @@
     sku: MC01en
     position: 170
     quantity: 1
+  sets:
+  - name: Iron Man
   faces:
   - name: Business Problems
     type: Obligation
@@ -24,6 +26,8 @@
     sku: MC01en
     position: 171
     quantity: 1
+  sets:
+  - name: Iron Man Nemesis
   faces:
   - name: Imminent Overload
     type: Side Scheme
@@ -43,6 +47,8 @@
     sku: MC01en
     position: 172
     quantity: 1
+  sets:
+  - name: Iron Man Nemesis
   faces:
   - name: Whiplash
     type: Minion
@@ -65,6 +71,8 @@
     sku: MC01en
     position: 173
     quantity: 2
+  sets:
+  - name: Iron Man Nemesis
   faces:
   - name: Electric Whip Attack
     type: Treachery
@@ -83,6 +91,8 @@
     sku: MC01en
     position: 174
     quantity: 1
+  sets:
+  - name: Iron Man Nemesis
   faces:
   - name: Electromagnetic Backlash
     type: Treachery

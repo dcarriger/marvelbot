@@ -1,10 +1,15 @@
 - names:
   - Crossbones
+  - Crossbones 1
+  - Crossbones I
+  - Standard Crossbones
   packs:
   - name: The Rise of Red Skull
     sku: MC10en
     position: 58
     quantity: 1
+  sets:
+  - name: Crossbones
   faces:
   - name: Crossbones
     type: Villain
@@ -24,11 +29,17 @@
     marvelcdb_url: https://marvelcdb.com/card/04058
 - names:
   - Crossbones
+  - Crossbones 2
+  - Crossbones II
+  - Standard Crossbones
+  - Expert Crossbones
   packs:
   - name: The Rise of Red Skull
     sku: MC10en
     position: 59
     quantity: 1
+  sets:
+  - name: Crossbones
   faces:
   - name: Crossbones
     type: Villain
@@ -46,11 +57,16 @@
     marvelcdb_url: https://marvelcdb.com/card/04059
 - names:
   - Crossbones
+  - Crossbones 3
+  - Crossbones III
+  - Expert Crossbones
   packs:
   - name: The Rise of Red Skull
     sku: MC10en
     position: 60
     quantity: 1
+  sets:
+  - name: Crossbones
   faces:
   - name: Crossbones
     type: Villain
@@ -74,6 +90,8 @@
     sku: MC10en
     position: 61
     quantity: 1
+  sets:
+  - name: Crossbones
   faces:
   - name: Attack on Mount Athena
     type: Main Scheme
@@ -105,6 +123,8 @@
     sku: MC10en
     position: 62
     quantity: 1
+  sets:
+  - name: Crossbones
   faces:
   - name: The Infinity Stone
     type: Main Scheme
@@ -134,6 +154,8 @@
     sku: MC10en
     position: 63
     quantity: 1
+  sets:
+  - name: Crossbones
   faces:
   - name: The Getaway
     type: Main Scheme
@@ -165,6 +187,8 @@
     sku: MC10en
     position: 64
     quantity: 1
+  sets:
+  - name: Crossbones
   faces:
   - name: Crossbones' Machine Gun
     type: Attachment
@@ -188,6 +212,8 @@
     sku: MC10en
     position: 65
     quantity: 1
+  sets:
+  - name: Crossbones
   faces:
   - name: Crossbones' Armor
     type: Attachment
@@ -209,6 +235,8 @@
     sku: MC10en
     position: 66
     quantity: 2
+  sets:
+  - name: Crossbones
   faces:
   - name: Hydra Bomber
     type: Minion
@@ -232,6 +260,8 @@
     sku: MC10en
     position: 67
     quantity: 2
+  sets:
+  - name: Crossbones
   faces:
   - name: Full Auto
     type: Treachery
@@ -251,6 +281,8 @@
     sku: MC10en
     position: 68
     quantity: 2
+  sets:
+  - name: Crossbones
   faces:
   - name: Hard as Nails
     type: Treachery
@@ -269,6 +301,8 @@
     sku: MC10en
     position: 69
     quantity: 2
+  sets:
+  - name: Crossbones
   faces:
   - name: Raid the Armory
     type: Treachery
@@ -288,6 +322,8 @@
     sku: MC10en
     position: 70
     quantity: 2
+  sets:
+  - name: Crossbones
   faces:
   - name: Crossbones' Assault
     type: Side Scheme
@@ -308,6 +344,8 @@
     sku: MC10en
     position: 71
     quantity: 1
+  sets:
+  - name: Crossbones
   faces:
   - name: Cornered Staff
     type: Side Scheme

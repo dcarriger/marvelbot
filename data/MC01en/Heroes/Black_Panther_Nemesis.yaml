@@ -5,6 +5,8 @@
     sku: MC01en
     position: 155
     quantity: 1
+  sets:
+  - name: Black Panther
   faces:
   - name: Affairs of State
     type: Obligation
@@ -24,6 +26,8 @@
     sku: MC01en
     position: 156
     quantity: 1
+  sets:
+  - name: Black Panther Nemesis
   faces:
   - name: Usurp The Throne
     type: Side Scheme
@@ -42,6 +46,8 @@
     sku: MC01en
     position: 157
     quantity: 1
+  sets:
+  - name: Black Panther Nemesis
   faces:
   - name: Killmonger
     type: Minion
@@ -65,6 +71,8 @@
     sku: MC01en
     position: 158
     quantity: 1
+  sets:
+  - name: Black Panther Nemesis
   faces:
   - name: Heart-Shaped Herb
     type: Treachery
@@ -83,6 +91,8 @@
     sku: MC01en
     position: 159
     quantity: 2
+  sets:
+  - name: Black Panther Nemesis
   faces:
   - name: Ritual Combat
     type: Treachery

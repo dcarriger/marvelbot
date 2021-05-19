@@ -5,6 +5,8 @@
     sku: MC10en
     position: 154
     quantity: 1
+  sets:
+  - name: Hydra Patrol
   faces:
   - name: Hydra Patrol
     type: Side Scheme

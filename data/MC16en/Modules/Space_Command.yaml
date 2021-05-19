@@ -1,0 +1,115 @@
+- names:
+  - Milano
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 142
+    quantity: 1
+  sets:
+  - name: Space Command
+  faces:
+  - name: Milano
+    type: Support
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/142.png
+    marvelcdb_url: null
+- names:
+  - Rogue Vessel
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 143
+    quantity: 1
+  sets:
+  - name: Space Command
+  faces:
+  - name: Rogue Vessel
+    type: Environment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/143.png
+    marvelcdb_url: null
+- names:
+  - Cannonade
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 144
+    quantity: 1
+  sets:
+  - name: Space Command
+  faces:
+  - name: Cannonade
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/144.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Blind Side
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 145
+    quantity: 1
+  sets:
+  - name: Space Command
+  faces:
+  - name: Blind Side
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/145.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Hull Breach
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 146
+    quantity: 1
+  sets:
+  - name: Space Command
+  faces:
+  - name: Hull Breach
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/146.png
+    marvelcdb_url: null
+- names:
+  - Power Siphon
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 147
+    quantity: 1
+  sets:
+  - name: Space Command
+  faces:
+  - name: Power Siphon
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/147.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Special Delivery
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 148
+    quantity: 1
+  sets:
+  - name: Space Command
+  faces:
+  - name: Special Delivery
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/148.png
+    marvelcdb_url: null

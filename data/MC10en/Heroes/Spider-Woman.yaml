@@ -6,6 +6,8 @@
     sku: MC10en
     position: 31
     quantity: 1
+  sets:
+  - name: Spider-Woman
   faces:
   - name: Jessica Drew
     type: Alter-Ego
@@ -41,6 +43,8 @@
     sku: MC10en
     position: 32
     quantity: 1
+  sets:
+  - name: Spider-Woman
   faces:
   - name: Captain Marvel
     subtitle: Carol Danvers
@@ -68,6 +72,8 @@
     sku: MC10en
     position: 33
     quantity: 2
+  sets:
+  - name: Spider-Woman
   faces:
   - name: Finesse
     cost: 2
@@ -88,6 +94,8 @@
     sku: MC10en
     position: 34
     quantity: 1
+  sets:
+  - name: Spider-Woman
   faces:
   - name: Jessica Drew's Apartment
     cost: 1
@@ -109,6 +117,8 @@
     sku: MC10en
     position: 35
     quantity: 2
+  sets:
+  - name: Spider-Woman
   faces:
   - name: Venom Blast
     cost: 2
@@ -131,6 +141,8 @@
     sku: MC10en
     position: 36
     quantity: 2
+  sets:
+  - name: Spider-Woman
   faces:
   - name: Pheromones
     cost: 2
@@ -153,6 +165,8 @@
     sku: MC10en
     position: 37
     quantity: 2
+  sets:
+  - name: Spider-Woman
   faces:
   - name: Contaminant Immunity
     cost: 2
@@ -175,6 +189,8 @@
     sku: MC10en
     position: 38
     quantity: 2
+  sets:
+  - name: Spider-Woman
   faces:
   - name: Inconspicuous
     cost: 1
@@ -200,6 +216,8 @@
     sku: MC10en
     position: 39
     quantity: 3
+  sets:
+  - name: Spider-Woman
   faces:
   - name: Self-Propelled Glide
     cost: 1
