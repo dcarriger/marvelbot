@@ -1,10 +1,18 @@
 - names:
   - Kang (The Conqueror)
+  - Kang (The Conqueror) 1
+  - Kang (The Conqueror) I
+  - Standard Kang (The Conqueror)
+  - Standard Kang (The Conqueror) 1
+  - Standard Kang (The Conqueror) I
+  - Standard Kang
   packs:
   - name: The Once and Future Kang
     sku: MC11en
     position: 1
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Kang (The Conqueror)
     type: Villain
@@ -23,11 +31,15 @@
     marvelcdb_url: https://marvelcdb.com/card/11001
 - names:
   - Kang (Immortus)
+  - Standard Kang (Immortus)
+  - Standard Kang
   packs:
   - name: The Once and Future Kang
     sku: MC11en
     position: 2
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Kang (Immortus)
     type: Villain
@@ -47,11 +59,15 @@
     marvelcdb_url: https://marvelcdb.com/card/11002
 - names:
   - Kang (Iron Lad)
+  - Standard Kang (Iron Lad)
+  - Standard Kang
   packs:
   - name: The Once and Future Kang
     sku: MC11en
     position: 3
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Kang (Iron Lad)
     type: Villain
@@ -71,11 +87,15 @@
     marvelcdb_url: https://marvelcdb.com/card/11003
 - names:
   - Kang (Rama-Tut)
+  - Standard Kang (Rama-Tut)
+  - Standard Kang
   packs:
   - name: The Once and Future Kang
     sku: MC11en
     position: 4
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Kang (Rama-Tut)
     type: Villain
@@ -95,11 +115,15 @@
     marvelcdb_url: https://marvelcdb.com/card/11004
 - names:
   - Kang (Scarlet Centurion)
+  - Standard Kang (Scarlet Centurion)
+  - Standard Kang
   packs:
   - name: The Once and Future Kang
     sku: MC11en
     position: 5
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Kang (Scarlet Centurion)
     type: Villain
@@ -119,11 +143,19 @@
     marvelcdb_url: https://marvelcdb.com/card/11005
 - names:
   - Kang (The Conqueror)
+  - Kang (The Conqueror) 3
+  - Kang (The Conqueror) III
+  - Standard Kang (The Conqueror)
+  - Standard Kang (The Conqueror) 3
+  - Standard Kang (The Conqueror) III
+  - Standard Kang
   packs:
   - name: The Once and Future Kang
     sku: MC11en
     position: 6
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Kang (The Conqueror)
     type: Villain
@@ -149,6 +181,8 @@
     sku: MC11en
     position: 7
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Kang's Arrival
     type: Main Scheme
@@ -181,6 +215,8 @@
     sku: MC11en
     position: 8
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: The Master of Time
     type: Main Scheme
@@ -210,6 +246,8 @@
     sku: MC11en
     position: 9
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: The Chronopolis
     type: Main Scheme
@@ -240,6 +278,8 @@
     sku: MC11en
     position: 10
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Inexorable Fate
     type: Main Scheme
@@ -270,6 +310,8 @@
     sku: MC11en
     position: 11
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: The Realm of Rama-Tut
     type: Main Scheme
@@ -300,6 +342,8 @@
     sku: MC11en
     position: 12
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: The Present Future War
     type: Main Scheme
@@ -331,6 +375,8 @@
     sku: MC11en
     position: 13
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Kang's Wrath
     type: Main Scheme
@@ -363,6 +409,8 @@
     sku: MC11en
     position: 14
     quantity: 2
+  sets:
+  - name: Kang
   faces:
   - name: Temporal Shield
     type: Attachment
@@ -384,6 +432,8 @@
     sku: MC11en
     position: 15
     quantity: 2
+  sets:
+  - name: Kang
   faces:
   - name: Future Weapon
     type: Attachment
@@ -409,6 +459,8 @@
     sku: MC11en
     position: 16
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Frozen in Time
     type: Attachment
@@ -429,6 +481,8 @@
     sku: MC11en
     position: 17
     quantity: 3
+  sets:
+  - name: Kang
   faces:
   - name: Macrobots
     type: Minion
@@ -454,6 +508,8 @@
     sku: MC11en
     position: 18
     quantity: 2
+  sets:
+  - name: Kang
   faces:
   - name: Weakened
     type: Obligation
@@ -475,6 +531,8 @@
     sku: MC11en
     position: 19
     quantity: 2
+  sets:
+  - name: Kang
   faces:
   - name: Stolen Memories
     type: Obligation
@@ -494,6 +552,8 @@
     sku: MC11en
     position: 20
     quantity: 2
+  sets:
+  - name: Kang
   faces:
   - name: Depowered
     type: Obligation
@@ -515,6 +575,8 @@
     sku: MC11en
     position: 21
     quantity: 2
+  sets:
+  - name: Kang
   faces:
   - name: Time-Travel Hijinks
     type: Obligation
@@ -534,6 +596,8 @@
     sku: MC11en
     position: 22
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Corrupted Timestream
     type: Side Scheme
@@ -553,6 +617,8 @@
     sku: MC11en
     position: 23
     quantity: 4
+  sets:
+  - name: Kang
   faces:
   - name: Kang's Dominion
     type: Side Scheme
@@ -573,6 +639,8 @@
     sku: MC11en
     position: 24
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Pinned Down
     type: Side Scheme
@@ -590,6 +658,8 @@
     sku: MC11en
     position: 25
     quantity: 2
+  sets:
+  - name: Kang
   faces:
   - name: Rampage
     type: Side Scheme
@@ -609,6 +679,8 @@
     sku: MC11en
     position: 26
     quantity: 2
+  sets:
+  - name: Kang
   faces:
   - name: Energy Blast
     type: Treachery
@@ -626,6 +698,8 @@
     sku: MC11en
     position: 27
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Manipulated Timestream
     type: Treachery
@@ -643,6 +717,8 @@
     sku: MC11en
     position: 28
     quantity: 2
+  sets:
+  - name: Kang
   faces:
   - name: Time-Travel Tactics
     type: Treachery
@@ -663,6 +739,8 @@
     sku: MC11en
     position: 29
     quantity: 1
+  sets:
+  - name: Kang
   faces:
   - name: Past Machinations
     type: Treachery
@@ -683,6 +761,8 @@
     sku: MC11en
     position: 30
     quantity: 3
+  sets:
+  - name: Temporal
   faces:
   - name: Ancient Warrior
     type: Minion
@@ -707,6 +787,8 @@
     sku: MC11en
     position: 31
     quantity: 2
+  sets:
+  - name: Temporal
   faces:
   - name: Chitauri Soldier
     type: Minion
@@ -731,6 +813,8 @@
     sku: MC11en
     position: 32
     quantity: 1
+  sets:
+  - name: Temporal
   faces:
   - name: Tyrannosaurus Rex
     type: Minion
@@ -755,6 +839,8 @@
     sku: MC11en
     position: 33
     quantity: 1
+  sets:
+  - name: Temporal
   faces:
   - name: Time Portal
     type: Side Scheme
@@ -768,11 +854,19 @@
   horizontal: true
 - names:
   - Kang (The Conqueror)
+  - Kang (The Conqueror) 1
+  - Kang (The Conqueror) I
+  - Expert Kang (The Conqueror)
+  - Expert Kang (The Conqueror) I
+  - Expert Kang (The Conqueror) 1
+  - Expert Kang
   packs:
   - name: The Once and Future Kang
     sku: MC11en
     position: 34
     quantity: 1
+  sets:
+  - name: Expert Kang
   faces:
   - name: Kang (The Conqueror)
     type: Villain
@@ -793,11 +887,15 @@
     marvelcdb_url: https://marvelcdb.com/card/11034
 - names:
   - Kang (Immortus)
+  - Expert Kang (Immortus)
+  - Expert Kang
   packs:
   - name: The Once and Future Kang
     sku: MC11en
     position: 35
     quantity: 1
+  sets:
+  - name: Expert Kang
   faces:
   - name: Kang (Immortus)
     type: Villain
@@ -817,11 +915,15 @@
     marvelcdb_url: https://marvelcdb.com/card/11035
 - names:
   - Kang (Iron Lad)
+  - Expert Kang (Iron Lad)
+  - Expert Kang
   packs:
   - name: The Once and Future Kang
     sku: MC11en
     position: 36
     quantity: 1
+  sets:
+  - name: Expert Kang
   faces:
   - name: Kang (Iron Lad)
     type: Villain
@@ -841,11 +943,15 @@
     marvelcdb_url: https://marvelcdb.com/card/11036
 - names:
   - Kang (Rama-Tut)
+  - Expert Kang (Rama-Tut)
+  - Expert Kang
   packs:
   - name: The Once and Future Kang
     sku: MC11en
     position: 37
     quantity: 1
+  sets:
+  - name: Expert Kang
   faces:
   - name: Kang (Rama-Tut)
     type: Villain
@@ -865,11 +971,15 @@
     marvelcdb_url: https://marvelcdb.com/card/11037
 - names:
   - Kang (Scarlet Centurion)
+  - Expert Kang (Scarlet Centurion)
+  - Expert Kang
   packs:
   - name: The Once and Future Kang
     sku: MC11en
     position: 38
     quantity: 1
+  sets:
+  - name: Expert Kang
   faces:
   - name: Kang (Scarlet Centurion)
     type: Villain
@@ -889,11 +999,19 @@
     marvelcdb_url: https://marvelcdb.com/card/11038
 - names:
   - Kang (The Conqueror)
+  - Kang (The Conqueror) 3
+  - Kang (The Conqueror) III
+  - Expert Kang (The Conqueror)
+  - Expert Kang (The Conqueror) 3
+  - Expert Kang (The Conqueror) III
+  - Expert Kang
   packs:
   - name: The Once and Future Kang
     sku: MC11en
     position: 39
     quantity: 1
+  sets:
+  - name: Expert Kang
   faces:
   - name: Kang (The Conqueror)
     type: Villain
@@ -919,6 +1037,8 @@
     sku: MC11en
     position: 40
     quantity: 1
+  sets:
+  - name: Anachronauts
   faces:
   - name: Apocryphus
     type: Minion
@@ -941,6 +1061,8 @@
     sku: MC11en
     position: 41
     quantity: 1
+  sets:
+  - name: Anachronauts
   faces:
   - name: Deathunt 9000
     type: Minion
@@ -966,6 +1088,8 @@
     sku: MC11en
     position: 42
     quantity: 1
+  sets:
+  - name: Anachronauts
   faces:
   - name: Sir Raston
     type: Minion
@@ -991,6 +1115,8 @@
     sku: MC11en
     position: 43
     quantity: 1
+  sets:
+  - name: Anachronauts
   faces:
   - name: Terminatrix
     type: Minion
@@ -1016,6 +1142,8 @@
     sku: MC11en
     position: 44
     quantity: 1
+  sets:
+  - name: Anachronauts
   faces:
   - name: Wildrun
     type: Minion
@@ -1039,6 +1167,8 @@
     sku: MC11en
     position: 45
     quantity: 2
+  sets:
+  - name: Anachronauts
   faces:
   - name: The Anachronauts
     type: Side Scheme
@@ -1057,6 +1187,8 @@
     sku: MC11en
     position: 46
     quantity: 2
+  sets:
+  - name: Anachronauts
   faces:
   - name: Kang's Chosen
     type: Treachery
@@ -1076,6 +1208,8 @@
     sku: MC11en
     position: 47
     quantity: 1
+  sets:
+  - name: Master of Time
   faces:
   - name: Kang (Master of Time)
     type: Minion
@@ -1099,6 +1233,8 @@
     sku: MC11en
     position: 48
     quantity: 2
+  sets:
+  - name: Master of Time
   faces:
   - name: Time-Displaced Soldier
     type: Minion
@@ -1124,6 +1260,8 @@
     sku: MC11en
     position: 49
     quantity: 2
+  sets:
+  - name: Master of Time
   faces:
   - name: Fear of Kang
     type: Obligation
@@ -1143,6 +1281,8 @@
     sku: MC11en
     position: 50
     quantity: 1
+  sets:
+  - name: Master of Time
   faces:
   - name: Light of Centuries Sphere
     type: Side Scheme
@@ -1162,6 +1302,8 @@
     sku: MC11en
     position: 51
     quantity: 2
+  sets:
+  - name: Master of Time
   faces:
   - name: Ancient Grudge
     type: Treachery

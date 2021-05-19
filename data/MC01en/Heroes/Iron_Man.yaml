@@ -6,6 +6,8 @@
     sku: MC01en
     position: 29
     quantity: 1
+  sets:
+  - name: Iron Man
   faces:
   - name: Tony Stark
     type: Alter-Ego
@@ -40,6 +42,8 @@
     sku: MC01en
     position: 30
     quantity: 1
+  sets:
+  - name: Iron Man
   faces:
   - name: War Machine
     subtitle: James Rhodes
@@ -67,6 +71,8 @@
     sku: MC01en
     position: 31
     quantity: 3
+  sets:
+  - name: Iron Man
   faces:
   - name: Repulsor Blast
     cost: 1
@@ -89,6 +95,8 @@
     sku: MC01en
     position: 32
     quantity: 2
+  sets:
+  - name: Iron Man
   faces:
   - name: Supersonic Punch
     cost: 2
@@ -111,6 +119,8 @@
     sku: MC01en
     position: 33
     quantity: 1
+  sets:
+  - name: Iron Man
   faces:
   - name: Pepper Potts
     cost: 3
@@ -132,6 +142,8 @@
     sku: MC01en
     position: 34
     quantity: 1
+  sets:
+  - name: Iron Man
   faces:
   - name: Stark Tower
     cost: 2
@@ -154,6 +166,8 @@
     sku: MC01en
     position: 35
     quantity: 1
+  sets:
+  - name: Iron Man
   faces:
   - name: Arc Reactor
     cost: 2
@@ -177,6 +191,8 @@
     sku: MC01en
     position: 36
     quantity: 1
+  sets:
+  - name: Iron Man
   faces:
   - name: Mark V Armor
     cost: 3
@@ -198,6 +214,8 @@
     sku: MC01en
     position: 37
     quantity: 1
+  sets:
+  - name: Iron Man
   faces:
   - name: Mark V Helmet
     cost: 1
@@ -220,6 +238,8 @@
     sku: MC01en
     position: 38
     quantity: 2
+  sets:
+  - name: Iron Man
   faces:
   - name: Powered Gauntlets
     cost: 2
@@ -242,6 +262,8 @@
     sku: MC01en
     position: 39
     quantity: 2
+  sets:
+  - name: Iron Man
   faces:
   - name: Rocket Boots
     cost: 1

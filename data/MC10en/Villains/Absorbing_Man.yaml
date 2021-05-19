@@ -1,10 +1,15 @@
 - names:
   - Absorbing Man
+  - Absorbing Man 1
+  - Absorbing I
+  - Standard Absorbing Man
   packs:
   - name: The Rise of Red Skull
     sku: MC10en
     position: 76
     quantity: 1
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Absorbing Man
     type: Villain
@@ -21,11 +26,17 @@
     marvelcdb_url: https://marvelcdb.com/card/04076
 - names:
   - Absorbing Man
+  - Absorbing Man 2
+  - Absorbing II
+  - Standard Absorbing Man
+  - Expert Absorbing Man
   packs:
   - name: The Rise of Red Skull
     sku: MC10en
     position: 77
     quantity: 1
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Absorbing Man
     type: Villain
@@ -42,11 +53,16 @@
     marvelcdb_url: https://marvelcdb.com/card/04077
 - names:
   - Absorbing Man
+  - Absorbing Man 3
+  - Absorbing III
+  - Expert Absorbing Man
   packs:
   - name: The Rise of Red Skull
     sku: MC10en
     position: 78
     quantity: 1
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Absorbing Man
     type: Villain
@@ -75,6 +91,8 @@
     sku: MC10en
     position: 79
     quantity: 1
+  sets:
+  - name: Absorbing Man
   faces:
   - name: None Shall Pass
     type: Main Scheme
@@ -107,6 +125,8 @@
     sku: MC10en
     position: 80
     quantity: 1
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Dense Forest
     type: Environment
@@ -127,6 +147,8 @@
     sku: MC10en
     position: 81
     quantity: 1
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Snowy Hillside
     type: Environment
@@ -147,6 +169,8 @@
     sku: MC10en
     position: 82
     quantity: 1
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Rocky Outcrop
     type: Environment
@@ -167,6 +191,8 @@
     sku: MC10en
     position: 83
     quantity: 1
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Abandoned Facility
     type: Environment
@@ -187,6 +213,8 @@
     sku: MC10en
     position: 84
     quantity: 1
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Ball and Chain
     type: Attachment
@@ -209,6 +237,8 @@
     sku: MC10en
     position: 85
     quantity: 2
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Stall Tactics
     type: Treachery
@@ -228,6 +258,8 @@
     sku: MC10en
     position: 86
     quantity: 2
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Swinging Stone
     type: Environment
@@ -244,6 +276,8 @@
     sku: MC10en
     position: 87
     quantity: 2
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Steel Kick
     type: Treachery
@@ -261,6 +295,8 @@
     sku: MC10en
     position: 88
     quantity: 2
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Piercing Thorns
     type: Treachery
@@ -278,6 +314,8 @@
     sku: MC10en
     position: 89
     quantity: 3
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Omni-Morph Duplication
     type: Treachery
@@ -298,6 +336,8 @@
     sku: MC10en
     position: 90
     quantity: 2
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Icy Grip
     type: Treachery
@@ -316,6 +356,8 @@
     sku: MC10en
     position: 91
     quantity: 2
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Avalanche!
     type: Side Scheme
@@ -335,6 +377,8 @@
     sku: MC10en
     position: 92
     quantity: 1
+  sets:
+  - name: Absorbing Man
   faces:
   - name: Super Absorbing Power
     type: Side Scheme

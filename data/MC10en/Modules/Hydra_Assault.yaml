@@ -5,6 +5,8 @@
     sku: MC10en
     position: 145
     quantity: 3
+  sets:
+  - name: Hydra Assault
   faces:
   - name: Hydra Flame-Soldier
     type: Minion
@@ -29,6 +31,8 @@
     sku: MC10en
     position: 146
     quantity: 2
+  sets:
+  - name: Hydra Assault
   faces:
   - name: Hydra Jet-Trooper
     type: Minion

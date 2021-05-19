@@ -1,0 +1,172 @@
+- names:
+  - Collector
+  - Collector A1
+  - Collector A2
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 80
+    quantity: 1
+  sets:
+  - name: Escape the Museum
+  faces:
+  - name: Collector
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/80A.png
+    marvelcdb_url: null
+  - name: Collector
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/80B.png
+    marvelcdb_url: null
+- names:
+  - Collector
+  - Collector B1
+  - Collector B2
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 81
+    quantity: 1
+  sets:
+  - name: Escape the Museum
+  faces:
+  - name: Collector
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/81A.png
+    marvelcdb_url: null
+  - name: Collector
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/81B.png
+    marvelcdb_url: null
+- names:
+  - The Missing Milano
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 82
+    quantity: 1
+  sets:
+  - name: Escape the Museum
+  faces:
+  - name: The Missing Milano
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/82A.png
+    marvelcdb_url: null
+  - name: The Missing Milano
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/82B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Lost in the Museum
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 83
+    quantity: 1
+  sets:
+  - name: Escape the Museum
+  faces:
+  - name: Lost in the Museum
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/83A.png
+    marvelcdb_url: null
+  - name: Lost in the Museum
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/83B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - The Great Escape
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 84
+    quantity: 1
+  sets:
+  - name: Escape the Museum
+  faces:
+  - name: The Great Escape
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/84A.png
+    marvelcdb_url: null
+  - name: The Great Escape
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/84B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Library Labyrinth
+  - Museum Ship
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 85
+    quantity: 1
+  sets:
+  - name: Escape the Museum
+  faces:
+  - name: Library Labyrinth
+    type: Environment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/85A.png
+    marvelcdb_url: null
+  - name: Museum Ship
+    type: Environment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/85B.png
+    marvelcdb_url: null
+- names:
+  - '"I Have You Now!"'
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 86
+    quantity: 3
+  sets:
+  - name: Escape the Museum
+  faces:
+  - name: '"I Have You Now!"'
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/86.png
+    marvelcdb_url: null
+- names:
+  - Impossible Geometry
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 87
+    quantity: 3
+  sets:
+  - name: Escape the Museum
+  faces:
+  - name: Impossible Geometry
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/87.png
+    marvelcdb_url: null

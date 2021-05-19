@@ -8,6 +8,8 @@
     sku: MC01en
     position: 134
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: Ultron
     type: Villain
@@ -34,6 +36,8 @@
     sku: MC01en
     position: 135
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: Ultron
     type: Villain
@@ -60,6 +64,8 @@
     sku: MC01en
     position: 136
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: Ultron
     type: Villain
@@ -82,6 +88,8 @@
     sku: MC01en
     position: 137
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: The Crimson Cowl
     type: Main Scheme
@@ -118,6 +126,8 @@
     sku: MC01en
     position: 138
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: Assault on NORAD
     type: Main Scheme
@@ -153,6 +163,8 @@
     sku: MC01en
     position: 139
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: Countdown to Oblivion
     type: Main Scheme
@@ -186,6 +198,8 @@
     sku: MC01en
     position: 140
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: Ultron Drones
     type: Environment
@@ -202,6 +216,8 @@
     sku: MC01en
     position: 141
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: Program Transmitter
     type: Attachment
@@ -225,6 +241,8 @@
     sku: MC01en
     position: 142
     quantity: 2
+  sets:
+  - name: Ultron
   faces:
   - name: Upgraded Drones
     type: Attachment
@@ -245,6 +263,8 @@
     sku: MC01en
     position: 143
     quantity: 3
+  sets:
+  - name: Ultron
   faces:
   - name: Advanced Ultron Drone
     type: Minion
@@ -268,25 +288,9 @@
   - name: Core Set
     sku: MC01en
     position: 144
-    quantity: 3
-  faces:
-  - name: Android Efficiency
-    type: Treachery
-    unique: false
-    text: '**When Revealed**: Each player puts the top card of their deck into play
-      facedown, engaged with them as a [[Drone]] minion.'
-    boost_icons: 0
-    star_text: Choose to either spend a [energy] resource or put the top card of the
-      deck into play facedown, engaged with you as a [[Drone]] minion.
-    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/144A.png
-    marvelcdb_url: https://marvelcdb.com/card/01144
-- names:
-  - Android Efficiency
-  packs:
-  - name: Core Set
-    sku: MC01en
-    position: 144
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: Android Efficiency
     type: Treachery
@@ -305,6 +309,8 @@
     sku: MC01en
     position: 144
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: Android Efficiency
     type: Treachery
@@ -323,6 +329,8 @@
     sku: MC01en
     position: 144
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: Android Efficiency
     type: Treachery
@@ -341,6 +349,8 @@
     sku: MC01en
     position: 145
     quantity: 2
+  sets:
+  - name: Ultron
   faces:
   - name: Rage of Ultron
     type: Treachery
@@ -358,6 +368,8 @@
     sku: MC01en
     position: 146
     quantity: 2
+  sets:
+  - name: Ultron
   faces:
   - name: Repair Sequence
     type: Treachery
@@ -375,6 +387,8 @@
     sku: MC01en
     position: 147
     quantity: 2
+  sets:
+  - name: Ultron
   faces:
   - name: Swarm Attack
     type: Treachery
@@ -392,6 +406,8 @@
     sku: MC01en
     position: 148
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: Drone Factory
     type: Side Scheme
@@ -411,6 +427,8 @@
     sku: MC01en
     position: 149
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: Invasive AI
     type: Side Scheme
@@ -430,6 +448,8 @@
     sku: MC01en
     position: 150
     quantity: 1
+  sets:
+  - name: Ultron
   faces:
   - name: Ultron's Imperative
     type: Side Scheme

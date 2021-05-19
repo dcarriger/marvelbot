@@ -5,6 +5,8 @@
     sku: MC16en
     position: 29
     quantity: 1
+  sets:
+  - name: Rocket Raccoon
   faces:
   - name: Rocket Raccoon
     type: Alter Ego
@@ -38,6 +40,8 @@
     sku: MC16en
     position: 30
     quantity: 2
+  sets:
+  - name: Rocket Raccoon
   faces:
   - name: I've Got a Plan
     cost: 1
@@ -59,6 +63,8 @@
     sku: MC16en
     position: 31
     quantity: 2
+  sets:
+  - name: Rocket Raccoon
   faces:
   - name: Reload
     cost: 1
@@ -78,6 +84,8 @@
     sku: MC16en
     position: 32
     quantity: 1
+  sets:
+  - name: Rocket Raccoon
   faces:
   - name: Schadenfreude
     cost: 2
@@ -96,6 +104,8 @@
     sku: MC16en
     position: 33
     quantity: 1
+  sets:
+  - name: Rocket Raccoon
   faces:
   - name: Salvage
     type: Resource
@@ -114,6 +124,8 @@
     sku: MC16en
     position: 34
     quantity: 2
+  sets:
+  - name: Rocket Raccoon
   faces:
   - name: Battery Pack
     cost: 1
@@ -136,6 +148,8 @@
     sku: MC16en
     position: 35
     quantity: 1
+  sets:
+  - name: Rocket Raccoon
   faces:
   - name: Cybernetic Skeleton
     cost: 2
@@ -157,6 +171,8 @@
     sku: MC16en
     position: 36
     quantity: 1
+  sets:
+  - name: Rocket Raccoon
   faces:
   - name: Particle Cannon
     cost: 3
@@ -181,6 +197,8 @@
     sku: MC16en
     position: 37
     quantity: 1
+  sets:
+  - name: Rocket Raccoon
   faces:
   - name: Rocket Launcher
     cost: 3
@@ -205,6 +223,8 @@
     sku: MC16en
     position: 38
     quantity: 2
+  sets:
+  - name: Rocket Raccoon
   faces:
   - name: Rocket's Pistol
     cost: 1
@@ -229,6 +249,8 @@
     sku: MC16en
     position: 39
     quantity: 1
+  sets:
+  - name: Rocket Raccoon
   faces:
   - name: Thruster Boots
     cost: 1

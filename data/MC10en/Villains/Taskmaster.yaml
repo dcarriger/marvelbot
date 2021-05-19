@@ -1,10 +1,15 @@
 - names:
   - Taskmaster
+  - Taskmaster 1
+  - Taskmaster I
+  - Standard Taskmaster
   packs:
   - name: The Rise of Red Skull
     sku: MC10en
     position: 93
     quantity: 1
+  sets:
+  - name: Taskmaster
   faces:
   - name: Taskmaster
     type: Villain
@@ -23,11 +28,17 @@
     marvelcdb_url: https://marvelcdb.com/card/04093
 - names:
   - Taskmaster
+  - Taskmaster 2
+  - Taskmaster II
+  - Standard Taskmaster
+  - Expert Taskmaster
   packs:
   - name: The Rise of Red Skull
     sku: MC10en
     position: 94
     quantity: 1
+  sets:
+  - name: Taskmaster
   faces:
   - name: Taskmaster
     type: Villain
@@ -45,11 +56,17 @@
     marvelcdb_url: https://marvelcdb.com/card/04094
 - names:
   - Taskmaster
+  - Taskmaster 3
+  - Taskmaster III
+  - Standard Taskmaster
+  - Expert Taskmaster
   packs:
   - name: The Rise of Red Skull
     sku: MC10en
     position: 95
     quantity: 1
+  sets:
+  - name: Taskmaster
   faces:
   - name: Taskmaster
     type: Villain
@@ -72,6 +89,8 @@
     sku: MC10en
     position: 96
     quantity: 1
+  sets:
+  - name: Taskmaster
   faces:
   - name: Hunting Down Heroes
     type: Main Scheme
@@ -105,6 +124,8 @@
     sku: MC10en
     position: 97
     quantity: 1
+  sets:
+  - name: Taskmaster
   faces:
   - name: Moon Knight
     subtitle: Marc Spector
@@ -133,6 +154,8 @@
     sku: MC10en
     position: 98
     quantity: 1
+  sets:
+  - name: Taskmaster
   faces:
   - name: Shang-Chi
     cost: 0
@@ -159,6 +182,8 @@
     sku: MC10en
     position: 99
     quantity: 1
+  sets:
+  - name: Taskmaster
   faces:
   - name: White Tiger
     subtitle: Angela Del Toro
@@ -186,6 +211,8 @@
     sku: MC10en
     position: 100
     quantity: 1
+  sets:
+  - name: Taskmaster
   faces:
   - name: Elektra
     cost: 0
@@ -214,6 +241,8 @@
     sku: MC10en
     position: 101
     quantity: 2
+  sets:
+  - name: Taskmaster
   faces:
   - name: Hydra Hunter
     type: Minion
@@ -237,6 +266,8 @@
     sku: MC10en
     position: 102
     quantity: 1
+  sets:
+  - name: Taskmaster
   faces:
   - name: Taskmaster's Sword
     type: Attachment
@@ -258,6 +289,8 @@
     sku: MC10en
     position: 103
     quantity: 1
+  sets:
+  - name: Taskmaster
   faces:
   - name: Taskmaster's Shield
     type: Attachment
@@ -280,6 +313,8 @@
     sku: MC10en
     position: 104
     quantity: 2
+  sets:
+  - name: Taskmaster
   faces:
   - name: Photographic Reflexes
     type: Attachment
@@ -297,6 +332,8 @@
     sku: MC10en
     position: 105
     quantity: 2
+  sets:
+  - name: Taskmaster
   faces:
   - name: Mimicry
     type: Treachery
@@ -314,6 +351,8 @@
     sku: MC10en
     position: 106
     quantity: 2
+  sets:
+  - name: Taskmaster
   faces:
   - name: Hunted by Hydra
     type: Treachery
@@ -334,6 +373,8 @@
     sku: MC10en
     position: 107
     quantity: 4
+  sets:
+  - name: Taskmaster
   faces:
   - name: Captured by Hydra
     type: Side Scheme
@@ -353,6 +394,8 @@
     sku: MC10en
     position: 108
     quantity: 1
+  sets:
+  - name: Taskmaster
   faces:
   - name: Taskmaster's Training Camp
     type: Side Scheme

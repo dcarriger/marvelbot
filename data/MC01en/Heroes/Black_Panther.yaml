@@ -6,6 +6,8 @@
     sku: MC01en
     position: 40
     quantity: 1
+  sets:
+  - name: Black Panther
   faces:
   - name: T'Challa
     type: Alter-Ego
@@ -43,6 +45,8 @@
     sku: MC01en
     position: 41
     quantity: 1
+  sets:
+  - name: Black Panther
   faces:
   - name: Shuri
     cost: 2
@@ -70,6 +74,8 @@
     sku: MC01en
     position: 42
     quantity: 1
+  sets:
+  - name: Black Panther
   faces:
   - name: Ancestral Knowledge
     cost: 1
@@ -90,6 +96,8 @@
     sku: MC01en
     position: 43
     quantity: 1
+  sets:
+  - name: Black Panther
   faces:
   - name: Wakanda Forever!
     cost: 1
@@ -110,6 +118,8 @@
     sku: MC01en
     position: 43
     quantity: 1
+  sets:
+  - name: Black Panther
   faces:
   - name: Wakanda Forever!
     cost: 1
@@ -130,6 +140,8 @@
     sku: MC01en
     position: 43
     quantity: 1
+  sets:
+  - name: Black Panther
   faces:
   - name: Wakanda Forever!
     cost: 1
@@ -149,7 +161,9 @@
   - name: Core Set
     sku: MC01en
     position: 43
-    quantity: 2
+    quantity: 1
+  sets:
+  - name: Black Panther
   faces:
   - name: Wakanda Forever!
     cost: 1
@@ -170,6 +184,8 @@
     sku: MC01en
     position: 44
     quantity: 3
+  sets:
+  - name: Black Panther
   faces:
   - name: Vibranium
     type: Resource
@@ -188,6 +204,8 @@
     sku: MC01en
     position: 45
     quantity: 1
+  sets:
+  - name: Black Panther
   faces:
   - name: The Golden City
     cost: 2
@@ -210,6 +228,8 @@
     sku: MC01en
     position: 46
     quantity: 1
+  sets:
+  - name: Black Panther
   faces:
   - name: Energy Daggers
     cost: 2
@@ -232,6 +252,8 @@
     sku: MC01en
     position: 47
     quantity: 1
+  sets:
+  - name: Black Panther
   faces:
   - name: Panther Claws
     cost: 2
@@ -254,6 +276,8 @@
     sku: MC01en
     position: 48
     quantity: 1
+  sets:
+  - name: Black Panther
   faces:
   - name: Tactical Genius
     cost: 2
@@ -276,6 +300,8 @@
     sku: MC01en
     position: 49
     quantity: 1
+  sets:
+  - name: Black Panther
   faces:
   - name: Vibranium Suit
     cost: 2

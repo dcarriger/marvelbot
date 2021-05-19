@@ -1,0 +1,148 @@
+- names:
+  - Cloak of Hercules
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 122
+    quantity: 1
+  sets:
+  - name: Galactic Artifacts
+  faces:
+  - name: Cloak of Hercules
+    type: Attachment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/122.png
+    marvelcdb_url: null
+- names:
+  - Obedience Potion
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 123
+    quantity: 1
+  sets:
+  - name: Galactic Artifacts
+  faces:
+  - name: Obedience Potion
+    type: Attachment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/123.png
+    marvelcdb_url: null
+- names:
+  - The Beyonder's Blazer
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 124
+    quantity: 1
+  sets:
+  - name: Galactic Artifacts
+  faces:
+  - name: The Beyonder's Blazer
+    type: Attachment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/124.png
+    marvelcdb_url: null
+- names:
+  - The Poison
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 125
+    quantity: 1
+  sets:
+  - name: Galactic Artifacts
+  faces:
+  - name: The Poison
+    type: Attachment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/125.png
+    marvelcdb_url: null
+- names:
+  - Vandarian Power Wand
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 126
+    quantity: 1
+  sets:
+  - name: Galactic Artifacts
+  faces:
+  - name: Vandarian Power Wand
+    type: Attachment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/126.png
+    marvelcdb_url: null
+- names:
+  - Hujahdarian Monarch Egg
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 127
+    quantity: 1
+  sets:
+  - name: Galactic Artifacts
+  faces:
+  - name: Hujahdarian Monarch Egg
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/127.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Magical Teapot
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 128
+    quantity: 1
+  sets:
+  - name: Galactic Artifacts
+  faces:
+  - name: Magical Teapot
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/128.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Philosopher's Stone
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 129
+    quantity: 1
+  sets:
+  - name: Galactic Artifacts
+  faces:
+  - name: Philosopher's Stone
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/129.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Crystal Ball
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 130
+    quantity: 1
+  sets:
+  - name: Galactic Artifacts
+  faces:
+  - name: Crystal Ball
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/130.png
+    marvelcdb_url: null
+  horizontal: true

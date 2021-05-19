@@ -7,6 +7,8 @@
     sku: MC02en
     position: 1
     quantity: 1
+  sets:
+  - name: Risky Business
   faces:
   - name: Norman Osborn
     type: Villain
@@ -43,6 +45,8 @@
     sku: MC02en
     position: 2
     quantity: 1
+  sets:
+  - name: Risky Business
   faces:
   - name: Norman Osborn
     type: Villain
@@ -79,6 +83,8 @@
     sku: MC02en
     position: 3
     quantity: 1
+  sets:
+  - name: Risky Business
   faces:
   - name: Norman Osborn
     type: Villain
@@ -113,6 +119,8 @@
     sku: MC02en
     position: 4
     quantity: 1
+  sets:
+  - name: Risky Business
   faces:
   - name: Hostile Takeover
     type: Main Scheme
@@ -146,6 +154,8 @@
     sku: MC02en
     position: 5
     quantity: 1
+  sets:
+  - name: Risky Business
   faces:
   - name: Corporate Acquisition
     type: Main Scheme
@@ -178,6 +188,8 @@
     sku: MC02en
     position: 6
     quantity: 1
+  sets:
+  - name: Risky Business
   faces:
   - name: Criminal Enterprise
     type: Environment
@@ -194,6 +206,8 @@
     sku: MC02en
     position: 6
     quantity: 1
+  sets:
+  - name: Risky Business
   faces:
   - name: State of Madness
     type: Environment
@@ -211,6 +225,8 @@
     sku: MC02en
     position: 7
     quantity: 3
+  sets:
+  - name: Risky Business
   faces:
   - name: Hired Gun
     type: Minion
@@ -234,6 +250,8 @@
     sku: MC02en
     position: 8
     quantity: 4
+  sets:
+  - name: Risky Business
   faces:
   - name: Private Security Specialist
     type: Minion
@@ -258,6 +276,8 @@
     sku: MC02en
     position: 9
     quantity: 1
+  sets:
+  - name: Risky Business
   faces:
   - name: Collapsing Bridge
     type: Side Scheme
@@ -277,6 +297,8 @@
     sku: MC02en
     position: 10
     quantity: 2
+  sets:
+  - name: Risky Business
   faces:
   - name: Oscorp Manufacturing
     type: Side Scheme
@@ -297,6 +319,8 @@
     sku: MC02en
     position: 11
     quantity: 2
+  sets:
+  - name: Risky Business
   faces:
   - name: Payoff
     type: Side Scheme
@@ -316,6 +340,8 @@
     sku: MC02en
     position: 12
     quantity: 4
+  sets:
+  - name: Risky Business
   faces:
   - name: All in a Day's Work
     type: Treachery
@@ -334,6 +360,8 @@
     sku: MC02en
     position: 13
     quantity: 2
+  sets:
+  - name: Risky Business
   faces:
   - name: Mad Genius
     type: Treachery

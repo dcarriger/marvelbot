@@ -5,6 +5,8 @@
     sku: MC10en
     position: 26
     quantity: 1
+  sets:
+  - name: Hawkeye Nemesis
   faces:
   - name: Criminal Past
     type: Obligation
@@ -24,6 +26,8 @@
     sku: MC10en
     position: 27
     quantity: 1
+  sets:
+  - name: Hawkeye Nemesis
   faces:
   - name: Crossfire
     type: Minion
@@ -50,6 +54,8 @@
     sku: MC10en
     position: 28
     quantity: 1
+  sets:
+  - name: Hawkeye Nemesis
   faces:
   - name: Marked for Death
     type: Side Scheme
@@ -69,6 +75,8 @@
     sku: MC10en
     position: 29
     quantity: 1
+  sets:
+  - name: Hawkeye Nemesis
   faces:
   - name: Crossfire's Rifle
     type: Attachment
@@ -90,6 +98,8 @@
     sku: MC10en
     position: 30
     quantity: 2
+  sets:
+  - name: Hawkeye Nemesis
   faces:
   - name: Sniper Shot
     type: Treachery

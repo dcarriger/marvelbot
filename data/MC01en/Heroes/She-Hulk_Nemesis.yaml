@@ -5,6 +5,8 @@
     sku: MC01en
     position: 160
     quantity: 1
+  sets:
+  - name: She-Hulk
   faces:
   - name: Legal Work
     type: Obligation
@@ -24,6 +26,8 @@
     sku: MC01en
     position: 161
     quantity: 1
+  sets:
+  - name: She-Hulk Nemesis
   faces:
   - name: Personal Challenge
     type: Side Scheme
@@ -43,6 +47,8 @@
     sku: MC01en
     position: 162
     quantity: 1
+  sets:
+  - name: She-Hulk Nemesis
   faces:
   - name: Titania
     type: Minion
@@ -66,6 +72,8 @@
     sku: MC01en
     position: 163
     quantity: 1
+  sets:
+  - name: She-Hulk Nemesis
   faces:
   - name: Genetically Enhanced
     type: Attachment
@@ -85,6 +93,8 @@
     sku: MC01en
     position: 164
     quantity: 2
+  sets:
+  - name: She-Hulk Nemesis
   faces:
   - name: Titania's Fury
     type: Treachery

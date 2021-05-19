@@ -5,6 +5,8 @@
     sku: MC14en
     position: 1
     quantity: 1
+  sets:
+  - name: Quicksilver
   faces:
   - name: Pietro Maximoff
     type: Alter-Ego
@@ -39,6 +41,8 @@
     sku: MC14en
     position: 2
     quantity: 1
+  sets:
+  - name: Quicksilver
   faces:
   - name: Scarlet Witch
     subtitle: Wanda Maximoff
@@ -66,6 +70,8 @@
     sku: MC14en
     position: 3
     quantity: 4
+  sets:
+  - name: Quicksilver
   faces:
   - name: Always Be Running
     cost: 1
@@ -86,6 +92,8 @@
     sku: MC14en
     position: 4
     quantity: 2
+  sets:
+  - name: Quicksilver
   faces:
   - name: Double Time
     cost: 2
@@ -108,6 +116,8 @@
     sku: MC14en
     position: 5
     quantity: 2
+  sets:
+  - name: Quicksilver
   faces:
   - name: Maximum Velocity
     cost: 2
@@ -130,6 +140,8 @@
     sku: MC14en
     position: 6
     quantity: 1
+  sets:
+  - name: Quicksilver
   faces:
   - name: Speed Cyclone
     cost: 0
@@ -150,6 +162,8 @@
     sku: MC14en
     position: 7
     quantity: 1
+  sets:
+  - name: Quicksilver
   faces:
   - name: Serval Industries
     cost: 1
@@ -172,6 +186,8 @@
     sku: MC14en
     position: 8
     quantity: 1
+  sets:
+  - name: Quicksilver
   faces:
   - name: Accelerated Reflex
     cost: 2
@@ -193,6 +209,8 @@
     sku: MC14en
     position: 9
     quantity: 1
+  sets:
+  - name: Quicksilver
   faces:
   - name: Friction Resistance
     cost: 3
@@ -215,6 +233,8 @@
     sku: MC14en
     position: 10
     quantity: 1
+  sets:
+  - name: Quicksilver
   faces:
   - name: Hyper Perception
     cost: 2
@@ -236,6 +256,8 @@
     sku: MC14en
     position: 11
     quantity: 1
+  sets:
+  - name: Quicksilver
   faces:
   - name: Reinforced Sinew
     cost: 2
@@ -453,6 +475,8 @@
     sku: MC14en
     position: 24
     quantity: 1
+  sets:
+  - name: Quicksilver
   faces:
   - name: Need for Speed
     type: Obligation
@@ -472,6 +496,8 @@
     sku: MC14en
     position: 25
     quantity: 1
+  sets:
+  - name: Quicksilver Nemesis
   faces:
   - name: Extortion of Seismic Proportion
     type: Side Scheme
@@ -491,6 +517,8 @@
     sku: MC14en
     position: 26
     quantity: 1
+  sets:
+  - name: Quicksilver Nemesis
   faces:
   - name: Avalanche
     type: Minion
@@ -516,6 +544,8 @@
     sku: MC14en
     position: 27
     quantity: 1
+  sets:
+  - name: Quicksilver Nemesis
   faces:
   - name: Vibration Resistance
     type: Attachment
@@ -536,6 +566,8 @@
     sku: MC14en
     position: 28
     quantity: 2
+  sets:
+  - name: Quicksilver Nemesis
   faces:
   - name: Earthquake
     type: Treachery

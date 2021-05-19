@@ -5,6 +5,8 @@
     sku: MC16en
     position: 1
     quantity: 1
+  sets:
+  - name: Groot
   faces:
   - name: Groot
     type: Alter Ego
@@ -38,6 +40,8 @@
     sku: MC16en
     position: 2
     quantity: 2
+  sets:
+  - name: Groot
   faces:
   - name: Fruition
     cost: 0
@@ -58,6 +62,8 @@
     sku: MC16en
     position: 3
     quantity: 2
+  sets:
+  - name: Groot
   faces:
   - name: '"I am Groot"'
     cost: 3
@@ -80,6 +86,8 @@
     sku: MC16en
     position: 4
     quantity: 2
+  sets:
+  - name: Groot
   faces:
   - name: '"I. AM. GROOT!"'
     cost: 2
@@ -102,6 +110,8 @@
     sku: MC16en
     position: 5
     quantity: 3
+  sets:
+  - name: Groot
   faces:
   - name: Root Stomp
     cost: 2
@@ -124,6 +134,8 @@
     sku: MC16en
     position: 6
     quantity: 1
+  sets:
+  - name: Groot
   faces:
   - name: '"We Are Groot"'
     cost: 1
@@ -145,6 +157,8 @@
     sku: MC16en
     position: 7
     quantity: 1
+  sets:
+  - name: Groot
   faces:
   - name: Fertile Ground
     cost: 1
@@ -166,6 +180,8 @@
     sku: MC16en
     position: 8
     quantity: 1
+  sets:
+  - name: Groot
   faces:
   - name: Entangling Vines
     cost: 1
@@ -187,6 +203,8 @@
     sku: MC16en
     position: 9
     quantity: 1
+  sets:
+  - name: Groot
   faces:
   - name: Lashing Vines
     cost: 1
@@ -208,6 +226,8 @@
     sku: MC16en
     position: 10
     quantity: 1
+  sets:
+  - name: Groot
   faces:
   - name: Vine Shield
     cost: 1
@@ -229,6 +249,8 @@
     sku: MC16en
     position: 11
     quantity: 1
+  sets:
+  - name: Groot
   faces:
   - name: Vine Spikes
     cost: 1

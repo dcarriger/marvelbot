@@ -1,0 +1,161 @@
+- names:
+  - Collector
+  - Collector I
+  - Collector 1
+  - Standard Infiltrate the Museum
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 70
+    quantity: 1
+  sets:
+  - name: Infiltrate the Museum
+  faces:
+  - name: Collector
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/70.png
+    marvelcdb_url: null
+- names:
+  - Collector
+  - Collector II
+  - Collector 2
+  - Standard Infiltrate the Museum
+  - Expert Infiltrate the Museum
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 71
+    quantity: 1
+  sets:
+  - name: Infiltrate the Museum
+  faces:
+  - name: Collector
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/71.png
+    marvelcdb_url: null
+- names:
+  - Collector
+  - Collector III
+  - Collector 3
+  - Expert Infiltrate the Museum
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 72
+    quantity: 1
+  sets:
+  - name: Infiltrate the Museum
+  faces:
+  - name: Collector
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/72.png
+    marvelcdb_url: null
+- names:
+  - The Grand Collection
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 73
+    quantity: 1
+  sets:
+  - name: Infiltrate the Museum
+  faces:
+  - name: The Grand Collection
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/73A.png
+    marvelcdb_url: null
+  - name: The Grand Collection
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/73B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Biogram Image
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 74
+    quantity: 1
+  sets:
+  - name: Infiltrate the Museum
+  faces:
+  - name: Biogram Image
+    type: Attachment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/74.png
+    marvelcdb_url: null
+- names:
+  - Monark Starstalker
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 75
+    quantity: 1
+  sets:
+  - name: Infiltrate the Museum
+  faces:
+  - name: Monark Starstalker
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/75.png
+    marvelcdb_url: null
+- names:
+  - Inconspicuous Box
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 76
+    quantity: 2
+  sets:
+  - name: Infiltrate the Museum
+  faces:
+  - name: Inconspicuous Box
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/76.png
+    marvelcdb_url: null
+- names:
+  - View the Cosmos
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 77
+    quantity: 2
+  sets:
+  - name: Infiltrate the Museum
+  faces:
+  - name: View the Cosmos
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/77.png
+    marvelcdb_url: null
+- names:
+  - Stay Awhile
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 78
+    quantity: 2
+  sets:
+  - name: Infiltrate the Museum
+  faces:
+  - name: Stay Awhile
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/78.png
+    marvelcdb_url: null

@@ -5,6 +5,8 @@
     sku: MC01en
     position: 175
     quantity: 1
+  sets:
+  - name: Captain Marvel
   faces:
   - name: Family Emergency
     type: Obligation
@@ -24,6 +26,8 @@
     sku: MC01en
     position: 176
     quantity: 1
+  sets:
+  - name: Captain Marvel Nemesis
   faces:
   - name: The Psych-Magnitron
     type: Side Scheme
@@ -43,6 +47,8 @@
     sku: MC01en
     position: 177
     quantity: 1
+  sets:
+  - name: Captain Marvel Nemesis
   faces:
   - name: Yon-Rogg
     type: Minion
@@ -64,6 +70,8 @@
     sku: MC01en
     position: 178
     quantity: 2
+  sets:
+  - name: Captain Marvel Nemesis
   faces:
   - name: Kree Manipulator
     type: Treachery
@@ -85,6 +93,8 @@
     sku: MC01en
     position: 179
     quantity: 1
+  sets:
+  - name: Captain Marvel Nemesis
   faces:
   - name: Yon-Rogg's Treason
     type: Treachery

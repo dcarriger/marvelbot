@@ -6,6 +6,8 @@
     sku: MC12en
     position: 1
     quantity: 1
+  sets:
+  - name: Ant-Man
   faces:
   - name: Scott Lang
     type: Alter-Ego
@@ -56,6 +58,8 @@
     sku: MC12en
     position: 2
     quantity: 1
+  sets:
+  - name: Ant-Man
   faces:
   - name: Wasp
     subtitle: Nadia Van Dyne
@@ -84,6 +88,8 @@
     sku: MC12en
     position: 3
     quantity: 2
+  sets:
+  - name: Ant-Man
   faces:
   - name: Giant Stomp
     cost: 3
@@ -107,6 +113,8 @@
     sku: MC12en
     position: 4
     quantity: 1
+  sets:
+  - name: Ant-Man
   faces:
   - name: Hive Mind
     cost: 2
@@ -129,6 +137,8 @@
     sku: MC12en
     position: 5
     quantity: 2
+  sets:
+  - name: Ant-Man
   faces:
   - name: Resize
     cost: 0
@@ -149,6 +159,8 @@
     sku: MC12en
     position: 6
     quantity: 2
+  sets:
+  - name: Ant-Man
   faces:
   - name: Pym Particles
     type: Resource
@@ -167,6 +179,8 @@
     sku: MC12en
     position: 7
     quantity: 3
+  sets:
+  - name: Ant-Man
   faces:
   - name: Army of Ants
     cost: 1
@@ -189,6 +203,8 @@
     sku: MC12en
     position: 8
     quantity: 1
+  sets:
+  - name: Ant-Man
   faces:
   - name: Ant-Man's Helmet
     cost: 3
@@ -211,6 +227,8 @@
     sku: MC12en
     position: 9
     quantity: 2
+  sets:
+  - name: Ant-Man
   faces:
   - name: Giant Strength
     cost: 1
@@ -234,6 +252,8 @@
     sku: MC12en
     position: 10
     quantity: 1
+  sets:
+  - name: Ant-Man
   faces:
   - name: Wrist Gauntlets
     cost: 1
@@ -509,6 +529,8 @@
     sku: MC12en
     position: 25
     quantity: 1
+  sets:
+  - name: Ant-Man
   faces:
   - name: Care for Cassie
     type: Obligation
@@ -528,6 +550,8 @@
     sku: MC12en
     position: 26
     quantity: 1
+  sets:
+  - name: Ant-Man Nemesis
   faces:
   - name: Tech Theft
     type: Side Scheme
@@ -546,6 +570,8 @@
     sku: MC12en
     position: 27
     quantity: 1
+  sets:
+  - name: Ant-Man Nemesis
   faces:
   - name: Yellowjacket
     type: Minion
@@ -567,6 +593,8 @@
     sku: MC12en
     position: 28
     quantity: 2
+  sets:
+  - name: Ant-Man Nemesis
   faces:
   - name: Size Increase
     type: Attachment
@@ -590,6 +618,8 @@
     sku: MC12en
     position: 29
     quantity: 1
+  sets:
+  - name: Ant-Man Nemesis
   faces:
   - name: Yellowjacket's Plan
     type: Treachery

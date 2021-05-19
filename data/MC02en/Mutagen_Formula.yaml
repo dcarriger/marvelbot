@@ -6,6 +6,8 @@
     sku: MC02en
     position: 14
     quantity: 1
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Green Goblin
     type: Villain
@@ -29,6 +31,8 @@
     sku: MC02en
     position: 15
     quantity: 1
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Green Goblin
     type: Villain
@@ -51,6 +55,8 @@
     sku: MC02en
     position: 16
     quantity: 1
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Green Goblin
     type: Villain
@@ -72,6 +78,8 @@
     sku: MC02en
     position: 17
     quantity: 1
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Unleashing the Mutagen
     type: Main Scheme
@@ -104,6 +112,8 @@
     sku: MC02en
     position: 18
     quantity: 1
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Mutagen Cloud
     type: Main Scheme
@@ -137,6 +147,8 @@
     sku: MC02en
     position: 19
     quantity: 1
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Goblin Glider
     type: Attachment
@@ -157,6 +169,8 @@
     sku: MC02en
     position: 20
     quantity: 1
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Hysteria
     type: Attachment
@@ -180,6 +194,8 @@
     sku: MC02en
     position: 21
     quantity: 1
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Pumpkin Bombs
     type: Attachment
@@ -201,6 +217,8 @@
     sku: MC02en
     position: 22
     quantity: 1
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Goblin Knight
     type: Minion
@@ -226,6 +244,8 @@
     sku: MC02en
     position: 23
     quantity: 4
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Goblin Soldier
     type: Minion
@@ -247,6 +267,8 @@
     sku: MC02en
     position: 24
     quantity: 6
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Goblin Thrall
     type: Minion
@@ -270,6 +292,8 @@
     sku: MC02en
     position: 25
     quantity: 1
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Monster
     type: Minion
@@ -293,6 +317,8 @@
     sku: MC02en
     position: 26
     quantity: 2
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Goblin Reinforcements
     type: Side Scheme
@@ -313,6 +339,8 @@
     sku: MC02en
     position: 27
     quantity: 1
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Goblin Nation
     type: Side Scheme
@@ -333,6 +361,8 @@
     sku: MC02en
     position: 28
     quantity: 2
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Overrun
     type: Side Scheme
@@ -352,6 +382,8 @@
     sku: MC02en
     position: 29
     quantity: 2
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Death from Above
     type: Treachery
@@ -369,6 +401,8 @@
     sku: MC02en
     position: 30
     quantity: 1
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: I See You
     type: Treachery
@@ -387,6 +421,8 @@
     sku: MC02en
     position: 31
     quantity: 1
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Overconfidence
     type: Treachery
@@ -404,6 +440,8 @@
     sku: MC02en
     position: 32
     quantity: 2
+  sets:
+  - name: Mutagen Formula
   faces:
   - name: Wicked Ambitions
     type: Treachery

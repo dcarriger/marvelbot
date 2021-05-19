@@ -6,6 +6,8 @@
     sku: MC08en
     position: 1
     quantity: 1
+  sets:
+  - name: Doctor Strange
   faces:
   - name: Stephen Strange
     type: Alter-Ego
@@ -42,6 +44,8 @@
     sku: MC08en
     position: 2
     quantity: 1
+  sets:
+  - name: Doctor Strange
   faces:
   - name: Wong
     cost: 3
@@ -68,6 +72,8 @@
     sku: MC08en
     position: 3
     quantity: 2
+  sets:
+  - name: Doctor Strange
   faces:
   - name: Astral Projection
     cost: 2
@@ -90,6 +96,8 @@
     sku: MC08en
     position: 4
     quantity: 2
+  sets:
+  - name: Doctor Strange
   faces:
   - name: Magic Blast
     cost: 3
@@ -115,6 +123,8 @@
     sku: MC08en
     position: 5
     quantity: 2
+  sets:
+  - name: Doctor Strange
   faces:
   - name: Master of the Mystic Arts
     cost: 1
@@ -135,6 +145,8 @@
     sku: MC08en
     position: 6
     quantity: 1
+  sets:
+  - name: Doctor Strange
   faces:
   - name: Mystical Studies
     cost: 1
@@ -155,6 +167,8 @@
     sku: MC08en
     position: 7
     quantity: 2
+  sets:
+  - name: Doctor Strange
   faces:
   - name: Protective Ward
     cost: 1
@@ -174,6 +188,8 @@
     sku: MC08en
     position: 8
     quantity: 1
+  sets:
+  - name: Doctor Strange
   faces:
   - name: Sanctum Sanctorum
     cost: 1
@@ -195,6 +211,8 @@
     sku: MC08en
     position: 9
     quantity: 1
+  sets:
+  - name: Doctor Strange
   faces:
   - name: Cloak of Levitation
     cost: 2
@@ -219,6 +237,8 @@
     sku: MC08en
     position: 10
     quantity: 2
+  sets:
+  - name: Doctor Strange
   faces:
   - name: Magical Enhancements
     cost: 1
@@ -242,6 +262,8 @@
     sku: MC08en
     position: 11
     quantity: 1
+  sets:
+  - name: Doctor Strange
   faces:
   - name: The Eye of Agamotto
     cost: 2
@@ -492,6 +514,8 @@
     sku: MC08en
     position: 27
     quantity: 1
+  sets:
+  - name: Doctor Strange
   faces:
   - name: Physical Toll
     type: Obligation
@@ -511,6 +535,8 @@
     sku: MC08en
     position: 28
     quantity: 1
+  sets:
+  - name: Doctor Strange Nemesis
   faces:
   - name: Baron Mordo
     type: Minion
@@ -537,6 +563,8 @@
     sku: MC08en
     position: 29
     quantity: 1
+  sets:
+  - name: Doctor Strange Nemesis
   faces:
   - name: Open the Dark Dimension
     type: Side Scheme
@@ -556,6 +584,8 @@
     sku: MC08en
     position: 30
     quantity: 2
+  sets:
+  - name: Doctor Strange Nemesis
   faces:
   - name: Counterspell
     type: Attachment
@@ -575,6 +605,8 @@
     sku: MC08en
     position: 31
     quantity: 1
+  sets:
+  - name: Doctor Strange Nemesis
   faces:
   - name: Thoughtcasting
     type: Treachery
@@ -592,6 +624,8 @@
     sku: MC08en
     position: 32
     quantity: 1
+  sets:
+  - name: Invocation
   faces:
   - name: Crimson Bands of Cyttorak
     cost: 2
@@ -611,6 +645,8 @@
     sku: MC08en
     position: 33
     quantity: 1
+  sets:
+  - name: Invocation
   faces:
   - name: Images of Ikonn
     cost: 1
@@ -630,6 +666,8 @@
     sku: MC08en
     position: 34
     quantity: 1
+  sets:
+  - name: Invocation
   faces:
   - name: Seven Rings of Raggadorr
     cost: 1
@@ -649,6 +687,8 @@
     sku: MC08en
     position: 35
     quantity: 1
+  sets:
+  - name: Invocation
   faces:
   - name: Vapors of Valtorr
     cost: 0
@@ -669,6 +709,8 @@
     sku: MC08en
     position: 36
     quantity: 1
+  sets:
+  - name: Invocation
   faces:
   - name: Winds of Watoomb
     cost: 0

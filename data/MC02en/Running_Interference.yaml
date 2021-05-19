@@ -5,6 +5,8 @@
     sku: MC02en
     position: 46
     quantity: 1
+  sets:
+  - name: Running Interference
   faces:
   - name: Running Interference
     type: Side Scheme
@@ -23,6 +25,8 @@
     sku: MC02en
     position: 47
     quantity: 1
+  sets:
+  - name: Running Interference
   faces:
   - name: Tombstone
     type: Minion
@@ -45,6 +49,8 @@
     sku: MC02en
     position: 48
     quantity: 1
+  sets:
+  - name: Running Interference
   faces:
   - name: All Tied Up
     type: Attachment
@@ -63,6 +69,8 @@
     sku: MC02en
     position: 49
     quantity: 2
+  sets:
+  - name: Running Interference
   faces:
   - name: Media Coverage
     type: Attachment

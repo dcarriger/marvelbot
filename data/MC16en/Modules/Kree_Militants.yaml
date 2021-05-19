@@ -1,0 +1,64 @@
+- names:
+  - Kree Combat Armor
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 131
+    quantity: 1
+  sets:
+  - name: Kree Militants
+  faces:
+  - name: Kree Combat Armor
+    type: Attachment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/131.png
+    marvelcdb_url: null
+- names:
+  - Kree Commando
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 132
+    quantity: 3
+  sets:
+  - name: Kree Militants
+  faces:
+  - name: Kree Commando
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/132.png
+    marvelcdb_url: null
+- names:
+  - Kree Lieutenant
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 133
+    quantity: 2
+  sets:
+  - name: Kree Militants
+  faces:
+  - name: Kree Lieutenant
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/133.png
+    marvelcdb_url: null
+- names:
+  - Kree Private
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 134
+    quantity: 3
+  sets:
+  - name: Kree Militants
+  faces:
+  - name: Kree Private
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/134.png
+    marvelcdb_url: null

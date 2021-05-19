@@ -1,0 +1,80 @@
+- names:
+  - Badoon Assassin
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 117
+    quantity: 2
+  sets:
+  - name: Band of Badoon
+  faces:
+  - name: Badoon Assassin
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/117.png
+    marvelcdb_url: null
+- names:
+  - Badoon Grunt
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 118
+    quantity: 3
+  sets:
+  - name: Band of Badoon
+  faces:
+  - name: Badoon Grunt
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/118.png
+    marvelcdb_url: null
+- names:
+  - Badoon Lieutenant
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 119
+    quantity: 1
+  sets:
+  - name: Band of Badoon
+  faces:
+  - name: Badoon Lieutenant
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/119.png
+    marvelcdb_url: null
+- names:
+  - Badoon Sentry
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 120
+    quantity: 2
+  sets:
+  - name: Band of Badoon
+  faces:
+  - name: Badoon Sentry
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/120.png
+    marvelcdb_url: null
+- names:
+  - Badoon Warlord
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 121
+    quantity: 2
+  sets:
+  - name: Band of Badoon
+  faces:
+  - name: Badoon Warlord
+    type: Minion
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/121.png
+    marvelcdb_url: null

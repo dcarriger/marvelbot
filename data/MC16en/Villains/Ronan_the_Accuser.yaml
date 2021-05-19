@@ -1,0 +1,264 @@
+- names:
+  - Ronan
+  - Ronan the Accuser
+  - Ronan 1
+  - Ronan the Accuser 1
+  - Ronan I
+  - Ronan the Accuser I
+  - Standard Ronan
+  - Standard Ronan the Accuser
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 103
+    quantity: 1
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: Ronan the Accuser
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/103.png
+    marvelcdb_url: null
+- names:
+  - Ronan
+  - Ronan the Accuser
+  - Ronan 2
+  - Ronan the Accuser 2
+  - Ronan II
+  - Ronan the Accuser II
+  - Standard Ronan
+  - Standard Ronan the Accuser
+  - Expert Ronan
+  - Expert Ronan the Accuser
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 104
+    quantity: 1
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: Ronan the Accuser
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/104.png
+    marvelcdb_url: null
+- names:
+  - Ronan
+  - Ronan the Accuser
+  - Ronan 3
+  - Ronan the Accuser 3
+  - Ronan III
+  - Ronan the Accuser III
+  - Expert Ronan
+  - Expert Ronan the Accuser
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 105
+    quantity: 1
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: Ronan the Accuser
+    type: Villain
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/105.png
+    marvelcdb_url: null
+- names:
+  - Interception Imminent
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 106
+    quantity: 1
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: Interception Imminent
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/106A.png
+    marvelcdb_url: null
+  - name: Interception Imminent
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/106B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - '"Take What Is Mine"'
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 107
+    quantity: 1
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: '"Take What Is Mine"'
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/107A.png
+    marvelcdb_url: null
+  - name: '"Take What Is Mine"'
+    type: Main Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/107B.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Kree Command Ship
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 108
+    quantity: 1
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: Kree Command Ship
+    type: Environment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/108.png
+    marvelcdb_url: null
+- names:
+  - Universal Weapon
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 109
+    quantity: 1
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: Universal Weapon
+    type: Attachment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/109.png
+    marvelcdb_url: null
+- names:
+  - Fanaticism
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 110
+    quantity: 2
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: Fanaticism
+    type: Attachment
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/110.png
+    marvelcdb_url: null
+- names:
+  - Cut the Power
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 111
+    quantity: 1
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: Cut the Power
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/111.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Pincer Maneuver
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 112
+    quantity: 2
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: Pincer Maneuver
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/112.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Superior Tactics
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 113
+    quantity: 1
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: Superior Tactics
+    type: Side Scheme
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/113.png
+    marvelcdb_url: null
+  horizontal: true
+- names:
+  - Single-Minded Fury
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 114
+    quantity: 2
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: Single-Minded Fury
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/114.png
+    marvelcdb_url: null
+- names:
+  - Kree Physiology
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 115
+    quantity: 2
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: Kree Physiology
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/115.png
+    marvelcdb_url: null
+- names:
+  - '"You Stand Accused!"'
+  packs:
+  - name: "Galaxy’s Most Wanted"
+    sku: MC16en
+    position: 116
+    quantity: 3
+  sets:
+  - name: Ronan the Accuser
+  faces:
+  - name: '"You Stand Accused!"'
+    type: Treachery
+    unique: false
+    text: null
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc16en/116.png
+    marvelcdb_url: null

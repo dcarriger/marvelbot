@@ -5,6 +5,8 @@
     sku: MC02en
     position: 33
     quantity: 2
+  sets:
+  - name: Goblin Gimmicks
   faces:
   - name: Goblin Glider
     type: Attachment
@@ -25,6 +27,8 @@
     sku: MC02en
     position: 34
     quantity: 2
+  sets:
+  - name: Goblin Gimmicks
   faces:
   - name: Pumpkin Bombs
     type: Attachment
@@ -46,6 +50,8 @@
     sku: MC02en
     position: 35
     quantity: 2
+  sets:
+  - name: Goblin Gimmicks
   faces:
   - name: Intimidation
     type: Treachery
@@ -63,6 +69,8 @@
     sku: MC02en
     position: 36
     quantity: 2
+  sets:
+  - name: Goblin Gimmicks
   faces:
   - name: Regenerative Healing
     type: Treachery

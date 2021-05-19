@@ -6,6 +6,8 @@
     sku: MC01en
     position: 10
     quantity: 1
+  sets:
+  - name: Captain Marvel
   faces:
   - name: Carol Danvers
     type: Alter-Ego
@@ -41,6 +43,8 @@
     sku: MC01en
     position: 11
     quantity: 1
+  sets:
+  - name: Captain Marvel
   faces:
   - name: Spider-Woman
     subtitle: Jessica Drew
@@ -69,6 +73,8 @@
     sku: MC01en
     position: 12
     quantity: 3
+  sets:
+  - name: Captain Marvel
   faces:
   - name: Crisis Interdiction
     cost: 2
@@ -91,6 +97,8 @@
     sku: MC01en
     position: 13
     quantity: 3
+  sets:
+  - name: Captain Marvel
   faces:
   - name: Photonic Blast
     cost: 3
@@ -112,6 +120,8 @@
     sku: MC01en
     position: 14
     quantity: 2
+  sets:
+  - name: Captain Marvel
   faces:
   - name: Energy Absorption
     type: Resource
@@ -129,6 +139,8 @@
     sku: MC01en
     position: 15
     quantity: 1
+  sets:
+  - name: Captain Marvel
   faces:
   - name: Alpha Flight Station
     cost: 1
@@ -151,6 +163,8 @@
     sku: MC01en
     position: 16
     quantity: 1
+  sets:
+  - name: Captain Marvel
   faces:
   - name: Captain Marvel's Helmet
     cost: 2
@@ -172,6 +186,8 @@
     sku: MC01en
     position: 17
     quantity: 2
+  sets:
+  - name: Captain Marvel
   faces:
   - name: Cosmic Flight
     cost: 2
@@ -193,6 +209,8 @@
     sku: MC01en
     position: 18
     quantity: 2
+  sets:
+  - name: Captain Marvel
   faces:
   - name: Energy Channel
     cost: 0
