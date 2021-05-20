@@ -1,0 +1,48 @@
+# TODO
+# These need a separate SKU because of how DownloadImages works with the image_url
+# The first 1A.png has priority and the rest are not downloaded to separate image paths
+- names:
+  - Gamma Tier
+  packs:
+  - name: Memes
+    sku: GammaTier01
+  faces:
+  - name: She-Hulk
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 3
+    defense: 2
+    traits:
+    - Avenger
+    - Gamma
+    text: |
+      '"Do You Even Lift?" — **Response**: After you change to this form, deal
+      2 damage to an enemy.'
+    hit_points: 15
+    flavor_text: |
+      '"I''m six foot seven and bright green! People are gonna stare no
+      matter how I dress."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/19A.png
+    marvelcdb_url: https://marvelcdb.com/card/01019a
+- names:
+  - Gamma Tier
+  packs:
+  - name: Memes
+    sku: GammaTier02
+  faces:
+  - name: Hulk
+    type: Hero
+    unique: true
+    thwart: 0
+    attack: 3
+    defense: 3
+    traits:
+    - Avenger
+    - Gamma
+    text: |
+      '"Enraged" — **Forced Interrupt**: When your turn ends, discard your hand.'
+    hit_points: 18
+    flavor_text: '"Hulk is not sorry. Hulk is Hulk."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/10001a
