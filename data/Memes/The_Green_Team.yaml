@@ -5,7 +5,7 @@
   - The Green Team
   packs:
   - name: Memes
-    sku: memes01
+    sku: GreenTeam01
   faces:
   - name: She-Hulk
     type: Hero
@@ -29,7 +29,7 @@
   - The Green Team
   packs:
   - name: Memes
-    sku: memes02
+    sku: GreenTeam02
   faces:
   - name: Hulk
     type: Hero
@@ -50,7 +50,7 @@
   - The Green Team
   packs:
   - name: Memes
-    sku: memes03
+    sku: GreenTeam03
   faces:
   - name: Gamora
     type: Hero
@@ -74,7 +74,7 @@
   - The Green Team
   packs:
   - name: Memes
-    sku: memes04
+    sku: GreenTeam04
   faces:
   - name: Drax
     type: Hero

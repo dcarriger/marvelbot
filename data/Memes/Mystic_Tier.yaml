@@ -1,0 +1,46 @@
+# TODO
+# These need a separate SKU because of how DownloadImages works with the image_url
+# The first 1A.png has priority and the rest are not downloaded to separate image paths
+- names:
+  - Mystic Tier
+  packs:
+  - name: Memes
+    sku: MysticTier01
+  faces:
+  - name: Doctor Strange
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 1
+    defense: 2
+    traits:
+    - Avenger
+    - Mystic
+    text: '_Spell Mastery_ — **Action**: Exhaust Doctor Strange and pay the cost of
+      the top card of the [[Invocation]] deck → resolve the "**Special**" ability
+      on that card.'
+    hit_points: 10
+    flavor_text: '"By the Hoary Hosts of Hoggoth!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc08en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/09001a
+- names:
+  - Mystic Tier
+  packs:
+  - name: Memes
+    sku: MysticTier02
+  faces:
+  - name: Scarlet Witch
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 1
+    defense: 2
+    traits:
+    - Avenger
+    - Mystic
+    text: _Chaos Control_ - **Interrupt:** When boost icons on an encounter card would
+      be counted, discard the top card of the encounter deck and count the number
+      of boost icons on that card instead. (Limit once per phase.)
+    hit_points: 10
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc15en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/15001a
