@@ -1,0 +1,96 @@
+# TODO
+# These need a separate SKU because of how DownloadImages works with the image_url
+# The first 1A.png has priority and the rest are not downloaded to separate image paths
+- names:
+  - The Green Team
+  packs:
+  - name: Memes
+    sku: memes01
+  faces:
+  - name: She-Hulk
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 3
+    defense: 2
+    traits:
+    - Avenger
+    - Gamma
+    text: |
+      '"Do You Even Lift?" — **Response**: After you change to this form, deal
+      2 damage to an enemy.'
+    hit_points: 15
+    flavor_text: |
+      '"I''m six foot seven and bright green! People are gonna stare no
+      matter how I dress."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/19A.png
+    marvelcdb_url: https://marvelcdb.com/card/01019a
+- names:
+  - The Green Team
+  packs:
+  - name: Memes
+    sku: memes02
+  faces:
+  - name: Hulk
+    type: Hero
+    unique: true
+    thwart: 0
+    attack: 3
+    defense: 3
+    traits:
+    - Avenger
+    - Gamma
+    text: |
+      '"Enraged" — **Forced Interrupt**: When your turn ends, discard your hand.'
+    hit_points: 18
+    flavor_text: '"Hulk is not sorry. Hulk is Hulk."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc09en/1A.png
+    marvelcdb_url: https://marvelcdb.com/card/10001a
+- names:
+  - The Green Team
+  packs:
+  - name: Memes
+    sku: memes03
+  faces:
+  - name: Gamora
+    type: Hero
+    unique: true
+    thwart: 2
+    attack: 2
+    defense: 2
+    traits:
+      - Guardian
+    text: |
+      "_Finesse_ — **Response**: After you play
+      an **ATTACK** event, remove 1 threat from
+      a scheme. (Limit once per phase.)
+      _Precision_ — **Response**: After you play
+      a **THWART** event, deal 1 damage to an
+      enemy. (Limit once per phase.)"
+    hand_size: 5
+    hit_points: 10
+    image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc18en/1A.png"
+- names:
+  - The Green Team
+  packs:
+  - name: Memes
+    sku: memes04
+  faces:
+  - name: Drax
+    type: Hero
+    unique: true
+    thwart: 1
+    attack: 1
+    defense: 2
+    traits:
+      - Guardian
+    text: |
+      "Drax gets +1 ATK for each vengeance
+      counter on him.
+      **Response**: After the villain attacks
+      Drax, place 1 vengeance counter here
+      (to a maximum of 3). If you cannot,
+      draw 1 card."
+    hand_size: 4
+    hit_points: 14
+    image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/1A.png"

@@ -333,6 +333,7 @@ func sendCardMessages(srv *Server, s *discordgo.Session, m *discordgo.MessageCre
 	for _, c := range cards {
 		err := c.DownloadImages()
 		if err != nil {
+			logError.Errorf("error downloading %v card image: %v", c.Names, err)
 			cardsWithErrors = append(cardsWithErrors, c)
 			continue
 		}
