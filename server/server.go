@@ -22,6 +22,8 @@ const baseURL = "https://marvelcdb.com/api/public"
 type Server struct {
 	Session  *discordgo.Session
 	Client   *http.Client
+	Commands []*discordgo.ApplicationCommand
+	Handlers map[string]func(s *discordgo.Session, i *discordgo.InteractionCreate)
 	Cards    []*card.Card
 	Homebrew []*card.Card
 	Rules    []*rule.Rule
@@ -77,11 +79,19 @@ func NewServer(token string) (s *Server) {
 	s = &Server{
 		Session:  dg,
 		Client:   client,
+		Commands: commands,
 		Cards:    cards,
 		Homebrew: homebrew,
 		Rules:    rules,
 		Logger:   log,
 	}
+
+	// Append our handlers (which need access to the Cards object inside the Server)
+	handlers := map[string]func(s *discordgo.Session, i *discordgo.InteractionCreate){
+		"card": s.CardHandler,
+	}
+	s.Handlers = handlers
+
 	return s
 }
 
