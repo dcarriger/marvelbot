@@ -18,11 +18,6 @@ import (
 
 // These constants map to the color codes used by different Aspects.
 const (
-	Aggression    = 0x78141b
-	Basic         = 0x8c8c8c
-	Justice       = 0xa09320
-	Leadership    = 0x3ea0b2
-	Protection    = 0x59aa36
 	IMAGE_BASEDIR = "images"
 )
 

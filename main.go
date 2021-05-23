@@ -91,6 +91,7 @@ func main() {
 		return
 	}
 
+	/*
 		// Remove all global commands we accidentally registered
 		cmd, err := srv.Session.ApplicationCommands(srv.Session.State.User.ID, "")
 		fmt.Println(len(cmd))
@@ -119,24 +120,25 @@ func main() {
 			}
 		}
 		fmt.Println("all Guild commands removed!")
+	*/
 
 	// Register commands to the Guild (test guild, currently)
+	// Dev - 671913936576053289
+	// MC - 607399156780105741
 	for _, v := range srv.Commands {
-		_, err := srv.Session.ApplicationCommandCreate(srv.Session.State.User.ID, "607399156780105741", v)
+		_, err := srv.Session.ApplicationCommandCreate(srv.Session.State.User.ID, "671913936576053289", v)
 		if err != nil {
-			srv.Logger.Fatal("Cannot create '%v' command: %v", v.Name, err)
+			srv.Logger.Fatal(fmt.Sprintf("Cannot create '%v' command: %v", v.Name, err))
 		}
-	}
-
-	// TODO - Refactor the logging package
-	time.Sleep(1 * time.Second)
-	for _, guild := range srv.Session.State.Guilds {
-		fmt.Println(guild.ID, guild.Name, guild.Description)
 	}
 
 	// Wait here until CTRL-C or other term signal is received.
 	fmt.Println("Bot is now running. Press CTRL-C to exit.")
 	srv.Logger.Info("Bot started.")
+	time.Sleep(2 * time.Second)
+	for _, guild := range srv.Session.State.Guilds {
+		srv.Logger.Info(fmt.Sprintf("Joined: %s - %s - %s", guild.ID, guild.Name, guild.Description))
+	}
 	sc := make(chan os.Signal, 1)
 	signal.Notify(sc, syscall.SIGINT, syscall.SIGTERM, os.Interrupt, os.Kill)
 	<-sc

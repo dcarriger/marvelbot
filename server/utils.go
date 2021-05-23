@@ -81,3 +81,22 @@ func splitCommand(s string) (filter string, query string) {
 	}
 	return filter, query
 }
+
+// TODO - Make these take an interface, get the type of the interface and return that type?
+// removeStringIndex removes a string element at a given index from the slice
+func removeStringIndex(s []string, i int) []string {
+	s[i] = s[len(s)-1]
+	return s[:len(s)-1]
+}
+
+// removeAspectIndex removes an Aspect element at a given index from the slice
+func removeAspectIndex(s []*Aspect, i int) []*Aspect {
+	s[i] = s[len(s)-1]
+	return s[:len(s)-1]
+}
+
+// removeHeroIndex removes a Hero element at a given index from the slice
+func removeHeroIndex(s []*Hero, i int) []*Hero {
+	s[i] = s[len(s)-1]
+	return s[:len(s)-1]
+}

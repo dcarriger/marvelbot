@@ -15,9 +15,6 @@ import (
 	"time"
 )
 
-// The base URL of the MarvelCDB API.
-const baseURL = "https://marvelcdb.com/api/public"
-
 // Server is used to handle dependency injection into our bot.
 type Server struct {
 	Session  *discordgo.Session
@@ -88,7 +85,8 @@ func NewServer(token string) (s *Server) {
 
 	// Append our handlers (which need access to the Cards object inside the Server)
 	handlers := map[string]func(s *discordgo.Session, i *discordgo.InteractionCreate){
-		"card": s.CardHandler,
+		"card":    s.CardHandler,
+		"mission": s.MissionHandler,
 	}
 	s.Handlers = handlers
 
