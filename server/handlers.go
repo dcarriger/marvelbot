@@ -329,6 +329,7 @@ func (srv *Server) MissionHandler(s *discordgo.Session, i *discordgo.Interaction
 	if err != nil {
 		srv.Logger.Error(fmt.Sprintf("error replying to interaction - %v", err))
 	}
+	srv.Logger.Info(fmt.Sprintf("%s: User %s in Guild %s requested: mission", i.ID, i.Interaction.Member.User.Username, i.GuildID))
 	// Since there are no subcommands, we can jump straight into options
 	// These options are all required
 	playerCount := i.Data.Options[0].IntValue()
