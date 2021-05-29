@@ -824,8 +824,15 @@ func findLevenshteinCards(filter string, query string, cards []*card.Card) (best
 // TODO - Should rules be a map instead of a slice? Unlike cards, which can share a
 // TODO - name without being unique (see: Wakanda Forever!), a rule name is useful as a key.
 func findRule(query string, rules []*rule.Rule) *rule.Rule {
+	query = strings.TrimSpace(query)
 	for _, r := range rules {
 		if query == strings.ToLower(r.Name) {
+			return r
+		}
+	}
+	// TODO - This only returns the first match
+	for _, r := range rules {
+		if strings.Contains(strings.ToLower(r.Name), query) {
 			return r
 		}
 	}
