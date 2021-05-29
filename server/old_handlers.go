@@ -137,7 +137,7 @@ func (srv *Server) HandleCommands(s *discordgo.Session, m *discordgo.MessageCrea
 				u.Mention(), query)
 			_, err := s.ChannelMessageSend(m.ChannelID, msg)
 			if err != nil {
-				logError.Errorf("error sending message: %w", err)
+				logError.Errorf("error sending message: %v", err)
 			}
 			return
 		}
@@ -199,7 +199,7 @@ func (srv *Server) HandleCommands(s *discordgo.Session, m *discordgo.MessageCrea
 			u.Mention(), strings.Join(unmatchedCommands, "\n"))
 		_, err := s.ChannelMessageSend(m.ChannelID, msg)
 		if err != nil {
-			logError.Errorf("error sending message: %w", err)
+			logError.Errorf("error sending message: %v", err)
 		}
 	}
 
