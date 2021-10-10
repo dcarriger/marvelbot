@@ -1,0 +1,30 @@
+---
+name: "Control"
+version: "1.3"
+rule_text: |
+  A card’s owner is the player whose deck contained the card
+  at the start of the game. The scenario is considered to be
+  the owner of the encounter deck and each encounter card.
+  • Cards enter play under their owner’s control.
+  Encounter cards are considered to be under the
+  control of the scenario.
+  • Control of a card remains constant unless an ability
+  explicitly causes the card to change control.
+  • A player controls the cards in their own out-of-play
+  areas (such as the hand, the deck, and the discard
+  pile).
+  • If a card that has changed control leaves play, after
+  the resolution of the game occurrence that makes it
+  leave play, the card is physically placed in its owner’s
+  equivalent out-of-play area (hand, deck, or discard
+  pile). Other card abilities cannot interact with this
+  secondary physical placement.
+  • If a character changes control while it is in play, it
+  remains in the same state (i.e., readied or exhausted,
+  damaged or not, etc.) and is moved to its new
+  controller’s play area.
+  • Upgrades or attachments on a card that changes
+  control also change control to the same new
+  controller.
+  • Unless a duration is specified, a control change
+  persists as long as the card remains in play.

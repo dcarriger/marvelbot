@@ -1,0 +1,71 @@
+---
+name: "Keywords"
+version: "1.3"
+rule_text: |
+  A keyword is an attribute that conveys specific rules to its card. 
+  The following keywords are used in the game:
+  Guard — While any minions with this keyword are engaged with a 
+  player, that player cannot attack villains without this keyword.
+  Hinder X — When a card with the hinder X keyword is revealed, place
+  X threat on that card.
+  Incite X — When a card with the incite X keyword is revealed, place
+  X threat on the main scheme.
+  Overkill — If an ally is used to defend against an attack with 
+  overkill, any excess damage from the attack (damage beyond the 
+  ally’s remaining hit points) is dealt to the identity of the player
+  controlling the ally, if able.
+  If an attack with overkill defeats a minion, excess damage from the 
+  attack (damage beyond the minion’s remaining hit points) is dealt
+  to the villain.
+  Patrol — While any minions with the patrol keyword are engaged with 
+  a player, that player cannot thwart the main scheme.
+  Peril — While a player is resolving a card with this keyword, that 
+  player cannot consult other players, and other player cannot play 
+  cards or trigger abilities.
+  Permanent — A card with the permanent keyword cannot leave play.
+  Piercing — An attack with the piercing keyword discards any tough
+  status cards from the target of the attack before dealing damage.
+  Quickstrike — After this enemy engages a player, it immediately 
+  attacks that player if they are in hero form.
+  Ranged — An attack with the ranged keyword ignores the retaliate
+  keyword.
+  Restricted — A player cannot control more than two restricted cards 
+  in play at a given time. If a player ever controls more than two 
+  restricted cards in play, they must immediately choose and discard
+  from play restricted cards they control until they have only two.
+  Retaliate X — After this character is attacked, deal X damage to 
+  the attacker. The character must survive the attack to deal this 
+  damage. (X is the value next to the retaliate keyword.)
+rule_text_2: |
+  Setup — A card with the setup keyword begins the game in play.
+  Stalwart — A character that has the stalwart keyword cannot be 
+  stunned or confused.
+  Surge — After an encounter card with this keyword is revealed, the 
+  player resolving the card reveals an additional encounter card. 
+  Complete the process of resolving the original card before
+  revealing the additional card.
+  Team-Up — The team-up keyword names two characters. To include a
+  card with the team-up keyword in your deck, your chosen identity
+  must match one of the two named characters. Additionally, a card
+  with the team-up keyword cannot be played unless both of the named
+  characters (hero and ally) are in play.
+  Toughness — When this character enters play, place a tough status 
+  card on it.
+  Uses (X “type”) — When a card with this keyword enters play, place 
+  X all-purpose counters from the token pool on the card. The word 
+  following the value establishes and identifies the type of uses the
+  card holds.
+  Each card with this keyword also has an ability that references the
+  type of use established by the keyword as part of the cost. When
+  such an ability spends a use, a counter of that type must be 
+  removed from the card.
+  After a card with uses spends its final use (and the effect
+  resolves), discard the card.
+  Victory — When a card with the victory X keyword is defeated, place
+  it in the victory display instead of its owner’s discard pile.
+  Villainous — When a minion with the villainous keyword activates,
+  give it a facedown boost card from the top of the encounter deck.
+  When you resolve that minion’s activation, turn the boost card
+  faceup and apply its boost icons to the minion’s stats for this
+  activation. If the boost card has a boost ability, resolve its
+  effects. Discard the boost card after the activation.

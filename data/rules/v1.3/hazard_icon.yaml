@@ -1,0 +1,12 @@
+---
+name: "Hazard Icon"
+version: "1.3"
+rule_text: |
+  For each side scheme with the hazard icon <:hazard:667076504139595776>, an additional
+  encounter card is dealt during step three of the villain phase.
+  Additional cards are dealt in player order (first additional card
+  to the first player, the second to the second player, etc.).
+related:
+  - Deal An Encounter Card
+  - Side Scheme
+  - Villain Phase

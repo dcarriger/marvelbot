@@ -1,8 +1,0 @@
----
-name: "Piercing"
-rule_text: |
-  An attack with the piercing keyword discards any tough
-  status cards from the target of the attack before dealing
-  damage.
-related:
-  - Keywords

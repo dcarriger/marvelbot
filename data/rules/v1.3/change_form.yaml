@@ -1,0 +1,25 @@
+---
+name: "Form"
+version: "1.3"
+rule_text: |
+  A player can be in either hero or alter-ego form at a given
+  time. This is indicated by the player’s identity card.
+  • Once each round, during their turn, each player is
+  permitted to change form by flipping their identity
+  card.
+  • When a player changes form, only the form changes.
+  The character retains their sustained damage, status
+  cards, lasting effects, attachments, tokens, and
+  current state (ready or exhausted).
+  • If a card ability causes a player to change forms,
+  it does not count against the one voluntary form
+  change the player is permitted during their turn that
+  round.
+  • While a player is in hero form, card abilities that
+  interact with their alter-ego do not interact with
+  their identity.
+  • While a player is in alter-ego form, card abilities
+  that interact with their hero do not interact with
+  their identity.
+related:
+  - Identity

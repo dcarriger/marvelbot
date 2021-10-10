@@ -1,8 +1,0 @@
----
-name: "Victory X"
-rule_text: |
-  When a card with the victory X keyword is defeated, place it in the
-  victory display instead of its owner’s discard pile.
-related:
-  - Keywords
-  - Victory Display

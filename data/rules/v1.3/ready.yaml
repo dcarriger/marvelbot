@@ -1,0 +1,11 @@
+---
+name: "Ready"
+version: "1.3"
+rule_text: |
+  Cards enter play in a ready state, positioned so that their
+  controller can read their text from left to right.
+  • If a player is instructed to ready an exhausted card,
+  the card is returned to its ready state.
+related:
+  - Enters Play
+  - Exhausted

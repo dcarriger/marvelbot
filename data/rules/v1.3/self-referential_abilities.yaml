@@ -1,0 +1,6 @@
+---
+name: "Self-Referential Abilities"
+version: "1.3"
+rule_text: |
+  Self-referential abilities refer only to the card on which the
+  ability is located, and not to other copies of that card

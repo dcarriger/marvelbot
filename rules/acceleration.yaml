@@ -1,8 +1,0 @@
----
-name: "Acceleration"
-rule_text: |
-  For each acceleration icon <:acceleration:667076458522607622> in play, one additional threat is placed
-  on the main scheme during step one of the villain phase.
-related:
-  - Side Scheme
-  - Villain Phase

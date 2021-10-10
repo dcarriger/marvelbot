@@ -1,0 +1,13 @@
+---
+name: "Threat"
+version: "1.3"
+rule_text: |
+  Threat tokens are used to track the amount
+  of threat on scheme cards.
+related:
+  - Component Limitations
+  - Enemy Schemes
+  - Main Scheme
+  - Side Scheme
+  - Prevent
+  - Thwart

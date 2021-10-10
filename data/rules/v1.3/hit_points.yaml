@@ -1,0 +1,28 @@
+---
+name: "Hit Points"
+version: "1.3"
+rule_text: |
+  Each character (hero/alter-ego, ally, minion, and villain) has
+  a hit point value. Hit points represent the durability of that
+  character.
+  • If a hero/alter-ego or villain is damaged, apply the
+  damage by reducing its hit point dial by the specified
+  amount.
+  • If a player’s hit point dial is reduced to zero, that
+  player has been defeated and is eliminated from the
+  game. (See Player Elimination.)
+  • If a villain’s hit point dial is reduced to zero, that stage
+  of the villain has been defeated. (See Villain Defeat.)
+  • If a minion or ally is damaged, track the damage by
+  placing damage tokens on the card. Damage tokens
+  on a card reduce the card’s remaining hit points by
+  the total value of the tokens. An ally or minion with
+  zero or fewer remaining hit points is defeated and
+  placed in the appropriate discard pile. (See Defeat.)
+related:
+  - Damage
+  - Gets
+  - Heal
+  - Maximum Hit Points
+  - Remaining Hit Points
+  - Sustained Damage

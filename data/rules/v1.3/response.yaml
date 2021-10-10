@@ -1,0 +1,18 @@
+---
+name: "Response"
+version: "1.3"
+rule_text: |
+  A response ability is a type of triggered ability, indicated by
+  the bold “Response” timing trigger. Response abilities may
+  be executed after the specified triggering condition occurs,
+  as described in the response’s ability text.
+  • Multiple responses may be executed from the same
+  triggering condition.
+  • A response opportunity occurs immediately
+  after its triggering condition has been resolved.
+  Opportunities to respond occur in player order until
+  all players have passed consecutively.
+  • Once the opportunity to respond to a triggering
+  condition has been passed consecutively by all
+  players, further responses to that specific triggering
+  condition cannot be used.

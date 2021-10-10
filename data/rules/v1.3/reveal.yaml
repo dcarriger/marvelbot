@@ -1,0 +1,23 @@
+---
+name: "Reveal"
+version: "1.3"
+rule_text: |
+  During step four of the villain phase, each player (in player
+  order) reveals and resolves all facedown encounter cards
+  that have been dealt to them, one card at a time.
+  To reveal an encounter card, a player flips the card faceup
+  and resolves the card, including any keywords and “When
+  Revealed” effects. Resolve revealed encounter cards based
+  on their card type, as follows. If the revealed card is:
+  • an attachment, it enters play attached to the element
+  specified by its text.
+  • a minion, it enters play engaged with the player
+  revealing the card.
+  • a treachery, its effects resolve and it is discarded.
+  • an environment, it enters play next to the villain.
+  • a side scheme, it enters play next to the main scheme.
+  • an obligation, it is given to the player specified by
+  the card, and that player resolves its text.
+  If a player is instructed by card text to reveal an encounter
+  card from the encounter deck or any other game area, this
+  same resolution procedure applies.

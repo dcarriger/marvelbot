@@ -1,0 +1,10 @@
+---
+name: "Prevent"
+version: "1.3"
+rule_text: |
+  Some card abilities prevent damage or threat.
+  • When damage is prevented, reduce the amount of
+  damage being dealt before it is applied to the target.
+  • When threat is prevented, reduce the amount of
+  threat being assigned before it is placed on the
+  scheme.

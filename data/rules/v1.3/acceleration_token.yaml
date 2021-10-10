@@ -1,0 +1,14 @@
+---
+name: "Acceleration Token"
+version: "1.3"
+rule_text: |
+  This token increases the amount of threat
+  placed on the main scheme during step one of
+  the villain phase.
+  • If the encounter deck runs out of cards,
+  place one acceleration token on the main scheme.
+related: 
+  - Component Limitations
+  - Empty Encounter Deck
+  - Main Scheme
+  - Villain Phase

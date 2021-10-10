@@ -1,0 +1,10 @@
+---
+name: "Component Limitations"
+version: "1.3"
+rule_text: |
+  There is no limit to the number of threat tokens, damage
+  tokens, acceleration tokens, status cards, or all-purpose
+  counters that can be in the game at a given time.
+  If players run out of the provided tokens, counters, or status
+  cards, other tokens, counters, or coins may be used.
+related: []

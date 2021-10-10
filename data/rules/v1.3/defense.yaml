@@ -1,0 +1,23 @@
+---
+name: "Defense"
+version: "1.3"
+rule_text: |
+  When an enemy makes an attack, the players have the
+  option to defend against the attack. There are a few
+  different ways this can occur:
+  • A hero can use their basic defense power to defend
+  against an attack. A hero must exhaust to use this
+  power. The amount of damage dealt by the attack is
+  reduced by the hero’s DEF value, and any remaining
+  damage is dealt to the defending hero.
+  • An ally can exhaust to defend against an attack.
+  Damage from the attack is dealt to the ally.
+  • If a player defends an attack (against another player)
+  with a hero or ally they control, that player becomes
+  the new target of the attack.
+  
+  _For example, Shield Block reads: “Interrupt (defense): When
+  you would take any amount of damage, exhaust Captain
+  America’s Shield to prevent all of that damage.” Because
+  Shield Block is a defense card, it can only be played while
+  the Captain America player is the target of an attack._

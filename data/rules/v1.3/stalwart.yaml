@@ -1,0 +1,8 @@
+---
+name: "Stalwart"
+version: "1.3"
+rule_text: |
+  A character that has the stalwart keyword cannot be stunned or
+  confused.
+related:
+  - Keywords

@@ -1,0 +1,10 @@
+---
+name: "Patrol"
+version: "1.3"
+rule_text: |
+  While any minions with the patrol keyword are engaged with a
+  player, that player cannot thwart the main scheme.
+related:
+  - Keywords
+  - Main Scheme
+  - Thwart

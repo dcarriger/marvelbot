@@ -1,0 +1,8 @@
+---
+name: “After”
+version: "1.4"
+rule_text: |
+  The word “after” refers to a game occurrence that just concluded. Many response abilities use the term “after” to specify the time at which they can be used.
+related:
+  - Ability
+  - Response

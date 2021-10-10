@@ -1,0 +1,12 @@
+---
+name: "Nemesis"
+version: "1.3"
+rule_text: |
+  Each identity in the game comes with an associated nemesis
+  set. During each scenario, this set might be put into play.
+  At the start of the game, each player sets aside the cards
+  from their associated nemesis set, out of play. Cards drawn
+  from the encounter deck may instruct the player on how to
+  bring their nemesis set into play.
+related:
+  - Keywords

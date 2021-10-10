@@ -1,0 +1,16 @@
+---
+name: "Round Overview"
+version: "1.4"
+rule_text: |
+  The following is an overview of a game round, and the glossary entries that cover each part of the game round.
+  1. Player phase begins. See: Player Phase
+  2. Each player takes a turn. See: Player Turn
+  3. Player phase ends. See: End of Player Phase
+  4. Villain phase begins. See: Villain Phase
+  5. Place threat on main scheme. See: Main Scheme
+  6. Villain and minions activate. See: Activation, Attack (Enemy Activation), Scheme (Enemy Activation)
+  7. Deal encounter cards. See: Deal
+  8. Reveal and resolve encounter cards. See: Reveal
+  9. Pass the first player token. See: First Player
+  10. End the round. Proceed to step one of the next game round.
+related: []

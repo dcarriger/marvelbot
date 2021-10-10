@@ -1,0 +1,9 @@
+---
+name: "Recover"
+version: "1.3"
+rule_text: |
+  Recover is a basic power a player can use in alter-ego form.
+  To recover, the player exhausts their alter-ego and heals a
+  number of hit points equal to their REC value.
+related:
+  - Heal

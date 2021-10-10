@@ -1,0 +1,9 @@
+---
+name: "Hand Size"
+version: "1.3"
+rule_text: |
+  Each player checks their hand size at the end of the player
+  phase, either discarding down to or drawing up to the
+  number of cards indicated by their hand size value.
+related:
+  - End of Player Phase

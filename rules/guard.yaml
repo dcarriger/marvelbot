@@ -1,8 +1,0 @@
----
-name: "Guard"
-rule_text: |
-  While any minions with this keyword are engaged
-  with a player, that player cannot attack villains without this
-  keyword.
-related:
-  - Keywords

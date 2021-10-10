@@ -1,0 +1,11 @@
+---
+name: "Action"
+version: "1.3"
+rule_text: |
+  “Action” is a type of triggered ability. Players are permitted
+  to trigger action abilities during their turn, or by request
+  during other players’ turns.
+related:
+  - Ability
+  - Player Turn
+  - Triggered Ability

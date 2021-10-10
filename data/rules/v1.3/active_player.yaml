@@ -1,0 +1,8 @@
+---
+name: "Active Player"
+version: "1.3"
+rule_text: |
+  The player taking their turn during the player phase is the
+  active player.
+related:
+  - Player Turn

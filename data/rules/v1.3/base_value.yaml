@@ -1,0 +1,9 @@
+---
+name: "Base Value"
+version: "1.3"
+rule_text: |
+  A defined value before modifiers are applied. In most cases,
+  it is also the printed value.
+related:
+  - Modifiers
+  - Printed

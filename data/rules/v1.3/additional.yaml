@@ -1,0 +1,8 @@
+---
+name: "Additional"
+version: "1.3"
+rule_text: |
+  The word “additional” denotes a modifier to an ability
+  or game state. The additional modifier is resolved
+  simultaneously with any ability it is modifying and under the
+  same conditions as that ability.

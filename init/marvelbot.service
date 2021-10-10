@@ -1,0 +1,28 @@
+[Unit]
+Description=Marvelbot service
+ConditionPathExists=/etc/marvelbot/marvelbot
+After=network.target
+ 
+[Service]
+Type=simple
+User=marvelbot
+Group=marvelbot
+LimitNOFILE=1024
+
+Restart=on-failure
+RestartSec=5
+StartLimitInterval=30
+
+WorkingDirectory=/etc/marvelbot
+ExecStart=/etc/marvelbot/marvelbot
+
+PermissionsStartOnly=true
+ExecStartPre=/bin/mkdir -p /var/log/marvelbot
+ExecStartPre=/bin/chown marvelbot:marvelbot /var/log/marvelbot
+ExecStartPre=/bin/chmod 755 /var/log/marvelbot
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=marvelbot
+ 
+[Install]
+WantedBy=multi-user.target

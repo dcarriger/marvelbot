@@ -1,0 +1,8 @@
+---
+name: "Incite"
+version: "1.3"
+rule_text: |
+  When a card with the incite X keyword is revealed, place
+  X threat on the main scheme.
+related:
+  - Keywords

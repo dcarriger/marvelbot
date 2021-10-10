@@ -1,0 +1,12 @@
+---
+name: "When Revealed Abilities"
+version: "1.3"
+rule_text: |
+  A when revealed ability is a type of triggered ability,
+  indicated by the bold “When Revealed” timing trigger.
+  When a player reveals a card from the encounter deck,
+  a new scheme stage, or a new villain stage, all “When
+  Revealed” abilities on the card resolve.
+  • If an encounter card with a “When Revealed” ability
+  enters play during setup, resolve that ability during
+  setup step 10.

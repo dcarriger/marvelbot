@@ -1,7 +1,0 @@
----
-name: "Setup"
-rule_text: |
-  A card with the setup keyword begins the game in play.
-related:
-  - Keywords
-  - "[Appendix II: Setup](https://images-cdn.fantasyflightgames.com/filer_public/d6/9b/d69b97f8-7e4e-438a-817b-31ad10104b42/mc_rulesreference_v13.pdf#page=20)"
