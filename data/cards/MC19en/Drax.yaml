@@ -42,74 +42,244 @@
     hit_points: 14
     image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/1A.png"
 - names:
-  - “Fight Me, Coward!”
+  - Mantis
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 2
+    quantity: 1
+  faces:
+  - name: Mantis
+    cost: 2
+    type: Ally
+    unique: true
+    thwart: 2
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 2
+    traits:
+    - Guardian
+    text: '**Action:** Exhaust Mantis and deal 1 damage to her → heal 3 damage from
+      an identity.'
+    hit_points: 3
+    flavor_text: '"Bring harm to this one at your own peril!"'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/19002
+- names:
+  - '"Fight Me, Coward!"'
   packs:
   - name: Drax
     sku: MC19en
     position: 3
-    quantity: 1
+    quantity: 2
   faces:
-  - name: “Fight Me, Coward!”
+  - name: '"Fight Me, Coward!"'
     cost: 0
     type: Event
     unique: false
-    text: |
-      "**Hero Action**: Ready your hero and
-      draw 1 card. The villain attacks you."
-    flavor_text: |
-      “Hear me, Thanos! Titan or god, I shall yet obliterate
-      you!” —Drax
+    text: '**Hero Action**: Ready your hero and draw 1 card. The villain attacks you.'
+    flavor_text: '"Hear me, Thanos! Titan or god, I shall yet obliterate you!" - Drax'
     resources:
       physical: 1
-    image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/3.png"
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/19003
 - names:
   - Intimidation
   packs:
   - name: Drax
     sku: MC19en
     position: 4
-    quantity: 1
+    quantity: 2
   faces:
   - name: Intimidation
     cost: 1
     type: Event
     unique: false
     traits:
-      - Thwart
-    text: |
-      "**Hero Action** _(thwart)_: Remove X threat
-      from a scheme, where X is equal to
-      your ATK."
-    flavor_text: |
-      “Pay close attention because I’m only going to say this
-      once: walk away and you live.” —Drax
+    - Thwart
+    text: '**Hero Action** _(thwart)_: Remove X threat from a scheme, where X is equal
+      to your ATK.'
+    flavor_text: '"Pay close attention because I''m only going to say this once: walk
+      away and you live." - Drax'
     resources:
       mental: 1
-    image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/4.png"
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/19004
 - names:
   - Knife Leap
   packs:
   - name: Drax
     sku: MC19en
     position: 5
-    quantity: 1
+    quantity: 2
   faces:
   - name: Knife Leap
     cost: 3
     type: Event
     unique: false
     traits:
-      - Skill
-    text: |
-      "Reduce the cost to play this card by
-      1 for each vengeance counter on Drax.
-      **Hero Interrupt**: When you make a
-      basic attack, you get +5 ATK for that
-      attack. That attack gains overkill and
-      piercing."
+    - Skill
+    text: |-
+      Reduce the cost to play this card by 1 for each vengeance counter on Draw.
+       **Hero Interrupt**: When you make a basic attack, you get +5 ATK for that attack. That attack gains overkill and piercing.
     resources:
       physical: 1
-    image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/5.png"
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/19005
+- names:
+  - Parry
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 6
+    quantity: 2
+  faces:
+  - name: Parry
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Defense
+    text: '**Hero Interrupt** _(defense)_: When you would take any amount of damage,
+      prevent X of that damage, where X is equal to double your ATK.'
+    flavor_text: '"You are a fool to believe I''d fall to the likes of you!" - Gamora'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/19006
+- names:
+  - Payback
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 7
+    quantity: 2
+  faces:
+  - name: Payback
+    cost: 0
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    text: '**Hero Response** _(attack)_: After the villain attacks you, deal X damage
+      to the villain, where X is equal to your ATK.'
+    flavor_text: '"Would stabbing it help?" - Drax'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/19007
+- names:
+  - Drax's Knife
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 8
+    quantity: 1
+  faces:
+  - name: Drax's Knife
+    cost: 1
+    type: Upgrade
+    unique: true
+    traits:
+    - Weapon
+    text: |-
+      Restricted (Max 2 restricted cards per player.)
+       While in hero form, Drax gets +1 ATK.
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/19008
+- names:
+  - Drax's Other Knife
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 9
+    quantity: 1
+  faces:
+  - name: Drax's Other Knife
+    cost: 1
+    type: Upgrade
+    unique: true
+    traits:
+    - Weapon
+    text: |-
+      Restricted (Max 2 restricted cards per player.)
+       While in hero form, Drax gains retaliate 1.
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/19009
+- names:
+  - DWI Theet Mastery
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 10
+    quantity: 1
+  faces:
+  - name: DWI Theet Mastery
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Skill
+    text: '**Hero Response**: After Drax makes a basic attack, draw 1 card.'
+    flavor_text: '"I will have my revenge against Thanos!" - Drax'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/19010
+- names:
+  - Too Stubborn to Die
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Too Stubborn to Die
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Condition
+    text: '**Hero Interrupt**: When Drax would be defeated, instead set his hit point
+      dial to 4, change him to alter-ego form, and remove this card from the game.'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/19011
+- names:
+  - Martyr
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 12
+    quantity: 1
+  faces:
+  - name: Martyr
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Protection
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Guardian
+    text: '**Response:** After Martyr takes consequential damage from performing an
+      attack, if that attack defeated an enemy, give her a tough status card.'
+    hit_points: 3
+    flavor_text: '"You want to learn about pain? I''ll teach you!"'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/19012
 - names:
   - Moondragon
   packs:
@@ -119,29 +289,71 @@
     quantity: 1
   faces:
   - name: Moondragon
-    subtitle: Heather Douglas
     cost: 3
     type: Ally
     unique: true
     aspect:
-      - Protection
+    - Protection
     thwart: 1
     thwart_consequential: 1
     attack: 1
     attack_consequential: 1
     traits:
-      - Guardian
-    text: |
-      "**Action**: Exhaust and discard
-      Moondragon → choose a minion.
-      That minion attacks another enemy
-      of your choice."
-    flavor_text: |
-      “How dare you disturb my meditation?!”
+    - Guardian
+    text: '**Action:** Exhaust and discard Moondragon → choose a minion. That minion
+      attacks another enemy of your choice.'
+    hit_points: 2
+    flavor_text: '"How dare you disturb my meditation?!"'
     resources:
       mental: 1
-    hit_points: 2
-    image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/13.png"
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/19013
+- names:
+  - Counter-Punch
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 14
+    quantity: 2
+  faces:
+  - name: Counter-Punch
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Attack
+    text: '**Response** (_attack_): After your hero defends against an enemy attack,
+      deal damage to that enemy equal to your hero''s ATK.'
+    flavor_text: '"That''s what you get!" -- Iron Fist'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/19014
+- names:
+  - Deflection
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 15
+    quantity: 3
+  faces:
+  - name: Deflection
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Skill
+    text: '**Hero Interrupt**: When an identity would take any amount of damage from
+      an attack, prevent up to 5 of that damage. Discard cards from the top of your
+      deck equal to the amount prevented this way.'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/19015
 - names:
   - Hard Knocks
   packs:
@@ -155,19 +367,16 @@
     type: Event
     unique: false
     aspect:
-      - Protection
+    - Protection
     traits:
-      - Attack
-    text: |
-      "**Hero Action** _(attack)_: Deal 4 damage
-      to an enemy. If that enemy is defeated
-      by this attack, give your hero a tough
-      status card."
-    flavor_text: |
-      “That’ll teach you to underestimate me.” —Star-Lord
+    - Attack
+    text: '**Hero Action** _(attack)_: Deal 4 damage to an enemy. If that enemy is
+      defeated by this attack, give your hero a tough status card.'
+    flavor_text: '"That''ll teach you to underestimate me." - Star-Lord'
     resources:
       physical: 1
-    image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/16.png"
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/16.png
+    marvelcdb_url: https://marvelcdb.com/card/19016
 - names:
   - Leading Blow
   packs:
@@ -181,20 +390,17 @@
     type: Event
     unique: false
     aspect:
-      - Protection
+    - Protection
     traits:
-      - Tactic
-    text: |
-      "**Hero Interrupt**: When your hero
-      makes a basic attack, discard the top
-      card of the encounter deck → reduce
-      your hero’s ATK for that attack by the
-      number of printed boost icons on that
-      card. If that attack still deals damage,
-      ready your hero."
+    - Tactic
+    text: '**Hero Interrupt**: When your hero makes a basic attack, discard the top
+      card of the encounter deck → reduce your hero''s ATK for that attack by the
+      number of printed boost icons on that card. If that attack still deals damage,
+      ready your hero.'
     resources:
       energy: 1
-    image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/17.png"
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/19017
 - names:
   - Subdue
   packs:
@@ -208,13 +414,333 @@
     type: Event
     unique: false
     aspect:
-      - Protection
-    text: |
-      "**Hero Interrupt**: When an enemy
-      initiates an attack, that enemy gets
-      -3 ATK for that attack."
-    flavor_text: |
-      “Back, beast!” –Captain America
+    - Protection
+    text: '**Hero Interrupt**: When an enemy initates an attack, that enemy gets -3
+      ATK for that attack.'
+    flavor_text: '"Back, beast!" - Captain America'
     resources:
       energy: 1
-    image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/18.png"
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/18.png
+    marvelcdb_url: https://marvelcdb.com/card/19018
+- names:
+  - Indomitable
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 19
+    quantity: 2
+  faces:
+  - name: Indomitable
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Condition
+    text: '**Response**: After your hero defends, discard indomitable → ready your
+      hero.'
+    flavor_text: '"We have no choice. So we fight -- and we win. There are no other
+      options." -- Captain America'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/19.png
+    marvelcdb_url: https://marvelcdb.com/card/19019
+- names:
+  - Gamora
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 20
+    quantity: 1
+  faces:
+  - name: Gamora
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Basic
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Guardian
+    text: |-
+      Play only if your identity has the [[guardian]] trait.
+       **Hero Response**: After Gamora attacks or thwarts, discard cards from the top of your deck until you discard an event, than add that card to your hand.
+    hit_points: 3
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/20.png
+    marvelcdb_url: https://marvelcdb.com/card/19020
+- names:
+  - Athletic Conditioning
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 21
+    quantity: 3
+  faces:
+  - name: Athletic Conditioning
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Basic
+    text: '**Hero Action**: Discard 1 stun or confuse status card from your hero.'
+    flavor_text: '"Don''t worry, the ringing in your ears will go away... eventually."
+      - Nadia Van Dyne'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/21.png
+    marvelcdb_url: https://marvelcdb.com/card/19021
+- names:
+  - Energy
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 22
+    quantity: 1
+  faces:
+  - name: Energy
+    type: Resource
+    unique: false
+    aspect:
+    - Basic
+    text: Max 1 per deck.
+    resources:
+      energy: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/22.png
+    marvelcdb_url: https://marvelcdb.com/card/19022
+- names:
+  - Genius
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 23
+    quantity: 1
+  faces:
+  - name: Genius
+    type: Resource
+    unique: false
+    aspect:
+    - Basic
+    text: Max 1 per deck..
+    resources:
+      mental: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/23.png
+    marvelcdb_url: https://marvelcdb.com/card/19023
+- names:
+  - Strength
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 24
+    quantity: 1
+  faces:
+  - name: Strength
+    type: Resource
+    unique: false
+    aspect:
+    - Basic
+    text: Max 1 per deck..
+    resources:
+      physical: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/24.png
+    marvelcdb_url: https://marvelcdb.com/card/19024
+- names:
+  - Memories of Another Life
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 25
+    quantity: 1
+  faces:
+  - name: Memories of Another Life
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Drax player._**
+      You may flip to your alter-ego form. Choose:
+      - Exhaust your alter-ego → remove Memories of Another Life from the game.
+      - You are stunned. If you are already stunned, this card gains surge. Discard this obligation.
+    boost_icons: 0
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/25.png
+    marvelcdb_url: https://marvelcdb.com/card/19025
+- names:
+  - Cull the Weak
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 26
+    quantity: 1
+  faces:
+  - name: Cull the Weak
+    type: Side Scheme
+    unique: false
+    text: Each enemy gets +2 ATK
+    boost_icons: 0
+    starting_threat_per_player: 2
+    flavor_text: Yotat the Destroyer has made it his mission to rid the galaxy of
+      those he deems inferior.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/19026
+  horizontal: true
+- names:
+  - Yotat the Destroyer
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 27
+    quantity: 1
+  faces:
+  - name: Yotat the Destroyer
+    type: Minion
+    unique: true
+    scheme: 1
+    attack: 3
+    traits:
+    - Brute
+    keywords:
+    - Guard
+    - Retaliate
+    text: |-
+      Guard. Retaliate 1.
+      _(Drax's nemesis minion)_
+    hit_points: 5
+    boost_icons: 0
+    flavor_text: '"You will kneel before the true Destroyer!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/19027
+- names:
+  - Challenge Accepted
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 28
+    quantity: 1
+  faces:
+  - name: Challenge Accepted
+    type: Attachment
+    unique: false
+    keywords:
+    - Surge
+    text: |-
+      Surge.
+      Attach to the enemy with the highest ATK.
+      **Forced Response**: After Drax deals 4 or more damage to attached enemy with a single attack, discard this card.
+    boost_icons: 0
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/19028
+- names:
+  - '"I Will Destroy You!"'
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 29
+    quantity: 2
+  faces:
+  - name: '"I Will Destroy You!"'
+    type: Treachery
+    unique: false
+    text: |-
+      **When Revealed (Alter-Ego)**: This card gains surge.
+      **When Revealed (Hero)**: Yotat the Destroyer attacks you with +1 ATK. If no attack was made this way, the villain attacks you.
+    boost_icons: 0
+    flavor_text: '"Not if I destroy you first!" - Drax'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/19029
+- names:
+  - '"Bring It!"'
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 30
+    quantity: 3
+  faces:
+  - name: '"Bring It!"'
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    text: |-
+      Max 1 per phase.
+       **Hero Action**: Draw 1 card for each minion engaged with you.
+    flavor_text: '"You picked the wrong day, pal!." - Rocket Raccoon'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/30.png
+    marvelcdb_url: https://marvelcdb.com/card/19030
+- names:
+  - '"Think Fast!"'
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 31
+    quantity: 3
+  faces:
+  - name: '"Think Fast!"'
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    text: |-
+      Play only if your identity has the [[guardian]] trait.
+       **Hero Action**: Take 1 damage. Confuse the villain.
+    flavor_text: '"Hey, don''t be angry at me! I definitely warned you." - Rocket
+      Raccoon'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/31.png
+    marvelcdb_url: https://marvelcdb.com/card/19031
+- names:
+  - Regroup
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 32
+    quantity: 3
+  faces:
+  - name: Regroup
+    cost: 1
+    type: Support
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Tactic
+    text: |-
+      **Interrupt**: When an ally is defeated by an enemy attack, return it to its owner's hand instead of discarding it.
+       **Forced Interrupt**: When the round ends, discard this card.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/32.png
+    marvelcdb_url: https://marvelcdb.com/card/19032
+- names:
+  - Enhanced Physique
+  packs:
+  - name: Drax
+    sku: MC19en
+    position: 33
+    quantity: 3
+  faces:
+  - name: Enhanced Physique
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Condition
+    keywords:
+    - Uses
+    text: |-
+      Uses (3 physical counters).
+      **Hero Resource**: Exhaust Enhanced Physique and remove 1 physical counter from it → generate a [physical] resource.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc19en/33.png
+    marvelcdb_url: https://marvelcdb.com/card/19033

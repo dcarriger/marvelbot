@@ -1,14 +1,10 @@
 package main
 
 import (
-	"encoding/json"
 	"flag"
 	"fmt"
 	"github.com/bwmarrin/discordgo"
-	"gopkg.in/yaml.v2"
-	"marvelbot/pkg/card"
 	"marvelbot/pkg/server"
-	"net/http"
 	"os"
 	"os/signal"
 	"syscall"
@@ -29,7 +25,7 @@ func main() {
 	// Create a new Server.
 	srv := server.NewServer(Token)
 
-
+/*
 		// Get MarvelCDB cards
 		const baseURL = "https://marvelcdb.com/api/public"
 		req, err := http.NewRequest("GET", fmt.Sprintf("%s/cards/?_format=json&encounter=1", baseURL), nil)
@@ -76,6 +72,7 @@ func main() {
 			fmt.Println(err)
 			os.Exit(1)
 		}
+*/
 
 	// Register the MessageCreate func as a callback for MessageCreate events.
 	srv.Session.AddHandler(srv.MessageCreate)
@@ -88,7 +85,7 @@ func main() {
 	})
 
 	// Open a websocket connection to Discord and begin listening.
-	err = srv.Session.Open()
+	err := srv.Session.Open()
 	if err != nil {
 		srv.Logger.Fatal("error opening Discord websocket: ", err)
 		return

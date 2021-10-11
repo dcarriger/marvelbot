@@ -44,256 +44,630 @@
       hit_points: 12
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/1A.png"
 - names:
-  - Behind Enemy Lines 
+  - Behind Enemy Lines
   packs:
-    - name: Venom
-      sku: MC20en
-      position: 2
-      quantity: 2
+  - name: Venom
+    sku: MC20en
+    position: 2
+    quantity: 2
   faces:
-    - name: Behind Enemy Lines
-      cost: 2
-      type: Event
-      unique: false
-      trait:
-        - Thwart
-      text: |
-        "**Hero Action** _(thwart)_: Remove 3 threat
-        from a scheme. If you paid for this card
-        using only [Mental] resources, confuse an
-        enemy."
-      flavor_text: |
-        “Yes, sir, I understand. Country first.” –Venom
-      resources:
-        mental: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/2.png"
+  - name: Behind Enemy Lines
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Thwart
+    text: '**Hero Action:** (thwart): Remove 3 threat from a scheme. If you paid for
+      this card using only [mental] resources, confuse an enemy.'
+    flavor_text: '"Yes, sir I understand. Country first.!" - Venom'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/2.png
+    marvelcdb_url: https://marvelcdb.com/card/20002
 - names:
   - Grasping Tendrils
   packs:
-    - name: Venom
-      sku: MC20en
-      position: 3
-      quantity: 2
+  - name: Venom
+    sku: MC20en
+    position: 3
+    quantity: 2
   faces:
-    - name: Grasping Tendrils
-      cost: 2
-      type: Event
-      unique: false
-      trait:
-        - Defense
-      text: |
-        "**Hero Interrupt** _(defense)_: When the
-        villain initiates an attack against you,
-        cancel that attack. If you paid for this
-        card using only [Physical] resources, stun the
-        villain."
-      resources:
-        physical: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/3.png"
+  - name: Grasping Tendrils
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Defense
+    text: '**Hero Interrupt** (defense): When the villain initiates an attack against
+      you, cancel that attack. If you paid for this card using only [physical] resources,
+      stun the villain.'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/3.png
+    marvelcdb_url: https://marvelcdb.com/card/20003
 - names:
   - Locked and Loaded
   packs:
-    - name: Venom
-      sku: MC20en
-      position: 4
-      quantity: 2
+  - name: Venom
+    sku: MC20en
+    position: 4
+    quantity: 1
   faces:
-    - name: Locked and Loaded
-      cost: 0
-      type: Event
-      unique: false
-      text: |
-        "**Action**: Search your deck for a **Weapon**
-        upgrade and add it to your hand.
-        Shuffle your deck."
-      flavor_text:
-        “I’ve been looking forward to this!” –Venom
-      resources:
-        mental: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/4.png"
+  - name: Locked and Loaded
+    cost: 0
+    type: Event
+    unique: false
+    text: '**Action** Search your deck for a [[weapon]] upgrade and add it to your
+      hand. Shuffle your deck.'
+    flavor_text: '"I''ve been looking forward to this!." - Venom'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/4.png
+    marvelcdb_url: https://marvelcdb.com/card/20004
 - names:
   - Run and Gun
   packs:
-    - name: Venom
-      sku: MC20en
-      position: 5
-      quantity: 2
+  - name: Venom
+    sku: MC20en
+    position: 5
+    quantity: 3
   faces:
-    - name: Run and Gun
-      cost: 3
-      type: Event
-      unique: false
-      traits:
-        - Skill
-      text: |
-        "**Hero Action**: Ready Venom and each
-        **Weapon** upgrade you control.
-      flavor_text:
-        “So much for doing this the easy way.” –Venom
-      resources:
-        mental: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/5.png"
+  - name: Run and Gun
+    cost: 3
+    type: Event
+    unique: false
+    traits:
+    - Skill
+    text: '**Hero Action**: Ready Venom and each [[weapon]] upgrade you control.'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/5.png
+    marvelcdb_url: https://marvelcdb.com/card/20005
+- names:
+  - Savage Attack
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 6
+    quantity: 2
+  faces:
+  - name: Savage Attack
+    cost: 2
+    type: Event
+    unique: false
+    traits:
+    - Attack
+    text: '**Hero Action** _(attack)_: Deal 5 damage to an enemy. If you paid for
+      this card using only [energy] resources, this attack gains overkill.'
+    flavor_text: ""
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/6.png
+    marvelcdb_url: https://marvelcdb.com/card/20006
+- names:
+  - Project Rebirth 2.0
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 7
+    quantity: 1
+  faces:
+  - name: Project Rebirth 2.0
+    cost: 1
+    type: Support
+    unique: true
+    text: '**Alter-Ego Action**: Exhaust Project Rebirth 2.0 → choose to either draw
+      1 card or heal 3 damage from Flash Thompson.'
+    flavor_text: '"The U.S. government''s second super-soldier project, binding symbiotes
+      to talented veterans." - Drax'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/7.png
+    marvelcdb_url: https://marvelcdb.com/card/20007
 - names:
   - Multi-Gun
   packs:
-    - name: Venom
-      sku: MC20en
-      position: 8
-      quantity: 1
+  - name: Venom
+    sku: MC20en
+    position: 8
+    quantity: 1
   faces:
-    - name: Multi-Gun
-      cost: 3
-      type: Upgrade
-      unique: true
-      keywords:
-        - Restricted
-      traits:
-        - Tech
-        - Weapon
-      text: |
-        "Restricted.
-        **Hero Action**: Exhaust Multi-Gun →
-        choose one of the following:
-        • Deal 2 damage to an enemy.
-        • Choose a player. Deal 1 damage to
-          each minion engaged with that player.
-        • Remove 2 threat from a scheme."
-      resources:
-        wild: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/8.png"
+  - name: Multi-Gun
+    cost: 3
+    type: Upgrade
+    unique: true
+    traits:
+    - Tech
+    - Weapon
+    keywords:
+    - Restricted
+    text: |-
+      Restricted.
+       **Hero Action**: Exhaust Multi-Gun → choose one of the following:
+       Deal 2 damage to an enemy
+       Choose a player. Deal 1 damage to each minion engaged with that player.
+       Remove 2 threat from a scheme.
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/8.png
+    marvelcdb_url: https://marvelcdb.com/card/20008
 - names:
-  - Venom’s Pistol
+  - Spider-Sense
   packs:
-    - name: Venom
-      sku: MC20en
-      position: 10
-      quantity: 2
+  - name: Venom
+    sku: MC20en
+    position: 9
+    quantity: 1
   faces:
-    - name: Venom’s Pistol
-      cost: 1
-      type: Upgrade
-      unique: false
-      keywords:
-        - Restricted
-      traits:
-        - Tech
-        - Weapon
-      text: |
-        "Restricted. _(Max 2 restricted cards
-        per player.)_
-        **Hero Interrupt**: When you use one
-        of Venom’s basic powers, exhaust
-        Venom’s Pistol → Venom gets +1 to
-        that power for this use."
-      resources:
-        energy: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/10.png"
+  - name: Spider-Sense
+    cost: 2
+    type: Upgrade
+    unique: false
+    traits:
+    - Superpower
+    text: '**Hero Interrupt**: When the villain initiates an attack agaist you, draw
+      1 card.'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/9.png
+    marvelcdb_url: https://marvelcdb.com/card/20009
+- names:
+  - Venom's Pistol
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 10
+    quantity: 2
+  faces:
+  - name: Venom's Pistol
+    cost: 1
+    type: Upgrade
+    unique: false
+    traits:
+    - Tech
+    - Weapon
+    keywords:
+    - Restricted
+    text: |-
+      Restricted.
+       **Hero Interrupt**: When you use one of Venom's basic powers, exhaust Venom's Pistol → Venom gets +1 to that power for this use.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/10.png
+    marvelcdb_url: https://marvelcdb.com/card/20010
+- names:
+  - Jack Flag
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 11
+    quantity: 1
+  faces:
+  - name: Jack Flag
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Justice
+    thwart: 2
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Guardian
+    text: |-
+      **Response:** After Jack Flag thwarts, place 1 ammo counter on him.
+       **Hero Action**: Exhaust Jack Flag and remove 1 ammo counter from him → deal 2 damage to an enemy.
+    hit_points: 3
+    flavor_text: ""
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/11.png
+    marvelcdb_url: https://marvelcdb.com/card/20011
+- names:
+  - Scare Tactic
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 12
+    quantity: 3
+  faces:
+  - name: Scare Tactic
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Attack
+    text: '**Hero Action:** (attack): Deal 3 damage to a confused enemy.'
+    flavor_text: ""
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/12.png
+    marvelcdb_url: https://marvelcdb.com/card/20012
+- names:
+  - Making an Entrance
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 13
+    quantity: 3
+  faces:
+  - name: Making an Entrance
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Skill
+    text: '**Hero Interrupt:** When your hero makes a basic thwart, it gets +2 THW
+      for that thwart. After that thwart ends, if your hero removed all threat from
+      a scheme that way, heal 2 damage from your hero.'
+    flavor_text: ""
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/13.png
+    marvelcdb_url: https://marvelcdb.com/card/20013
+- names:
+  - The Power of Justice
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 14
+    quantity: 2
+  faces:
+  - name: The Power of Justice
+    type: Resource
+    unique: false
+    aspect:
+    - Justice
+    text: |-
+      Max 2 per deck.
+      Double the number of resources this card generates while paying for a Justice _(yellow)_ card.
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/14.png
+    marvelcdb_url: https://marvelcdb.com/card/20014
 - names:
   - Sonic Rifle
   packs:
-    - name: Venom
-      sku: MC20en
-      position: 15
-      quantity: 3
+  - name: Venom
+    sku: MC20en
+    position: 15
+    quantity: 3
   faces:
-    - name: Sonic Rifle
-      cost: 3
-      type: Upgrade
-      unique: false
-      aspect:
-        - Justice
-      keywords:
-        - Restricted
-        - Uses
-      traits:
-        - Tech
-        - Weapon
-      text: |
-        "Restricted. Uses (2 charge counters).
-        **Hero Action**: Exhaust Sonic Rifle
-        and remove 1 charge counter
-        from it → confuse an enemy
-        (deal 3 damage to that enemy
-        instead if it is already confused)."
-      resources:
-        mental: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/15.png"
+  - name: Sonic Rifle
+    cost: 3
+    type: Upgrade
+    unique: false
+    aspect:
+    - Justice
+    traits:
+    - Tech
+    - Weapon
+    keywords:
+    - Restricted
+    - Uses
+    text: |-
+      Restricted. Uses (2 charge counters).
+       **Hero Action**: Exhaust Sonic Rifle and remove 1 charge counter from it → confuse an enemy (deal 3 damage to that enemy instead if it is already confused).
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/15.png
+    marvelcdb_url: https://marvelcdb.com/card/20015
+- names:
+  - Star-Lord
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 16
+    quantity: 1
+  faces:
+  - name: Star-Lord
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Basic
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Guardian
+    text: |-
+      * Star-Lords attacks gain ranged.
+       **Forced Response**: After Star-Lord enters play under your control, deal yourself 1 facedown encounter card.
+    hit_points: 3
+    flavor_text: Gotta risk it to get the biscuit.
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/16.png
+    marvelcdb_url: https://marvelcdb.com/card/20016
+- names:
+  - Energy
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 17
+    quantity: 1
+  faces:
+  - name: Energy
+    type: Resource
+    unique: false
+    aspect:
+    - Basic
+    text: Max 1 per deck.
+    resources:
+      energy: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/17.png
+    marvelcdb_url: https://marvelcdb.com/card/20017
+- names:
+  - Genius
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 18
+    quantity: 1
+  faces:
+  - name: Genius
+    type: Resource
+    unique: false
+    aspect:
+    - Basic
+    text: Max 1 per deck..
+    resources:
+      mental: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/18.png
+    marvelcdb_url: https://marvelcdb.com/card/20018
+- names:
+  - Strength
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 19
+    quantity: 1
+  faces:
+  - name: Strength
+    type: Resource
+    unique: false
+    aspect:
+    - Basic
+    text: Max 1 per deck..
+    resources:
+      physical: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/19.png
+    marvelcdb_url: https://marvelcdb.com/card/20019
+- names:
+  - Resourceful
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 20
+    quantity: 3
+  faces:
+  - name: Resourceful
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Skill
+    text: '**Resource**: Discard Resourceful → generate a [wild] resource.'
+    flavor_text: '"Innovation is the ultimate weapon." -- Vision'
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/20.png
+    marvelcdb_url: https://marvelcdb.com/card/20020
 - names:
   - Side Holster
   packs:
-    - name: Venom
-      sku: MC20en
-      position: 21
-      quantity: 3
+  - name: Venom
+    sku: MC20en
+    position: 21
+    quantity: 3
   faces:
-    - name: Side Holster
-      cost: 0
-      type: Upgrade
-      unique: false
-      aspect:
-        - Basic
-      # TODO - This can be played under another player's control (may become a keyword at some point)
-      # And also max one per player (which may also become a keyword)
-      # Should we make new keywords to make these traits searchable?
-      traits:
-        - Item
-      text: |
-        "Play under any player’s control.
-        Max 1 per player.
-        You can control 1 additional
-        **Weapon** upgrade that has the
-        restricted keyword."
-      resources:
-        physical: 1
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/21.png"
+  - name: Side Holster
+    cost: 0
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Item
+    text: |-
+      Play under any player's control.
+       Max 1 per player.
+       You can control 1 additional [[weapon]] upgrade that has the restricted keyword.
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/21.png
+    marvelcdb_url: https://marvelcdb.com/card/20021
+- names:
+  - Plasma Pistol
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 22
+    quantity: 3
+  faces:
+  - name: Plasma Pistol
+    cost: 2
+    type: Upgrade
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Tech
+    - Weapon
+    keywords:
+    - Restricted
+    - Uses
+    text: |-
+      Restricted.
+       Uses (3 charge counters).
+       **Hero Action**: Exhaust Plasma Pistol and remove 1 charge counter from it → deal 1 damage to an enemy.
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/22.png
+    marvelcdb_url: https://marvelcdb.com/card/20022
+- names:
+  - Struggle for Control
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 23
+    quantity: 1
+  faces:
+  - name: Struggle for Control
+    type: Obligation
+    unique: false
+    text: |-
+      **_Give to the Flash Thompson player._**
+      You may flip to your alter-ego form. Choose:
+      - Exhaust Flash Thompson and take 2 damage → discard this obligation.
+      - Put 1 set-aside copy of Enraged Symbiote into play engaged with the first player. If you cannot, this card gains surge. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/23.png
+    marvelcdb_url: https://marvelcdb.com/card/20023
 - names:
   - Klyntar Frenzy
   packs:
-    - name: Venom
-      sku: MC20en
-      position: 24
-      quantity: 1
+  - name: Venom
+    sku: MC20en
+    position: 24
+    quantity: 1
   faces:
-    - name: Klyntar Frenzy
-      type: Side Scheme
-      text: |
-        "Threat cannot be removed
-        from this scheme while a
-        **Symbiote** enemy is in play."
-      flavor_text:
-        The Venom symbiote is distraught,
-        bonding with everyone it touches and
-        sending them into a destructive rage.
-      encounter_icons:
-        - Hazard
-      base_threat_per_player: 2
-      boost_icons: 3
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/24.png"
+  - name: Klyntar Frenzy
+    type: Side Scheme
+    unique: false
+    text: Threat cannot be removed from this scheme while a [[Symbiote]] enemy is
+      in play.
+    boost_icons: 3
+    starting_threat_per_player: 2
+    flavor_text: <b><i>The Venom symbiote is distraught, bonding with everyone it
+      touches and sending them into a destructive rage.</i></b>
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/24.png
+    marvelcdb_url: https://marvelcdb.com/card/20024
+  horizontal: true
 - names:
   - Enraged Symbiote
   packs:
-    - name: Venom
-      sku: MC20en
-      position: 25
-      quantity: 4
+  - name: Venom
+    sku: MC20en
+    position: 25
+    quantity: 4
   faces:
-    - name: Enraged Symbiote
-      type: Minion
-      scheme: 
-      attack: 
-      traits:
-        - Symbiote
-      keywords:
-        - Guard
-        - Patrol
-      text: |
-        "Guard. Patrol. _(While this minion is
-        engaged with you, you cannot thwart
-        the main scheme.)
-        _(Venom’s nemesis minion.)_"
-      hit_points: 2
-      boost_icons: 0
-      star_boost: |
-        Put Enraged Symbiote into
-        play engaged with you.
-      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/25.png"
+  - name: Enraged Symbiote
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 2
+    traits:
+    - Symbiote
+    keywords:
+    - Guard
+    - Patrol
+    text: |-
+      Guard. Patrol. _(While this minion is engaged with you, you cannot thwart the main scheme.)
+      (Venom's nemesis minion.)_
+    hit_points: 2
+    boost_icons: 0
+    star_text: Put Enraged Symbiote into play engaged with you.
+    flavor_text: '"You will kneel before the true Destroyer!"'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/25.png
+    marvelcdb_url: https://marvelcdb.com/card/20025
+- names:
+  - '"Fusillade"'
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 26
+    quantity: 3
+  faces:
+  - name: '"Fusillade"'
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Aggression
+    traits:
+    - Attack
+    text: '**Hero Action** (attack): Exhaust a [[weapon]] upgrade you control → deal
+      5 damage to an enemy.'
+    flavor_text: '"Give me something to shoot."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/26.png
+    marvelcdb_url: https://marvelcdb.com/card/20026
+- names:
+  - '"Welcome Aboard"'
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 27
+    quantity: 3
+  faces:
+  - name: '"Welcome Aboard"'
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    text: |-
+      Play only if your identity has the [[guardian]] trait. Max 1 per round.
+       **Hero Action**: Reduce the resource cost of the next ally played this phase by 2.
+    flavor_text: '"Guardians gather? Group up? Man, I don''t know." - Peter Quill'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/27.png
+    marvelcdb_url: https://marvelcdb.com/card/20027
+- names:
+  - Shake it Off
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 28
+    quantity: 3
+  faces:
+  - name: Shake it Off
+    cost: 1
+    type: Event
+    unique: false
+    aspect:
+    - Protection
+    traits:
+    - Skill
+    text: '**Hero Response**: After a [[guardian]] character takes any amount of damage
+      from an attack, give that character a tough status card.'
+    flavor_text: '"Groot, buddy, I get that you can regrow and all but you''ve gotta
+      be more careful." - Rocket Raccoon'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/28.png
+    marvelcdb_url: https://marvelcdb.com/card/20028
+- names:
+  - Crew Quarters
+  packs:
+  - name: Venom
+    sku: MC20en
+    position: 29
+    quantity: 3
+  faces:
+  - name: Crew Quarters
+    cost: 1
+    type: Support
+    unique: false
+    aspect:
+    - Basic
+    traits:
+    - Location
+    text: |-
+      Play under any player's control. Max 1 per player.
+       **Alter-Ego Action**: Exhaust Crew Quarters → heal 1 damage from an alter-ego.
+    flavor_text: ""
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc20en/29.png
+    marvelcdb_url: https://marvelcdb.com/card/20029
