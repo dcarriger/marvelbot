@@ -1,0 +1,9 @@
+---
+name: "Resource Ability"
+version: "1.3"
+rule_text: |
+  A resource ability is a type of triggered ability, indicated by
+  the bold “Resource” timing trigger.
+  • A resource ability can be triggered anytime the player
+  who controls the ability is generating resources to
+  pay a cost.

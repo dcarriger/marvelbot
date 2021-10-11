@@ -1,0 +1,101 @@
+- names:
+  - Uncertain Loyalties
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 53
+    quantity: 1
+  sets:
+  - name: Spider-Woman Nemesis
+  faces:
+  - name: Uncertain Loyalties
+    type: Obligation
+    unique: false
+    text: |
+      **_Give tot he Jessica Drew Player._**
+      - Exhaust Jessica Drew → remove Uncertain Loyalties from the game.
+      - Place 3 threat on the main scheme. Discard this obligation.
+    boost_icons: 2
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/53.png
+    marvelcdb_url: https://marvelcdb.com/card/04053
+- names:
+  - The Viper
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 54
+    quantity: 1
+  sets:
+  - name: Spider-Woman Nemesis
+  faces:
+  - name: The Viper
+    type: Minion
+    unique: true
+    scheme: 2
+    attack: 2
+    traits:
+    - Elite
+    - Hydra
+    text: |-
+      While the Viper is engaged with you, your hand size is reduced by 1.
+      (Spider-Woman's nemesis minion.)
+    hit_points: 5
+    boost_icons: 3
+    flavor_text: '"It''s time for you to come home, Jessica."'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/54.png
+    marvelcdb_url: https://marvelcdb.com/card/04054
+- names:
+  - The Viper's Ambition
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 55
+    quantity: 1
+  sets:
+  - name: Spider-Woman Nemesis
+  faces:
+  - name: The Viper's Ambition
+    type: Side Scheme
+    unique: false
+    text: '**When Revealed:** Place an additional 1[per_hero] threat here.'
+    boost_icons: 2
+    starting_threat: 2
+    flavor_text: The Viper has given everything to Hydra in return for the promise
+      of power.
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/55.png
+    marvelcdb_url: https://marvelcdb.com/card/04055
+  horizontal: true
+- names:
+  - Hydra Regular
+  packs:
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 56
+    quantity: 2
+  - name: The Rise of Red Skull
+    sku: MC10en
+    position: 152
+    quantity: 2
+  sets:
+  - name: Spider-Woman Nemesis
+  - name: The Rise of Red Skull
+  faces:
+  - name: Hydra Regular
+    type: Minion
+    unique: false
+    scheme: 1
+    attack: 2
+    traits:
+    - Hydra
+    keywords:
+    - Incite
+    text: Incite 1. (When this card is revealed, place 1 threat on the main scheme.)
+    hit_points: 2
+    boost_icons: 2
+    flavor_text: '"When you consider what kind of person would join a terrorist organization
+      bent on world domination, it''s easy to see why Hydra''s troops don''t impress."
+      -- Jessica Drew'
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/56.png
+    alternate_images:
+      - https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc10en/152.png
+    marvelcdb_url: https://marvelcdb.com/card/04056

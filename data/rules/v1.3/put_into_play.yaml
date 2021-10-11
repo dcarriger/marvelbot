@@ -1,0 +1,27 @@
+---
+name: "Put Into Play"
+version: "1.3"
+rule_text: |
+  Playing a card involves paying the card’s cost and placing
+  the card in the play area. This causes the card to enter play
+  (or, in the case of an event card, to resolve its ability and be
+  placed in the discard pile). Cards are played from a player’s
+  hand.
+  Some abilities cause cards to be put into play. This bypasses
+  the need to pay the card’s cost as well as any restrictions or
+  prohibitions regarding playing that card. A card that is put
+  into play enters play in its controller’s play area.
+  • When an event card is played, place it on the table,
+  resolve its ability, and place the card in its owner’s
+  discard pile.
+  • A card that is put into play is not considered to have
+  been played.
+  • When a card is put into play, its resource cost is
+  ignored.
+  • Unless otherwise stated by the “put into play” effect,
+  cards that are put into play must do so in a play area
+  or state that matches the rules of playing the card.
+related:
+  - Enters Play
+  - In Play and Out of Play
+  - Play Restrictions and Permissions

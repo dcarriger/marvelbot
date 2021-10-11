@@ -1,0 +1,16 @@
+---
+name: "Uses"
+version: "1.3"
+rule_text: |
+  When a card with this keyword enters
+  play, place X all-purpose counters from the token pool on
+  the card. The word following the value establishes and
+  identifies the type of uses the card holds.
+  Each card with this keyword also has an ability that
+  references the type of use established by the keyword
+  as part of the cost. When such an ability spends a use, a
+  counter of that type must be removed from the card.
+  After a card with uses spends its final use (and the effect
+  resolves), discard the card.
+related:
+  - Keywords

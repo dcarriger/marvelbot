@@ -1,0 +1,10 @@
+---
+name: "Retaliate"
+version: "1.3"
+rule_text: |
+  After this character is attacked, deal X
+  damage to the attacker. The character must survive the
+  attack to deal this damage. (X is the value next to the
+  retaliate keyword.)
+related:
+  - Keywords

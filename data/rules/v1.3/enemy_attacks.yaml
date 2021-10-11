@@ -1,0 +1,39 @@
+---
+name: "Enemy Attacks"
+version: "1.3"
+rule_text: |
+  To resolve an enemy attack, follow these steps:
+  1. If a villain is attacking, give it one facedown boost card
+  from the encounter deck. (If a minion is attacking, skip
+  this step.)
+  2. If a player wishes to defend, that player exhausts a hero
+  or ally as the defender. If a player other than the target
+  player defends, the defending player becomes the
+  target player for this attack.
+  3. If a villain is attacking, flip each of the villain’s boost
+  cards faceup one at a time. (If a minion is attacking,
+  skip this step.) Then, in order:
+  • Resolve any “Boost” abilities, indicated by the star
+  icon in the boost field.
+  • Increase the villain’s ATK value by one for each boost
+  icon on the card.
+  • Discard each boost card after it is resolved.
+  4. Deal damage from the attack equal to the attacking
+  villain or minion’s modified ATK value, based on the
+  following:
+  • If a **hero defends** the attack, the amount of damage
+  dealt is reduced by that hero’s DEF value, and the
+  remaining damage from the attack is dealt to that
+  hero.
+  • If an ally defends the attack, all damage from the
+  attack is dealt to the ally. (If the ally is defeated by the
+  attack, additional damage does not carry over to the
+  hero.)
+  • If no character defends the attack, the attack is
+  considered undefended. All damage from the attack
+  is dealt to the identity that is resolving this activation.
+related:
+  - Activation
+  - Boost
+  - Defend 
+  - Villain Phase

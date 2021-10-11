@@ -1,8 +1,0 @@
----
-name: "When Defeated Abilities"
-rule_text: |
-  A when defeated ability is a type of triggered ability,
-  indicated by the bold “When Defeated” timing trigger.
-  When a villain stage, side scheme, main scheme stage, ally,
-  or minion is defeated, all “When Defeated” abilities on the
-  card resolve.

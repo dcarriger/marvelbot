@@ -1,0 +1,7 @@
+---
+name: "Per Player"
+version: "1.3"
+rule_text: |
+  The <:player:667076352205258765> icon next to a value multiplies that value by the
+  number of players who **started** the scenario.
+  • If a player is eliminated, this value does not change.

@@ -1,0 +1,13 @@
+---
+name: "Card Types"
+version: "1.3"
+rule_text: |
+  The game’s card types are: ally, attachment, environment,
+  event, identity (hero and alter-ego), main scheme, minion,
+  obligation, resource, side scheme, support, treachery,
+  upgrade, and villain.
+  • If an ability causes a card to change its card type,
+  it loses all other card types it might possess and
+  functions as would any card of the new card type.
+related:
+  - "[Appendix III: Card Anatomy](https://images-cdn.fantasyflightgames.com/filer_public/d6/9b/d69b97f8-7e4e-438a-817b-31ad10104b42/mc_rulesreference_v13.pdf#page=21)"

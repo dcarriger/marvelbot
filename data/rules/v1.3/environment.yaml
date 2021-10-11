@@ -1,0 +1,10 @@
+---
+name: "Environment"
+version: "1.3"
+rule_text: |
+  Environment is an encounter card type that creates an
+  overarching rule or set of rules for the scenario.
+  An environment card enters play next to the villain, and is
+  active so long as it remains in play.
+  • If an environment enters play, it remains in play until a
+  card ability or game effect causes it to leave play.

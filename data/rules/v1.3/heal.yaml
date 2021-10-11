@@ -1,0 +1,12 @@
+---
+name: "Heal"
+version: "1.3"
+rule_text: |
+  If an ability heals a character, damage the character has
+  sustained can be removed from the character.
+  • A heal effect can only bring a character to its
+  maximum hit points, unless the effect explictly states
+  it can bring the character above its maximum.
+related:
+  - Gets
+  - Hit Points

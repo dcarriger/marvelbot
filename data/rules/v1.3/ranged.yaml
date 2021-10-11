@@ -1,0 +1,8 @@
+---
+name: "Ranged"
+version: "1.3"
+rule_text: |
+  An attack with the ranged keyword ignores the retaliate
+  keyword.
+related:
+  - Keywords

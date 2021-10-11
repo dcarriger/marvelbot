@@ -1,0 +1,11 @@
+---
+name: "Restricted"
+version: "1.3"
+rule_text: |
+  A player cannot control more than two
+  restricted cards in play at a given time. If a player ever
+  controls more than two restricted cards in play, they must
+  immediately choose and discard from play restricted cards
+  they control until they have only two.
+related:
+  - Keywords

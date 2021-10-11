@@ -1,0 +1,34 @@
+---
+name: "Triggered Ability"
+version: "1.3"
+rule_text: |
+  A triggered ability is indicated by a bold timing trigger
+  followed by a colon and the rest of the ability text.
+  • A triggered ability on a player card can only be
+  initiated if its effect could change the game on its
+  own. This potential is assessed without taking into
+  account the consequences of the cost payment or
+  future responses to the effect.
+  • Unless prefaced by the word “Forced”, all action and
+  response abilities are optional.
+  • “Forced” abilities, “When Revealed” abilities, and
+  “When Defeated” abilities are triggered by the game
+  at the ability’s appropriate timing point.
+  • If the bold timing trigger of an ability contains the
+  word “Hero” or “Alter-Ego”, the ability can only
+  be used if the player triggering the ability is in the
+  specified form.
+  • If quotation marks are used around a timing trigger
+  and colon, the quoted text is not itself a timing
+  trigger, but is instead referring to other abilities with
+  that trigger.
+related:
+  - Action
+  - Forced
+  - Interrupt
+  - Resource Ability
+  - Response
+  - Simultaneous Response
+  - Special
+  - When Defeated Abilities
+  - When Revealed Abilities

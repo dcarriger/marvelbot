@@ -1,0 +1,20 @@
+---
+name: "Activation"
+version: "1.3"
+rule_text: |
+  If the villain attacks or schemes, it is considered an
+  activation.
+  • During step two of the villain phase, the villain
+  activates once per player. If the player resolving the
+  activation is in hero form, the villain attacks. If the
+  player resolving the activation is in alter-ego form,
+  the villain schemes.
+  • Some card abilities can also cause the villain to attack
+  or scheme. These are also considered activations.
+  • Each time the villain activates, give the villain
+  one boost card from the encounter deck for that
+  activation.
+related:
+  - Boost
+  - Enemy Attacks
+  - Enemy Schemes 

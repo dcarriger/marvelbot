@@ -1,0 +1,9 @@
+---
+name: "Hinder"
+version: "1.3"
+rule_text: |
+  When a card with the hinder X keyword is revealed, place X threat
+  on that card.
+related:
+  - Keywords
+  - Threat

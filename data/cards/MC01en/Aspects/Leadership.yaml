@@ -1,0 +1,222 @@
+- names:
+  - Hawkeye
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 66
+    quantity: 1
+  faces:
+  - name: Hawkeye
+    cost: 3
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 1
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    traits:
+    - Avenger
+    text: |-
+      Hawkeye enters play with 4 arrow counters on him.
+      **Response**: After a minion enters play, remove 1 arrow counter from Hawkeye → deal 2 damage to that minion.
+    hit_points: 3
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/66.png
+    marvelcdb_url: https://marvelcdb.com/card/01066
+- names:
+  - Maria Hill
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 67
+    quantity: 1
+  faces:
+  - name: Maria Hill
+    cost: 2
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 2
+    thwart_consequential: 1
+    attack: 1
+    attack_consequential: 1
+    text: '**Response**: After Maria Hill enters play, each player draws 1 card.'
+    hit_points: 2
+    flavor_text: '"Believe it or not, we all want the same thing."'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/67.png
+    marvelcdb_url: https://marvelcdb.com/card/01067
+- names:
+  - Vision
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 68
+    quantity: 1
+  faces:
+  - name: Vision
+    cost: 4
+    type: Ally
+    unique: true
+    aspect:
+    - Leadership
+    thwart: 1
+    thwart_consequential: 1
+    attack: 2
+    attack_consequential: 1
+    traits:
+    - Android
+    - Avenger
+    text: '**Action**: Spend a [energy] resource → choose THW or ATK. Until the end
+      of the phase, Vision gets +2 to the chosen power. (Limit once per round.)'
+    hit_points: 3
+    flavor_text: '"I will handle this"'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/68.png
+    marvelcdb_url: https://marvelcdb.com/card/01068
+- names:
+  - Get Ready
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 69
+    quantity: 3
+  - name: Star-Lord
+    sku: MC17en
+    position: 16
+    quantity: 2
+  faces:
+  - name: Get Ready
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    text: '**Action**: Ready an ally.'
+    flavor_text: '"We train hard every day so that when the time comes, we''ll be
+      ready" -- Steve Rogers'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/69.png
+    marvelcdb_url: https://marvelcdb.com/card/01069
+- names:
+  - Lead from the Front
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 70
+    quantity: 3
+  faces:
+  - name: Lead from the Front
+    cost: 2
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Tactic
+    text: '**Hero Action**: Choose a player. Each character that player controls gets
+      +1 THW and +1 ATK until the end of the phase.'
+    flavor_text: '"Let''s go everyone!" -- Carol Danvers'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/70.png
+    marvelcdb_url: https://marvelcdb.com/card/01070
+- names:
+  - Make the Call
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 71
+    quantity: 3
+  faces:
+  - name: Make the Call
+    cost: 0
+    type: Event
+    unique: false
+    aspect:
+    - Leadership
+    text: '**Action**: Pay the printed cost of an ally in any player''s discard pile
+      → put that ally into play under your control.'
+    flavor_text: '"This is a code red! All hands on deck!" -- Maria Hill'
+    resources:
+      mental: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/71.png
+    marvelcdb_url: https://marvelcdb.com/card/01071
+- names:
+  - The Power of Leadership
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 72
+    quantity: 2
+  - name: Star-Lord
+    sku: MC17en
+    position: 18
+    quantity: 2
+  faces:
+  - name: The Power of Leadership
+    type: Resource
+    unique: false
+    aspect:
+    - Leadership
+    text: |-
+      Max 2 per deck.
+      Double the number of resources this card generates while paying for a Leadership _(blue)_ card.
+    resources:
+      wild: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/72.png
+    marvelcdb_url: https://marvelcdb.com/card/01072
+- names:
+  - The Triskelion
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 73
+    quantity: 1
+  faces:
+  - name: The Triskelion
+    cost: 1
+    type: Support
+    unique: true
+    aspect:
+    - Leadership
+    traits:
+    - Location
+    text: Increase your ally limit by 1. _(This allows you to control more than 3
+      allies.)_
+    flavor_text: '"This they made it tall enough?" -- She-Hulk'
+    resources:
+      energy: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/73.png
+    marvelcdb_url: https://marvelcdb.com/card/01073
+- names:
+  - Inspired
+  packs:
+  - name: Core Set
+    sku: MC01en
+    position: 74
+    quantity: 3
+  faces:
+  - name: Inspired
+    cost: 1
+    type: Upgrade
+    unique: false
+    aspect:
+    - Leadership
+    traits:
+    - Condition
+    text: |-
+      Attach to an ally. Max 1 per ally.
+      Attached ally gets +1 THW and +1 ATK.
+    flavor_text: '"I''m glad she''s on our side." -- Star-Lord'
+    resources:
+      physical: 1
+    image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc01en/74.png
+    marvelcdb_url: https://marvelcdb.com/card/01074

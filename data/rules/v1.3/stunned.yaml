@@ -1,0 +1,8 @@
+---
+name: "Stunned"
+version: "1.3"
+rule_text: |
+  If an ability “stuns” a character, give that character a
+  stunned status card.
+related:
+  - Status Cards

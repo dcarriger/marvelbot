@@ -1,0 +1,21 @@
+---
+name: "Player Elimination"
+version: "1.3"
+rule_text: |
+  A player is eliminated from the game if their identity
+  is defeated. This usually occurs when the character’s
+  remaining hit points are reduced to zero.
+  • When a player is eliminated, that player’s hand, all of
+  the cards they control, and their deck are placed in
+  their owners’ discard piles. Encounter cards dealt to the
+  player are discarded. Any enemies engaged with that
+  player engage the next clockwise player, retaining any
+  damage, counters, and status cards on them.
+  • When a player is eliminated, the remaining players
+  continue to play the game. Eliminated players are
+  considered to win or lose along with the rest of the
+  group, depending on how they finish.
+  • If a player is eliminated partway through the
+  resolution of an ability, resolve the entire ability.
+  • If all players are eliminated, the game ends and the
+  players lose.

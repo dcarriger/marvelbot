@@ -1,0 +1,14 @@
+---
+name: "Villainous"
+version: "1.3"
+rule_text: |
+  When a minion with the villainous keyword activates, give it a
+  facedown boost card from the top of the encounter deck. When you
+  resolve that minion’s activation, turn the boost card faceup and
+  apply its boost icons to the minion’s stats for this activation. If
+  the boost card has a boost ability, resolve its effects. Discard
+  the boost card after the activation.
+related:
+  - Boost
+  - Keywords
+  - Minion

@@ -1,8 +1,0 @@
----
-name: "Printed"
-rule_text: |
-  The word “printed” refers to the text, characteristic, or value
-  that is physically printed on the card.
-related:
-  - Base Value
-  - Modifiers

@@ -1,0 +1,15 @@
+---
+name: "Gets"
+version: "1.3"
+rule_text: |
+  If a card ability causes a character to “get” a statistic (such
+  as +1 ATK or 4 hit points), the ability modifies the character’s
+  statistic while it is active.
+  • If such an ability expires or otherwise becomes
+  inactive, the modified statistic reverts to the value it
+  would have without the modifier.
+  • If such an ability causes a character to get hit points,
+  it modifies the character’s remaining hit points
+  while the ability remains active, and also modifies
+  the character’s maximum hit points while the ability
+  remains active.

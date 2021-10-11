@@ -1,0 +1,17 @@
+---
+name: "Deal An Encounter Card"
+version: "1.3"
+rule_text: |
+  During step three of the villain phase, each player is dealt
+  one facedown encounter card.
+  If a card ability instructs a player to be dealt an encounter
+  card, the player takes the top card of the encounter deck
+  and places it facedown in front of them. This card is not
+  revealed at this time. This card is added to the queue of
+  cards that player resolves during the villain phase.
+  • If a player is dealt an encounter card during step
+  three or four of the villain phase, the extra encounter
+  card is added to the queue of cards that are being
+  dealt and revealed in those same steps.
+related:
+  - Villain Phase

@@ -1,7 +1,0 @@
----
-name: "Confused"
-rule_text: |
-  If an ability “confuses” a character, give that character a
-  confused status card.
-related:
-  - Status Cards

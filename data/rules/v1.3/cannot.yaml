@@ -1,0 +1,6 @@
+---
+name: "Cannot"
+version: "1.3"
+rule_text: |
+  The word “cannot” is absolute and cannot be
+  countermanded by other abilities or effects.

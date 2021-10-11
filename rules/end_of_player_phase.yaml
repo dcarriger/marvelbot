@@ -1,9 +1,0 @@
----
-name: "End of Player Phase"
-rule_text: |
-  To end the player phase, perform the following steps:
-  1. In player order, each player may discard any number of
-  cards from their hand, and must discard down to their
-  hand size if they have more cards than their hand size.
-  2. Each player simultaneously draws up to their hand size.
-  3. Each player simultaneously readies all of their cards

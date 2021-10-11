@@ -1,0 +1,27 @@
+---
+name: "Lasting Effects"
+version: "1.3"
+rule_text: |
+  Some card abilities create effects or conditions that affect
+  the game for a specified duration (such as “until the end of
+  the phase” or “until the end of this attack”). Such effects are
+  known as lasting effects.
+  For the specified duration of a lasting effect, treat the effect
+  as if it was a constant ability.
+  • A lasting effect persists beyond the resolution of the
+  ability that created it, for the duration specified by
+  the effect. The effect continues to affect the game for
+  the specified duration whether or not the card that
+  created the lasting effect is in play.
+  • If a card enters play (or changes status to meet the
+  criteria of a specified set of affected cards) after the
+  creation of a lasting effect, it is still affected by that
+  lasting effect.
+  • A lasting effect expires as soon as the timing point
+  specified by its duration is reached. This means that
+  an “until the end of the round” lasting effect expires
+  just before an “at the end of the round” ability or
+  delayed effect may initiate.
+  • A lasting effect that expires at the end of a specified
+  time period can only be initiated during that time
+  period.
