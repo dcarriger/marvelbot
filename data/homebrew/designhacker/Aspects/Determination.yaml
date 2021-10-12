@@ -1,3 +1,4 @@
+---
 - names:
   - "Wolverine"
   - "Determination"
@@ -8,9 +9,6 @@
     - name: "Wolverine"
       type: Ally
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D1.png"
-
-
-
 - names:
   - "The Punisher"
   - "Determination"
@@ -21,9 +19,6 @@
     - name: "The Punisher"
       type: Ally
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D2.png"
-
-
-
 - names:
   - "Moon Knight"
   - "Determination"
@@ -34,9 +29,6 @@
     - name: "Moon Knight"
       type: Ally
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D3.png"
-
-
-
 - names:
   - "Blade"
   - "Determination"
@@ -47,9 +39,6 @@
     - name: "Blade"
       type: Ally
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D4.png"
-
-
-
 - names:
   - "Ghost Rider"
   - "Determination"
@@ -60,9 +49,6 @@
     - name: "Ghost Rider"
       type: Ally
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D5.png"
-
-
-
 - names:
   - "Elektra"
   - "Determination"
@@ -73,9 +59,6 @@
     - name: "Elektra"
       type: Ally
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D6.png"
-
-
-
 - names:
   - "Venom"
   - "Determination"
@@ -86,9 +69,6 @@
     - name: "Venom"
       type: Ally
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D7.png"
-
-
-
 - names:
   - "The Thing"
   - "Determination"
@@ -99,9 +79,6 @@
     - name: "The Thing"
       type: Ally
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D8.png"
-
-
-
 - names:
   - "Deadpool"
   - "Determination"
@@ -112,9 +89,6 @@
     - name: "Deadpool"
       type: Ally
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D9.png"
-
-
-
 - names:
   - "Cable"
   - "Determination"
@@ -125,9 +99,6 @@
     - name: "Cable"
       type: Ally
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D10.png"
-
-
-
 - names:
   - "Morbius"
   - "Determination"
@@ -138,9 +109,6 @@
     - name: "Morbius"
       type: Ally
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D11.png"
-
-
-
 - names:
   - "Blast Radius"
   - "Determination"
@@ -151,9 +119,6 @@
     - name: "Blast Radius"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D12.png"
-
-
-
 - names:
   - "Last Laugh"
   - "Determination"
@@ -164,9 +129,6 @@
     - name: "Last Laugh"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D13.png"
-
-
-
 - names:
   - "Gone in a Flash"
   - "Determination"
@@ -177,9 +139,6 @@
     - name: "Gone in a Flash"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D14.png"
-
-
-
 - names:
   - "Human Shield"
   - "Determination"
@@ -190,9 +149,6 @@
     - name: "Human Shield"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D15.png"
-
-
-
 - names:
   - "Pay The Piper"
   - "Determination"
@@ -203,9 +159,6 @@
     - name: "Pay The Piper"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D16.png"
-
-
-
 - names:
   - "Detonate"
   - "Determination"
@@ -216,9 +169,6 @@
     - name: "Detonate"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D17.png"
-
-
-
 - names:
   - "Suckerpunch"
   - "Determination"
@@ -229,9 +179,6 @@
     - name: "Suckerpunch"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D18.png"
-
-
-
 - names:
   - "Glutton for Punishment"
   - "Determination"
@@ -242,9 +189,6 @@
     - name: "Glutton for Punishment"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D19.png"
-
-
-
 - names:
   - "Improvised 'Porting"
   - "Determination"
@@ -255,9 +199,6 @@
     - name: "Improvised 'Porting"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D20.png"
-
-
-
 - names:
   - "Thorn in Their Side"
   - "Determination"
@@ -268,9 +209,6 @@
     - name: "Thorn in Their Side"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D21.png"
-
-
-
 - names:
   - "Overstay Your Welcome"
   - "Determination"
@@ -281,9 +219,6 @@
     - name: "Overstay Your Welcome"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D22.png"
-
-
-
 - names:
   - "Field Dressing"
   - "Determination"
@@ -294,9 +229,6 @@
     - name: "Field Dressing"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D23.png"
-
-
-
 - names:
   - "In Harm's Way"
   - "Determination"
@@ -307,9 +239,6 @@
     - name: "In Harm's Way"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D24.png"
-
-
-
 - names:
   - "Masochism"
   - "Determination"
@@ -320,9 +249,6 @@
     - name: "Masochism"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D25.png"
-
-
-
 - names:
   - "Pay It Forward"
   - "Determination"
@@ -333,9 +259,6 @@
     - name: "Pay It Forward"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D26.png"
-
-
-
 - names:
   - "In and Out"
   - "Determination"
@@ -346,9 +269,6 @@
     - name: "In and Out"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D27.png"
-
-
-
 - names:
   - "Cheap Shot"
   - "Determination"
@@ -359,9 +279,6 @@
     - name: "Cheap Shot"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D28.png"
-
-
-
 - names:
   - "Act on Impulse"
   - "Determination"
@@ -372,9 +289,6 @@
     - name: "Act on Impulse"
       type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D29.png"
-
-
-
 - names:
   - "The Power of Determination"
   - "Determination"
@@ -385,9 +299,6 @@
     - name: "The Power of Determination"
       type: Resource
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D30.png"
-
-
-
 - names:
   - "Merc Squad"
   - "Determination Wave 2"
@@ -398,9 +309,6 @@
     - name: "Merc Squad"
       type: Support
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D31.png"
-
-
-
 - names:
   - "Weapon X Training"
   - "Determination Wave 2"
@@ -411,9 +319,6 @@
     - name: "Weapon X Training"
       type: Support
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D32.png"
-
-
-
 - names:
   - "Savior Complex"
   - "Determination Wave 2"
@@ -424,22 +329,16 @@
     - name: "Savior Complex"
       type: Support
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D33.png"
-
-
-
 - names:
   - "Stun Gun"
-  - "Determination Wave 2"
+  - "Determination Wave 3"
   packs:
-    - name: Determination Wave 2
+    - name: Determination Wave 3
       sku: designhacker01en
   faces:
     - name: "Stun Gun"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D34.png"
-
-
-
 - names:
   - "Soldier On"
   - "Determination Wave 2"
@@ -450,9 +349,6 @@
     - name: "Soldier On"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D35.png"
-
-
-
 - names:
   - "Adrenaline Shot"
   - "Determination Wave 2"
@@ -463,9 +359,6 @@
     - name: "Adrenaline Shot"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D36.png"
-
-
-
 - names:
   - "Preparation #2"
   - "Determination Wave 2"
@@ -476,9 +369,6 @@
     - name: "Preparation #2"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D37.png"
-
-
-
 - names:
   - "Illegal Munitions"
   - "Determination Wave 2"
@@ -489,9 +379,6 @@
     - name: "Illegal Munitions"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D38.png"
-
-
-
 - names:
   - "Feel The Pain"
   - "Determination Wave 2"
@@ -502,9 +389,6 @@
     - name: "Feel The Pain"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D39.png"
-
-
-
 - names:
   - "Recon"
   - "Determination Wave 2"
@@ -515,9 +399,6 @@
     - name: "Recon"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D40.png"
-
-
-
 - names:
   - "Galvanize"
   - "Determination Wave 2"
@@ -528,9 +409,6 @@
     - name: "Galvanize"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D41.png"
-
-
-
 - names:
   - "Spontaneity"
   - "Determination Wave 2"
@@ -541,20 +419,16 @@
     - name: "Spontaneity"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D42.png"
-
-
 - names:
   - "Sustenance"
-  - "Determination Wave 3"
+  - "Determination Wave 2"
   packs:
-    - name: Determination Wave 3
+    - name: Determination Wave 2
       sku: designhacker01en
   faces:
     - name: "Sustenance"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D43.png"
-
-
 - names:
   - "Flight"
   - "Determination Wave 3"
@@ -565,8 +439,6 @@
     - name: "Flight"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D44.png"
-
-
 - names:
   - "Push Your Luck"
   - "Determination Wave 3"
@@ -577,9 +449,6 @@
     - name: "Push Your Luck"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D45.png"
-
-
-
 - names:
   - "I Can Do This All Day"
   - "Determination Wave 3"
@@ -590,9 +459,6 @@
     - name: "I Can Do This All Day"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D46.png"
-
-
-
 - names:
   - "Last Resort"
   - "Determination Wave 3"
@@ -603,26 +469,143 @@
     - name: "Last Resort"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D47.png"
-
-
 - names:
-  - "Time Bomb"
-  - "Determination Wave 3"
+  - "Oblivion"
+  - "Determination Wave 4"
   packs:
-    - name: Determination Wave 3
+    - name: Determination Wave 4
       sku: designhacker01en
   faces:
-    - name: "Time Bomb"
-      type: Upgrade
+    - name: "Oblivion"
+      type: Event
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D48.png"
-
 - names:
   - "Heroic Combat Vest"
-  - "Determination Wave 3"
+  - "Determination Wave 2"
   packs:
-    - name: Determination Wave 3
+    - name: Determination Wave 2
       sku: designhacker01en
   faces:
     - name: "Heroic Combat Vest"
       type: Upgrade
       image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D49.png"
+- names:
+  - "Twice the Determination"
+  - "Determination Wave 4"
+  packs:
+    - name: Determination Wave 4
+      sku: designhacker01en
+  faces:
+    - name: "Twice the Determination"
+      type: Resource
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D50.png"
+- names:
+  - "Heroes for Hire"
+  - "Determination Wave 4"
+  packs:
+    - name: Determination Wave 4
+      sku: designhacker01en
+  faces:
+    - name: "Heroes for Hire"
+      type: Support
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D51.png"
+- names:
+  - "Dark Magic"
+  - "Determination Wave 4"
+  packs:
+    - name: Determination Wave 4
+      sku: designhacker01en
+  faces:
+    - name: "Dark Magic"
+      type: Event
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D52.png"
+- names:
+  - "Gladiator"
+  - "Determination Wave 4"
+  packs:
+    - name: Determination Wave 4
+      sku: designhacker01en
+  faces:
+    - name: "Gladiator"
+      type: Ally
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D53.png"
+- names:
+  - "Explosives Training"
+  - "Determination Wave 4"
+  packs:
+    - name: Determination Wave 4
+      sku: designhacker01en
+  faces:
+    - name: "Explosives Training"
+      type: Support
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D54.png"
+- names:
+  - "Quasar"
+  - "Determination Wave 4"
+  packs:
+    - name: Determination Wave 4
+      sku: designhacker01en
+  faces:
+    - name: "Quasar"
+      type: Ally
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D55.png"
+- names:
+  - "Shang-Chi"
+  - "Determination Wave 4"
+  packs:
+    - name: Determination Wave 4
+      sku: designhacker01en
+  faces:
+    - name: "Shang-Chi"
+      type: Ally
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D56.png"
+- names:
+  - "Star-Lord"
+  - "Determination Wave 4"
+  packs:
+    - name: Determination Wave 4
+      sku: designhacker01en
+  faces:
+    - name: "Star-Lord"
+      type: Ally
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D57.png"
+- names:
+  - "Cloak"
+  - "Determination Wave 4"
+  packs:
+    - name: Determination Wave 4
+      sku: designhacker01en
+  faces:
+    - name: "Cloak"
+      type: Ally
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D58.png"
+- names:
+  - "Dagger"
+  - "Determination Wave 4"
+  packs:
+    - name: Determination Wave 4
+      sku: designhacker01en
+  faces:
+    - name: "Dagger"
+      type: Ally
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D59.png"
+- names:
+  - "Counterstrike"
+  - "Determination Wave 2"
+  packs:
+    - name: Determination Wave 2
+      sku: designhacker01en
+  faces:
+    - name: "Counterstrike"
+      type: Upgrade
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/D60.png"
+- names:
+  - "Multifaceted"
+  - "Determination Wave 2"
+  packs:
+    - name: Determination Wave 2
+      sku: designhacker01en
+  faces:
+    - name: "Multifaceted"
+      type: Support
+      image_url: "https://marvel-champions-cards.s3.us-west-2.amazonaws.com/homebrew/designhacker/determination/SETUP.png"
