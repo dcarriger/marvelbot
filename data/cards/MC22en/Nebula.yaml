@@ -72,14 +72,14 @@
       image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/3.png
       marvelcdb_url: https://marvelcdb.com/card/22003
 - names:
-    - Cutthroat Amibition
+    - Cutthroat Ambition
   packs:
     - name: Nebula
       sku: MC22en
       position: 4
       quantity: 2
   faces:
-    - name: Cutthroat Amibition
+    - name: Cutthroat Ambition
       cost: 1
       type: Upgrade
       unique: false
@@ -128,7 +128,7 @@
       traits:
         - Technique
       text: |-
-        While in hero form, Nebula gets +1 THW, +1 ATK, and gains salwart.
+        While in hero form, Nebula gets +1 THW, +1 ATK, and gains stalwart.
          **Special** : Give Nebula a tough status card.
       resources:
         mental: 1
