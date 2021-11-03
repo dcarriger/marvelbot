@@ -1,0 +1,596 @@
+- names:
+    - Nebula
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 1
+      quantity: 1
+  faces:
+    - name: Nebula
+      type: Hero
+      unique: true
+      thwart: 2
+      attack: 2
+      defense: 2
+      traits:
+        - Guardian
+      text: '_Combat Protocols_ - **Forced Response**: After your turn begins, resolve the "Special" ability on each [[technique]] upgrade you control, then discard each [[technique]] upgrade resolved this way.'
+      hit_points: 9
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/1A.png
+      marvelcdb_url: https://marvelcdb.com/card/22001a
+    - name: Nebula
+      type: Alter Ego
+      unique: true
+      recover: 3
+      traits:
+        - Outlaw
+      text: '_Cybernetic Upgrades_ - **Response**: After you play a [[technique]] upgrade, draw 2 cards. (Limit once per round.)'
+      hit_points: 9
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/1B.png
+      marvelcdb_url: https://marvelcdb.com/card/22001b
+- names:
+    - Gamora
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 2
+      quantity: 1
+  faces:
+    - name: Gamora
+      cost: 3
+      type: Ally
+      unique: true
+      thwart: 2
+      thwart_consequential: 1
+      attack: 2
+      attack_consequential: 1
+      traits:
+        - Guardian
+      text: '**Response:** After you play Gamora, choose a [[technique]] upgrade you control, then resolve its "Special" ability.'
+      hit_points: 3
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/2.png
+      marvelcdb_url: https://marvelcdb.com/card/22002
+- names:
+    - Nebula's Ship
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 3
+      quantity: 1
+  faces:
+    - name: Nebula's Ship
+      cost: 2
+      type: Support
+      unique: false
+      traits:
+        - Vehicle
+      text: '**Resource**: Exhaust Nebula''s Ship -> generate a [wild] resource.'
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/3.png
+      marvelcdb_url: https://marvelcdb.com/card/22003
+- names:
+    - Cutthroat Ambition
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 4
+      quantity: 2
+  faces:
+    - name: Cutthroat Ambition
+      cost: 1
+      type: Upgrade
+      unique: false
+      traits:
+        - Technique
+      text: |-
+        While Nebula is in hero form, her attacks gain piercing and overkill.
+         **Special** _(thwart)_: Remove 3 threat from a scheme.
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/4.png
+      marvelcdb_url: https://marvelcdb.com/card/22004
+- names:
+    - Evasive Maneuvering
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 5
+      quantity: 1
+  faces:
+    - name: Evasive Maneuvering
+      cost: 1
+      type: Upgrade
+      unique: false
+      traits:
+        - Technique
+      text: |-
+        While in hero form, Nebula ignores the guard keyword, the patrol keyword, and the crisis icon.
+         **Special** : Choose to either sun or confuse an enemy.
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/5.png
+      marvelcdb_url: https://marvelcdb.com/card/22005
+- names:
+    - Unyielding Persistence
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 6
+      quantity: 1
+  faces:
+    - name: Unyielding Persistence
+      cost: 1
+      type: Upgrade
+      unique: false
+      traits:
+        - Technique
+      text: |-
+        While in hero form, Nebula gets +1 THW, +1 ATK, and gains stalwart.
+         **Special** : Give Nebula a tough status card.
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/6.png
+      marvelcdb_url: https://marvelcdb.com/card/22006
+- names:
+    - Weapons Master
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 7
+      quantity: 2
+  faces:
+    - name: Weapons Master
+      cost: 1
+      type: Upgrade
+      unique: false
+      traits:
+        - Technique
+      text: |-
+        While in hero form, Nebula gains retaliate 1.
+         **Special** _(attack)_: Deal 4 damage to an enemy.
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/7.png
+      marvelcdb_url: https://marvelcdb.com/card/22007
+- names:
+    - Wide Stance
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 8
+      quantity: 2
+  faces:
+    - name: Wide Stance
+      cost: 1
+      type: Upgrade
+      unique: false
+      traits:
+        - Technique
+      text: |-
+        While Nebula is in hero form, reduce the amount of damage she takes from each attack by 1.
+         **Special** : Look at the top 3 cards of the encounter deck. Discard 1 and put the others back in any order.
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/8.png
+      marvelcdb_url: https://marvelcdb.com/card/22008
+- names:
+    - Combat Ready
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 9
+      quantity: 2
+  faces:
+    - name: Combat Ready
+      cost: 0
+      type: Event
+      unique: false
+      traits:
+        - Skill
+      text: |-
+        **Alter-Ego Action**: Choose one:
+         Shuffle up to 2 [[technique]] upgrades from your discard pile into your deck.
+         Discard cards from the top of your deck until you discard a [[technique]] upgrade. Put that upgrade into play, then resolve its "Special" ability.
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/9.png
+      marvelcdb_url: https://marvelcdb.com/card/22009
+- names:
+    - Lethal Intent
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 10
+      quantity: 3
+  faces:
+    - name: Lethal Intent
+      cost: 0
+      type: Event
+      unique: false
+      text: '**Hero Action**: Choose up to X [[technique]] upgrades you control. Resolve each of their "Special" abilities (in the order of your choice).'
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/10.png
+      marvelcdb_url: https://marvelcdb.com/card/22010
+- names:
+    - Eros
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 11
+      quantity: 1
+  faces:
+    - name: Eros
+      cost: 2
+      type: Ally
+      unique: true
+      aspect:
+        - Justice
+      thwart: 2
+      thwart_consequential: 1
+      attack: 1
+      attack_consequential: 1
+      traits:
+        - Guardian
+      text: '**Response:** After you play Eros from your hand, confuse a minion for each [mental] resource you used to pay for him.'
+      hit_points: 2
+      flavor_text: ""
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/11.png
+      marvelcdb_url: https://marvelcdb.com/card/22011
+- names:
+    - Wraith
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 12
+      quantity: 1
+  faces:
+    - name: Wraith
+      cost: 3
+      type: Ally
+      unique: true
+      aspect:
+        - Justice
+      thwart: 1
+      thwart_consequential: 1
+      attack: 3
+      attack_consequential: 2
+      traits:
+        - Guardian
+      text: '**Hero Interrupt:** When a boost card is turned faceup, exhaust Wraith and deal 1 damage to him -> cancel that card''s "Boost" effect.'
+      hit_points: 3
+      flavor_text: ""
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/12.png
+      marvelcdb_url: https://marvelcdb.com/card/22012
+- names:
+    - Venom
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 13
+      quantity: 1
+  faces:
+    - name: Venom
+      cost: 4
+      type: Ally
+      unique: true
+      aspect:
+        - Justice
+      thwart: 2
+      thwart_consequential: 2
+      attack: 3
+      attack_consequential: 2
+      traits:
+        - Guardian
+      text: While there is no threat on the main scheme, reduce all consequential damage Venom takes by 1.
+      hit_points: 4
+      flavor_text: ""
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/13.png
+      marvelcdb_url: https://marvelcdb.com/card/22013
+- names:
+    - Justice Served
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 14
+      quantity: 3
+  faces:
+    - name: Justice Served
+      cost: 1
+      type: Upgrade
+      unique: false
+      aspect:
+        - Justice
+      text: |-
+        Play under any player's control. Max 1 per player.
+         **Hero Response**: After you thwart and remove the last threat from a scheme, discard Justice Served -> ready your hero.
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/14.png
+      marvelcdb_url: https://marvelcdb.com/card/22014
+- names:
+    - One Way or Another
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 15
+      quantity: 3
+  faces:
+    - name: One Way or Another
+      cost: 0
+      type: Event
+      unique: false
+      aspect:
+        - Justice
+      text: |-
+        Max 1 per round.
+         **Hero Action**: Search the encounter deck for a side scheme. Reveal that side scheme -> draw 3 cards (shuffle the encounter deck).
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/15.png
+      marvelcdb_url: https://marvelcdb.com/card/22015
+- names:
+    - Determination
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 16
+      quantity: 1
+  faces:
+    - name: Determination
+      type: Resource
+      unique: false
+      aspect:
+        - Justice
+      text: |-
+        Max 1 per deck.
+        **Hero Response**: After you spend this card, remove 1 threat from the main scheme.
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/16.png
+      marvelcdb_url: https://marvelcdb.com/card/22016
+- names:
+    - Brains Over Brawn
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 18
+      quantity: 3
+  faces:
+    - name: Brains Over Brawn
+      cost: 2
+      type: Event
+      unique: false
+      aspect:
+        - Justice
+      traits:
+        - Attack
+      text: '**Hero Response** _(attack)_: After your hero makes a basic thwart, deal damage to an enemy equal to your hero''s THW.'
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/18.png
+      marvelcdb_url: https://marvelcdb.com/card/22018
+- names:
+    - Daughters of Thanos
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 22
+      quantity: 2
+  faces:
+    - name: Daughters of Thanos
+      cost: 1
+      type: Event
+      unique: false
+      aspect:
+        - Basic
+      text: |-
+        Team-Up (Gamora and Nebula). Max 1 per deck.
+         **Hero Action**: Draw 3 cards.
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/22.png
+      marvelcdb_url: https://marvelcdb.com/card/22022
+- names:
+    - Inferiority Complex
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 27
+      quantity: 1
+  faces:
+    - name: Inferiority Complex
+      type: Obligation
+      unique: false
+      text: |-
+        **Give to Nebula player.**
+        You may flip to alter-ego form. Choose:
+        -Exhaust your alter-ego -> remove Inferiority Complex from the game.
+        -Choose and discard 2 [[Technique]] upgrades you control. If no upgrade was discarded this way, this card gains surge. Discard this obligation.
+      boost_icons: 2
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/27.png
+      marvelcdb_url: https://marvelcdb.com/card/22027
+- names:
+    - Gamora
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 28
+      quantity: 1
+  faces:
+    - name: Gamora
+      type: Minion
+      unique: true
+      scheme: 2
+      attack: 2
+      traits:
+        - Elite
+        - Outlaw
+      text: |-
+        **Forced Interrupt:** When this minion would enter play, discard the Gamora ally from play.
+        [star] **Forced Response:** After Gamora attacks and damages you, choose and discard an upgrade you control.
+        _(Nebula's nemesis minion.)_
+      hit_points: 6
+      boost_icons: 3
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/28.png
+      marvelcdb_url: https://marvelcdb.com/card/22028
+- names:
+    - Self-Preservation
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 29
+      quantity: 1
+  faces:
+    - name: Self-Preservation
+      type: Side Scheme
+      unique: false
+      text: |-
+        Nebula gets -1 THW, -1 ATK, and -1 DEF.
+        Gamora gets +1 ATK and her attacks gain piercing.
+      boost_icons: 2
+      starting_threat_per_player: 2
+      flavor_text: <b><i>"We both did what we had to in order to survive. Why won't you let it go?" - Gamora</i></b>
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/29.png
+      marvelcdb_url: https://marvelcdb.com/card/22029
+  horizontal: true
+- names:
+    - Lethal Weapon
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 30
+      quantity: 1
+  faces:
+    - name: Lethal Weapon
+      type: Attachment
+      unique: false
+      traits:
+        - Weapon
+      text: |-
+        Attach to Gamora. If you cannot, attach to the villain.
+        **Hero Action:** Discard an upgrade you control → discard this attachment.
+      boost_icons: 2
+      flavor_text: <b><i>"There's only one 'Most Dangerous Woman in the Galaxy', and that's me!" - Gamora</i></b>
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/30.png
+      marvelcdb_url: https://marvelcdb.com/card/22030
+- names:
+    - Old Rivals
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 31
+      quantity: 2
+  faces:
+    - name: Old Rivals
+      type: Treachery
+      unique: false
+      text: '**When Revealed:** Gamora attacks you. If no attack was made this way, this card gains surge. _(If the Gamora hero or ally is in play, she resolves her ATK against you without exhausting.)_'
+      boost_icons: 1
+      flavor_text: <b><i>"This was a mistake." - Gamora</i></b>
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/31.png
+      marvelcdb_url: https://marvelcdb.com/card/22031
+- names:
+    - Energy Spear
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 32
+      quantity: 3
+  faces:
+    - name: Energy Spear
+      cost: 1
+      type: Upgrade
+      unique: false
+      aspect:
+        - Aggression
+      traits:
+        - Weapon
+      text: |-
+        Attach to a [[guardian]] ally. Max 1 per ally.
+         Attached ally gets +2 ATK and gains piercing.
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/32.png
+      marvelcdb_url: https://marvelcdb.com/card/22032
+- names:
+    - Guardians of the Galaxy
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 33
+      quantity: 3
+  faces:
+    - name: Guardians of the Galaxy
+      cost: 2
+      type: Support
+      unique: false
+      aspect:
+        - Leadership
+      traits:
+        - Team
+      text: |-
+        Play under any player's control. Max 1 [[team]] card per player.
+         If each of your characters has the [[guardian]] trait, this card gains: "**Response**: After you play an upgrade on an ally, draw 1 card."
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/33.png
+      marvelcdb_url: https://marvelcdb.com/card/22033
+- names:
+    - Defensive Training
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 34
+      quantity: 2
+  faces:
+    - name: Defensive Training
+      cost: 1
+      type: Support
+      unique: false
+      aspect:
+        - Protection
+      traits:
+        - Condition
+      keywords:
+        - Uses
+      text: |-
+        Max 2 per deck. Uses (2 training counters).
+         **Alter-Ego Action**: Exhaust this card and remove 1 training counter from this -> choose a Protection (green) event in your discard pile and shuffle it into your deck.
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/34.png
+      marvelcdb_url: https://marvelcdb.com/card/22034
+- names:
+    - Honorary Guardian
+  packs:
+    - name: Nebula
+      sku: MC22en
+      position: 35
+      quantity: 3
+  faces:
+    - name: Honorary Guardian
+      cost: 0
+      type: Upgrade
+      unique: false
+      aspect:
+        - Basic
+      traits:
+        - Title
+      text: |-
+        Play only if your identity has the [[guardian]] trait.
+         Attach to a friendly character. Max 1 per character.
+         Attached character gets +1 hit point and gains the [[guardian]] trait.
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/35.png
+      marvelcdb_url: https://marvelcdb.com/card/22035
