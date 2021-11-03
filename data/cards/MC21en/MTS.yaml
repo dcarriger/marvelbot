@@ -1,0 +1,353 @@
+- names:
+    - Secure the Landing Pad
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 180
+      quantity: 1
+  faces:
+    - name: Secure the Landing Pad
+      type: Side Scheme
+      unique: false
+      text: null
+      starting_threat: 2
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/180A.png
+      marvelcdb_url: https://marvelcdb.com/card/21180a
+  horizontal: true
+- names:
+    - Cosmo
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 180
+      quantity: 1
+  faces:
+    - name: Cosmo
+      type: Ally
+      unique: true
+      thwart: 2
+      attack: 2
+      traits:
+        - Guardian
+      text: null
+      hit_points: 3
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/180B.png
+      marvelcdb_url: https://marvelcdb.com/card/21180b
+- names:
+    - Security Breach
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 181
+      quantity: 1
+  faces:
+    - name: Security Breach
+      type: Side Scheme
+      unique: false
+      text: null
+      boost_icons: 2
+      starting_threat: 2
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/181.png
+      marvelcdb_url: https://marvelcdb.com/card/21181
+  horizontal: true
+- names:
+    - Save the Shawarma Place
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 182
+      quantity: 1
+  faces:
+    - name: Save the Shawarma Place
+      type: Side Scheme
+      unique: false
+      text: null
+      starting_threat: 2
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/182A.png
+      marvelcdb_url: https://marvelcdb.com/card/21182a
+  horizontal: true
+- names:
+    - Black Swan
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 182
+      quantity: 1
+  faces:
+    - name: Black Swan
+      type: Minion
+      unique: true
+      scheme: 2
+      attack: 2
+      traits:
+        - Black Order
+        - Elite
+      text: null
+      hit_points_per_player: 4
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/182B.png
+      marvelcdb_url: https://marvelcdb.com/card/21182b
+- names:
+    - Shawarma
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 183
+      quantity: 4
+  faces:
+    - name: Shawarma
+      type: Resource
+      unique: false
+      text: null
+      resources:
+        energy: 1
+        mental: 1
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/183.png
+      marvelcdb_url: https://marvelcdb.com/card/21183
+- names:
+    - Hack Sanctuary's Computer
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 184
+      quantity: 1
+  faces:
+    - name: Hack Sanctuary's Computer
+      type: Side Scheme
+      unique: false
+      text: null
+      starting_threat: 2
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/184A.png
+      marvelcdb_url: https://marvelcdb.com/card/21184a
+  horizontal: true
+- names:
+    - Defensive Protocols
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 184
+      quantity: 1
+  faces:
+    - name: Defensive Protocols
+      type: Side Scheme
+      unique: false
+      text: null
+      starting_threat: 2
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/184B.png
+      marvelcdb_url: https://marvelcdb.com/card/21184b
+  horizontal: true
+- names:
+    - System Shock
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 185
+      quantity: 4
+  faces:
+    - name: System Shock
+      type: Obligation
+      unique: false
+      text: null
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/185.png
+      marvelcdb_url: https://marvelcdb.com/card/21185
+- names:
+    - Find the Norn Stones
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 186
+      quantity: 1
+  faces:
+    - name: Find the Norn Stones
+      type: Side Scheme
+      unique: false
+      text: null
+      starting_threat_per_player: 3
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/186A.png
+      marvelcdb_url: https://marvelcdb.com/card/21186a
+  horizontal: true
+- names:
+    - Retrieve Odin's Armor
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 186
+      quantity: 1
+  faces:
+    - name: Retrieve Odin's Armor
+      type: Side Scheme
+      unique: false
+      text: null
+      starting_threat: 2
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/186B.png
+      marvelcdb_url: https://marvelcdb.com/card/21186b
+  horizontal: true
+- names:
+    - Norn Stone
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 187
+      quantity: 4
+  faces:
+    - name: Norn Stone
+      type: Upgrade
+      unique: false
+      traits:
+        - Asgard
+        - Artifact
+      text: null
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/187A.png
+      marvelcdb_url: https://marvelcdb.com/card/21187a
+- names:
+    - Norn Stone
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 187
+      quantity: 4
+  faces:
+    - name: Norn Stone
+      type: Upgrade
+      unique: false
+      traits:
+        - Asgard
+        - Artifact
+      text: null
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/187B.png
+      marvelcdb_url: https://marvelcdb.com/card/21187b
+- names:
+    - Summoned Back
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 188
+      quantity: 1
+  faces:
+    - name: Summoned Back
+      type: Treachery
+      unique: false
+      text: null
+      boost_icons: 3
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/188.png
+      marvelcdb_url: https://marvelcdb.com/card/21188
+- names:
+    - Open the Dungeons
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 189
+      quantity: 1
+  faces:
+    - name: Open the Dungeons
+      type: Side Scheme
+      unique: false
+      text: null
+      starting_threat_per_player: 3
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/189A.png
+      marvelcdb_url: https://marvelcdb.com/card/21189a
+  horizontal: true
+- names:
+    - Jormungand
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 189
+      quantity: 1
+  faces:
+    - name: Jormungand
+      type: Attachment
+      unique: true
+      traits:
+        - Dragon
+      text: null
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/189B.png
+      marvelcdb_url: https://marvelcdb.com/card/21189b
+- names:
+    - Lady Sif
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 190
+      quantity: 1
+  faces:
+    - name: Lady Sif
+      type: Ally
+      unique: true
+      thwart: 2
+      attack: 2
+      traits:
+        - Asgard
+        - Captive
+      text: null
+      hit_points: 3
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/190.png
+      marvelcdb_url: https://marvelcdb.com/card/21190
+- names:
+    - Fandral
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 191
+      quantity: 1
+  faces:
+    - name: Fandral
+      type: Ally
+      unique: true
+      thwart: 3
+      attack: 1
+      traits:
+        - Asgard
+        - Captive
+      text: null
+      hit_points: 3
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/191.png
+      marvelcdb_url: https://marvelcdb.com/card/21191
+- names:
+    - Hogun
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 192
+      quantity: 1
+  faces:
+    - name: Hogun
+      type: Ally
+      unique: true
+      thwart: 1
+      attack: 3
+      traits:
+        - Asgard
+        - Captive
+      text: null
+      hit_points: 3
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/192.png
+      marvelcdb_url: https://marvelcdb.com/card/21192
+- names:
+    - Volstagg
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 193
+      quantity: 1
+  faces:
+    - name: Volstagg
+      type: Ally
+      unique: true
+      thwart: 1
+      attack: 1
+      traits:
+        - Asgard
+        - Captive
+      text: null
+      hit_points: 5
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/193.png
+      marvelcdb_url: https://marvelcdb.com/card/21193

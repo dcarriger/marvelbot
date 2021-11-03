@@ -1,0 +1,632 @@
+- names:
+    - Adam Warlock
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 31
+      quantity: 1
+  faces:
+    - name: Adam Warlock
+      type: Hero
+      unique: true
+      thwart: 1
+      attack: 1
+      defense: 2
+      traits:
+        - Guardian
+        - Mystic
+      text: |-
+        _Battle Mage_ - **Action**: Discard 1 card from your hand. Limit once per phase. If that card is:
+        -Aggression: Deal 2 damage to an enemy.
+        -Justice: Remove 2 threat from a scheme.
+        -Protection: Heal 1 damage from an ally.
+        -Leadership: Give a hero +1 THW, +1 ATK and +1 DEF this round.
+      hit_points: 11
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/31A.png
+      marvelcdb_url: https://marvelcdb.com/card/21031a
+    - name: Adam Warlock
+      type: Alter Ego
+      unique: true
+      recover: 3
+      traits:
+        - Mystic
+      text: |-
+        _Avatar of Life_ - During deck-building, your deck must include an equal number of cards from all 4 aspects. You cannot include more than 1 copy of any non-Adam Warlock card.
+        **Action**: Discard a card from your hand -> remove a status card from Adam Warlock.
+      hit_points: 11
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/31B.png
+      marvelcdb_url: https://marvelcdb.com/card/21031b
+- names:
+    - Pip the Troll
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 32
+      quantity: 1
+  faces:
+    - name: Pip the Troll
+      cost: 2
+      type: Ally
+      unique: true
+      thwart: 1
+      thwart_consequential: 1
+      attack: 1
+      attack_consequential: 1
+      traits:
+        - Mystic
+      keywords:
+        - Toughness
+      text: |-
+        Toughness.
+        While Pip the Troll is in your hand, he gains "**Interrupt**: When a player is attacked, spend[energy][mental] resources -> put Pip the Troll into play under that player's controller."
+      hit_points: 2
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/32.png
+      marvelcdb_url: https://marvelcdb.com/card/21032
+- names:
+    - Soul World
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 33
+      quantity: 1
+  faces:
+    - name: Soul World
+      cost: 1
+      type: Support
+      unique: true
+      traits:
+        - Location
+      text: |-
+        **Response**: After your deck runs out of cards, place 1 soul counter here.
+        **Alter-Ego Action**: Exhaust Soul World and remove 1 soul counter from it -> heal all damage from your identity.
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/33.png
+      marvelcdb_url: https://marvelcdb.com/card/21033
+- names:
+    - Karmic Staff
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 34
+      quantity: 1
+  faces:
+    - name: Karmic Staff
+      cost: 2
+      type: Upgrade
+      unique: true
+      traits:
+        - Artifact
+        - Item
+      text: '**Resource**: Exhaust Karmic Staff -> generate a [wild] resource'
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/34.png
+      marvelcdb_url: https://marvelcdb.com/card/21034
+- names:
+    - Warlock's Cape
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 35
+      quantity: 1
+  faces:
+    - name: Warlock's Cape
+      cost: 2
+      type: Upgrade
+      unique: true
+      traits:
+        - Item
+      text: '**Hero Response**: After you resolve Adam Warlock''s "Battle Mage" ability, exhaust Warlock''s Cape -> ready Adam Warlock''s'
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/35.png
+      marvelcdb_url: https://marvelcdb.com/card/21035
+- names:
+    - Cosmic Ward
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 36
+      quantity: 2
+  faces:
+    - name: Cosmic Ward
+      cost: 1
+      type: Upgrade
+      unique: false
+      traits:
+        - Spell
+      text: '**Forced Interrupt**: When you reveal a treachery card, cancel its "**When Revealed**" effects and discard it. Then, discard Cosmic Ward'
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/36.png
+      marvelcdb_url: https://marvelcdb.com/card/21036
+- names:
+    - Mystic Senses
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 37
+      quantity: 2
+  faces:
+    - name: Mystic Senses
+      cost: 2
+      type: Upgrade
+      unique: false
+      traits:
+        - Condition
+        - Superpower
+      text: '**Hero Response**: After you resolve Adam Warlock''s "Battle Mage" ability, draw 1 card.'
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/37.png
+      marvelcdb_url: https://marvelcdb.com/card/21037
+- names:
+    - Karmic Blast
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 38
+      quantity: 3
+  faces:
+    - name: Karmic Blast
+      cost: 2
+      type: Event
+      unique: false
+      traits:
+        - Attack
+        - Superpower
+      text: '**Hero Action** (attack): Deal 4 damage to an enemy and discard up to 4 cards from the top of your deck -> deal 1 additional damage to that enemy for each different aspect discarded this way (Aggression, Justice, Leadership and Protection)'
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/38.png
+      marvelcdb_url: https://marvelcdb.com/card/21038
+- names:
+    - Cosmic Awareness
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 39
+      quantity: 2
+  faces:
+    - name: Cosmic Awareness
+      cost: 2
+      type: Event
+      unique: false
+      traits:
+        - Thwart
+        - Superpower
+      text: '**Hero Action** (thwart): Remove 3 threat from a scheme and discard up to 4 cards from the top of your deck -> remove 1 additional threat from that scheme for each different aspect discarded this way (Aggression, Justice, Leadership and Protection)'
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/39.png
+      marvelcdb_url: https://marvelcdb.com/card/21039
+- names:
+    - Quantum Magic
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 40
+      quantity: 2
+  faces:
+    - name: Quantum Magic
+      cost: 1
+      type: Event
+      unique: false
+      traits:
+        - Spell
+      text: '**Action**: Choose a card in your discard pile -> add that card to your hand'
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/40.png
+      marvelcdb_url: https://marvelcdb.com/card/21040
+- names:
+    - Marvel Boy
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 41
+      quantity: 1
+  faces:
+    - name: Marvel Boy
+      subtitle: Noh-Var
+      cost: 2
+      type: Ally
+      unique: true
+      aspect:
+        - Aggression
+      thwart: 0
+      thwart_consequential: 1
+      attack: 2
+      attack_consequential: 1
+      traits:
+        - Guardian
+        - Kree
+      text: '**Interrupt**: When Marvel Boy attacks, spend a [physics] resource -> this attack gains piercing and ranged'
+      hit_points: 2
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/41.png
+      marvelcdb_url: https://marvelcdb.com/card/21041
+- names:
+    - In-Betweener
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 42
+      quantity: 1
+  faces:
+    - name: In-Betweener
+      cost: 2
+      type: Event
+      unique: true
+      aspect:
+        - Aggression
+      traits:
+        - Cosmic Entity
+      text: |-
+        **Action**: Shuffle this card into the encounter deck (without looking)
+        **When Revealed**: Deal 2 damage to the villain and remove this card from the game. This effect cannot be canceled.
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/42.png
+      marvelcdb_url: https://marvelcdb.com/card/21042
+- names:
+    - Magic Attack
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 43
+      quantity: 1
+  faces:
+    - name: Magic Attack
+      cost: 1
+      type: Event
+      unique: false
+      aspect:
+        - Aggression
+      traits:
+        - Attack
+        - Spell
+      text: |-
+        Play only if your identity has the Mystic trait. Max 1 per deck.
+        **Hero Action** (attack): Choose an enemy and discard up to 5 cards from the top of your deck -> deal 1 damage to that enemy for each card discarded this way.
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/43.png
+      marvelcdb_url: https://marvelcdb.com/card/21043
+- names:
+    - Audacity
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 46
+      quantity: 1
+  faces:
+    - name: Audacity
+      type: Resource
+      unique: false
+      aspect:
+        - Aggression
+      text: |-
+        Max 1 per deck.
+        **Hero Response**: After you spend this card, deal 1 damage to the villain.
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/46.png
+      marvelcdb_url: https://marvelcdb.com/card/21046
+- names:
+    - Quasar
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 47
+      quantity: 1
+  faces:
+    - name: Quasar
+      subtitle: Wendell Vaughn
+      cost: 3
+      type: Ally
+      unique: true
+      aspect:
+        - Justice
+      thwart: 1
+      thwart_consequential: 1
+      attack: 2
+      attack_consequential: 1
+      traits:
+        - Aerial
+        - Guardian
+      text: '**Response**: After Quasar enters play, remove 1 threat from each scheme in play.'
+      hit_points: 3
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/47.png
+      marvelcdb_url: https://marvelcdb.com/card/21047
+- names:
+    - Living Tribunal
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 48
+      quantity: 1
+  faces:
+    - name: Living Tribunal
+      cost: 2
+      type: Event
+      unique: true
+      aspect:
+        - Justice
+      traits:
+        - Cosmic Entity
+      text: |-
+        **Action**: Shuffle this card into the encounter deck (without looking)
+        **When Revealed**: Remove 2 threat from the main scheme and remove this card from the game. This effect cannot be canceled.
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/48.png
+      marvelcdb_url: https://marvelcdb.com/card/21048
+- names:
+    - Zone of Silence
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 50
+      quantity: 1
+  faces:
+    - name: Zone of Silence
+      cost: 1
+      type: Event
+      unique: false
+      aspect:
+        - Justice
+      traits:
+        - Spell
+        - Thwart
+      text: |-
+        Play only if your identity has the Mystic trait. Max 1 per deck.
+        **Hero Action** (thwart): Choose a scheme and discard up to 4 cards from the top of your deck -> remove 1 threat from that scheme for each card discarded this way.
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/50.png
+      marvelcdb_url: https://marvelcdb.com/card/21050
+- names:
+    - Determination
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 52
+      quantity: 1
+  faces:
+    - name: Determination
+      type: Resource
+      unique: false
+      aspect:
+        - Justice
+      text: |-
+        Max 1 per deck.
+        **Hero Response**: After you spend this card, remove 1 threat from the main scheme.
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/52.png
+      marvelcdb_url: https://marvelcdb.com/card/21052
+- names:
+    - Major Victory
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 53
+      quantity: 1
+  faces:
+    - name: Major Victory
+      subtitle: Vance Astro
+      cost: 2
+      type: Ally
+      unique: true
+      aspect:
+        - Leadership
+      thwart: 1
+      thwart_consequential: 1
+      attack: 1
+      attack_consequential: 1
+      traits:
+        - Guardian
+      keywords:
+        - Victory
+      text: '**Interrupt**: When Major Victory is defeated, choose a friendly Guardian character -> ready that character.'
+      hit_points: 2
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/53.png
+      marvelcdb_url: https://marvelcdb.com/card/21053
+- names:
+    - Eternity
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 54
+      quantity: 1
+  faces:
+    - name: Eternity
+      cost: 2
+      type: Event
+      unique: true
+      aspect:
+        - Leadership
+      traits:
+        - Cosmic Entity
+      text: |-
+        **Action**: Shuffle this card into the encounter deck (without looking)
+        **When Revealed**: Draw 1 card and remove this card from the game. This effect cannot be canceled.
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/54.png
+      marvelcdb_url: https://marvelcdb.com/card/21054
+- names:
+    - Summoning Spell
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 55
+      quantity: 1
+  faces:
+    - name: Summoning Spell
+      cost: 2
+      type: Event
+      unique: false
+      aspect:
+        - Leadership
+      traits:
+        - Spell
+      text: |-
+        Play only if your identity has the Mystic trait. Max 1 per deck.
+        **Hero Action**: Discard cards from the top of your deck until you discard an ally -> put that ally into play under your control.
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/55.png
+      marvelcdb_url: https://marvelcdb.com/card/21055
+- names:
+    - Innovation
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 58
+      quantity: 1
+  faces:
+    - name: Innovation
+      type: Resource
+      unique: false
+      aspect:
+        - Leadership
+      text: |-
+        Max 1 per deck.
+        **Hero Response**: After you spend this card, heal 1 damage from an ally you control.
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/58.png
+      marvelcdb_url: https://marvelcdb.com/card/21058
+- names:
+    - Charlie-27
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 59
+      quantity: 1
+  faces:
+    - name: Charlie-27
+      cost: 4
+      type: Ally
+      unique: true
+      aspect:
+        - Protection
+      thwart: 1
+      thwart_consequential: 1
+      attack: 1
+      attack_consequential: 1
+      traits:
+        - Guardian
+      keywords:
+        - Retaliate
+        - Toughness
+      text: Retaliate 1. Toughness.
+      hit_points: 4
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/59.png
+      marvelcdb_url: https://marvelcdb.com/card/21059
+- names:
+    - The Gardener
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 60
+      quantity: 1
+  faces:
+    - name: The Gardener
+      cost: 2
+      type: Event
+      unique: true
+      aspect:
+        - Protection
+      traits:
+        - Cosmic Entity
+      text: |-
+        **Action**: Shuffle this card into the encounter deck (without looking)
+        **When Revealed**: Heal 2 damage from your identity and remove this card from the game. This effect cannot be canceled.
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/60.png
+      marvelcdb_url: https://marvelcdb.com/card/21060
+- names:
+    - Shield Spell
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 61
+      quantity: 1
+  faces:
+    - name: Shield Spell
+      cost: 0
+      type: Event
+      unique: false
+      aspect:
+        - Protection
+      traits:
+        - Defense
+        - Spell
+      text: |-
+        Play only if your identity has the Mystic trait. Max 1 per deck.
+        **Hero Interrupt** (defense): When you would take any amount of damage from an attack, discard that many cards from the top of your deck -> prevent all damage from this attack.
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/61.png
+      marvelcdb_url: https://marvelcdb.com/card/21061
+- names:
+    - Preservation
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 64
+      quantity: 1
+  faces:
+    - name: Preservation
+      type: Resource
+      unique: false
+      aspect:
+        - Protection
+      text: |-
+        Max 1 per deck.
+        **Hero Response**: After you spend this card, heal 1 damage from your hero.
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/64.png
+      marvelcdb_url: https://marvelcdb.com/card/21064
+- names:
+    - Martinex
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 65
+      quantity: 1
+  faces:
+    - name: Martinex
+      subtitle: T'Naga
+      cost: 3
+      type: Ally
+      unique: true
+      aspect:
+        - Basic
+      thwart: 1
+      thwart_consequential: 1
+      attack: 1
+      attack_consequential: 1
+      traits:
+        - Guardian
+      text: Reduce the cost to play Martinex by 1 if your identity has the Guardian trait.
+      hit_points: 4
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/65.png
+      marvelcdb_url: https://marvelcdb.com/card/21065
