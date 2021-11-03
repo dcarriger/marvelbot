@@ -1,0 +1,448 @@
+- names:
+    - Spectrum
+    - Monica Rambeau
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 1
+      quantity: 1
+  faces:
+    - name: Spectrum
+      type: Hero
+      unique: false
+      thwart: 1
+      attack: 1
+      defense: 1
+      traits:
+        - Aerial
+        - Avenger
+      text: _Energy Transformation_ - **Forced Response:** After you change to this form, choose a facedown energy form upgrade -> flip that card faceup to change to that energy form.
+      hit_points: 11
+      flavor_text: '"The name is Monica, or Spectrum if you''re nasty."'
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/1A.png
+      marvelcdb_url: https://marvelcdb.com/card/21001a
+    - name: Monica Rambeau
+      type: Alter Ego
+      unique: true
+      recover: 3
+      traits:
+        - Civilian
+      text: |-
+        **Setup:** Put all 3 energy form upgrades into play, facedown.
+        _Power Down_ - **Forced Response:** After you change to this form, turn all your energy upgrades facedown.
+      hit_points: 11
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/1B.png
+      marvelcdb_url: https://marvelcdb.com/card/21001b
+- names:
+    - Gamma
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 2
+      quantity: 1
+  faces:
+    - name: Gamma
+      type: Upgrade
+      unique: false
+      keywords:
+        - Permanent
+      text: |-
+        Energy form. Permanent.
+        Spectrum gets +2 ATK.
+        **Hero Response:** After you change to this form, deal 1 damage to an enemy.
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/2.png
+      marvelcdb_url: https://marvelcdb.com/card/21002
+- names:
+    - Photon
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 3
+      quantity: 1
+  faces:
+    - name: Photon
+      type: Upgrade
+      unique: false
+      keywords:
+        - Permanent
+      text: |-
+        Energy form. Permanent.
+        Spectrum gets +2 THW.
+        **Hero Response:** After you change to this form, remove 1 threat from a scheme.
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/3.png
+      marvelcdb_url: https://marvelcdb.com/card/21003
+- names:
+    - Pulsar
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 4
+      quantity: 1
+  faces:
+    - name: Pulsar
+      type: Upgrade
+      unique: false
+      keywords:
+        - Permanent
+      text: |-
+        Energy form. Permanent.
+        Spectrum gets +2 DEF.
+        **Hero Response:** After you change to this form, heal 1 damage from Spectrum.
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/4.png
+      marvelcdb_url: https://marvelcdb.com/card/21004
+- names:
+    - Blue Marvel
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 5
+      quantity: 1
+  faces:
+    - name: Blue Marvel
+      subtitle: Adam Brashear
+      cost: 3
+      type: Ally
+      unique: true
+      thwart: 2
+      thwart_consequential: 1
+      attack: 2
+      attack_consequential: 1
+      traits:
+        - Aerial
+        - Avenger
+      text: '**Hero Response:** After Blue Marvel enters play, change energy forms'
+      hit_points: 3
+      flavor_text: '"I do whatever is right, whenever it needs to be done, and I don''t care what anyone thinks."'
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/5.png
+      marvelcdb_url: https://marvelcdb.com/card/21005
+- names:
+    - Energy Duplication
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 6
+      quantity: 2
+  faces:
+    - name: Energy Duplication
+      cost: 2
+      type: Upgrade
+      unique: false
+      traits:
+        - Superpower
+      text: '**Hero Resource:** Exhaust Energy Duplication -> generate the printed resource on your faceup energy form upgrade.'
+      flavor_text: '"I can take the form of any type of energy I want."-Spectrum'
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/6.png
+      marvelcdb_url: https://marvelcdb.com/card/21006
+- names:
+    - Gamma Blast
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 7
+      quantity: 3
+  faces:
+    - name: Gamma Blast
+      cost: 3
+      type: Event
+      unique: false
+      traits:
+        - Attack
+        - Superpower
+      text: '**Hero Action** (attack): Change to Gamma energy form and deal 7 damage to an enemy. If you were already in Gamma energy form, this attack gains overkill.'
+      flavor_text: '"I wouldn''t make me angry either." - Spectrum'
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/7.png
+      marvelcdb_url: https://marvelcdb.com/card/21007
+- names:
+    - Photon Speed
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 8
+      quantity: 3
+  faces:
+    - name: Photon Speed
+      cost: 2
+      type: Event
+      unique: false
+      traits:
+        - Thwart
+        - Superpower
+      text: '**Hero Action** (thwart): Change to Photon energy form and remove 4 threat from a scheme. If you were already in Photon energy form, ignore crisis icon for this thwart.'
+      flavor_text: '"Looking for these?" - Spectrum'
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/8.png
+      marvelcdb_url: https://marvelcdb.com/card/21008
+- names:
+    - Pulsar Shield
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 9
+      quantity: 3
+  faces:
+    - name: Pulsar Shield
+      cost: 1
+      type: Event
+      unique: false
+      traits:
+        - Defense
+        - Superpower
+      text: '**Hero Interrupt** (defense): When Spectrum defends, change to Pulsar energy form and ready Spectrum. If you were already in Pulsar energy form, she gains retaliate 1 until the end of the phase.'
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/9.png
+      marvelcdb_url: https://marvelcdb.com/card/21009
+- names:
+    - Speed of Light
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 10
+      quantity: 3
+  faces:
+    - name: Speed of Light
+      cost: 0
+      type: Event
+      unique: false
+      traits:
+        - Superpower
+      text: '**Hero Action:** Change energy forms and draw 1 card.'
+      flavor_text: '"Be there in a flash." - Spectrum'
+      resources:
+        wild: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/10.png
+      marvelcdb_url: https://marvelcdb.com/card/21010
+- names:
+    - Captain America
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 11
+      quantity: 1
+  faces:
+    - name: Captain America
+      subtitle: Steve Rogers
+      cost: 6
+      type: Ally
+      unique: true
+      aspect:
+        - Leadership
+      thwart: 2
+      thwart_consequential: 1
+      attack: 2
+      attack_consequential: 1
+      traits:
+        - Avenger
+      keywords:
+        - Toughness
+      text: |-
+        Toughness.
+        Reduce the cost to play Captain America by 1 for each [[avenger]] character you control.
+      hit_points: 4
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/11.png
+      marvelcdb_url: https://marvelcdb.com/card/21011
+- names:
+    - Power Man
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 12
+      quantity: 1
+  faces:
+    - name: Power Man
+      subtitle: Victor Alvarez
+      cost: 3
+      type: Ally
+      unique: true
+      aspect:
+        - Leadership
+      thwart: 1
+      thwart_consequential: 1
+      attack: 0
+      attack_consequential: 2
+      traits:
+        - Avenger
+      text: |-
+        Power Man enters play with 2 chi counters on him.
+        **Action**: Discard any number of chi counters from Power Man -> he gets +2 ATK for each chi counter discarded this way until the end of the phase.
+      hit_points: 3
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/12.png
+      marvelcdb_url: https://marvelcdb.com/card/21012
+- names:
+    - White Tiger
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 13
+      quantity: 1
+  faces:
+    - name: White Tiger
+      subtitle: Ava Ayala
+      cost: 3
+      type: Ally
+      unique: true
+      aspect:
+        - Leadership
+      thwart: 2
+      thwart_consequential: 1
+      attack: 2
+      attack_consequential: 1
+      traits:
+        - Avenger
+      text: '**Response**: After you play White Tiger from your hand, draw X cards (to a maximum of three), where X is equal to the villain''s stage number. If the villain has no stage number, draw 1 card.'
+      hit_points: 2
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/13.png
+      marvelcdb_url: https://marvelcdb.com/card/21013
+- names:
+    - Kaluu
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 14
+      quantity: 1
+  faces:
+    - name: Kaluu
+      cost: 2
+      type: Ally
+      unique: true
+      aspect:
+        - Leadership
+      thwart: 1
+      thwart_consequential: 1
+      attack: 1
+      attack_consequential: 1
+      traits:
+        - Avenger
+        - Mystic
+      text: '**Response**: After Kaluu enters play, search the top 5 cards of your deck for an event -> add that event to your hand. Shuffle your deck.'
+      hit_points: 2
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/14.png
+      marvelcdb_url: https://marvelcdb.com/card/21014
+- names:
+    - Mighty Avengers
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 15
+      quantity: 3
+  faces:
+    - name: Mighty Avengers
+      cost: 3
+      type: Support
+      unique: false
+      aspect:
+        - Leadership
+      traits:
+        - Team
+      text: |-
+        Play under any player's control. Max 1 Team per player.
+        If each of your characters has the Avengers trait, each ally you control gets +1 THW and +1 ATK.
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/15.png
+      marvelcdb_url: https://marvelcdb.com/card/21015
+- names:
+    - Mass Attack
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 16
+      quantity: 3
+  faces:
+    - name: Mass Attack
+      cost: 3
+      type: Event
+      unique: false
+      aspect:
+        - Leadership
+      traits:
+        - Attack
+      text: '**Hero Action**: Exhaust 3 allies you control that shares a Trait with your hero -> deal X damage to an enemy, where X is the total ATK of those allies and your hero.'
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/16.png
+      marvelcdb_url: https://marvelcdb.com/card/21016
+- names:
+    - Band Together
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 18
+      quantity: 3
+  faces:
+    - name: Band Together
+      type: Resource
+      unique: false
+      aspect:
+        - Leadership
+      text: This card generates [wild] for each ally you control (to a maximum of 3)
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/18.png
+      marvelcdb_url: https://marvelcdb.com/card/21018
+- names:
+    - Blade
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 19
+      quantity: 1
+  faces:
+    - name: Blade
+      subtitle: Eric Brooks
+      cost: 1
+      type: Ally
+      unique: true
+      aspect:
+        - Basic
+      thwart: 1
+      attack: 2
+      traits:
+        - Avenger
+        - Vampire
+      text: '**Forced Response**: After Blade thwarts or attacks, choose to either spend a [physical] resource from your hand or discard Blade.'
+      hit_points: 3
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/19.png
+      marvelcdb_url: https://marvelcdb.com/card/21019
+- names:
+    - Ready to Rumble
+  packs:
+    - name: The Mad Titan's Shadow
+      sku: MC21en
+      position: 22
+      quantity: 3
+  faces:
+    - name: Ready to Rumble
+      cost: 1
+      type: Upgrade
+      unique: false
+      aspect:
+        - Basic
+      traits:
+        - Condition
+      text: |-
+        Play under any player's control. Max 1 per player.
+        **Hero Response**: After you change form, discard this card -> ready your hero.
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc21en/22.png
+      marvelcdb_url: https://marvelcdb.com/card/21022
