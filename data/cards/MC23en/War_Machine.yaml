@@ -1,0 +1,488 @@
+- names:
+    - War Machine
+    - James Rhodes
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 1
+      quantity: 1
+  faces:
+    - name: War Machine
+      type: Hero
+      unique: true
+      thwart: 1
+      attack: 2
+      defense: 2
+      traits:
+        - Soldier
+      text: '_Locked and Loaded_ - **Response**: After you change to this form, place 5 ammo counters on War Machine.'
+      hit_points: 10
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/1A.png
+      marvelcdb_url: https://marvelcdb.com/card/23001a
+    - name: James Rhodes
+      type: Alter Ego
+      unique: true
+      recover: 3
+      traits:
+        - Outlaw
+      text: '_Cybernetic Upgrades_ - **Response**: After you play a [[technique]] upgrade, draw 2 cards. (Limit once per round.)'
+      hit_points: 10
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/1B.png
+      marvelcdb_url: https://marvelcdb.com/card/23001b
+- names:
+    - Iron Man
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 2
+      quantity: 1
+  faces:
+    - name: Iron Man
+      cost: 3
+      type: Ally
+      unique: true
+      thwart: 2
+      thwart_consequential: 1
+      attack: 2
+      attack_consequential: 1
+      traits:
+        - Avenger
+      text: '**Response:** After Iron Man enters play, search your deck and discard pile for a [[tech]] upgrade and add it to your hand. Shuffle your deck.'
+      hit_points: 3
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/2.png
+      marvelcdb_url: https://marvelcdb.com/card/23002
+- names:
+    - Munitions Bunker
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 3
+      quantity: 1
+  faces:
+    - name: Munitions Bunker
+      cost: 2
+      type: Support
+      unique: false
+      traits:
+        - Location
+      text: |-
+        **Alter-Ego Action**: Exhaust Munitions Bunker -> Place 2 ammo counters here.
+         **Hero Action**: Exhaust Munitions Bunker -> move each ammo counter here to War Machine.
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/3.png
+      marvelcdb_url: https://marvelcdb.com/card/23003
+- names:
+    - Upgraded Chassis
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 4
+      quantity: 1
+  faces:
+    - name: Upgraded Chassis
+      cost: 1
+      type: Upgrade
+      unique: false
+      traits:
+        - Armor
+        - Tech
+      text: |-
+        War Machine gains the [[aerial]] trait.
+         **Hero Response**: After you change to hero form, exhaust Upgraded Chassis -> give War Machine a tough status card.
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/4.png
+      marvelcdb_url: https://marvelcdb.com/card/23004
+- names:
+    - Gauntlet Gun
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 5
+      quantity: 2
+  faces:
+    - name: Gauntlet Gun
+      cost: 1
+      type: Upgrade
+      unique: false
+      traits:
+        - Tech
+        - Weapon
+      text: '**Resource**: Exhaust Gauntlet Gun -> generate a [wild] resource for a War Machine event and place 1 ammo counter on War Machine.'
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/5.png
+      marvelcdb_url: https://marvelcdb.com/card/23005
+- names:
+    - Missile Launcher
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 6
+      quantity: 1
+  faces:
+    - name: Missile Launcher
+      cost: 1
+      type: Upgrade
+      unique: false
+      traits:
+        - Tech
+        - Weapon
+      text: '**Hero Action** (attack): Exhaust Missile Launcher and remove 1 ammo counter from War Machine -> deal 2 damage to an enemy. This attack gains ranged.'
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/6.png
+      marvelcdb_url: https://marvelcdb.com/card/23006
+- names:
+    - Shoulder Cannon
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 7
+      quantity: 1
+  faces:
+    - name: Shoulder Cannon
+      cost: 2
+      type: Upgrade
+      unique: false
+      traits:
+        - Tech
+        - Weapon
+      text: '**Hero Action** (attack): Exhaust Shoulder Cannon -> deal 1 damage to an enemy. You may remove 1 ammo from War Machine to ready shoulder cannon.'
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/7.png
+      marvelcdb_url: https://marvelcdb.com/card/23007
+- names:
+    - Repulsor Beam
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 8
+      quantity: 2
+  faces:
+    - name: Repulsor Beam
+      cost: 1
+      type: Event
+      unique: false
+      traits:
+        - Attack
+      text: '**Hero Action** (attack): Remove 1 ammo counter from War Machine -> deal 4 damage to an enemy.'
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/8.png
+      marvelcdb_url: https://marvelcdb.com/card/23008
+- names:
+    - Targeted Strike
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 9
+      quantity: 2
+  faces:
+    - name: Targeted Strike
+      cost: 1
+      type: Event
+      unique: false
+      traits:
+        - Thwart
+      text: '**Hero Action** (thwart): Remove 1 ammo counter from War Machine -> remove 3 threat from a scheme.'
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/9.png
+      marvelcdb_url: https://marvelcdb.com/card/23009
+- names:
+    - Scorched Earth
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 10
+      quantity: 2
+  faces:
+    - name: Scorched Earth
+      cost: 3
+      type: Event
+      unique: false
+      traits:
+        - Tactic
+      text: '**Hero Action**: Remove 3 ammo counters from War Machine -> deal 3 damage to each enemy in play.'
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/10.png
+      marvelcdb_url: https://marvelcdb.com/card/23010
+- names:
+    - Full Auto
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 11
+      quantity: 2
+  faces:
+    - name: Full Auto
+      cost: 2
+      type: Event
+      unique: false
+      traits:
+        - Attack
+      text: '**Hero Action** (attack): Remove 4 ammo counters from War Machine and choose an enemy -> deal 8 damage to that enemy. This attack gains overkill.'
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/11.png
+      marvelcdb_url: https://marvelcdb.com/card/23011
+- names:
+    - Black Panther
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 12
+      quantity: 1
+  faces:
+    - name: Black Panther
+      cost: 4
+      type: Ally
+      unique: true
+      aspect:
+        - Leadership
+      thwart: 2
+      thwart_consequential: 2
+      attack: 2
+      attack_consequential: 2
+      traits:
+        - Avenger
+        - Wakanda
+      text: |-
+        You may play the event attached to Black Panther as if it were in your hand.
+         **Response:** After Black Panther enters play, choose a leadership (blue) event in your discard pile and attach it to him facedown.
+      hit_points: 4
+      flavor_text: ""
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/12.png
+      marvelcdb_url: https://marvelcdb.com/card/23012
+- names:
+    - Captain Marvel
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 13
+      quantity: 1
+  faces:
+    - name: Captain Marvel
+      cost: 3
+      type: Ally
+      unique: true
+      aspect:
+        - Leadership
+      thwart: 2
+      thwart_consequential: 1
+      attack: 2
+      attack_consequential: 2
+      traits:
+        - Aerial
+        - Avenger
+      text: '**Response:** After Captain Marvel enters play, discard the top 4 cards of your deck. If you discard a printed [energy] resource, deal 3 damage to an enemy. If you discard more than one printed [energy] resource, also stun that enemy.'
+      hit_points: 4
+      flavor_text: ""
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/13.png
+      marvelcdb_url: https://marvelcdb.com/card/23013
+- names:
+    - Command Team
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 16
+      quantity: 3
+  faces:
+    - name: Command Team
+      cost: 2
+      type: Support
+      unique: false
+      aspect:
+        - Leadership
+      keywords:
+        - Uses
+      text: |-
+        Uses (3 command counters).
+         **Action**: Exhaust Command Team and remove 1 command counter from it -> ready an ally.
+      flavor_text: ""
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/16.png
+      marvelcdb_url: https://marvelcdb.com/card/23016
+- names:
+    - Sneak Attack
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 17
+      quantity: 3
+  faces:
+    - name: Sneak Attack
+      cost: 1
+      type: Event
+      unique: false
+      aspect:
+        - Leadership
+      text: '**Action**: Choose an ally in your hand that shares a [[trait]] with your identity -> put that ally into play. If that ally is still in play at the end of the phase, discard it.'
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/17.png
+      marvelcdb_url: https://marvelcdb.com/card/23017
+- names:
+    - Save the Day
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 18
+      quantity: 3
+  faces:
+    - name: Save the Day
+      cost: 1
+      type: Event
+      unique: false
+      aspect:
+        - Leadership
+      text: '**Hero Action**: Discard an ally your control -> remove threat from a scheme equal to that ally''s printed cost.'
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/18.png
+      marvelcdb_url: https://marvelcdb.com/card/23018
+- names:
+    - Go Down Swinging
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 19
+      quantity: 3
+  faces:
+    - name: Go Down Swinging
+      cost: 0
+      type: Event
+      unique: false
+      aspect:
+        - Leadership
+      text: '**Hero Action**: Discard an ally your control -> deal damage to an enemy equal to that ally''s printed cost.'
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/19.png
+      marvelcdb_url: https://marvelcdb.com/card/23019
+- names:
+    - Two Against the World
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 24
+      quantity: 2
+  faces:
+    - name: Two Against the World
+      cost: 3
+      type: Event
+      unique: false
+      aspect:
+        - Basic
+      text: |-
+        Team-Up (Iron Man and War Machine). Max 1 per deck.
+         **Hero Action**: Search your deck for a [[tech]] upgrade and put it into play. Shuffle your deck. Ready Iron Man and War Machine.
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/24.png
+      marvelcdb_url: https://marvelcdb.com/card/23024
+- names:
+    - As One!
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 32
+      quantity: 3
+  faces:
+    - name: As One!
+      cost: 2
+      type: Event
+      unique: false
+      aspect:
+        - Aggression
+      traits:
+        - Attack
+      text: |-
+        Alliance.
+         **Hero Action** (attack): Exhaust an [[avenger]] character and a [[guardian]] character -> deal X damage to enemy, where X is the combined ATK of those characters. This ATK gains overkill.
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/32.png
+      marvelcdb_url: https://marvelcdb.com/card/23032
+- names:
+    - Vigilante Training
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 33
+      quantity: 3
+  faces:
+    - name: Vigilante Training
+      cost: 1
+      type: Support
+      unique: false
+      aspect:
+        - Justice
+      traits:
+        - Condition
+      keywords:
+        - Uses
+      text: |-
+        Max 2 per deck. Uses (2 training counters).
+         **Alter-Ego Action**: Exhaust this card and remove 1 training counter from it -> choose a justice (yellow) event in your discard pile and shuffle it into your deck.
+      resources:
+        mental: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/33.png
+      marvelcdb_url: https://marvelcdb.com/card/23033
+- names:
+    - Stand Together
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 34
+      quantity: 3
+  faces:
+    - name: Stand Together
+      cost: 4
+      type: Event
+      unique: false
+      aspect:
+        - Protection
+      traits:
+        - Tactic
+      text: |-
+        Alliance.
+         **Hero Interrupt**: When a friendly character would take any amount of damage from an attack, exhaust an [[avenger]] character and a [[guardian]] character -> prevent all of that damage. Deal that much damage to the attacking enemy.
+      resources:
+        energy: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/34.png
+      marvelcdb_url: https://marvelcdb.com/card/23034
+- names:
+    - Sidearm
+  packs:
+    - name: War Machine
+      sku: MC23en
+      position: 35
+      quantity: 3
+  faces:
+    - name: Sidearm
+      cost: 1
+      type: Upgrade
+      unique: false
+      aspect:
+        - Basic
+      traits:
+        - Weapon
+      text: |-
+        Attach to an ally. Max 1 per ally.
+         Attached ally gets +1 ATK and its attacks gain ranged.
+      resources:
+        physical: 1
+      image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc23en/35.png
+      marvelcdb_url: https://marvelcdb.com/card/23035
