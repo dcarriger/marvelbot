@@ -108,7 +108,7 @@
         - Technique
       text: |-
         While in hero form, Nebula ignores the guard keyword, the patrol keyword, and the crisis icon.
-         **Special** : Choose to either sun or confuse an enemy.
+         **Special** : Choose to either stun or confuse an enemy.
       resources:
         energy: 1
       image_url: https://marvel-champions-cards.s3.us-west-2.amazonaws.com/mc22en/5.png
